@@ -1,0 +1,28 @@
+//----------------------------------------------------------------------------------------------------------------------
+// Main Squad Builder Styles
+//----------------------------------------------------------------------------------------------------------------------
+
+@import "bootstrap";
+
+//----------------------------------------------------------------------------------------------------------------------
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+// Original Bootstrap's CSS depends on empty href attributes to style cursors for several components (pagination, tabs
+// etc.). But in AngularJS adding empty href attributes to link tags will cause unwanted route changes. See:
+//      http://angular-ui.github.io/bootstrap/#/getting_started
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+    cursor: pointer;
+}
+
+.modal-backdrop.fade {
+    height: 100%;
+}
+
+//----------------------------------------------------------------------------------------------------------------------

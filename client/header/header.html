@@ -1,0 +1,67 @@
+<header id="site-header" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" ng-click="isCollapsed = !isCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><i class="fa fa-home"></i> Home</a>
+        </div>
+        <div class="navbar-collapse collapse" collapse="isCollapsed">
+            <ul class="nav navbar-nav">
+                <li ng-class="{ active: location == 'builder' }">
+                    <a href="/builder">
+                        <i class="fa fa-ge"></i> / <i class="fa fa-ra"></i> Squad Builder
+                    </a>
+                </li>
+                <li ng-class="{ active: location == 'browser' }">
+                    <a href="/browser">
+                        <i class="fa fa-search"></i> Card Browser
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="divider"></li>
+                <li ng-class="{ active: location == 'collection' }">
+                    <a href="/collection">
+                        <small><i class="fa fa-briefcase"></i> My Collection</small>
+                    </a>
+                </li>
+                <li ng-class="{ active: location == 'squads' }">
+                    <a href="/squads">
+                        <small><i class="fa fa-list"></i> My Squads</small>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li class="visible-xs" ng-class="{ active: location == 'profile' }">
+                    <a href="/profile">
+                        <small><i class="fa fa-user"></i> Profile</small>
+                    </a>
+                </li>
+                <li class="visible-xs" ng-class="{ active: location == 'profile' }">
+                    <a href="/settings">
+                        <small><i class="fa fa-gears"></i> Settings</small>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li class="button right">
+                    <div class="btn-group btn-block hidden-xs" dropdown>
+                        <button type="button" class="btn btn-danger navbar-btn"><i class="fa fa-google-plus"></i> Sign in</button>
+                        <button type="button" class="btn btn-danger navbar-btn dropdown-toggle" dropdown-toggle aria-expanded="false">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-gears"></i> Settings</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-danger navbar-btn btn-block visible-xs"><i class="fa fa-google-plus"></i> Sign in</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>

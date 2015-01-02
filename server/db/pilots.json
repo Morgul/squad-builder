@@ -1,0 +1,2144 @@
+{
+    "f825ecaf-6283-4b45-9d18-386782b278b7": {
+        "sources": [
+            "X-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Wedge Antilles",
+        "canonicalName": "wedgeantilles",
+        "text": "When attacking, reduce the defender's agility value by 1 (to a minimum of \"0\").",
+        "skill": 9,
+        "points": 29,
+        "faction": "rebel",
+        "id": "f825ecaf-6283-4b45-9d18-386782b278b7"
+    },
+    "34653fe9-0627-460d-8d9a-4fdad8c990a4": {
+        "sources": [
+            "X-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Garven Dreis",
+        "canonicalName": "garvendreis",
+        "text": "After spending a focus token, you may place that token on any other friendly ship at Range 1-2 (instead of discarding it).",
+        "skill": 6,
+        "points": 26,
+        "faction": "rebel",
+        "id": "34653fe9-0627-460d-8d9a-4fdad8c990a4"
+    },
+    "c6a06e87-12c3-4000-937d-534cd56a9bf0": {
+        "sources": [
+            "Core",
+            "Rebel Transport Expansion Pack",
+            "X-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Red Squadron Pilot",
+        "canonicalName": "redsquadronpilot",
+        "skill": 4,
+        "points": 23,
+        "faction": "rebel",
+        "id": "c6a06e87-12c3-4000-937d-534cd56a9bf0"
+    },
+    "ebe7023d-a68b-48ee-a929-da78588f3283": {
+        "sources": [
+            "Core",
+            "Rebel Transport Expansion Pack",
+            "X-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Rookie Pilot",
+        "canonicalName": "rookiepilot",
+        "skill": 2,
+        "points": 21,
+        "faction": "rebel",
+        "id": "ebe7023d-a68b-48ee-a929-da78588f3283"
+    },
+    "bc62a4b5-f88f-4873-aac4-5d13b0808141": {
+        "sources": [
+            "Core"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Biggs Darklighter",
+        "canonicalName": "biggsdarklighter",
+        "text": "Other friendly ships at Range 1 cannot be targeted by attacks if the attacker could target you instead.",
+        "skill": 5,
+        "points": 25,
+        "faction": "rebel",
+        "id": "bc62a4b5-f88f-4873-aac4-5d13b0808141"
+    },
+    "fc36479e-f495-4abc-98e0-0b1e6ebea2a3": {
+        "sources": [
+            "Core"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Luke Skywalker",
+        "canonicalName": "lukeskywalker",
+        "text": "When defending, you may change 1 of your <i class=\"xwing-miniatures-font xwing-miniatures-font-focus\"></i> results to a <i class=\"xwing-miniatures-font xwing-miniatures-font-evade\"></i> result.",
+        "skill": 8,
+        "points": 28,
+        "faction": "rebel",
+        "id": "fc36479e-f495-4abc-98e0-0b1e6ebea2a3"
+    },
+    "8779c2f6-cb33-417b-91b2-4e13f004e314": {
+        "sources": [
+            "Y-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Gray Squadron Pilot",
+        "canonicalName": "graysquadronpilot",
+        "skill": 4,
+        "points": 20,
+        "faction": "rebel",
+        "id": "8779c2f6-cb33-417b-91b2-4e13f004e314"
+    },
+    "4f6b65e4-3076-4793-b8b6-655ca37f482e": {
+        "sources": [
+            "Y-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "\"Dutch\" Vander",
+        "canonicalName": "dutchvander",
+        "text": "After acquiring a target lock, choose another friendly ship at Range 1-2.  The chosen ship may immediately acquire a target lock.",
+        "skill": 6,
+        "points": 23,
+        "faction": "rebel",
+        "id": "4f6b65e4-3076-4793-b8b6-655ca37f482e"
+    },
+    "a5700b9b-ad4b-42d9-8099-0c693020125e": {
+        "sources": [
+            "Y-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Horton Salm",
+        "canonicalName": "hortonsalm",
+        "text": "When attacking at Range 2-3, you may reroll any of your blank results.",
+        "skill": 8,
+        "points": 25,
+        "faction": "rebel",
+        "id": "a5700b9b-ad4b-42d9-8099-0c693020125e"
+    },
+    "478a1cc0-47b9-46a8-9f3c-a6883b81f9ff": {
+        "sources": [
+            "Y-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Gold Squadron Pilot",
+        "canonicalName": "goldsquadronpilot",
+        "skill": 2,
+        "points": 18,
+        "faction": "rebel",
+        "id": "478a1cc0-47b9-46a8-9f3c-a6883b81f9ff"
+    },
+    "1d537232-cbaf-4102-a579-023e57e3790d": {
+        "sources": [
+            "Core",
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": false,
+        "name": "Academy Pilot",
+        "canonicalName": "academypilot",
+        "skill": 1,
+        "points": 12,
+        "faction": "empire",
+        "id": "1d537232-cbaf-4102-a579-023e57e3790d"
+    },
+    "057323bb-4b7d-44a1-a5d4-b1525a4ef698": {
+        "sources": [
+            "Core",
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": false,
+        "name": "Obsidian Squadron Pilot",
+        "canonicalName": "obsidiansquadronpilot",
+        "skill": 3,
+        "points": 13,
+        "faction": "empire",
+        "id": "057323bb-4b7d-44a1-a5d4-b1525a4ef698"
+    },
+    "de3a4446-4131-4aa6-9ee4-c187d6da8725": {
+        "sources": [
+            "Core",
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": false,
+        "name": "Black Squadron Pilot",
+        "canonicalName": "blacksquadronpilot",
+        "skill": 4,
+        "points": 14,
+        "faction": "empire",
+        "id": "de3a4446-4131-4aa6-9ee4-c187d6da8725"
+    },
+    "e0a201cf-5249-47c0-838e-2eec174d3275": {
+        "sources": [
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "\"Winged Gundark\"",
+        "canonicalName": "wingedgundark",
+        "text": "When attacking at Range 1, you may change 1 of your <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i> results to a <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> result.",
+        "skill": 5,
+        "points": 15,
+        "faction": "empire",
+        "id": "e0a201cf-5249-47c0-838e-2eec174d3275"
+    },
+    "d3decc87-0740-4928-91b0-36bb971fe2f4": {
+        "sources": [
+            "Core"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "\"Night Beast\"",
+        "canonicalName": "nightbeast",
+        "text": "After executing a green maneuver, you may perform a free focus action.",
+        "skill": 5,
+        "points": 15,
+        "faction": "empire",
+        "id": "d3decc87-0740-4928-91b0-36bb971fe2f4"
+    },
+    "8948d4ab-03e2-4b2b-a58c-a4b2abca4c38": {
+        "sources": [
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "\"Backstabber\"",
+        "canonicalName": "backstabber",
+        "text": "When attacking from outside the defender's firing arc, roll 1 additional attack die.",
+        "skill": 6,
+        "points": 16,
+        "faction": "empire",
+        "id": "8948d4ab-03e2-4b2b-a58c-a4b2abca4c38"
+    },
+    "319f9b9a-6c4d-4da1-99db-6890ed186abc": {
+        "sources": [
+            "Core"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "\"Dark Curse\"",
+        "canonicalName": "darkcurse",
+        "text": "When defending, ships attacking you cannot spend focus tokens or reroll attack dice.",
+        "skill": 6,
+        "points": 16,
+        "faction": "empire",
+        "id": "319f9b9a-6c4d-4da1-99db-6890ed186abc"
+    },
+    "cd046df2-2556-454a-a227-4db14aac0a9e": {
+        "sources": [
+            "Core"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "\"Mauler Mithel\"",
+        "canonicalName": "maulermithel",
+        "text": "When attacking at Range 1, roll 1 additional attack die.",
+        "skill": 7,
+        "points": 17,
+        "faction": "empire",
+        "id": "cd046df2-2556-454a-a227-4db14aac0a9e"
+    },
+    "d96039d9-312a-4949-bb14-9a0480c8e488": {
+        "sources": [
+            "TIE Fighter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "\"Howlrunner\"",
+        "canonicalName": "howlrunner",
+        "text": "When another friendly ship at Range 1 is attacking with its primary weapon, it may reroll 1 attack die.",
+        "skill": 8,
+        "points": 18,
+        "faction": "empire",
+        "id": "d96039d9-312a-4949-bb14-9a0480c8e488"
+    },
+    "3148ac1b-339d-4756-a452-aedff17d001b": {
+        "sources": [
+            "TIE Advanced Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Maarek Stele",
+        "canonicalName": "maarekstele",
+        "text": "When your attack deals a faceup Damage card to the defender, instead draw 3 Damage cards, choose 1 to deal, and discard the others.",
+        "skill": 7,
+        "points": 27,
+        "faction": "empire",
+        "id": "3148ac1b-339d-4756-a452-aedff17d001b"
+    },
+    "77665e79-da3d-4516-b738-dcc873218825": {
+        "sources": [
+            "TIE Advanced Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": false,
+        "name": "Tempest Squadron Pilot",
+        "canonicalName": "tempestsquadronpilot",
+        "skill": 2,
+        "points": 21,
+        "faction": "empire",
+        "id": "77665e79-da3d-4516-b738-dcc873218825"
+    },
+    "e1878928-275e-4065-a5da-ad14c9b2d1ec": {
+        "sources": [
+            "TIE Advanced Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": false,
+        "name": "Storm Squadron Pilot",
+        "canonicalName": "stormsquadronpilot",
+        "skill": 4,
+        "points": 23,
+        "faction": "empire",
+        "id": "e1878928-275e-4065-a5da-ad14c9b2d1ec"
+    },
+    "c7dff4b7-791d-4ba1-9da4-e57f45ffcb25": {
+        "sources": [
+            "TIE Advanced Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Darth Vader",
+        "canonicalName": "darthvader",
+        "text": "During your \"Perform Action\" step, you may perform 2 actions.",
+        "skill": 9,
+        "points": 29,
+        "faction": "empire",
+        "id": "c7dff4b7-791d-4ba1-9da4-e57f45ffcb25"
+    },
+    "4ce094c2-2b4f-4dd0-aa27-bdcce3dcc738": {
+        "sources": [
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": false,
+        "name": "Alpha Squadron Pilot",
+        "canonicalName": "alphasquadronpilot",
+        "skill": 1,
+        "points": 18,
+        "faction": "empire",
+        "id": "4ce094c2-2b4f-4dd0-aa27-bdcce3dcc738"
+    },
+    "325f7ded-1ca8-41b7-afe9-c8421b73dcf8": {
+        "sources": [
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": false,
+        "name": "Avenger Squadron Pilot",
+        "canonicalName": "avengersquadronpilot",
+        "skill": 3,
+        "points": 20,
+        "faction": "empire",
+        "id": "325f7ded-1ca8-41b7-afe9-c8421b73dcf8"
+    },
+    "9de9fa61-5362-4dbb-9387-4e0c029dba7f": {
+        "sources": [
+            "Imperial Aces Expansion Pack",
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": false,
+        "name": "Saber Squadron Pilot",
+        "canonicalName": "sabersquadronpilot",
+        "skill": 4,
+        "points": 21,
+        "faction": "empire",
+        "id": "9de9fa61-5362-4dbb-9387-4e0c029dba7f"
+    },
+    "70d2e8fe-81a8-4411-9e23-1786dcda9934": {
+        "sources": [
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "\"Fel's Wrath\"",
+        "canonicalName": "felswrath",
+        "text": "When the number of Damage cards assigned to you equals or exceeds your hull value, you are not destroyed until the end of the Combat phase.",
+        "skill": 5,
+        "points": 23,
+        "faction": "empire",
+        "id": "70d2e8fe-81a8-4411-9e23-1786dcda9934"
+    },
+    "53985c82-80a5-46f7-ad37-1e18116962ba": {
+        "sources": [
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "Turr Phennir",
+        "canonicalName": "turrphennir",
+        "text": "After you perform an attack, you may perform a free boost or barrel roll action.",
+        "skill": 7,
+        "points": 25,
+        "faction": "empire",
+        "id": "53985c82-80a5-46f7-ad37-1e18116962ba"
+    },
+    "3dc7dbd3-4943-4236-9519-c42ad259969f": {
+        "sources": [
+            "TIE Interceptor Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "Soontir Fel",
+        "canonicalName": "soontirfel",
+        "text": "When you receive a stress token, you may assign 1 focus token to your ship.",
+        "skill": 9,
+        "points": 27,
+        "faction": "empire",
+        "id": "3dc7dbd3-4943-4236-9519-c42ad259969f"
+    },
+    "6c05c21d-f72b-4141-9efb-adf05a12ac3e": {
+        "sources": [
+            "A-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Tycho Celchu",
+        "canonicalName": "tychocelchu",
+        "text": "You may perform actions even while you have stress tokens.",
+        "skill": 8,
+        "points": 26,
+        "faction": "rebel",
+        "id": "6c05c21d-f72b-4141-9efb-adf05a12ac3e"
+    },
+    "b6b447b6-0089-40d3-b096-32eab835e1d5": {
+        "sources": [
+            "A-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": true,
+        "name": "Arvel Crynyd",
+        "canonicalName": "arvelcrynyd",
+        "text": "You may declare an enemy ship inside your firing arc that you are touching as the target of your attack.",
+        "skill": 6,
+        "points": 23,
+        "faction": "rebel",
+        "id": "b6b447b6-0089-40d3-b096-32eab835e1d5"
+    },
+    "9ddd8db2-b253-4ffe-85f1-779e43daed52": {
+        "sources": [
+            "A-Wing Expansion Pack",
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": false,
+        "name": "Green Squadron Pilot",
+        "canonicalName": "greensquadronpilot",
+        "skill": 3,
+        "points": 19,
+        "faction": "rebel",
+        "id": "9ddd8db2-b253-4ffe-85f1-779e43daed52"
+    },
+    "70bdfc52-0f2e-4b6c-84bf-de3a9fb266fe": {
+        "sources": [
+            "A-Wing Expansion Pack",
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": false,
+        "name": "Prototype Pilot",
+        "canonicalName": "prototypepilot",
+        "skill": 1,
+        "points": 17,
+        "faction": "rebel",
+        "id": "70bdfc52-0f2e-4b6c-84bf-de3a9fb266fe"
+    },
+    "f71e0fbf-1208-4dd4-9a80-c24ff77dca41": {
+        "sources": [
+            "Millennium Falcon Expansion Pack"
+        ],
+        "upgrades": [
+            "crew",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Outer Rim Smuggler",
+        "canonicalName": "outerrimsmuggler",
+        "skill": 1,
+        "points": 27,
+        "faction": "rebel",
+        "id": "f71e0fbf-1208-4dd4-9a80-c24ff77dca41"
+    },
+    "fee2c709-3c41-4ff7-a801-18dbb5522bf1": {
+        "sources": [
+            "Millennium Falcon Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Chewbacca",
+        "canonicalName": "chewbacca",
+        "text": "When you are dealt a faceup Damage card, immediately flip it facedown (without resolving its ability).",
+        "skill": 5,
+        "points": 42,
+        "faction": "rebel",
+        "id": "fee2c709-3c41-4ff7-a801-18dbb5522bf1"
+    },
+    "2cbd618b-b385-4ff9-a1f1-7b99f4c14f8a": {
+        "sources": [
+            "Millennium Falcon Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Lando Calrissian",
+        "canonicalName": "landocalrissian",
+        "text": "After you execute a green maneuver, choose 1 other friendly ship at Range 1.  That ship may perform 1 free action shown on its action bar.",
+        "skill": 7,
+        "points": 44,
+        "faction": "rebel",
+        "id": "2cbd618b-b385-4ff9-a1f1-7b99f4c14f8a"
+    },
+    "1955ba7b-aa64-4a9e-bb19-49ca7cf6b910": {
+        "sources": [
+            "Millennium Falcon Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Han Solo",
+        "canonicalName": "hansolo",
+        "text": "When attacking, you may reroll all of your dice.  If you choose to do so, you must reroll as many of your dice as possible.",
+        "skill": 9,
+        "points": 46,
+        "faction": "rebel",
+        "id": "1955ba7b-aa64-4a9e-bb19-49ca7cf6b910"
+    },
+    "5fe780dd-01e1-4972-ad5b-4bde22833f27": {
+        "sources": [
+            "Slave I Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "bomb",
+            "crew",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Kath Scarlet",
+        "canonicalName": "kathscarlet",
+        "text": "When attacking, the defender receives 1 stress token if he cancels at least 1 <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> result.",
+        "skill": 7,
+        "points": 38,
+        "faction": "empire",
+        "id": "5fe780dd-01e1-4972-ad5b-4bde22833f27"
+    },
+    "cd1cda95-0e6a-4b48-bd6f-7333987acd77": {
+        "sources": [
+            "Slave I Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "bomb",
+            "crew",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Boba Fett",
+        "canonicalName": "bobafett",
+        "text": "When you reveal a bank maneuver (<i class=\"xwing-miniatures-font xwing-miniatures-font-bankleft\"></i> or <i class=\"xwing-miniatures-font xwing-miniatures-font-bankright\"></i>), you may rotate your dial to the other bank maneuver of the same speed.",
+        "skill": 8,
+        "points": 39,
+        "faction": "empire",
+        "id": "cd1cda95-0e6a-4b48-bd6f-7333987acd77"
+    },
+    "8407054e-4c9a-4c14-a90d-8dda1be715f0": {
+        "sources": [
+            "Slave I Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "bomb",
+            "crew",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Krassis Trelix",
+        "canonicalName": "krassistrelix",
+        "text": "When attacking with a secondary weapon, you may reroll 1 attack die.",
+        "skill": 5,
+        "points": 36,
+        "faction": "empire",
+        "id": "8407054e-4c9a-4c14-a90d-8dda1be715f0"
+    },
+    "a301e407-39de-457c-8d36-68b1f0121233": {
+        "sources": [
+            "Slave I Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "bomb",
+            "crew",
+            "missile"
+        ],
+        "unique": false,
+        "name": "Bounty Hunter",
+        "canonicalName": "bountyhunter",
+        "skill": 3,
+        "points": 33,
+        "faction": "empire",
+        "id": "a301e407-39de-457c-8d36-68b1f0121233"
+    },
+    "12e34989-104d-4651-a71b-6df8f8722273": {
+        "sources": [
+            "B-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Ten Numb",
+        "canonicalName": "tennumb",
+        "text": "When attacking, 1 of your <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> results cannot be canceled by defense dice.",
+        "skill": 8,
+        "points": 31,
+        "faction": "rebel",
+        "id": "12e34989-104d-4651-a71b-6df8f8722273"
+    },
+    "51b72653-1301-402b-b488-af12ef1d70a9": {
+        "sources": [
+            "B-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Ibtisam",
+        "canonicalName": "ibtisam",
+        "text": "When attacking or defending, if you have at least 1 stress token, you may reroll 1 of your dice.",
+        "skill": 6,
+        "points": 28,
+        "faction": "rebel",
+        "id": "51b72653-1301-402b-b488-af12ef1d70a9"
+    },
+    "dc03a548-1f66-4378-a454-24eb1f4b4f36": {
+        "sources": [
+            "B-Wing Expansion Pack",
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": false,
+        "name": "Dagger Squadron Pilot",
+        "canonicalName": "daggersquadronpilot",
+        "skill": 4,
+        "points": 24,
+        "faction": "rebel",
+        "id": "dc03a548-1f66-4378-a454-24eb1f4b4f36"
+    },
+    "9a6f7fbe-8a90-4376-8e27-8099c76a79ca": {
+        "sources": [
+            "B-Wing Expansion Pack",
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": false,
+        "name": "Blue Squadron Pilot",
+        "canonicalName": "bluesquadronpilot",
+        "skill": 2,
+        "points": 22,
+        "faction": "rebel",
+        "id": "9a6f7fbe-8a90-4376-8e27-8099c76a79ca"
+    },
+    "efd1a571-42c7-490a-be50-09571554787c": {
+        "sources": [
+            "HWK-290 Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Rebel Operative",
+        "canonicalName": "rebeloperative",
+        "skill": 2,
+        "points": 16,
+        "faction": "rebel",
+        "id": "efd1a571-42c7-490a-be50-09571554787c"
+    },
+    "057abc89-7b0b-4076-882a-57c702de20ca": {
+        "sources": [
+            "HWK-290 Expansion Pack"
+        ],
+        "upgrades": [
+            "turret",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Roark Garnet",
+        "canonicalName": "roarkgarnet",
+        "text": "At the start of the Combat phase, choose 1 other friendly ship at Range 1-3.  Until the end of the phase, treat that ship's pilot skill value as \"12.\"",
+        "skill": 4,
+        "points": 19,
+        "faction": "rebel",
+        "id": "057abc89-7b0b-4076-882a-57c702de20ca"
+    },
+    "ab46b4ad-5fa9-4ff5-940f-9de47f1df46e": {
+        "sources": [
+            "HWK-290 Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "turret",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Kyle Katarn",
+        "canonicalName": "kylekatarn",
+        "text": "At the start of the Combat phase, you may assign 1 of your focus tokens to another friendly ship at Range 1-3.",
+        "skill": 6,
+        "points": 21,
+        "faction": "rebel",
+        "id": "ab46b4ad-5fa9-4ff5-940f-9de47f1df46e"
+    },
+    "059232f6-b0c4-4145-8efe-e62531b7a239": {
+        "sources": [
+            "HWK-290 Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "turret",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Jan Ors",
+        "canonicalName": "janors",
+        "text": "When another friendly ship at Range 1-3 is attacking, if you have no stress tokens, you may receive 1 stress token to allow that ship to roll 1 additional attack die.",
+        "skill": 8,
+        "points": 25,
+        "faction": "rebel",
+        "id": "059232f6-b0c4-4145-8efe-e62531b7a239"
+    },
+    "b142f3ce-f051-44df-8fc1-57c25fcd2e02": {
+        "sources": [
+            "TIE Bomber Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "torpedo",
+            "missile",
+            "missile",
+            "bomb"
+        ],
+        "unique": false,
+        "name": "Scimitar Squadron Pilot",
+        "canonicalName": "scimitarsquadronpilot",
+        "skill": 2,
+        "points": 16,
+        "faction": "empire",
+        "id": "b142f3ce-f051-44df-8fc1-57c25fcd2e02"
+    },
+    "de189ecb-e886-49f9-afe3-9e4e60ea6de1": {
+        "sources": [
+            "TIE Bomber Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "torpedo",
+            "missile",
+            "missile",
+            "bomb"
+        ],
+        "unique": false,
+        "name": "Gamma Squadron Pilot",
+        "canonicalName": "gammasquadronpilot",
+        "skill": 4,
+        "points": 18,
+        "faction": "empire",
+        "id": "de189ecb-e886-49f9-afe3-9e4e60ea6de1"
+    },
+    "87a138bb-95b4-42b7-bb3c-0590114af027": {
+        "sources": [
+            "TIE Bomber Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "torpedo",
+            "missile",
+            "missile",
+            "bomb"
+        ],
+        "unique": true,
+        "name": "Captain Jonus",
+        "canonicalName": "captainjonus",
+        "text": "When another friendly ship at Range 1 attacks with a secondary weapon, it may reroll up to 2 attack dice.",
+        "skill": 6,
+        "points": 22,
+        "faction": "empire",
+        "id": "87a138bb-95b4-42b7-bb3c-0590114af027"
+    },
+    "f31218da-739f-4a56-9b20-c9fec5033361": {
+        "sources": [
+            "TIE Bomber Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "torpedo",
+            "missile",
+            "missile",
+            "bomb"
+        ],
+        "unique": true,
+        "name": "Major Rhymer",
+        "canonicalName": "majorrhymer",
+        "text": "When attacking with a secondary weapon, you may increase or decrease the weapon range by 1 to a limit of Range 1-3.",
+        "skill": 7,
+        "points": 26,
+        "faction": "empire",
+        "id": "f31218da-739f-4a56-9b20-c9fec5033361"
+    },
+    "566e5d40-66a3-4749-93a3-e9fcf7eebb87": {
+        "sources": [
+            "Lambda-Class Shuttle Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Captain Kagi",
+        "canonicalName": "captainkagi",
+        "text": "When an enemy ship acquires a target lock, it must lock onto your ship if able.",
+        "skill": 8,
+        "points": 27,
+        "faction": "empire",
+        "id": "566e5d40-66a3-4749-93a3-e9fcf7eebb87"
+    },
+    "4c4f5f91-f9cc-4793-9c4e-ffcddc8bd7ef": {
+        "sources": [
+            "Lambda-Class Shuttle Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Colonel Jendon",
+        "canonicalName": "coloneljendon",
+        "text": "At the start of the Combat phase, you may assign 1 of your blue target lock tokens to a friendly ship at Range 1 if it does not have a blue target lock token.",
+        "skill": 6,
+        "points": 26,
+        "faction": "empire",
+        "id": "4c4f5f91-f9cc-4793-9c4e-ffcddc8bd7ef"
+    },
+    "b849e6ba-5d0b-45de-bb22-01b71c7548dc": {
+        "sources": [
+            "Lambda-Class Shuttle Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "crew",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Captain Yorr",
+        "canonicalName": "captainyorr",
+        "text": "When another friendly ship at Range 1-2 would receive a stress token, if you have 2 or fewer stress tokens, you may receive that token instead.",
+        "skill": 4,
+        "points": 24,
+        "faction": "empire",
+        "id": "b849e6ba-5d0b-45de-bb22-01b71c7548dc"
+    },
+    "13dc4ea2-da35-495e-8f32-9a38084bd542": {
+        "sources": [
+            "Lambda-Class Shuttle Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "cannon",
+            "crew",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Omicron Group Pilot",
+        "canonicalName": "omicrongrouppilot",
+        "skill": 2,
+        "points": 21,
+        "faction": "empire",
+        "id": "13dc4ea2-da35-495e-8f32-9a38084bd542"
+    },
+    "cd627d75-6800-4f41-a4e2-61db3e1b2719": {
+        "sources": [
+            "Imperial Aces Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "Lieutenant Lorrir",
+        "canonicalName": "lieutenantlorrir",
+        "text": "When performing a barrel roll action, you may receive 1 stress token to use the (<i class=\"xwing-miniatures-font xwing-miniatures-font-bankleft\"></i> 1) or (<i class=\"xwing-miniatures-font xwing-miniatures-font-bankright\"></i> 1) template instead of the (<i class=\"xwing-miniatures-font xwing-miniatures-font-straight\"></i> 1) template.",
+        "skill": 5,
+        "points": 23,
+        "faction": "empire",
+        "id": "cd627d75-6800-4f41-a4e2-61db3e1b2719"
+    },
+    "238cf295-b939-45f5-ae0b-63762ee50595": {
+        "sources": [
+            "Imperial Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": false,
+        "name": "Royal Guard Pilot",
+        "canonicalName": "royalguardpilot",
+        "skill": 6,
+        "points": 22,
+        "faction": "empire",
+        "id": "238cf295-b939-45f5-ae0b-63762ee50595"
+    },
+    "98e6e7fa-9f95-434c-8b50-285e2a735eda": {
+        "sources": [
+            "Imperial Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "Tetran Cowall",
+        "canonicalName": "tetrancowall",
+        "text": "When you reveal a <i class=\"xwing-miniatures-font xwing-miniatures-font-kturn\"></i> maneuver, you may treat the speed of that maneuver as \"1,\" \"3,\" or \"5\".",
+        "skill": 7,
+        "points": 24,
+        "faction": "empire",
+        "id": "98e6e7fa-9f95-434c-8b50-285e2a735eda"
+    },
+    "8509dee9-84f8-406c-8233-352d82cc32f2": {
+        "sources": [
+            "Imperial Aces Expansion Pack"
+        ],
+        "upgrades": [],
+        "unique": true,
+        "name": "Kir Kanos",
+        "canonicalName": "kirkanos",
+        "text": "When attacking at Range 2-3, you may spend 1 evade token to add 1 <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i> result to your roll.",
+        "skill": 6,
+        "points": 24,
+        "faction": "empire",
+        "id": "8509dee9-84f8-406c-8233-352d82cc32f2"
+    },
+    "601e8caf-bde8-439b-a7d6-a5e8c87de514": {
+        "sources": [
+            "Imperial Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "Carnor Jax",
+        "canonicalName": "carnorjax",
+        "text": "Enemy ships at Range 1 cannot perform focus or evade actions and cannot spend focus or evade tokens.",
+        "skill": 8,
+        "points": 26,
+        "faction": "empire",
+        "id": "601e8caf-bde8-439b-a7d6-a5e8c87de514"
+    },
+    "1e90a3ae-4243-4666-9e07-87a97f0bc1c9": {
+        "sources": [
+            "Rebel Transport Expansion Pack"
+        ],
+        "upgrades": [
+            "crew",
+            "crew",
+            "cargo",
+            "cargo",
+            "cargo"
+        ],
+        "unique": false,
+        "name": "GR-75 Medium Transport",
+        "canonicalName": "gr75mediumtransport",
+        "skill": 3,
+        "points": 30,
+        "faction": "rebel",
+        "id": "1e90a3ae-4243-4666-9e07-87a97f0bc1c9"
+    },
+    "3f2b6528-5333-4689-b0d5-0951e3a7c159": {
+        "sources": [
+            "Z-95 Headhunter Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": false,
+        "name": "Bandit Squadron Pilot",
+        "canonicalName": "banditsquadronpilot",
+        "skill": 2,
+        "points": 12,
+        "faction": "rebel",
+        "id": "3f2b6528-5333-4689-b0d5-0951e3a7c159"
+    },
+    "8104b99f-9ec7-4fed-98c2-479eb2a604ec": {
+        "sources": [
+            "Z-95 Headhunter Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": false,
+        "name": "Tala Squadron Pilot",
+        "canonicalName": "talasquadronpilot",
+        "skill": 4,
+        "points": 13,
+        "faction": "rebel",
+        "id": "8104b99f-9ec7-4fed-98c2-479eb2a604ec"
+    },
+    "a3eca5b5-e31c-43d8-980e-182fa48c69bc": {
+        "sources": [
+            "Z-95 Headhunter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Lieutenant Blount",
+        "canonicalName": "lieutenantblount",
+        "text": "When attacking, the defender is hit by your attack, even if he does not suffer any damage.",
+        "skill": 6,
+        "points": 17,
+        "faction": "rebel",
+        "id": "a3eca5b5-e31c-43d8-980e-182fa48c69bc"
+    },
+    "7ff7ea8f-6c42-42a2-a989-127b09c60bcd": {
+        "sources": [
+            "Z-95 Headhunter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Airen Cracken",
+        "canonicalName": "airencracken",
+        "text": "After you perform an attack, you may choose another friendly ship at Range 1.  That ship may perform 1 free action.",
+        "skill": 8,
+        "points": 19,
+        "faction": "rebel",
+        "id": "7ff7ea8f-6c42-42a2-a989-127b09c60bcd"
+    },
+    "7c977be0-9251-4664-96ea-9d5749ab96d9": {
+        "sources": [
+            "TIE Defender Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "missile"
+        ],
+        "unique": false,
+        "name": "Delta Squadron Pilot",
+        "canonicalName": "deltasquadronpilot",
+        "skill": 1,
+        "points": 30,
+        "faction": "empire",
+        "id": "7c977be0-9251-4664-96ea-9d5749ab96d9"
+    },
+    "21d54324-285b-4e8f-a25b-6a20dee80dd6": {
+        "sources": [
+            "TIE Defender Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "missile"
+        ],
+        "unique": false,
+        "name": "Onyx Squadron Pilot",
+        "canonicalName": "onyxsquadronpilot",
+        "skill": 3,
+        "points": 32,
+        "faction": "empire",
+        "id": "21d54324-285b-4e8f-a25b-6a20dee80dd6"
+    },
+    "be96f6be-4a37-44d0-a3a2-a297cb69a09c": {
+        "sources": [
+            "TIE Defender Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Colonel Vessery",
+        "canonicalName": "colonelvessery",
+        "text": "When attacking, immediately after you roll attack dice, you may acquire a target lock on the defender if it already has a red target lock token.",
+        "skill": 6,
+        "points": 35,
+        "faction": "empire",
+        "id": "be96f6be-4a37-44d0-a3a2-a297cb69a09c"
+    },
+    "ddefe7e2-52ed-4236-b0fd-36a64fad9203": {
+        "sources": [
+            "TIE Defender Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Rexler Brath",
+        "canonicalName": "rexlerbrath",
+        "text": "After you perform an attack that deals at least 1 Damage card to the defender, you may spend a focus token to flip those cards faceup.",
+        "skill": 8,
+        "points": 37,
+        "faction": "empire",
+        "id": "ddefe7e2-52ed-4236-b0fd-36a64fad9203"
+    },
+    "a614aa06-da39-49ad-9066-a4d532fd7d9f": {
+        "sources": [
+            "E-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Knave Squadron Pilot",
+        "canonicalName": "knavesquadronpilot",
+        "skill": 1,
+        "points": 27,
+        "faction": "rebel",
+        "id": "a614aa06-da39-49ad-9066-a4d532fd7d9f"
+    },
+    "1433ee54-08c2-465c-9832-943c4c79e919": {
+        "sources": [
+            "E-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": false,
+        "name": "Blackmoon Squadron Pilot",
+        "canonicalName": "blackmoonsquadronpilot",
+        "skill": 3,
+        "points": 29,
+        "faction": "rebel",
+        "id": "1433ee54-08c2-465c-9832-943c4c79e919"
+    },
+    "6e9c2d81-8a4d-4674-98c5-8a9c55d1b5b6": {
+        "sources": [
+            "E-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Etahn A'baht",
+        "canonicalName": "etahnabaht",
+        "text": "When an enemy ship inside your firing arc at Range 1-3 is defending, the attacker may change 1 of its <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i> results to a <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> result.",
+        "skill": 5,
+        "points": 32,
+        "faction": "rebel",
+        "id": "6e9c2d81-8a4d-4674-98c5-8a9c55d1b5b6"
+    },
+    "771b3a99-e5a9-4b57-ab8e-c4a7b9f9c705": {
+        "sources": [
+            "E-Wing Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Corran Horn",
+        "canonicalName": "corranhorn",
+        "text": "At the start of the End phase, you may perform one attack.  You cannot attack during the next round.",
+        "skill": 8,
+        "points": 35,
+        "faction": "rebel",
+        "id": "771b3a99-e5a9-4b57-ab8e-c4a7b9f9c705"
+    },
+    "37cd2e90-6da8-4a65-b8d8-fd363aa8091d": {
+        "sources": [
+            "TIE Phantom Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Sigma Squadron Pilot",
+        "canonicalName": "sigmasquadronpilot",
+        "skill": 3,
+        "points": 25,
+        "faction": "empire",
+        "id": "37cd2e90-6da8-4a65-b8d8-fd363aa8091d"
+    },
+    "e619be8e-3c5e-46d0-b875-221a20c9e78e": {
+        "sources": [
+            "TIE Phantom Expansion Pack"
+        ],
+        "upgrades": [
+            "system",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Shadow Squadron Pilot",
+        "canonicalName": "shadowsquadronpilot",
+        "skill": 5,
+        "points": 27,
+        "faction": "empire",
+        "id": "e619be8e-3c5e-46d0-b875-221a20c9e78e"
+    },
+    "3fc0d03d-4bbb-4843-b56e-e44b646d4110": {
+        "sources": [
+            "TIE Phantom Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "crew"
+        ],
+        "unique": true,
+        "name": "\"Echo\"",
+        "canonicalName": "echo",
+        "text": "When you decloak, you must use the (<i class=\"xwing-miniatures-font xwing-miniatures-font-bankleft\"></i> 2) or (<i class=\"xwing-miniatures-font xwing-miniatures-font-bankright\"></i> 2) template instead of the (<i class=\"xwing-miniatures-font xwing-miniatures-font-straight\"></i> 2) template.",
+        "skill": 6,
+        "points": 30,
+        "faction": "empire",
+        "id": "3fc0d03d-4bbb-4843-b56e-e44b646d4110"
+    },
+    "2f5cca44-fc7c-421b-9c37-00533dbb8c7a": {
+        "sources": [
+            "TIE Phantom Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "crew"
+        ],
+        "unique": true,
+        "name": "\"Whisper\"",
+        "canonicalName": "whisper",
+        "text": "After you perform an attack that hits, you may assign 1 focus to your ship.",
+        "skill": 7,
+        "points": 32,
+        "faction": "empire",
+        "id": "2f5cca44-fc7c-421b-9c37-00533dbb8c7a"
+    },
+    "3f3b305a-7626-4b9e-9247-a056d4aac75e": {
+        "sources": [
+            "Tantive IV Expansion Pack"
+        ],
+        "upgrades": [
+            "crew",
+            "hardpoint",
+            "hardpoint",
+            "team",
+            "team",
+            "cargo"
+        ],
+        "unique": false,
+        "name": "CR90 Corvette (Fore)",
+        "canonicalName": "cr90corvettefore",
+        "text": "When attacking with your primary weapon, you may spend 1 energy to roll 1 additional attack die.",
+        "skill": 4,
+        "points": 50,
+        "faction": "rebel",
+        "id": "3f3b305a-7626-4b9e-9247-a056d4aac75e"
+    },
+    "77798e32-2c22-4ba4-9108-73a5c0265dc3": {
+        "sources": [
+            "Tantive IV Expansion Pack"
+        ],
+        "upgrades": [
+            "crew",
+            "hardpoint",
+            "team",
+            "cargo"
+        ],
+        "unique": false,
+        "name": "CR90 Corvette (Aft)",
+        "canonicalName": "cr90corvetteaft",
+        "skill": 4,
+        "points": 40,
+        "faction": "rebel",
+        "id": "77798e32-2c22-4ba4-9108-73a5c0265dc3"
+    },
+    "95e95eff-f8b3-460b-bbd4-8a94f8bb6191": {
+        "sources": [
+            "Rebel Transport Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Wes Janson",
+        "canonicalName": "wesjanson",
+        "text": "After you perform an attack, you may remove 1 focus, evade, or blue target lock token from the defender.",
+        "skill": 8,
+        "points": 29,
+        "faction": "rebel",
+        "id": "95e95eff-f8b3-460b-bbd4-8a94f8bb6191"
+    },
+    "94102b26-bd76-448b-9f0c-f8d172faf47d": {
+        "sources": [
+            "Rebel Transport Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Jek Porkins",
+        "canonicalName": "jekporkins",
+        "text": "When you receive a stress token, you may remove it and roll 1 attack die.  On a <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i> result, deal 1 facedown Damage card to this ship.",
+        "skill": 7,
+        "points": 26,
+        "faction": "rebel",
+        "id": "94102b26-bd76-448b-9f0c-f8d172faf47d"
+    },
+    "04e0ff9f-eaae-4d7b-98dc-397ac3421941": {
+        "sources": [
+            "Rebel Transport Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "\"Hobbie\" Klivian",
+        "canonicalName": "hobbieklivian",
+        "text": "When you acquire or spend a target lock, you may remove 1 stress token from your ship.",
+        "skill": 5,
+        "points": 25,
+        "faction": "rebel",
+        "id": "04e0ff9f-eaae-4d7b-98dc-397ac3421941"
+    },
+    "478e8dbb-c870-433d-8a12-fe4df95f6910": {
+        "sources": [
+            "Rebel Transport Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "astromech"
+        ],
+        "unique": true,
+        "name": "Tarn Mison",
+        "canonicalName": "tarnmison",
+        "text": "When an enemy ship declares you as the target of an attack, you may acquire a target lock on that ship.",
+        "skill": 3,
+        "points": 23,
+        "faction": "rebel",
+        "id": "478e8dbb-c870-433d-8a12-fe4df95f6910"
+    },
+    "7277886c-e553-4bdc-8e7c-7d01510bbc78": {
+        "sources": [
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Jake Farrell",
+        "canonicalName": "jakefarrell",
+        "text": "After you perform a focus action or are assigned a focus token, you may perform a free boost or barrel roll action.",
+        "skill": 7,
+        "points": 24,
+        "faction": "rebel",
+        "id": "7277886c-e553-4bdc-8e7c-7d01510bbc78"
+    },
+    "587aa6e3-7ab4-4f6d-8deb-a86b231e3481": {
+        "sources": [
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "missile"
+        ],
+        "unique": true,
+        "name": "Gemmer Sojan",
+        "canonicalName": "gemmersojan",
+        "text": "While you are at Range 1 of at least 1 enemy ship, increase your agility value by 1.",
+        "skill": 5,
+        "points": 22,
+        "faction": "rebel",
+        "id": "587aa6e3-7ab4-4f6d-8deb-a86b231e3481"
+    },
+    "f390b87e-ab34-4e2f-a71b-53ec757fc29d": {
+        "sources": [
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Keyan Farlander",
+        "canonicalName": "keyanfarlander",
+        "text": "When attacking, you may remove 1 stress token to change all of your <i class=\"xwing-miniatures-font xwing-miniatures-font-focus\"></i> results to <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i>results.",
+        "skill": 7,
+        "points": 29,
+        "faction": "rebel",
+        "id": "f390b87e-ab34-4e2f-a71b-53ec757fc29d"
+    },
+    "ba2666d6-30ca-42b2-8803-29d9d66457d9": {
+        "sources": [
+            "Rebel Aces Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "torpedo",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Nera Dantels",
+        "canonicalName": "neradantels",
+        "text": "You can perform <i class=\"xwing-miniatures-font xwing-miniatures-font-torpedo\"></i> secondary weapon attacks against enemy ships outside your firing arc.",
+        "skill": 5,
+        "points": 26,
+        "faction": "rebel",
+        "id": "ba2666d6-30ca-42b2-8803-29d9d66457d9"
+    },
+    "c4bd83b7-454e-4c1a-9955-e7c7a83dd7d6": {
+        "sources": [
+            "YT-2400 Freighter Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "missile",
+            "crew"
+        ],
+        "unique": false,
+        "name": "Wild Space Fringer",
+        "canonicalName": "wildspacefringer",
+        "skill": 2,
+        "points": 30,
+        "faction": "rebel",
+        "id": "c4bd83b7-454e-4c1a-9955-e7c7a83dd7d6"
+    },
+    "0dfa3340-1c02-4ab4-8a2a-e071cb132078": {
+        "sources": [
+            "YT-2400 Freighter Expansion Pack"
+        ],
+        "upgrades": [
+            "cannon",
+            "missile",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Eaden Vrill",
+        "canonicalName": "eadenvrill",
+        "text": "When performing a primary weapon attack against a stressed ship, roll 1 additional attack die.",
+        "skill": 3,
+        "points": 32,
+        "faction": "rebel",
+        "id": "0dfa3340-1c02-4ab4-8a2a-e071cb132078"
+    },
+    "4266e083-3c1c-4e39-8b8e-63f3b09c81bd": {
+        "sources": [
+            "YT-2400 Freighter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "missile",
+            "crew"
+        ],
+        "unique": true,
+        "name": "\"Leebo\"",
+        "canonicalName": "leebo",
+        "text": "When you are dealt a faceup Damage card, draw 1 additional Damage card, choose 1 to resolve, and discard the other.",
+        "skill": 5,
+        "points": 34,
+        "faction": "rebel",
+        "id": "4266e083-3c1c-4e39-8b8e-63f3b09c81bd"
+    },
+    "7494bdd8-f77b-43bf-8d1c-01ac4317c2a8": {
+        "sources": [
+            "YT-2400 Freighter Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "missile",
+            "crew"
+        ],
+        "unique": true,
+        "name": "Dash Rendar",
+        "canonicalName": "dashrendar",
+        "text": "You may ignore obstacles during the Activation phase and when performing actions.",
+        "skill": 7,
+        "points": 36,
+        "faction": "rebel",
+        "id": "7494bdd8-f77b-43bf-8d1c-01ac4317c2a8"
+    },
+    "4e4a77ef-1d67-44ec-8fc4-68b811633ff9": {
+        "sources": [
+            "VT-49 Decimator Expansion Pack"
+        ],
+        "upgrades": [
+            "torpedo",
+            "crew",
+            "crew",
+            "crew",
+            "bomb"
+        ],
+        "unique": false,
+        "name": "Patrol Leader",
+        "canonicalName": "patrolleader",
+        "skill": 3,
+        "points": 40,
+        "faction": "empire",
+        "id": "4e4a77ef-1d67-44ec-8fc4-68b811633ff9"
+    },
+    "fea0491d-1020-489d-a181-52acdfb2e334": {
+        "sources": [
+            "VT-49 Decimator Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "crew",
+            "crew",
+            "crew",
+            "bomb"
+        ],
+        "unique": true,
+        "name": "Captain Oicunn",
+        "canonicalName": "captainoicunn",
+        "text": "After executing a maneuver, each enemy ship you are touching suffers 1 damage.",
+        "skill": 4,
+        "points": 42,
+        "faction": "empire",
+        "id": "fea0491d-1020-489d-a181-52acdfb2e334"
+    },
+    "72160f2f-a9b9-4e0c-ba42-cd44458124f0": {
+        "sources": [
+            "VT-49 Decimator Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "crew",
+            "crew",
+            "crew",
+            "bomb"
+        ],
+        "unique": true,
+        "name": "Commander Kenkirk",
+        "canonicalName": "commanderkenkirk",
+        "text": "If you have no shields and at least 1 Damage card assigned to you, increase your agility value by 1.",
+        "skill": 6,
+        "points": 44,
+        "faction": "empire",
+        "id": "72160f2f-a9b9-4e0c-ba42-cd44458124f0"
+    },
+    "15fbd20c-8814-475c-ab79-ba8378084699": {
+        "sources": [
+            "VT-49 Decimator Expansion Pack"
+        ],
+        "upgrades": [
+            "elite",
+            "torpedo",
+            "crew",
+            "crew",
+            "crew",
+            "bomb"
+        ],
+        "unique": true,
+        "name": "Rear Admiral Chiraneau",
+        "canonicalName": "rearadmiralchiraneau",
+        "text": "When attacking at Range 1-2, you may change 1 of your <i class=\"xwing-miniatures-font xwing-miniatures-font-focus\"></i> results to a <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> result.",
+        "skill": 8,
+        "points": 46,
+        "faction": "empire",
+        "id": "15fbd20c-8814-475c-ab79-ba8378084699"
+    },
+    "b63d40a2-6db4-4c64-8473-b954eb064185": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Prince Xizor",
+        "canonicalName": "princexizor",
+        "text": "When defending, a friendly ship at Range 1 may suffer 1 uncanceled <i class=\"xwing-miniatures-font xwing-miniatures-font-hit\"></i> or <i class=\"xwing-miniatures-font xwing-miniatures-font-crit\"></i> result instead of you.",
+        "skill": 7,
+        "points": 31,
+        "faction": "scum",
+        "id": "b63d40a2-6db4-4c64-8473-b954eb064185"
+    },
+    "8d47409c-bcac-4719-b8c1-985ca83bad44": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "torpedo"
+        ],
+        "unique": true,
+        "name": "Guri",
+        "canonicalName": "guri",
+        "text": "At the start of the Combat phase, if you are at Range 1 of an enemy ship, you may assign 1 focus token to your ship.",
+        "skill": 5,
+        "points": 30,
+        "faction": "scum",
+        "id": "8d47409c-bcac-4719-b8c1-985ca83bad44"
+    },
+    "0b655e1a-2ac3-4422-b9e5-9e8f78828f46": {
+        "sources": [],
+        "upgrades": [
+            "torpedo"
+        ],
+        "unique": false,
+        "name": "Black Sun Vigo",
+        "canonicalName": "blacksunvigo",
+        "skill": 3,
+        "points": 27,
+        "faction": "scum",
+        "id": "0b655e1a-2ac3-4422-b9e5-9e8f78828f46"
+    },
+    "86843a8d-8f04-46ac-a999-469ca3fea9d0": {
+        "sources": [],
+        "upgrades": [
+            "torpedo"
+        ],
+        "unique": false,
+        "name": "Black Sun Enforcer",
+        "canonicalName": "blacksunenforcer",
+        "skill": 1,
+        "points": 25,
+        "faction": "scum",
+        "id": "86843a8d-8f04-46ac-a999-469ca3fea9d0"
+    },
+    "64779b1a-a8c7-494b-81a7-b469499a5e0e": {
+        "sources": [],
+        "upgrades": [
+            "elite"
+        ],
+        "unique": true,
+        "name": "Serissu",
+        "canonicalName": "serissu",
+        "text": "When another friendly ship at Range 1 is defending, it may reroll 1 defense die.",
+        "skill": 8,
+        "points": 20,
+        "faction": "scum",
+        "id": "64779b1a-a8c7-494b-81a7-b469499a5e0e"
+    },
+    "4ab617a1-62bb-486e-8662-a2282afe4172": {
+        "sources": [],
+        "upgrades": [],
+        "unique": true,
+        "name": "Laetin A'shera",
+        "canonicalName": "laetinashera",
+        "text": "After you defend against an attack, if the attack did not hit, you may assign 1 evade token to your ship.",
+        "skill": 6,
+        "points": 18,
+        "faction": "scum",
+        "id": "4ab617a1-62bb-486e-8662-a2282afe4172"
+    },
+    "8516f55c-ed9b-404b-a950-9b978697d583": {
+        "sources": [],
+        "upgrades": [],
+        "unique": false,
+        "name": "Tansarii ???",
+        "canonicalName": "tansarii",
+        "skill": 5,
+        "points": 99,
+        "faction": "scum",
+        "id": "8516f55c-ed9b-404b-a950-9b978697d583"
+    },
+    "9ab3fa30-a39f-4c09-ab8f-a409b042c925": {
+        "sources": [],
+        "upgrades": [],
+        "unique": false,
+        "name": "Cartel Spacer",
+        "canonicalName": "cartelspacer",
+        "skill": 2,
+        "points": 14,
+        "faction": "scum",
+        "id": "9ab3fa30-a39f-4c09-ab8f-a409b042c925"
+    },
+    "f3aad912-49f3-425d-9f39-c35934810732": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "cannon",
+            "bomb",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "IG-88A",
+        "canonicalName": "ig88a",
+        "text": "This card has not yet been revealed.",
+        "skill": 6,
+        "points": 99,
+        "faction": "scum",
+        "id": "f3aad912-49f3-425d-9f39-c35934810732"
+    },
+    "b15eaefe-7baf-40cf-9d5e-e22aa29b9827": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "cannon",
+            "bomb",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "IG-88B",
+        "canonicalName": "ig88b",
+        "text": "This card has not yet been revealed.",
+        "skill": 6,
+        "points": 99,
+        "faction": "scum",
+        "id": "b15eaefe-7baf-40cf-9d5e-e22aa29b9827"
+    },
+    "f52a8d34-48c6-470f-83eb-beebd4d24d09": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "cannon",
+            "bomb",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "IG-88C",
+        "canonicalName": "ig88c",
+        "text": "This card has not yet been revealed.",
+        "skill": 6,
+        "points": 99,
+        "faction": "scum",
+        "id": "f52a8d34-48c6-470f-83eb-beebd4d24d09"
+    },
+    "f23de822-30ff-4094-a1cd-3bcefc76c2aa": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "system",
+            "cannon",
+            "cannon",
+            "bomb",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "IG-88D",
+        "canonicalName": "ig88d",
+        "text": "You may execute the (<i class=\"xwing-miniatures-font xwing-miniatures-font-sloopleft\"></i> 3) or (<i class=\"xwing-miniatures-font xwing-miniatures-font-sloopright\"></i> 3) maneuver using the corresponding (<i class=\"xwing-miniatures-font xwing-miniatures-font-turnleft\"></i> 3) or (<i class=\"xwing-miniatures-font xwing-miniatures-font-turnright\"></i> 3) template.",
+        "skill": 6,
+        "points": 36,
+        "faction": "scum",
+        "id": "f23de822-30ff-4094-a1cd-3bcefc76c2aa"
+    },
+    "5b0102bb-7201-4e99-86b8-c262c60f4564": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "missile",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "N'Dru Suhlak",
+        "canonicalName": "ndrusuhlak",
+        "text": "When attacking, if there are no other friendly ships at Range 1-2, roll 1 additional attack die.",
+        "skill": 7,
+        "points": 17,
+        "faction": "scum",
+        "id": "5b0102bb-7201-4e99-86b8-c262c60f4564"
+    },
+    "4d40ae3c-7bb8-435b-b8fe-eed68861cc8b": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "missile",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Kaa'To Leeachos",
+        "canonicalName": "kaatoleeachos",
+        "text": "At the start of the Combat phase, you may remove 1 focus or evade token from another friendly ship at Range 1-2 and assign it to yourself.",
+        "skill": 5,
+        "points": 15,
+        "faction": "scum",
+        "id": "4d40ae3c-7bb8-435b-b8fe-eed68861cc8b"
+    },
+    "781039c8-3d78-43d3-8faa-86273a8ec45e": {
+        "sources": [],
+        "upgrades": [
+            "missile",
+            "illicit"
+        ],
+        "unique": false,
+        "name": "Black Sun Soldier",
+        "canonicalName": "blacksunsoldier",
+        "skill": 3,
+        "points": 13,
+        "faction": "scum",
+        "id": "781039c8-3d78-43d3-8faa-86273a8ec45e"
+    },
+    "dc55494f-7747-4564-be70-10d5be11f746": {
+        "sources": [],
+        "upgrades": [
+            "missile",
+            "illicit"
+        ],
+        "unique": false,
+        "name": "Binayre Pirate",
+        "canonicalName": "binayrepirate",
+        "skill": 1,
+        "points": 12,
+        "faction": "scum",
+        "id": "dc55494f-7747-4564-be70-10d5be11f746"
+    },
+    "3f66ff9f-d969-486c-aeb3-041813cebe53": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "bomb",
+            "crew",
+            "missile",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Boba Fett (Scum)",
+        "canonicalName": "bobafett",
+        "text": "When attacking or defending, you may reroll 1 of your dice for each enemy ship at Range 1.",
+        "skill": 8,
+        "points": 39,
+        "faction": "scum",
+        "id": "3f66ff9f-d969-486c-aeb3-041813cebe53"
+    },
+    "269bb073-d576-49bd-a2e4-aa3fba431f7a": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "bomb",
+            "crew",
+            "missile",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Kath Scarlet (Scum)",
+        "canonicalName": "kathscarlet",
+        "text": "When attacking a ship inside your auxiliary firing arc, roll 1 additional attack die.",
+        "skill": 7,
+        "points": 38,
+        "faction": "scum",
+        "id": "269bb073-d576-49bd-a2e4-aa3fba431f7a"
+    },
+    "67e87ff0-7368-4b7b-840a-59dbd0b010ee": {
+        "sources": [],
+        "upgrades": [
+            "cannon",
+            "bomb",
+            "crew",
+            "missile",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Emon Azzameen",
+        "canonicalName": "emonazzameen",
+        "text": "When dropping a bomb, you may use the [<i class=\"xwing-miniatures-font xwing-miniatures-font-turnleft\"></i> 3], [<i class=\"xwing-miniatures-font xwing-miniatures-font-straight\"></i> 3], or [<i class=\"xwing-miniatures-font xwing-miniatures-font-turnright\"></i> 3] template instead of the [<i class=\"xwing-miniatures-font xwing-miniatures-font-straight\"></i> 1] template.",
+        "skill": 6,
+        "points": 36,
+        "faction": "scum",
+        "id": "67e87ff0-7368-4b7b-840a-59dbd0b010ee"
+    },
+    "1a8b38e1-6711-4820-b761-64c0e00dfaaa": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "cannon",
+            "bomb",
+            "crew",
+            "missile",
+            "illicit"
+        ],
+        "unique": false,
+        "name": "Mandalorian Mercenary",
+        "canonicalName": "mandalorianmercenary",
+        "skill": 5,
+        "points": 35,
+        "faction": "scum",
+        "id": "1a8b38e1-6711-4820-b761-64c0e00dfaaa"
+    },
+    "ffe75e54-6a9f-4a39-9885-9052058b8948": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "turret",
+            "torpedo",
+            "torpedo",
+            "salvaged astromech"
+        ],
+        "unique": true,
+        "name": "Kavil",
+        "canonicalName": "kavil",
+        "text": "When attacking a ship outside your firing arc, roll 1 additional attack die.",
+        "skill": 7,
+        "points": 24,
+        "faction": "scum",
+        "id": "ffe75e54-6a9f-4a39-9885-9052058b8948"
+    },
+    "4520ee91-b95a-4761-9558-b7a1ca237f22": {
+        "sources": [],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "salvaged astromech"
+        ],
+        "unique": true,
+        "name": "Drea Renthal",
+        "canonicalName": "drearenthal",
+        "text": "After you spend a target lock, you may receive 1 stress token to acquire a target lock.",
+        "skill": 5,
+        "points": 22,
+        "faction": "scum",
+        "id": "4520ee91-b95a-4761-9558-b7a1ca237f22"
+    },
+    "8a7f3678-ca03-4490-8c75-1845cf1244fe": {
+        "sources": [],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "salvaged astromech"
+        ],
+        "unique": false,
+        "name": "Unspoiled PS4 Scum Y-Wing Pilot",
+        "canonicalName": "unspoiledps4scumywingpilot",
+        "skill": 4,
+        "points": 99,
+        "faction": "scum",
+        "id": "8a7f3678-ca03-4490-8c75-1845cf1244fe"
+    },
+    "5a690747-86e0-4c21-a3b2-da9d4259f44e": {
+        "sources": [],
+        "upgrades": [
+            "turret",
+            "torpedo",
+            "torpedo",
+            "salvaged astromech"
+        ],
+        "unique": false,
+        "name": "Syndicate Thug",
+        "canonicalName": "syndicatethug",
+        "skill": 2,
+        "points": 18,
+        "faction": "scum",
+        "id": "5a690747-86e0-4c21-a3b2-da9d4259f44e"
+    },
+    "b32077c2-c54b-4ac6-bff6-127c949a0e38": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "turret",
+            "crew",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Dace Bonearm",
+        "canonicalName": "dacebonearm",
+        "text": "When an enemy ship at Range 1-3 receives at least 1 ion token, if you are not stressed, you may receive 1 stress token to cause that ship to suffer 1 damage.",
+        "skill": 7,
+        "points": 23,
+        "faction": "scum",
+        "id": "b32077c2-c54b-4ac6-bff6-127c949a0e38"
+    },
+    "9c31e641-2f70-47d1-838f-c6bfc3b183ce": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "turret",
+            "crew",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Palob Godalhi",
+        "canonicalName": "palobgodalhi",
+        "text": "At the start of the Combat phase, you may remove 1 focus or evade token from an enemy ship at Range 1-2 and assign it to yourself.",
+        "skill": 5,
+        "points": 20,
+        "faction": "scum",
+        "id": "9c31e641-2f70-47d1-838f-c6bfc3b183ce"
+    },
+    "cbe91bca-8978-4f4a-9304-c9f9ca9f0479": {
+        "sources": [],
+        "upgrades": [
+            "turret",
+            "crew",
+            "illicit"
+        ],
+        "unique": true,
+        "name": "Torkil Mux",
+        "canonicalName": "torkilmux",
+        "text": "At the end of the Activation phase, choose 1 enemy ship at Range 1-2. Until the end of the Combat phase, treat that ship's pilot skill value as \"0\".",
+        "skill": 3,
+        "points": 19,
+        "faction": "scum",
+        "id": "cbe91bca-8978-4f4a-9304-c9f9ca9f0479"
+    },
+    "262c293c-b9d5-474c-88d1-ada89703d1f9": {
+        "sources": [],
+        "upgrades": [],
+        "unique": false,
+        "name": "Unspoiled PS1 Scum HWK Pilot",
+        "canonicalName": "unspoiledps1scumhwkpilot",
+        "skill": 1,
+        "points": 99,
+        "faction": "scum",
+        "id": "262c293c-b9d5-474c-88d1-ada89703d1f9"
+    },
+    "46df38ce-bcf5-4ff0-8e08-fe565db867ab": {
+        "sources": [],
+        "upgrades": [
+            "elite",
+            "missile"
+        ],
+        "unique": true,
+        "name": "Commander Alozen",
+        "canonicalName": "commanderalozen",
+        "text": "At the start of the Combat phase, you may acquire a target lock on an enemy ship at Range 1.",
+        "skill": 5,
+        "points": 25,
+        "faction": "empire",
+        "id": "46df38ce-bcf5-4ff0-8e08-fe565db867ab"
+    }
+}
