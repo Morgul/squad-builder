@@ -101,11 +101,16 @@ function processAddons(addons)
     }, []);
 } // end processAddons
 
+function findCanonicalName(type, name)
+{
+    return _.find(cards[type + 's'], { name: name }).canonical_name;
+} // end findCanonicalName
+
 function processCards(expansionCards)
 {
     return _.reduce(expansionCards, function(results, card)
     {
-        var canonicalName = _.find(cards[card.type + 's'], { name: card.name }).canonical_name;
+        var canonicalName = findCanonicalName(card.type, card.name);
 
         results.push({
             name: canonicalName,
@@ -172,6 +177,7 @@ models.initialize
                 canonicalName: pilot.canonical_name,
                 text: pilot.text,
                 skill: pilot.skill,
+                ship: findCanonicalName('ship', pilot.ship),
                 points: pilot.points,
                 sources: pilot.sources,
                 faction: processFaction(pilot.faction),

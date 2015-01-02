@@ -74,6 +74,7 @@ db.Pilot = jbase.defineModel('pilots', {
     name: String,
     canonicalName: String,
     text: String,
+    ship: String,
     skill: Number,
     points: Number,
     sources: { type: Array, default: [] },
