@@ -9,6 +9,21 @@ function BuilderController($scope, _, cardSvc, squadMember)
     $scope.temp = {};
     $scope.squad = [squadMember($scope.faction)];
 
+    Object.defineProperties($scope, {
+        totalPoints: {
+            get: function()
+            {
+                var points = 0;
+                _.each($scope.squad, function(member)
+                {
+                    points += member.points || 0;
+                });
+
+                return points;
+            }
+        }
+    });
+
     $scope.$watch('faction', function()
     {
         $scope.squad = [squadMember($scope.faction)];

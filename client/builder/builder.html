@@ -41,32 +41,60 @@
 
     <!-- Faction Building Page -->
     <div ng-hide="faction == undefined">
-        <ul class="nav nav-pills pull-right hidden-xs">
-            <li role="presentation" ng-class="{ active: faction == 'empire' }">
-                <a ng-click="faction = 'empire'">
-                    <i class="fa fa-ge"></i> Galactic Empire
-                </a>
-            </li>
-            <li role="presentation" ng-class="{ active: faction == 'rebel' }">
-                <a ng-click="faction = 'rebel'">
-                    <i class="fa fa-ra"></i> Rebel Alliance
-                </a>
-            </li>
-            <li role="presentation" ng-class="{ active: faction == 'scum' }">
-                <a ng-click="faction = 'scum'">
-                    <span class="icon-scum"></span> Scum and Villainy
-                </a>
-            </li>
-        </ul>
+        <div class="row hidden-xs">
+            <div class="col-sm-4">
+                <ul class="nav nav-pills">
+                    <li role="presentation">
+                        <a>
+                            <i class="fa fa-print"></i> Print
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a>
+                            <i class="fa fa-save"></i> Save
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a>
+                            <i class="fa fa-trash-o"></i> Delete
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <ul class="nav nav-pills nav-justified">
+                    <li role="presentation" ng-class="{ active: faction == 'empire' }">
+                        <a ng-click="faction = 'empire'">
+                            <i class="fa fa-ge"></i> Galactic Empire
+                        </a>
+                    </li>
+                    <li role="presentation" ng-class="{ active: faction == 'rebel' }">
+                        <a ng-click="faction = 'rebel'">
+                            <i class="fa fa-ra"></i> Rebel Alliance
+                        </a>
+                    </li>
+                    <li role="presentation" ng-class="{ active: faction == 'scum' }">
+                        <a ng-click="faction = 'scum'">
+                            <span class="icon-scum"></span> Scum and Villainy
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="btn-group btn-group-justified visible-xs">
             <label class="btn btn-default" ng-model="faction" btn-radio="'empire'"><i class="fa fa-ge"></i> Empire</label>
             <label class="btn btn-default" ng-model="faction" btn-radio="'rebel'"><i class="fa fa-ra"></i> Rebel</label>
             <label class="btn btn-default" ng-model="faction" btn-radio="'scum'"><span class="icon-scum"></span> Scum</label>
         </div>
-        <hr class="visible-xs">
+        <hr>
         <div class="row" style="margin-bottom: 10px;">
-            <div class="col-sm-5 squad-name">
+            <div class="col-xs-8 squad-name">
                 <input type="text" class="form-control" id="squadName" placeholder="Squadron Name">
+            </div>
+            <div class="col-xs-4 text-right">
+                <h3 style="margin: 0; line-height: 34px;">
+                    <span ng-class="{ 'text-danger': totalPoints > 100 }">{{ totalPoints }}</span>
+                </h3>
             </div>
         </div>
         <div class="panel panel-default" ng-repeat="squadMember in squad">
@@ -134,5 +162,25 @@
         </div>
         <hr>
         <textarea class="form-control" rows="5" placeholder="Squad notes..."></textarea>
+        <div class="visible-xs">
+            <hr>
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">
+                        <i class="fa fa-print"></i> Print
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">
+                        <i class="fa fa-save"></i> Save
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default">
+                        <i class="fa fa-trash-o"></i> Delete
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
