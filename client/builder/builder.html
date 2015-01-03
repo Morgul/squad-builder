@@ -1,5 +1,4 @@
-<div class="container-fluid">
-
+<div class="container-fluid builder">
     <br/>
 
     <!-- If there's no faction selected -->
@@ -70,19 +69,67 @@
                 <input type="text" class="form-control" id="squadName" placeholder="Squadron Name">
             </div>
         </div>
-        <div class="panel panel-default">
+        <div class="panel panel-default" ng-repeat="squadMember in squad">
             <div class="panel-heading">
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        <select class="form-control">
-                            <option>Select a ship</option>
+                <div class="row" ng-show="squadMember.ship">
+                    <div class="col-xs-10 col-sm-6">
+                        <select class="form-control ship-select"
+                                ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.canonicalName" ng-model="squadMember.ship">
+                            <option value="">Select ship...</option>
                         </select>
+                        <button class="btn btn-link" type="button" ng-click="removeShip($index)"><i class="fa fa-close close"></i></button>
+                    </div>
+                    <div class="col-xs-2 col-sm-6 text-right">
+                        <h4>{{ squadMember.points }}</h4>
                     </div>
                 </div>
+                <select ng-hide="squadMember.ship" class="form-control"
+                        ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.canonicalName" ng-model="squadMember.ship">
+                    <option value="">Select ship...</option>
+                </select>
             </div>
-            <div class="panel-body text-center">
-                <h4>Add a ship</h4>
+            <div ng-hide="squadMember.ship" class="panel-body text-center">
                 <p>Select a ship from the dropdown above to add it to the squadron.</p>
+            </div>
+            <div ng-if="squadMember.ship" class="panel-body text-center">
+                <div class="row">
+                    <div class="col-sm-6 card-select">
+                        <div class="input-group">
+                            <span class="input-group-addon">Pilot</span>
+                            <select class="form-control"
+                                    ng-options="pilot as formatName(pilot) for pilot in squadMember.pilots | orderBy: '-points' track by pilot.canonicalName" ng-model="squadMember.pilot">
+                                <option value="">Select pilot...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div ng-if="squadMember.titles.length > 0" class="col-sm-6 card-select">
+                        <div class="input-group">
+                            <span class="input-group-addon" title="Title"><i class="xmf xmf-title"></i></span>
+                            <select class="form-control"
+                                ng-options="title as formatName(title) for title in squadMember.titles | orderBy: '-points' track by title.canonicalName" ng-model="squadMember.title">
+                                <option value="">Select title...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 card-select">
+                        <div class="input-group">
+                            <span class="input-group-addon" title="Modification"><i class="xmf xmf-modification"></i></span>
+                            <select class="form-control"
+                                    ng-options="mod as formatName(mod) for mod in squadMember.mods | orderBy: '-points' track by mod.canonicalName" ng-model="squadMember.mod">
+                                <option value="">Select modification...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 card-select" ng-repeat="upgrade in squadMember.upgradeSlots | orderBy track by $index">
+                        <div class="input-group">
+                            <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
+                            <select class="form-control"
+                                    ng-options="upgrade as formatName(upgrade) for upgrade in upgradesByType(upgrade) | orderBy: '-points' track by upgrade.canonicalName" ng-model="squadMember.upgrades[upgrade + $index]">
+                                <option value="">Select {{ upgrade }} upgrade...</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>

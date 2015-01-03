@@ -2,9 +2,48 @@
 // Builder Page Styles
 //----------------------------------------------------------------------------------------------------------------------
 
-.squad-name {
-    @media(min-width: 768px) {
-        margin-top: 5px;
+.builder {
+    select::-ms-expand { display: none; }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: white url(/images/select_arrow.png) no-repeat top right;
+        background-size: 32px 32px;
+    }
+
+    .nav > li > a {
+        padding: 10px 12px;
+    }
+
+    .squad-name {
+        @media(min-width: 768px) {
+            margin-top: 5px;
+        }
+    }
+
+    .ship-select {
+        display: inline-block;
+        width: -webkit-calc(~"100% - 48px");
+        width: -calc(~"100% - 48px");
+
+        & + button {
+            display: inline-block;
+        }
+    }
+
+    .card-select {
+        margin-top: 10px;
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+
+        @media(min-width: 768px)
+        {
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
     }
 }
 

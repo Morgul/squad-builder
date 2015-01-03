@@ -131,6 +131,38 @@ router.get('/upgrades/:upgrade_id', function(req, resp)
 });
 
 //----------------------------------------------------------------------------------------------------------------------
+// Expansions Endpoint
+//----------------------------------------------------------------------------------------------------------------------
+
+router.param('expansion_id', function(req, resp, next, id)
+{
+    models.Expansion.get(id)
+        .then(function(expansion)
+        {
+            req.expansion = expansion;
+            next();
+        })
+        .catch(models.errors.DocumentNotFound, function()
+        {
+            resp.status(404).json({ error: "Expansion not found." });
+        });
+});
+
+router.get('/expansions', function(req, res)
+{
+    querymodel.search(models.Expansion, req)
+        .then(function(expansions)
+        {
+            res.json(expansions);
+        });
+});
+
+router.get('/expansions/:expansion_id', function(req, resp)
+{
+    resp.json(req.expansion);
+});
+
+//----------------------------------------------------------------------------------------------------------------------
 
 module.exports = router;
 

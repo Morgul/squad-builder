@@ -4,12 +4,16 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="theme-color" content="#000000">
         <base href="/">
 
         <title>FF Squad Builder</title>
 
         <!-- Font Awesome -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- X-Wing Font -->
+        <link href="/vendor/xwing-font/xwing.css" rel="stylesheet">
 
         <!-- Squad Font -->
         <link href="/vendor/squad-font/style.css" rel="stylesheet">
@@ -32,16 +36,17 @@
         <script src="libs.js"></script>
         <script src="header/header.js"></script>
         <script src="footer/footer.js"></script>
+        <script src="cards/card-service.js"></script>
+        <script src="cards/filters.js"></script>
         <script src="builder/builder.js"></script>
         <script src="browser/browser.js"></script>
         <script src="collection/collection.js"></script>
         <script src="squads/squads.js"></script>
+        <script src="squads/squad-member.js"></script>
     </head>
     <body>
         <site-header></site-header>
-
         <ng-view></ng-view>
-
         <site-footer></site-footer>
     </body>
 </html>
