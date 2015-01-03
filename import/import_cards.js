@@ -103,7 +103,10 @@ function processAddons(addons)
 
 function findCanonicalName(type, name)
 {
-    return _.find(cards[type + 's'], { name: name }).canonical_name;
+    if(name)
+    {
+        return _.find(cards[type + 's'], { name: name }).canonical_name;
+    } // end if
 } // end findCanonicalName
 
 function processCards(expansionCards)
@@ -121,6 +124,21 @@ function processCards(expansionCards)
         return results;
     }, []);
 } // end processCards
+
+function processText(text)
+{
+    text = text.replace(/xwing-miniatures-font/g, 'xmf');
+    text = text.replace(/sloop/g, 'bank');
+    text = text.replace(/turnleft/g, 'turn-left');
+    text = text.replace(/turnright/g, 'turn-right');
+    text = text.replace(/bankleft/g, 'bank-left');
+    text = text.replace(/bankright/g, 'bank-right');
+    text = text.replace(/barrelroll/g, 'barrel-roll');
+    text = text.replace(/kturn/g, 'k-turn');
+    text = text.replace(/salvagedastromech/g, 'salvaged-astromech');
+
+    return text;
+} // end process text
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -175,7 +193,7 @@ models.initialize
             pilots.push(new models.Pilot({
                 name: pilot.name,
                 canonicalName: pilot.canonical_name,
-                text: pilot.text,
+                text: processText(pilot.text || ""),
                 skill: pilot.skill,
                 ship: findCanonicalName('ship', pilot.ship),
                 points: pilot.points,
@@ -198,11 +216,11 @@ models.initialize
             upgrades.push(new models.Upgrade({
                 name: upgrade.name,
                 canonicalName: upgrade.canonical_name,
-                text: upgrade.text,
+                text: processText(upgrade.text),
                 points: upgrade.points,
                 attack: upgrade.attack,
                 range: upgrade.range,
-                ship: upgrade.ship,
+                ship: findCanonicalName('ship', upgrade.ship),
                 sources: upgrade.sources,
                 type: upgrade.slot.toLowerCase(),
                 unique: upgrade.unique
@@ -221,7 +239,7 @@ models.initialize
             modifications.push(new models.Upgrade({
                 name: mod.name,
                 canonicalName: mod.canonical_name,
-                text: mod.text,
+                text: processText(mod.text),
                 points: mod.points,
                 ship: mod.ship,
                 sources: mod.sources,
@@ -244,10 +262,10 @@ models.initialize
             titles.push(new models.Upgrade({
                 name: title.name,
                 canonicalName: title.canonical_name,
-                text: title.text,
+                text: processText(title.text),
                 points: title.points,
                 energy: title.energy,
-                ship: title.ship,
+                ship: findCanonicalName('ship', title.ship),
                 sources: title.sources,
                 type: 'title',
                 size: title.huge ? 'huge' : (title.large ? 'large' : title.small ? 'small' : 'all'),
