@@ -8,6 +8,8 @@ angular.module('squad-builder', [
         'ngRoute',
 
         'lodash',
+        'ngToast',
+        'ui.select',
         'ui.bootstrap',
 
         'squad-builder.services',
