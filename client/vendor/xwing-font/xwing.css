@@ -1,0 +1,122 @@
+@font-face {
+  font-family: XWing;
+  src: url('xwing.ttf'); }
+
+i.xmf {
+  font-family: XWing;
+  font-style: normal;
+  font-size: 1.25em; }
+
+i.xmf-bank-left:before {
+  content: "\0031"; }
+
+i.xmf-k-turn:before {
+  content: "\0032"; }
+
+i.xmf-bank-right:before {
+  content: "\0033"; }
+
+i.xmf-turn-left:before {
+  content: "\0034"; }
+
+i.xmf-stop:before {
+  content: "\0035"; }
+
+i.xmf-turn-right:before {
+  content: "\0036"; }
+
+i.xmf-bank-left:before {
+  content: "\0037"; }
+
+i.xmf-straight:before {
+  content: "\0038"; }
+
+i.xmf-bank-right:before {
+  content: "\0039"; }
+
+i.xmf-astromech:before {
+  content: "\0041"; }
+
+i.xmf-bomb:before {
+  content: "\0042"; }
+
+i.xmf-cannon:before {
+  content: "\0043"; }
+
+i.xmf-modification:before {
+  content: "\0044"; }
+
+i.xmf-elite:before {
+  content: "\0045"; }
+
+i.xmf-cargo:before {
+  content: "\0047"; }
+
+i.xmf-hardpoint:before {
+  content: "\0048"; }
+
+i.xmf-illicit:before {
+  content: "\0049"; }
+
+i.xmf-title:before {
+  content: "\004c"; }
+
+i.xmf-missile:before {
+  content: "\004d"; }
+
+i.xmf-torpedo:before {
+  content: "\0050"; }
+
+i.xmf-system:before {
+  content: "\0053"; }
+
+i.xmf-team:before {
+  content: "\0054"; }
+
+i.xmf-turret:before {
+  content: "\0055"; }
+
+i.xmf-salvaged-astromech:before {
+  content: "\0056"; }
+
+i.xmf-crew:before {
+  content: "\0057"; }
+
+i.xmf-boost:before {
+  content: "\0062"; }
+
+i.xmf-crit:before {
+  content: "\0063"; }
+
+i.xmf-hit:before {
+  content: "\0064"; }
+
+i.xmf-evade:before {
+  content: "\0065"; }
+
+i.xmf-focus:before {
+  content: "\0066"; }
+
+i.xmf-reinforce:before {
+  content: "\0069"; }
+
+i.xmf-jam:before {
+  content: "\006a"; }
+
+i.xmf-cloak:before {
+  content: "\006b"; }
+
+i.xmf-target-lock:before {
+  content: "\006c"; }
+
+i.xmf-coordinate:before {
+  content: "\006f"; }
+
+i.xmf-barrel-roll:before {
+  content: "\0072"; }
+
+i.xmf-unique:before {
+  content: "\0075"; }
+
+i.xmf-recover:before {
+  content: "\0076"; }
