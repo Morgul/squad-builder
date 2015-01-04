@@ -1,5 +1,5 @@
 {
-    "009f05fd-f5a1-4a23-ae72-df2796aed91d": {
+    "7d5af071-6dcc-42e6-99c5-4c8bf14b7f66": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack",
@@ -10,14 +10,14 @@
         "unique": false,
         "name": "Ion Cannon Turret",
         "canonicalName": "ioncannonturret",
-        "text": "<strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).<br /><br />If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token.  Then cancel all dice results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).</p><p>If this attack hits the target ship, the ship suffers 1 damage and receives 1 ion token.  Then cancel all dice results.</p>",
         "points": 5,
         "attack": 3,
         "range": "1-2",
         "type": "turret",
-        "id": "009f05fd-f5a1-4a23-ae72-df2796aed91d"
+        "id": "7d5af071-6dcc-42e6-99c5-4c8bf14b7f66"
     },
-    "0aecc53e-daa9-4a1a-b3bb-bd488083db0a": {
+    "13d862a4-43c5-4b72-8f5f-e42e211cffc8": {
         "size": "all",
         "sources": [
             "B-Wing Expansion Pack",
@@ -30,14 +30,14 @@
         "unique": false,
         "name": "Proton Torpedoes",
         "canonicalName": "protontorpedoes",
-        "text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />You may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.",
+        "text": "<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>You may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.</p>",
         "points": 4,
         "attack": 4,
         "range": "2-3",
         "type": "torpedo",
-        "id": "0aecc53e-daa9-4a1a-b3bb-bd488083db0a"
+        "id": "13d862a4-43c5-4b72-8f5f-e42e211cffc8"
     },
-    "f3bd6c8c-ed19-4998-b693-cb7713496d0e": {
+    "05e2935c-cc33-4e53-b9bb-5d1f522fd236": {
         "size": "all",
         "sources": [
             "Y-Wing Expansion Pack"
@@ -47,12 +47,12 @@
         "unique": false,
         "name": "R2 Astromech",
         "canonicalName": "r2astromech",
-        "text": "You may treat all 1- and 2-speed maneuvers as green maneuvers.",
+        "text": "<p>You may treat all 1- and 2-speed maneuvers as green maneuvers.</p>",
         "points": 1,
         "type": "astromech",
-        "id": "f3bd6c8c-ed19-4998-b693-cb7713496d0e"
+        "id": "05e2935c-cc33-4e53-b9bb-5d1f522fd236"
     },
-    "126b4476-a280-4b56-b119-521200a02191": {
+    "b7e6fc0f-633e-4c43-9c93-671112ce36e7": {
         "size": "all",
         "sources": [
             "Core"
@@ -62,12 +62,12 @@
         "unique": true,
         "name": "R2-D2",
         "canonicalName": "r2d2",
-        "text": "After executing a green maneuver, you may recover 1 shield (up to your shield value).",
+        "text": "<p>After executing a green maneuver, you may recover 1 shield (up to your shield value).</p>",
         "points": 4,
         "type": "astromech",
-        "id": "126b4476-a280-4b56-b119-521200a02191"
+        "id": "b7e6fc0f-633e-4c43-9c93-671112ce36e7"
     },
-    "9469507f-27f2-4210-85e4-d75bb4f38ad0": {
+    "84ffa5e6-1cd6-4ab4-9b35-2e993e0150bd": {
         "size": "all",
         "sources": [
             "Core"
@@ -77,12 +77,12 @@
         "unique": true,
         "name": "R2-F2",
         "canonicalName": "r2f2",
-        "text": "<strong>Action:</strong> Increase your agility value by 1 until the end of this game round.",
+        "text": "<p><strong>Action:</strong> Increase your agility value by 1 until the end of this game round.</p>",
         "points": 3,
         "type": "astromech",
-        "id": "9469507f-27f2-4210-85e4-d75bb4f38ad0"
+        "id": "84ffa5e6-1cd6-4ab4-9b35-2e993e0150bd"
     },
-    "3f17a621-3d30-45d7-85ce-c40c663a6de7": {
+    "7cc0c8a0-599b-4304-a643-d4d0223c50a6": {
         "size": "all",
         "sources": [
             "Y-Wing Expansion Pack"
@@ -92,12 +92,12 @@
         "unique": true,
         "name": "R5-D8",
         "canonicalName": "r5d8",
-        "text": "<strong>Action:</strong> Roll 1 defense die.<br /><br />On a <i class=\"xmf xmf-evade\"></i> or <i class=\"xmf xmf-focus\"></i> result, discard 1 of your facedown Damage cards.",
+        "text": "<p><strong>Action:</strong> Roll 1 defense die.</p><p>On a <i class=\"xmf xmf-evade\"></i> or <i class=\"xmf xmf-focus\"></i> result, discard 1 of your facedown Damage cards.</p>",
         "points": 3,
         "type": "astromech",
-        "id": "3f17a621-3d30-45d7-85ce-c40c663a6de7"
+        "id": "7cc0c8a0-599b-4304-a643-d4d0223c50a6"
     },
-    "b54d8471-5f23-4a85-8cef-7b66e7bb7f29": {
+    "43548817-bc95-4ad9-b824-578f3aed42c4": {
         "size": "all",
         "sources": [
             "X-Wing Expansion Pack"
@@ -107,12 +107,12 @@
         "unique": true,
         "name": "R5-K6",
         "canonicalName": "r5k6",
-        "text": "After spending your target lock, roll 1 defense die.<br /><br />On a <i class=\"xmf xmf-evade\"></i> result, immediately acquire a target lock on that same ship.  You cannot spend this target lock during this attack.",
+        "text": "<p>After spending your target lock, roll 1 defense die.</p><p>On a <i class=\"xmf xmf-evade\"></i> result, immediately acquire a target lock on that same ship.  You cannot spend this target lock during this attack.</p>",
         "points": 2,
         "type": "astromech",
-        "id": "b54d8471-5f23-4a85-8cef-7b66e7bb7f29"
+        "id": "43548817-bc95-4ad9-b824-578f3aed42c4"
     },
-    "46a3f017-685f-4448-91bc-21dcd058f468": {
+    "51d2118a-ba45-42e1-b39c-8d973f7a565d": {
         "size": "all",
         "sources": [
             "X-Wing Expansion Pack"
@@ -122,12 +122,12 @@
         "unique": false,
         "name": "R5 Astromech",
         "canonicalName": "r5astromech",
-        "text": "During the End phase, you may choose 1 of your faceup Damage cards with the Ship trait and flip it facedown.",
+        "text": "<p>During the End phase, you may choose 1 of your faceup Damage cards with the Ship trait and flip it facedown.</p>",
         "points": 1,
         "type": "astromech",
-        "id": "46a3f017-685f-4448-91bc-21dcd058f468"
+        "id": "51d2118a-ba45-42e1-b39c-8d973f7a565d"
     },
-    "847b1e9d-b796-4397-95bb-081425b4cd6a": {
+    "e8bdc287-3ab0-4944-8cca-ec198c04f72c": {
         "size": "all",
         "sources": [
             "Core",
@@ -138,12 +138,12 @@
         "unique": false,
         "name": "Determination",
         "canonicalName": "determination",
-        "text": "When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect.",
+        "text": "<p>When you are dealt a faceup Damage card with the Pilot trait, discard it immediately without resolving its effect.</p>",
         "points": 1,
         "type": "elite",
-        "id": "847b1e9d-b796-4397-95bb-081425b4cd6a"
+        "id": "e8bdc287-3ab0-4944-8cca-ec198c04f72c"
     },
-    "a514e6e1-1468-4c3f-a5a6-b0fea5f32767": {
+    "cb79b3a4-423a-4f26-b749-4dabab4ce481": {
         "size": "all",
         "sources": [
             "TIE Advanced Expansion Pack",
@@ -154,12 +154,12 @@
         "unique": false,
         "name": "Swarm Tactics",
         "canonicalName": "swarmtactics",
-        "text": "At the start of the Combat phase, you may choose 1 friendly ship at Range 1.<br /><br />Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill.",
+        "text": "<p>At the start of the Combat phase, you may choose 1 friendly ship at Range 1.</p><p>Until the end of this phase, treat the chosen ship as if its pilot skill were equal to your pilot skill.</p>",
         "points": 2,
         "type": "elite",
-        "id": "a514e6e1-1468-4c3f-a5a6-b0fea5f32767"
+        "id": "cb79b3a4-423a-4f26-b749-4dabab4ce481"
     },
-    "1923dbfd-82fb-4eeb-8f26-90fd80c0e7dc": {
+    "a234814a-2175-448f-95b3-62efebb16bef": {
         "size": "all",
         "sources": [
             "TIE Advanced Expansion Pack"
@@ -169,12 +169,12 @@
         "unique": true,
         "name": "Squad Leader",
         "canonicalName": "squadleader",
-        "text": "<strong>Action:</strong> Choose 1 ship at Range 1-2 that has a lower pilot skill than you.<br /><br />The chosen ship may immediately perform 1 free action.",
+        "text": "<p><strong>Action:</strong> Choose 1 ship at Range 1-2 that has a lower pilot skill than you.</p><p>The chosen ship may immediately perform 1 free action.</p>",
         "points": 2,
         "type": "elite",
-        "id": "1923dbfd-82fb-4eeb-8f26-90fd80c0e7dc"
+        "id": "a234814a-2175-448f-95b3-62efebb16bef"
     },
-    "a9210432-79b0-4979-976f-8b12859140b2": {
+    "d1418bad-bffb-4e5c-b0b8-813bb804aba0": {
         "size": "all",
         "sources": [
             "TIE Advanced Expansion Pack",
@@ -185,12 +185,12 @@
         "unique": false,
         "name": "Expert Handling",
         "canonicalName": "experthandling",
-        "text": "<strong>Action:</strong> Perform a free barrel roll action.  If you do not have the <i class=\"xmf xmf-barrel-roll\"></i> action icon, receive 1 stress token.<br /><br />You may then remove 1 enemy target lock from your ship.",
+        "text": "<p><strong>Action:</strong> Perform a free barrel roll action.  If you do not have the <i class=\"xmf xmf-barrel-roll\"></i> action icon, receive 1 stress token.</p><p>You may then remove 1 enemy target lock from your ship.</p>",
         "points": 2,
         "type": "elite",
-        "id": "a9210432-79b0-4979-976f-8b12859140b2"
+        "id": "d1418bad-bffb-4e5c-b0b8-813bb804aba0"
     },
-    "374c21bc-aee0-492b-af45-44cd7ddfe0da": {
+    "0a37e9d4-9a0e-419f-8234-c53435244e03": {
         "size": "all",
         "sources": [
             "Core",
@@ -201,12 +201,12 @@
         "unique": false,
         "name": "Marksmanship",
         "canonicalName": "marksmanship",
-        "text": "<strong>Action:</strong> When attacking this round, you may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-crit\"></i> result and all of your other <i class=\"xmf xmf-focus\"></i> results to <i class=\"xmf xmf-hit\"></i> results.",
+        "text": "<p><strong>Action:</strong> When attacking this round, you may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-crit\"></i> result and all of your other <i class=\"xmf xmf-focus\"></i> results to <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 3,
         "type": "elite",
-        "id": "374c21bc-aee0-492b-af45-44cd7ddfe0da"
+        "id": "0a37e9d4-9a0e-419f-8234-c53435244e03"
     },
-    "3b1befea-38ca-4562-beaf-f7a7cddf9d87": {
+    "9fbdc4d8-106e-437f-856f-c8c410a4a3e9": {
         "size": "all",
         "sources": [
             "A-Wing Expansion Pack",
@@ -218,14 +218,14 @@
         "unique": false,
         "name": "Concussion Missiles",
         "canonicalName": "concussionmissiles",
-        "text": "<strong>Attack (target lock):</strong>  Spend your target lock and discard this card to perform this attack.<br /><br />You may change 1 of your blank results to a <i class=\"xmf xmf-hit\"></i> result.",
+        "text": "<p><strong>Attack (target lock):</strong>  Spend your target lock and discard this card to perform this attack.</p><p>You may change 1 of your blank results to a <i class=\"xmf xmf-hit\"></i> result.</p>",
         "points": 4,
         "attack": 4,
         "range": "2-3",
         "type": "missile",
-        "id": "3b1befea-38ca-4562-beaf-f7a7cddf9d87"
+        "id": "9fbdc4d8-106e-437f-856f-c8c410a4a3e9"
     },
-    "4493828f-2b35-4c8f-a1a8-d70aee54dae6": {
+    "180115cf-6456-46b4-908f-1c6fe4932f47": {
         "size": "all",
         "sources": [
             "A-Wing Expansion Pack",
@@ -236,14 +236,14 @@
         "unique": false,
         "name": "Cluster Missiles",
         "canonicalName": "clustermissiles",
-        "text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack twice.",
+        "text": "<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack twice.</p>",
         "points": 4,
         "attack": 3,
         "range": "1-2",
         "type": "missile",
-        "id": "4493828f-2b35-4c8f-a1a8-d70aee54dae6"
+        "id": "180115cf-6456-46b4-908f-1c6fe4932f47"
     },
-    "fb85ec38-0647-4d31-96de-c273bdfa1193": {
+    "a0840b7f-1fb2-45d2-b552-b1f3905d4373": {
         "size": "all",
         "sources": [
             "TIE Interceptor Expansion Pack"
@@ -253,12 +253,12 @@
         "unique": false,
         "name": "Daredevil",
         "canonicalName": "daredevil",
-        "text": "<strong>Action:</strong> Execute a white (<i class=\"xmf xmf-turn-left\"></i> 1) or (<i class=\"xmf xmf-turn-right\"></i> 1) maneuver.  Then, receive 1 stress token.<br /><br />Then, if you do not have the <i class=\"xmf xmf-boost\"></i> action icon, roll 2 attack dice.  Suffer any damage (<i class=\"xmf xmf-hit\"></i>) and any critical damage (<i class=\"xmf xmf-crit\"></i>) rolled.",
+        "text": "<p><strong>Action:</strong> Execute a white (<i class=\"xmf xmf-turn-left\"></i> 1) or (<i class=\"xmf xmf-turn-right\"></i> 1) maneuver.  Then, receive 1 stress token.</p><p>Then, if you do not have the <i class=\"xmf xmf-boost\"></i> action icon, roll 2 attack dice.  Suffer any damage (<i class=\"xmf xmf-hit\"></i>) and any critical damage (<i class=\"xmf xmf-crit\"></i>) rolled.</p>",
         "points": 3,
         "type": "elite",
-        "id": "fb85ec38-0647-4d31-96de-c273bdfa1193"
+        "id": "a0840b7f-1fb2-45d2-b552-b1f3905d4373"
     },
-    "29da50e2-1e9c-4023-b938-fd4ab06cdf13": {
+    "f395e428-31fc-4278-9d5f-4cdcfa59022b": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack",
@@ -269,12 +269,12 @@
         "unique": false,
         "name": "Elusiveness",
         "canonicalName": "elusiveness",
-        "text": "When defending, you may receive 1 stress token to choose 1 attack die.  The attacker must reroll that die.<br /><br />If you have at least 1 stress token, you cannot use this ability.",
+        "text": "<p>When defending, you may receive 1 stress token to choose 1 attack die.  The attacker must reroll that die.</p><p>If you have at least 1 stress token, you cannot use this ability.</p>",
         "points": 2,
         "type": "elite",
-        "id": "29da50e2-1e9c-4023-b938-fd4ab06cdf13"
+        "id": "f395e428-31fc-4278-9d5f-4cdcfa59022b"
     },
-    "d9cc507b-215c-4b01-a22c-5f2aba90e3f6": {
+    "b866929b-62a2-4731-8c98-ec9be562e74f": {
         "size": "all",
         "sources": [
             "A-Wing Expansion Pack",
@@ -285,14 +285,14 @@
         "unique": false,
         "name": "Homing Missiles",
         "canonicalName": "homingmissiles",
-        "text": "<strong>Attack (target lock):</strong> Discard this card to perform this attack.<br /><br />The defender cannot spend evade tokens during this attack.",
+        "text": "<p><strong>Attack (target lock):</strong> Discard this card to perform this attack.</p><p>The defender cannot spend evade tokens during this attack.</p>",
         "points": 5,
         "attack": 4,
         "range": "2-3",
         "type": "missile",
-        "id": "d9cc507b-215c-4b01-a22c-5f2aba90e3f6"
+        "id": "b866929b-62a2-4731-8c98-ec9be562e74f"
     },
-    "75ab5287-fc63-4199-9fb6-5592925bf77d": {
+    "6c833153-60e3-4277-9158-385ab4c6d15d": {
         "size": "all",
         "sources": [
             "A-Wing Expansion Pack",
@@ -303,12 +303,12 @@
         "unique": false,
         "name": "Push the Limit",
         "canonicalName": "pushthelimit",
-        "text": "Once per round, after you perform an action, you may perform 1 free action shown in your action bar.<br /><br />Then receive 1 stress token.",
+        "text": "<p>Once per round, after you perform an action, you may perform 1 free action shown in your action bar.</p><p>Then receive 1 stress token.</p>",
         "points": 3,
         "type": "elite",
-        "id": "75ab5287-fc63-4199-9fb6-5592925bf77d"
+        "id": "6c833153-60e3-4277-9158-385ab4c6d15d"
     },
-    "18063710-f693-4b01-ac73-2ba3726916ba": {
+    "670b371d-0781-471a-b575-2f81c59dcda5": {
         "size": "all",
         "sources": [
             "A-Wing Expansion Pack"
@@ -318,12 +318,12 @@
         "unique": false,
         "name": "Deadeye",
         "canonicalName": "deadeye",
-        "text": "You may treat the <strong>Attack (target lock):</strong> header as <strong>Attack (focus):</strong>.<br /><br />When an attack instructs you to spend a target lock, you may spend a focus token instead.",
+        "text": "<p>You may treat the <strong>Attack (target lock):</strong> header as <strong>Attack (focus):</strong>.</p><p>When an attack instructs you to spend a target lock, you may spend a focus token instead.</p>",
         "points": 1,
         "type": "elite",
-        "id": "18063710-f693-4b01-ac73-2ba3726916ba"
+        "id": "670b371d-0781-471a-b575-2f81c59dcda5"
     },
-    "1ae87fff-d10e-4c0a-806d-217e5f9e1e83": {
+    "fbd82bb5-79b6-472e-b0ba-54e24d82df2b": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack"
@@ -333,12 +333,12 @@
         "unique": false,
         "name": "Expose",
         "canonicalName": "expose",
-        "text": "<strong>Action:</strong> Until the end of the round, increase your primary weapon value by 1 and decrease your agility value by 1.",
+        "text": "<p><strong>Action:</strong> Until the end of the round, increase your primary weapon value by 1 and decrease your agility value by 1.</p>",
         "points": 4,
         "type": "elite",
-        "id": "1ae87fff-d10e-4c0a-806d-217e5f9e1e83"
+        "id": "fbd82bb5-79b6-472e-b0ba-54e24d82df2b"
     },
-    "227fecf4-aac7-40e2-901c-5c7bb8936e09": {
+    "e7c7e0e7-1603-463b-9a3f-03f1c49e2190": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack",
@@ -349,12 +349,12 @@
         "unique": false,
         "name": "Gunner",
         "canonicalName": "gunner",
-        "text": "After you perform an attack that does not hit, you may immediately perform a primary weapon attack.  You cannot perform another attack this round.",
+        "text": "<p>After you perform an attack that does not hit, you may immediately perform a primary weapon attack.  You cannot perform another attack this round.</p>",
         "points": 5,
         "type": "crew",
-        "id": "227fecf4-aac7-40e2-901c-5c7bb8936e09"
+        "id": "e7c7e0e7-1603-463b-9a3f-03f1c49e2190"
     },
-    "d073a215-f775-4a1b-bc1b-f66410f32b79": {
+    "29722b25-eda6-4ff5-8024-092045076b2e": {
         "size": "all",
         "sources": [
             "B-Wing Expansion Pack",
@@ -366,14 +366,14 @@
         "unique": false,
         "name": "Ion Cannon",
         "canonicalName": "ioncannon",
-        "text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />If this attack hits, the defender suffers 1 damage and receives 1 ion token.  Then cancel all dice results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship.</p><p>If this attack hits, the defender suffers 1 damage and receives 1 ion token.  Then cancel all dice results.</p>",
         "points": 3,
         "attack": 3,
         "range": "1-3",
         "type": "cannon",
-        "id": "d073a215-f775-4a1b-bc1b-f66410f32b79"
+        "id": "29722b25-eda6-4ff5-8024-092045076b2e"
     },
-    "5cfe0cb1-5cf8-4b4a-8441-7f650b4c8a15": {
+    "44c52447-4cda-4f0c-a8f0-37ff24042b72": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack",
@@ -385,14 +385,14 @@
         "unique": false,
         "name": "Heavy Laser Cannon",
         "canonicalName": "heavylasercannon",
-        "text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />Immediately after rolling your attack dice, you must change all of your <i class=\"xmf xmf-crit\"></i> results to <i class=\"xmf xmf-hit\"></i> results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship.</p><p>Immediately after rolling your attack dice, you must change all of your <i class=\"xmf xmf-crit\"></i> results to <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 7,
         "attack": 4,
         "range": "2-3",
         "type": "cannon",
-        "id": "5cfe0cb1-5cf8-4b4a-8441-7f650b4c8a15"
+        "id": "44c52447-4cda-4f0c-a8f0-37ff24042b72"
     },
-    "33c45f30-9c22-46c2-b16b-64f68aac7024": {
+    "098cc8d8-7b8c-4298-849a-4c58f16469b1": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack",
@@ -403,12 +403,12 @@
         "unique": false,
         "name": "Seismic Charges",
         "canonicalName": "seismiccharges",
-        "text": "When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.<br /><br />This token detonates at the end of the Activation phase.<br /><br /><strong>Seismic Charge Token:</strong> When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage.  Then discard this token.",
+        "text": "<p>When you reveal your maneuver dial, you may discard this card to drop 1 seismic charge token.</p><p>This token detonates at the end of the Activation phase.</p><p><strong>Seismic Charge Token:</strong> When this bomb token detonates, each ship at Range 1 of the token suffers 1 damage.  Then discard this token.</p>",
         "points": 2,
         "type": "bomb",
-        "id": "33c45f30-9c22-46c2-b16b-64f68aac7024"
+        "id": "098cc8d8-7b8c-4298-849a-4c58f16469b1"
     },
-    "dd57d73c-acd8-4b8b-ba0b-1600acaec9c8": {
+    "4cae6ddb-7086-4437-b8d2-a2a7f46a2c21": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack",
@@ -419,12 +419,12 @@
         "unique": false,
         "name": "Mercenary Copilot",
         "canonicalName": "mercenarycopilot",
-        "text": "When attacking at Range 3, you may change 1 of your <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.",
+        "text": "<p>When attacking at Range 3, you may change 1 of your <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.</p>",
         "points": 2,
         "type": "crew",
-        "id": "dd57d73c-acd8-4b8b-ba0b-1600acaec9c8"
+        "id": "4cae6ddb-7086-4437-b8d2-a2a7f46a2c21"
     },
-    "0e61c0f7-197d-49a3-aad3-253690f0acd8": {
+    "4987af28-904d-4779-b817-c006e4f263b1": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack",
@@ -437,14 +437,14 @@
         "unique": false,
         "name": "Assault Missiles",
         "canonicalName": "assaultmissiles",
-        "text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />If this attack hits, each other ship at Range 1 of the defender suffers 1 damage.",
+        "text": "<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>If this attack hits, each other ship at Range 1 of the defender suffers 1 damage.</p>",
         "points": 5,
         "attack": 4,
         "range": "2-3",
         "type": "missile",
-        "id": "0e61c0f7-197d-49a3-aad3-253690f0acd8"
+        "id": "4987af28-904d-4779-b817-c006e4f263b1"
     },
-    "61f0762c-78d0-4a98-9914-d1014d4ab40e": {
+    "b2c87e3d-d322-40cc-9fd0-520d98a5b77f": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack",
@@ -455,12 +455,12 @@
         "unique": false,
         "name": "Veteran Instincts",
         "canonicalName": "veteraninstincts",
-        "text": "Increase your pilot skill value by 2.",
+        "text": "<p>Increase your pilot skill value by 2.</p>",
         "points": 1,
         "type": "elite",
-        "id": "61f0762c-78d0-4a98-9914-d1014d4ab40e"
+        "id": "b2c87e3d-d322-40cc-9fd0-520d98a5b77f"
     },
-    "837bbe46-7975-461a-9d12-2e6419c30603": {
+    "d6b45b8f-2cd8-4fbd-8c48-fa05e0cd20fe": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack"
@@ -470,12 +470,12 @@
         "unique": false,
         "name": "Proximity Mines",
         "canonicalName": "proximitymines",
-        "text": "<strong>Action:</strong> Discard this card to <strong>drop</strong> 1 proximity mine token.<br /><br />When a ship's base or maneuver template overlaps this token, this token <strong>detonates</strong>.<br /><br /><strong>Proximity Mine Token:</strong> When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage (<i class=\"xmf xmf-hit\"></i>) and critical damage (<i class=\"xmf xmf-crit\"></i>) rolled.  Then discard this token.",
+        "text": "<p><strong>Action:</strong> Discard this card to <strong>drop</strong> 1 proximity mine token.</p><p>When a ship's base or maneuver template overlaps this token, this token <strong>detonates</strong>.</p><p><strong>Proximity Mine Token:</strong> When this bomb token detonates, the ship that moved through or overlapped this token rolls 3 attack dice and suffers all damage (<i class=\"xmf xmf-hit\"></i>) and critical damage (<i class=\"xmf xmf-crit\"></i>) rolled.  Then discard this token.</p>",
         "points": 3,
         "type": "bomb",
-        "id": "837bbe46-7975-461a-9d12-2e6419c30603"
+        "id": "d6b45b8f-2cd8-4fbd-8c48-fa05e0cd20fe"
     },
-    "15cf846c-3e5d-4100-a7ff-6acb2f972203": {
+    "812464c2-06d9-4cdf-ac0a-55861a649758": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack",
@@ -486,12 +486,12 @@
         "unique": false,
         "name": "Weapons Engineer",
         "canonicalName": "weaponsengineer",
-        "text": "You may maintain 2 target locks (only 1 per enemy ship).<br /><br />When you acquire a target lock, you may lock onto 2 different ships.",
+        "text": "<p>You may maintain 2 target locks (only 1 per enemy ship).</p><p>When you acquire a target lock, you may lock onto 2 different ships.</p>",
         "points": 3,
         "type": "crew",
-        "id": "15cf846c-3e5d-4100-a7ff-6acb2f972203"
+        "id": "812464c2-06d9-4cdf-ac0a-55861a649758"
     },
-    "0b7b870b-411e-4f75-9f99-20f95c8d552c": {
+    "bdd25f81-5b0c-4e3e-af2c-6c1e7cf801a5": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -501,12 +501,12 @@
         "unique": false,
         "name": "Draw Their Fire",
         "canonicalName": "drawtheirfire",
-        "text": "When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncanceled <i class=\"xmf xmf-crit\"></i> results instead of the target ship.",
+        "text": "<p>When a friendly ship at Range 1 is hit by an attack, you may suffer 1 of the uncanceled <i class=\"xmf xmf-crit\"></i> results instead of the target ship.</p>",
         "points": 1,
         "type": "elite",
-        "id": "0b7b870b-411e-4f75-9f99-20f95c8d552c"
+        "id": "bdd25f81-5b0c-4e3e-af2c-6c1e7cf801a5"
     },
-    "6b8731ad-b46f-40cc-a995-d04540d75376": {
+    "bb17f06a-b392-423d-9907-e6e246602d7d": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -516,12 +516,12 @@
         "unique": true,
         "name": "Luke Skywalker",
         "canonicalName": "lukeskywalker",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />After you perform an attack that does not hit, you may immediately perform a primary weapon attack.  You may change 1 <i class=\"xmf xmf-focus\"></i> result to a <i class=\"xmf xmf-hit\"></i> result.  You cannot perform another attack this round.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>After you perform an attack that does not hit, you may immediately perform a primary weapon attack.  You may change 1 <i class=\"xmf xmf-focus\"></i> result to a <i class=\"xmf xmf-hit\"></i> result.  You cannot perform another attack this round.</p>",
         "points": 7,
         "type": "crew",
-        "id": "6b8731ad-b46f-40cc-a995-d04540d75376"
+        "id": "bb17f06a-b392-423d-9907-e6e246602d7d"
     },
-    "338e557f-ce60-47a8-82e3-92704c09b58d": {
+    "e1fbd5df-aa57-4188-906a-4d5d3bfcfdc1": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -531,12 +531,12 @@
         "unique": true,
         "name": "Nien Nunb",
         "canonicalName": "niennunb",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />You may treat all <i class=\"xmf xmf-straight\"></i> maneuvers as green maneuvers.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>You may treat all <i class=\"xmf xmf-straight\"></i> maneuvers as green maneuvers.</p>",
         "points": 1,
         "type": "crew",
-        "id": "338e557f-ce60-47a8-82e3-92704c09b58d"
+        "id": "e1fbd5df-aa57-4188-906a-4d5d3bfcfdc1"
     },
-    "cdf572f9-563c-4d17-9103-fc207b78b584": {
+    "133e677d-ac48-4bc1-b0a1-0468352130a9": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -546,12 +546,12 @@
         "unique": true,
         "name": "Chewbacca",
         "canonicalName": "chewbacca",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.<br /><br />Then, discard this Upgrade card.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.</p><p>Then, discard this Upgrade card.</p>",
         "points": 4,
         "type": "crew",
-        "id": "cdf572f9-563c-4d17-9103-fc207b78b584"
+        "id": "133e677d-ac48-4bc1-b0a1-0468352130a9"
     },
-    "9280f483-f474-446a-af88-f1212d4551a6": {
+    "05db70c6-8d53-47dc-a9da-14140157fe25": {
         "size": "all",
         "sources": [
             "B-Wing Expansion Pack",
@@ -562,14 +562,14 @@
         "unique": false,
         "name": "Advanced Proton Torpedoes",
         "canonicalName": "advancedprotontorpedoes",
-        "text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />You may change up to 3 of your blank results to <i class=\"xmf xmf-focus\"></i> results.",
+        "text": "<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>You may change up to 3 of your blank results to <i class=\"xmf xmf-focus\"></i> results.</p>",
         "points": 6,
         "attack": 5,
         "range": "1",
         "type": "torpedo",
-        "id": "9280f483-f474-446a-af88-f1212d4551a6"
+        "id": "05db70c6-8d53-47dc-a9da-14140157fe25"
     },
-    "66538523-b4a4-412d-bd89-37845b7deda6": {
+    "7fb5be97-0989-40b0-9b95-de4f3d228c13": {
         "size": "all",
         "sources": [
             "B-Wing Expansion Pack"
@@ -579,14 +579,14 @@
         "unique": false,
         "name": "Autoblaster",
         "canonicalName": "autoblaster",
-        "text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />Your <i class=\"xmf xmf-hit\"></i> results cannot be canceled by defense dice.<br /><br />The defender may cancel <i class=\"xmf xmf-crit\"></i> results before <i class=\"xmf xmf-hit\"></i> results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship.</p><p>Your <i class=\"xmf xmf-hit\"></i> results cannot be canceled by defense dice.</p><p>The defender may cancel <i class=\"xmf xmf-crit\"></i> results before <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 5,
         "attack": 3,
         "range": "1",
         "type": "cannon",
-        "id": "66538523-b4a4-412d-bd89-37845b7deda6"
+        "id": "7fb5be97-0989-40b0-9b95-de4f3d228c13"
     },
-    "8c147941-4b3c-46f4-8be1-dca94ee7507c": {
+    "735814cf-a10c-41e4-a8a0-8e68cb7e2af1": {
         "size": "all",
         "sources": [
             "B-Wing Expansion Pack",
@@ -597,12 +597,12 @@
         "unique": false,
         "name": "Fire-Control System",
         "canonicalName": "firecontrolsystem",
-        "text": "After you perform an attack, you may acquire a target lock on the defender.",
+        "text": "<p>After you perform an attack, you may acquire a target lock on the defender.</p>",
         "points": 2,
         "type": "system",
-        "id": "8c147941-4b3c-46f4-8be1-dca94ee7507c"
+        "id": "735814cf-a10c-41e4-a8a0-8e68cb7e2af1"
     },
-    "aec6227d-b78a-4065-b9fa-ab0930929d44": {
+    "dee7669b-70ed-4739-bc99-ef6306d8b81b": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack"
@@ -612,14 +612,14 @@
         "unique": false,
         "name": "Blaster Turret",
         "canonicalName": "blasterturret",
-        "text": "<strong>Attack (focus):</strong> Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc).",
+        "text": "<p><strong>Attack (focus):</strong> Spend 1 focus token to perform this attack against 1 ship (even a ship outside your firing arc).</p>",
         "points": 4,
         "attack": 3,
         "range": "1-2",
         "type": "turret",
-        "id": "aec6227d-b78a-4065-b9fa-ab0930929d44"
+        "id": "dee7669b-70ed-4739-bc99-ef6306d8b81b"
     },
-    "9602eb9a-12f4-4a53-96db-7c0c9b00cd2a": {
+    "8c9a3a8c-7b1f-4078-91f7-91ce7a9644b6": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack",
@@ -630,12 +630,12 @@
         "unique": false,
         "name": "Recon Specialist",
         "canonicalName": "reconspecialist",
-        "text": "When you perform a focus action, assign 1 additional focus token to your ship.",
+        "text": "<p>When you perform a focus action, assign 1 additional focus token to your ship.</p>",
         "points": 3,
         "type": "crew",
-        "id": "9602eb9a-12f4-4a53-96db-7c0c9b00cd2a"
+        "id": "8c9a3a8c-7b1f-4078-91f7-91ce7a9644b6"
     },
-    "24f368b3-03f8-4259-9416-111fd2e34b6a": {
+    "d5b71714-2a8c-4abc-92b8-4516aa023cfe": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack"
@@ -645,12 +645,12 @@
         "unique": false,
         "name": "Saboteur",
         "canonicalName": "saboteur",
-        "text": "<strong>Action:</strong> Choose 1 enemy ship at Range 1 and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> or <i class=\"xmf xmf-crit\"></i> result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it.",
+        "text": "<p><strong>Action:</strong> Choose 1 enemy ship at Range 1 and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> or <i class=\"xmf xmf-crit\"></i> result, choose 1 random facedown Damage card assigned to that ship, flip it faceup, and resolve it.</p>",
         "points": 2,
         "type": "crew",
-        "id": "24f368b3-03f8-4259-9416-111fd2e34b6a"
+        "id": "d5b71714-2a8c-4abc-92b8-4516aa023cfe"
     },
-    "88edb48a-e445-4db0-b051-3c4a2cba2402": {
+    "4e0ee680-12a6-44ae-a9f0-f8d3cba93a9f": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack",
@@ -661,12 +661,12 @@
         "unique": false,
         "name": "Intelligence Agent",
         "canonicalName": "intelligenceagent",
-        "text": "At the start of the Activation phase, choose 1 enemy ship at Range 1-2.  You may look at that ship's chosen maneuver.",
+        "text": "<p>At the start of the Activation phase, choose 1 enemy ship at Range 1-2.  You may look at that ship's chosen maneuver.</p>",
         "points": 1,
         "type": "crew",
-        "id": "88edb48a-e445-4db0-b051-3c4a2cba2402"
+        "id": "4e0ee680-12a6-44ae-a9f0-f8d3cba93a9f"
     },
-    "1befeb9a-4dde-4a51-ab37-2bd3a53523cd": {
+    "38fc314b-7503-427a-9c16-0a206d319205": {
         "size": "all",
         "sources": [
             "TIE Bomber Expansion Pack",
@@ -677,12 +677,12 @@
         "unique": false,
         "name": "Proton Bombs",
         "canonicalName": "protonbombs",
-        "text": "When you reveal your maneuver dial, you may discard this card to <strong>drop</strong> 1 proton bomb token.<br /><br />This token <strong>detonates</strong> at the end of the Activation phase.<br /><br /><strong>Proton Bomb Token:</strong> When this bomb token detonates, deal 1 <strong>faceup</strong> Damage card to each ship at Range 1 of the token.  Then discard this token.",
+        "text": "<p>When you reveal your maneuver dial, you may discard this card to <strong>drop</strong> 1 proton bomb token.</p><p>This token <strong>detonates</strong> at the end of the Activation phase.</p><p><strong>Proton Bomb Token:</strong> When this bomb token detonates, deal 1 <strong>faceup</strong> Damage card to each ship at Range 1 of the token.  Then discard this token.</p>",
         "points": 5,
         "type": "bomb",
-        "id": "1befeb9a-4dde-4a51-ab37-2bd3a53523cd"
+        "id": "38fc314b-7503-427a-9c16-0a206d319205"
     },
-    "c582fced-7e2d-438e-a4ba-44aef319ca30": {
+    "18cc1b1d-f8b9-40c2-8b5a-a8142a245f3c": {
         "size": "all",
         "sources": [
             "TIE Bomber Expansion Pack"
@@ -692,12 +692,12 @@
         "unique": false,
         "name": "Adrenaline Rush",
         "canonicalName": "adrenalinerush",
-        "text": "When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase.",
+        "text": "<p>When you reveal a red maneuver, you may discard this card to treat that maneuver as a white maneuver until the end of the Activation phase.</p>",
         "points": 1,
         "type": "elite",
-        "id": "c582fced-7e2d-438e-a4ba-44aef319ca30"
+        "id": "18cc1b1d-f8b9-40c2-8b5a-a8142a245f3c"
     },
-    "f80d91d8-76d9-4ad7-90a6-7d5371fa9490": {
+    "4e6e1dc5-89d3-49de-b4d5-1f1323cef14e": {
         "size": "all",
         "sources": [
             "E-Wing Expansion Pack",
@@ -708,12 +708,12 @@
         "unique": false,
         "name": "Advanced Sensors",
         "canonicalName": "advancedsensors",
-        "text": "Immediately before you reveal your maneuver, you may perform 1 free action.<br /><br />If you use this ability, you must skip your \"Perform Action\" step during this round.",
+        "text": "<p>Immediately before you reveal your maneuver, you may perform 1 free action.</p><p>If you use this ability, you must skip your \"Perform Action\" step during this round.</p>",
         "points": 3,
         "type": "system",
-        "id": "f80d91d8-76d9-4ad7-90a6-7d5371fa9490"
+        "id": "4e6e1dc5-89d3-49de-b4d5-1f1323cef14e"
     },
-    "57da9528-60e8-4811-9b9d-a3b33763d3cf": {
+    "c230418b-88a2-4568-bed2-547d7363c760": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -723,12 +723,12 @@
         "unique": false,
         "name": "Sensor Jammer",
         "canonicalName": "sensorjammer",
-        "text": "When defending, you may change 1 of the attacker's <i class=\"xmf xmf-hit\"></i> results into a <i class=\"xmf xmf-focus\"></i> result.<br /><br />The attacker cannot reroll the die with the changed result.",
+        "text": "<p>When defending, you may change 1 of the attacker's <i class=\"xmf xmf-hit\"></i> results into a <i class=\"xmf xmf-focus\"></i> result.</p><p>The attacker cannot reroll the die with the changed result.</p>",
         "points": 4,
         "type": "system",
-        "id": "57da9528-60e8-4811-9b9d-a3b33763d3cf"
+        "id": "c230418b-88a2-4568-bed2-547d7363c760"
     },
-    "1c8b271d-ccd6-4e6d-9dfa-a0261c2765e7": {
+    "d64c003a-e195-4f22-ae86-72962652915d": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -738,12 +738,12 @@
         "unique": true,
         "name": "Darth Vader",
         "canonicalName": "darthvader",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage.</p>",
         "points": 3,
         "type": "crew",
-        "id": "1c8b271d-ccd6-4e6d-9dfa-a0261c2765e7"
+        "id": "d64c003a-e195-4f22-ae86-72962652915d"
     },
-    "26dad2fa-4e98-4456-b16b-b00cedb59f6b": {
+    "d6d26709-78f6-422c-8c44-f172cdfbf32c": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -753,12 +753,12 @@
         "unique": true,
         "name": "Rebel Captive",
         "canonicalName": "rebelcaptive",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />Once per round, the first ship that declares you as the target of an attack immediately receives 1 stress token.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>Once per round, the first ship that declares you as the target of an attack immediately receives 1 stress token.</p>",
         "points": 3,
         "type": "crew",
-        "id": "26dad2fa-4e98-4456-b16b-b00cedb59f6b"
+        "id": "d6d26709-78f6-422c-8c44-f172cdfbf32c"
     },
-    "278e21d9-0392-4495-a6e5-d3bd44e4c5d5": {
+    "0f28086d-6b04-46e8-8f03-a94d201b03bb": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -768,12 +768,12 @@
         "unique": false,
         "name": "Flight Instructor",
         "canonicalName": "flightinstructor",
-        "text": "When defending, you may reroll 1 of your <i class=\"xmf xmf-focus\"></i> results.  If the attacker's pilot skill value is \"2\" or lower, you may reroll 1 of your blank results instead.",
+        "text": "<p>When defending, you may reroll 1 of your <i class=\"xmf xmf-focus\"></i> results.  If the attacker's pilot skill value is \"2\" or lower, you may reroll 1 of your blank results instead.</p>",
         "points": 4,
         "type": "crew",
-        "id": "278e21d9-0392-4495-a6e5-d3bd44e4c5d5"
+        "id": "0f28086d-6b04-46e8-8f03-a94d201b03bb"
     },
-    "c9229b75-2b8a-4ab0-86c9-2a1c15d11123": {
+    "14121fb8-d41d-4d46-b9e8-c338a808eb6a": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -783,12 +783,12 @@
         "unique": false,
         "name": "Navigator",
         "canonicalName": "navigator",
-        "text": "When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing.<br /><br />You cannot rotate to a red maneuver if you have any stress tokens.",
+        "text": "<p>When you reveal a maneuver, you may rotate your dial to another maneuver with the same bearing.</p><p>You cannot rotate to a red maneuver if you have any stress tokens.</p>",
         "points": 3,
         "type": "crew",
-        "id": "c9229b75-2b8a-4ab0-86c9-2a1c15d11123"
+        "id": "14121fb8-d41d-4d46-b9e8-c338a808eb6a"
     },
-    "d64446d9-5681-4f94-9341-ea8cc153b027": {
+    "04fd0071-dc2a-4120-9e50-d188c588ada4": {
         "size": "all",
         "sources": [
             "Imperial Aces Expansion Pack"
@@ -798,12 +798,12 @@
         "unique": false,
         "name": "Opportunist",
         "canonicalName": "opportunist",
-        "text": "When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die.<br /><br />You cannot use this ability if you have any stress tokens.",
+        "text": "<p>When attacking, if the defender does not have any focus or evade tokens, you may receive 1 stress token to roll 1 additional attack die.</p><p>You cannot use this ability if you have any stress tokens.</p>",
         "points": 4,
         "type": "elite",
-        "id": "d64446d9-5681-4f94-9341-ea8cc153b027"
+        "id": "04fd0071-dc2a-4120-9e50-d188c588ada4"
     },
-    "897e9058-9aa1-408e-b5ff-316dc47937da": {
+    "9c91191c-1667-4e17-8214-cbbbfff25293": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack",
@@ -814,12 +814,12 @@
         "unique": false,
         "name": "Comms Booster",
         "canonicalName": "commsbooster",
-        "text": "<strong>Energy:</strong> Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3.  Then assign 1 focus token to that ship.",
+        "text": "<p><strong>Energy:</strong> Spend 1 energy to remove all stress tokens from a friendly ship at Range 1-3.  Then assign 1 focus token to that ship.</p>",
         "points": 4,
         "type": "cargo",
-        "id": "897e9058-9aa1-408e-b5ff-316dc47937da"
+        "id": "9c91191c-1667-4e17-8214-cbbbfff25293"
     },
-    "1610e8f9-2dbf-4639-bb8e-8f3721043d50": {
+    "23d95070-3b79-4f1d-a069-e0b3f9ae9795": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -829,12 +829,12 @@
         "unique": false,
         "name": "Slicer Tools",
         "canonicalName": "slicertools",
-        "text": "<strong>Action:</strong> Choose 1 or more ships at Range 1-3 that have a stress token.  For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage.",
+        "text": "<p><strong>Action:</strong> Choose 1 or more ships at Range 1-3 that have a stress token.  For each ship chosen, you may spend 1 energy to cause that ship to suffer 1 damage.</p>",
         "points": 7,
         "type": "cargo",
-        "id": "1610e8f9-2dbf-4639-bb8e-8f3721043d50"
+        "id": "23d95070-3b79-4f1d-a069-e0b3f9ae9795"
     },
-    "b255734f-7499-47ad-948b-c58e05186292": {
+    "620b4ba3-a142-4b3d-8bc5-c4f680985ceb": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -844,12 +844,12 @@
         "unique": false,
         "name": "Shield Projector",
         "canonicalName": "shieldprojector",
-        "text": "When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible.",
+        "text": "<p>When an enemy ship is declaring either a small or large ship as the target of its attack, you may spend 3 energy to force that ship to target you if possible.</p>",
         "points": 4,
         "type": "cargo",
-        "id": "b255734f-7499-47ad-948b-c58e05186292"
+        "id": "620b4ba3-a142-4b3d-8bc5-c4f680985ceb"
     },
-    "95d81253-1daf-4ceb-bf3f-de7b03d60ea1": {
+    "bbfd83b3-89f6-4611-9bf3-63bd4cb38eed": {
         "size": "all",
         "sources": [
             "TIE Defender Expansion Pack",
@@ -860,14 +860,14 @@
         "unique": false,
         "name": "Ion Pulse Missiles",
         "canonicalName": "ionpulsemissiles",
-        "text": "<strong>Attack (target lock):</strong> Discard this card to perform this attack.<br /><br />If this attack hits, the defender suffers 1 damage and receives 2 ion tokens.  Then cancel <strong>all<strong> dice results.",
+        "text": "<p><strong>Attack (target lock):</strong> Discard this card to perform this attack.</p><p>If this attack hits, the defender suffers 1 damage and receives 2 ion tokens.  Then cancel <strong>all<strong> dice results.</p>",
         "points": 3,
         "attack": 3,
         "range": "2-3",
         "type": "missile",
-        "id": "95d81253-1daf-4ceb-bf3f-de7b03d60ea1"
+        "id": "bbfd83b3-89f6-4611-9bf3-63bd4cb38eed"
     },
-    "94c4366c-6b26-4a33-9c97-081357a6cb9d": {
+    "69aa1467-438d-4faf-8841-cb48f20cfc19": {
         "size": "all",
         "sources": [
             "Z-95 Headhunter Expansion Pack"
@@ -877,12 +877,12 @@
         "unique": false,
         "name": "Wingman",
         "canonicalName": "wingman",
-        "text": "At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1.",
+        "text": "<p>At the start of the Combat phase, remove 1 stress token from another friendly ship at Range 1.</p>",
         "points": 2,
         "type": "elite",
-        "id": "94c4366c-6b26-4a33-9c97-081357a6cb9d"
+        "id": "69aa1467-438d-4faf-8841-cb48f20cfc19"
     },
-    "3eff0409-6ff1-47cc-a3b1-0b345884fa2a": {
+    "12b45a1c-6aa9-4440-82b0-224ecfe82144": {
         "size": "all",
         "sources": [
             "Z-95 Headhunter Expansion Pack"
@@ -892,12 +892,12 @@
         "unique": false,
         "name": "Decoy",
         "canonicalName": "decoy",
-        "text": "At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2.  Exchange your pilot skill with that ship's pilot skill until the end of the phase.",
+        "text": "<p>At the start of the Combat phase, you may choose 1 friendly ship at Range 1-2.  Exchange your pilot skill with that ship's pilot skill until the end of the phase.</p>",
         "points": 2,
         "type": "elite",
-        "id": "3eff0409-6ff1-47cc-a3b1-0b345884fa2a"
+        "id": "12b45a1c-6aa9-4440-82b0-224ecfe82144"
     },
-    "e52a95e4-e863-4353-b632-d3a7b7fa7fa3": {
+    "36002ae3-bb08-438b-9424-f9aac18b6f02": {
         "size": "all",
         "sources": [
             "E-Wing Expansion Pack",
@@ -908,12 +908,12 @@
         "unique": false,
         "name": "Outmaneuver",
         "canonicalName": "outmaneuver",
-        "text": "When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0).",
+        "text": "<p>When attacking a ship inside your firing arc, if you are not inside that ship's firing arc, reduce its agility value by 1 (to a minimum of 0).</p>",
         "points": 3,
         "type": "elite",
-        "id": "e52a95e4-e863-4353-b632-d3a7b7fa7fa3"
+        "id": "36002ae3-bb08-438b-9424-f9aac18b6f02"
     },
-    "9c11f2cc-ea68-4f9f-9f08-8265e5125bef": {
+    "5877a08e-b58d-415f-a8f3-a0c4c3a6832e": {
         "size": "all",
         "sources": [
             "TIE Defender Expansion Pack"
@@ -923,12 +923,12 @@
         "unique": false,
         "name": "Predator",
         "canonicalName": "predator",
-        "text": "When attacking, you may reroll 1 attack die.  If the defender's pilot skill value is \"2\" or lower, you may instead reroll up to 2 attack dice.",
+        "text": "<p>When attacking, you may reroll 1 attack die.  If the defender's pilot skill value is \"2\" or lower, you may instead reroll up to 2 attack dice.</p>",
         "points": 3,
         "type": "elite",
-        "id": "9c11f2cc-ea68-4f9f-9f08-8265e5125bef"
+        "id": "5877a08e-b58d-415f-a8f3-a0c4c3a6832e"
     },
-    "b170b7fc-88b6-4f31-b3ed-3564ab09254a": {
+    "49bad61f-aa81-4c8b-8aa8-c50a85e4790d": {
         "size": "all",
         "sources": [
             "E-Wing Expansion Pack",
@@ -939,14 +939,14 @@
         "unique": false,
         "name": "Flechette Torpedoes",
         "canonicalName": "flechettetorpedoes",
-        "text": "<strong>Attack (target lock):</strong> Discard this card and spend your target lock to perform this attack.<br /><br />After you perform this attack, the defender receives 1 stress token if its hull value is \"4\" or lower.",
+        "text": "<p><strong>Attack (target lock):</strong> Discard this card and spend your target lock to perform this attack.</p><p>After you perform this attack, the defender receives 1 stress token if its hull value is \"4\" or lower.</p>",
         "points": 2,
         "attack": 3,
         "range": "2-3",
         "type": "torpedo",
-        "id": "b170b7fc-88b6-4f31-b3ed-3564ab09254a"
+        "id": "49bad61f-aa81-4c8b-8aa8-c50a85e4790d"
     },
-    "d3755ba3-8e62-4469-9eff-9bde90733fe2": {
+    "06e68a40-52e8-48ca-b72c-e97b2f3e2bc5": {
         "size": "all",
         "sources": [
             "E-Wing Expansion Pack"
@@ -956,12 +956,12 @@
         "unique": false,
         "name": "R7 Astromech",
         "canonicalName": "r7astromech",
-        "text": "Once per round when defending, if you have a target lock on the attacker, you may spend the target lock to choose any or all attack dice.  The attacker must reroll the chosen dice.",
+        "text": "<p>Once per round when defending, if you have a target lock on the attacker, you may spend the target lock to choose any or all attack dice.  The attacker must reroll the chosen dice.</p>",
         "points": 2,
         "type": "astromech",
-        "id": "d3755ba3-8e62-4469-9eff-9bde90733fe2"
+        "id": "06e68a40-52e8-48ca-b72c-e97b2f3e2bc5"
     },
-    "a69eaad5-ad78-4a8c-9ad2-4af4a089fab7": {
+    "15ab8f28-a31d-4a67-82f5-e5354da395b5": {
         "size": "all",
         "sources": [
             "E-Wing Expansion Pack"
@@ -971,12 +971,12 @@
         "unique": true,
         "name": "R7-T1",
         "canonicalName": "r7t1",
-        "text": "<strong>Action:</strong> Choose an enemy ship at Range 1-2.  If you are inside that ship's firing arc, you may acquire a target lock on that ship.  Then, you may perform a free boost action.",
+        "text": "<p><strong>Action:</strong> Choose an enemy ship at Range 1-2.  If you are inside that ship's firing arc, you may acquire a target lock on that ship.  Then, you may perform a free boost action.</p>",
         "points": 3,
         "type": "astromech",
-        "id": "a69eaad5-ad78-4a8c-9ad2-4af4a089fab7"
+        "id": "15ab8f28-a31d-4a67-82f5-e5354da395b5"
     },
-    "3ff043d9-7890-4c09-98e7-fb516ada8295": {
+    "b201800d-7537-410b-a79a-919b70dbd07f": {
         "size": "all",
         "sources": [
             "TIE Phantom Expansion Pack"
@@ -986,12 +986,12 @@
         "unique": false,
         "name": "Tactician",
         "canonicalName": "tactician",
-        "text": "After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token.",
+        "text": "<p>After you perform an attack against a ship inside your firing arc at Range 2, that ship receives 1 stress token.</p>",
         "points": 2,
         "type": "crew",
-        "id": "3ff043d9-7890-4c09-98e7-fb516ada8295"
+        "id": "b201800d-7537-410b-a79a-919b70dbd07f"
     },
-    "6c5a9ba8-cec7-4865-8ea7-5a570ab14f73": {
+    "1000ffdc-6da8-4c84-8161-252318097fb2": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1001,12 +1001,12 @@
         "unique": true,
         "name": "R2-D2 (Crew)",
         "canonicalName": "r2d2crew",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> result, randomly flip 1 of your facedown Damage cards faceup and resolve it.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> result, randomly flip 1 of your facedown Damage cards faceup and resolve it.</p>",
         "points": 4,
         "type": "crew",
-        "id": "6c5a9ba8-cec7-4865-8ea7-5a570ab14f73"
+        "id": "1000ffdc-6da8-4c84-8161-252318097fb2"
     },
-    "82cd03a0-928a-464a-8b8d-63540d32aa3c": {
+    "ce189302-f620-4dce-af9a-d7a5f230ca12": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1016,12 +1016,12 @@
         "unique": true,
         "name": "C-3PO",
         "canonicalName": "c3po",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />Once per round, before you roll 1 or more defense dice, you may guess aloud a number of <i class=\"xmf xmf-evade\"></i> results.  If you roll that many <i class=\"xmf xmf-evade\"></i> results (before modifying dice), add 1 <i class=\"xmf xmf-evade\"></i> result.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>Once per round, before you roll 1 or more defense dice, you may guess aloud a number of <i class=\"xmf xmf-evade\"></i> results.  If you roll that many <i class=\"xmf xmf-evade\"></i> results (before modifying dice), add 1 <i class=\"xmf xmf-evade\"></i> result.</p>",
         "points": 3,
         "type": "crew",
-        "id": "82cd03a0-928a-464a-8b8d-63540d32aa3c"
+        "id": "ce189302-f620-4dce-af9a-d7a5f230ca12"
     },
-    "86b7db20-bcd5-435c-bea6-da03fb584f29": {
+    "ee4b6818-b86c-4c00-b37a-f4a69628fe79": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1031,14 +1031,14 @@
         "unique": false,
         "name": "Single Turbolasers",
         "canonicalName": "singleturbolasers",
-        "text": "<strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack.  The defender doubles his agility value against this attack.  You may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-hit\"></i> result.",
+        "text": "<p><strong>Attack (Energy):</strong> Spend 2 energy from this card to perform this attack.  The defender doubles his agility value against this attack.  You may change 1 of your <i class=\"xmf xmf-focus\"></i> results to a <i class=\"xmf xmf-hit\"></i> result.</p>",
         "points": 8,
         "attack": 4,
         "range": "3-5",
         "type": "hardpoint",
-        "id": "86b7db20-bcd5-435c-bea6-da03fb584f29"
+        "id": "ee4b6818-b86c-4c00-b37a-f4a69628fe79"
     },
-    "8ad0cbc4-e6eb-4dfa-864c-dde55237523c": {
+    "e2187dc2-7d93-4d8d-bdfb-553553348e75": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1048,14 +1048,14 @@
         "unique": false,
         "name": "Quad Laser Cannons",
         "canonicalName": "quadlasercannons",
-        "text": "<strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack.  If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again.",
+        "text": "<p><strong>Attack (Energy):</strong> Spend 1 energy from this card to perform this attack.  If this attack does not hit, you may immediately spend 1 energy from this card to perform this attack again.</p>",
         "points": 6,
         "attack": 3,
         "range": "1-2",
         "type": "hardpoint",
-        "id": "8ad0cbc4-e6eb-4dfa-864c-dde55237523c"
+        "id": "e2187dc2-7d93-4d8d-bdfb-553553348e75"
     },
-    "ac94fecc-d356-443e-934f-2b21b79d2d88": {
+    "82793c3e-5011-4d2a-9c29-68b2c7d8de43": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack",
@@ -1066,12 +1066,12 @@
         "unique": false,
         "name": "Tibanna Gas Supplies",
         "canonicalName": "tibannagassupplies",
-        "text": "<strong>Energy:</strong> You may discard this card to gain 3 energy.",
+        "text": "<p><strong>Energy:</strong> You may discard this card to gain 3 energy.</p>",
         "points": 4,
         "type": "cargo",
-        "id": "ac94fecc-d356-443e-934f-2b21b79d2d88"
+        "id": "82793c3e-5011-4d2a-9c29-68b2c7d8de43"
     },
-    "71cdfeb4-b34a-4299-bc1b-160f1a858629": {
+    "a60565c0-3be0-4aec-a281-c53b556e1531": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1081,12 +1081,12 @@
         "unique": false,
         "name": "Ionization Reactor",
         "canonicalName": "ionizationreactor",
-        "text": "<strong>Energy:</strong> Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token.",
+        "text": "<p><strong>Energy:</strong> Spend 5 energy from this card and discard this card to cause each other ship at Range 1 to suffer 1 damage and receive 1 ion token.</p>",
         "points": 4,
         "type": "cargo",
-        "id": "71cdfeb4-b34a-4299-bc1b-160f1a858629"
+        "id": "a60565c0-3be0-4aec-a281-c53b556e1531"
     },
-    "cb7a47a5-1801-4aea-99ad-3376701b8d42": {
+    "86bc77c6-a1e6-427e-a297-319aaf9a87f2": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack",
@@ -1097,12 +1097,12 @@
         "unique": false,
         "name": "Engine Booster",
         "canonicalName": "enginebooster",
-        "text": "Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white (<i class=\"xmf xmf-straight\"></i> 1) maneuver.  You cannot use this ability if you would overlap another ship.",
+        "text": "<p>Immediately before you reveal your maneuver dial, you may spend 1 energy to execute a white (<i class=\"xmf xmf-straight\"></i> 1) maneuver.  You cannot use this ability if you would overlap another ship.</p>",
         "points": 3,
         "type": "cargo",
-        "id": "cb7a47a5-1801-4aea-99ad-3376701b8d42"
+        "id": "86bc77c6-a1e6-427e-a297-319aaf9a87f2"
     },
-    "5bdf6750-5e7e-4225-8e73-f6a2f150d538": {
+    "cd0ae6ed-7731-4264-9396-b6c45b108591": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1112,12 +1112,12 @@
         "unique": true,
         "name": "R3-A2",
         "canonicalName": "r3a2",
-        "text": "When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token.",
+        "text": "<p>When you declare the target of your attack, if the defender is inside your firing arc, you may receive 1 stress token to cause the defender to receive 1 stress token.</p>",
         "points": 2,
         "type": "astromech",
-        "id": "5bdf6750-5e7e-4225-8e73-f6a2f150d538"
+        "id": "cd0ae6ed-7731-4264-9396-b6c45b108591"
     },
-    "20d37a0d-bb00-4668-8c86-a2e25de98c59": {
+    "06fe6e17-7bb9-4d33-aab0-f37f28150c7a": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1127,12 +1127,12 @@
         "unique": true,
         "name": "R2-D6",
         "canonicalName": "r2d6",
-        "text": "Your upgrade bar gains the <i class=\"xmf xmf-elite\"></i> upgrade icon.<br /><br />You cannot equip this upgrade if you already have a <i class=\"xmf xmf-elite\"></i> upgrade icon or if your pilot skill value is \"2\" or lower.",
+        "text": "<p>Your upgrade bar gains the <i class=\"xmf xmf-elite\"></i> upgrade icon.</p><p>You cannot equip this upgrade if you already have a <i class=\"xmf xmf-elite\"></i> upgrade icon or if your pilot skill value is \"2\" or lower.</p>",
         "points": 1,
         "type": "astromech",
-        "id": "20d37a0d-bb00-4668-8c86-a2e25de98c59"
+        "id": "06fe6e17-7bb9-4d33-aab0-f37f28150c7a"
     },
-    "f50edd5c-a1d3-4c06-a080-02afd7720247": {
+    "7cb9b27a-0c26-49dd-8d67-453691264335": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -1142,12 +1142,12 @@
         "unique": false,
         "name": "Enhanced Scopes",
         "canonicalName": "enhancedscopes",
-        "text": "During the Activation phase, treat your pilot skill value as \"0\".",
+        "text": "<p>During the Activation phase, treat your pilot skill value as \"0\".</p>",
         "points": 1,
         "type": "system",
-        "id": "f50edd5c-a1d3-4c06-a080-02afd7720247"
+        "id": "7cb9b27a-0c26-49dd-8d67-453691264335"
     },
-    "20adcff6-ec38-4b8e-8b27-efe4b13041a1": {
+    "63fd9f45-0dde-4eb4-846b-867ee8344f02": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -1157,13 +1157,13 @@
         "unique": false,
         "name": "Chardaan Refit",
         "canonicalName": "chardaanrefit",
-        "text": "<span class=\"card-restriction\">A-Wing only.</span><br /><br />This card has a negative squad point cost.",
+        "text": "<p><span class=\"restriction\">A-Wing only.</span></p><p>This card has a negative squad point cost.</p>",
         "points": -2,
         "ship": "awing",
         "type": "missile",
-        "id": "20adcff6-ec38-4b8e-8b27-efe4b13041a1"
+        "id": "63fd9f45-0dde-4eb4-846b-867ee8344f02"
     },
-    "340855ab-d43c-4704-8727-2aa981c2d9b9": {
+    "919046ea-a397-4188-ade5-535ce4593c5b": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack",
@@ -1174,14 +1174,14 @@
         "unique": false,
         "name": "Proton Rockets",
         "canonicalName": "protonrockets",
-        "text": "<strong>Attack (Focus):</strong> Discard this card to perform this attack.<br /><br />You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice.",
+        "text": "<p><strong>Attack (Focus):</strong> Discard this card to perform this attack.</p><p>You may roll additional attack dice equal to your agility value, to a maximum of 3 additional dice.</p>",
         "points": 3,
         "attack": 2,
         "range": "1",
         "type": "missile",
-        "id": "340855ab-d43c-4704-8727-2aa981c2d9b9"
+        "id": "919046ea-a397-4188-ade5-535ce4593c5b"
     },
-    "37859a0c-14c9-4824-8ab4-7cf34a5890ed": {
+    "cff8a4e3-91a9-4ca2-8609-78430dc082a0": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -1191,12 +1191,12 @@
         "unique": true,
         "name": "Kyle Katarn",
         "canonicalName": "kylekatarn",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />After you remove a stress token from your ship, you may assign a focus token to your ship.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>After you remove a stress token from your ship, you may assign a focus token to your ship.</p>",
         "points": 3,
         "type": "crew",
-        "id": "37859a0c-14c9-4824-8ab4-7cf34a5890ed"
+        "id": "cff8a4e3-91a9-4ca2-8609-78430dc082a0"
     },
-    "c384fb9c-9c0b-4874-843b-203a979f086d": {
+    "a503104f-a2cd-40f1-ab8c-8bd19f72d2ac": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -1206,12 +1206,12 @@
         "unique": true,
         "name": "Jan Ors",
         "canonicalName": "janors",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign it an evade token instead.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign it an evade token instead.</p>",
         "points": 2,
         "type": "crew",
-        "id": "c384fb9c-9c0b-4874-843b-203a979f086d"
+        "id": "a503104f-a2cd-40f1-ab8c-8bd19f72d2ac"
     },
-    "74a318d8-9bb0-4402-b844-7011bf6cac58": {
+    "43f92491-97bc-489e-aa7e-17d6b03a1388": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1221,12 +1221,12 @@
         "unique": true,
         "name": "Toryn Farr",
         "canonicalName": "torynfarr",
-        "text": "<span class=\"card-restriction\">Huge Ship only.</span> <span class=\"card-restriction\">Rebel only.</span><br /><br /><strong>Action:</strong> Spend any amount of energy to choose that many enemy ships at Range 1-2.  Remove all focus, evade, and blue target lock tokens from those ships.",
+        "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Spend any amount of energy to choose that many enemy ships at Range 1-2.  Remove all focus, evade, and blue target lock tokens from those ships.</p>",
         "points": 6,
         "type": "crew",
-        "id": "74a318d8-9bb0-4402-b844-7011bf6cac58"
+        "id": "43f92491-97bc-489e-aa7e-17d6b03a1388"
     },
-    "93a840e7-f06d-4db9-b95f-1cb47875ba54": {
+    "8160daa0-8464-48cf-9a75-9e9d442c9824": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1236,12 +1236,12 @@
         "unique": true,
         "name": "R4-D6",
         "canonicalName": "r4d6",
-        "text": "When you are hit by an attack and there are at least 3 uncanceled <i class=\"xmf xmf-hit\"></i> results, you may choose to cancel those results until there are 2 remaining.  For each result canceled this way, receive 1 stress token.",
+        "text": "<p>When you are hit by an attack and there are at least 3 uncanceled <i class=\"xmf xmf-hit\"></i> results, you may choose to cancel those results until there are 2 remaining.  For each result canceled this way, receive 1 stress token.</p>",
         "points": 1,
         "type": "astromech",
-        "id": "93a840e7-f06d-4db9-b95f-1cb47875ba54"
+        "id": "8160daa0-8464-48cf-9a75-9e9d442c9824"
     },
-    "ea4cecbe-1e30-484f-ae45-2595ebb0fdae": {
+    "34384b0b-00a2-44c9-94f7-8f4ed7b8a581": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1251,12 +1251,12 @@
         "unique": true,
         "name": "R5-P9",
         "canonicalName": "r5p9",
-        "text": "At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value).",
+        "text": "<p>At the end of the Combat phase, you may spend 1 of your focus tokens to recover 1 shield (up to your shield value).</p>",
         "points": 3,
         "type": "astromech",
-        "id": "ea4cecbe-1e30-484f-ae45-2595ebb0fdae"
+        "id": "34384b0b-00a2-44c9-94f7-8f4ed7b8a581"
     },
-    "9a833544-ec19-4eaa-9314-37fa080fd538": {
+    "032467fa-5c73-45da-8ec3-1aa68deea1be": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1266,12 +1266,12 @@
         "unique": false,
         "name": "WED-15 Repair Droid",
         "canonicalName": "wed15repairdroid",
-        "text": "<span class=\"card-restriction\">Huge Ship only.</span><br /><br /><strong>Action:</strong> Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards.",
+        "text": "<p><span class=\"restriction\">Huge Ship only.</span></p><p><strong>Action:</strong> Spend 1 energy to discard 1 of your facedown Damage cards, or spend 3 energy to discard 1 of your faceup Damage cards.</p>",
         "points": 2,
         "type": "crew",
-        "id": "9a833544-ec19-4eaa-9314-37fa080fd538"
+        "id": "032467fa-5c73-45da-8ec3-1aa68deea1be"
     },
-    "610032b1-9d0b-4a5a-adfe-f45c47f8f287": {
+    "771ad90f-04ac-4205-837b-a44476ae8b2e": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1281,12 +1281,12 @@
         "unique": true,
         "name": "Carlist Rieekan",
         "canonicalName": "carlistrieekan",
-        "text": "<span class=\"card-restriction\">Huge Ship only.</span> <span class=\"card-restriction\">Rebel only.</span><br /><br />At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as \"12\" until the end of the phase.",
+        "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as \"12\" until the end of the phase.</p>",
         "points": 3,
         "type": "crew",
-        "id": "610032b1-9d0b-4a5a-adfe-f45c47f8f287"
+        "id": "771ad90f-04ac-4205-837b-a44476ae8b2e"
     },
-    "6564f0ed-bcb5-44a6-91d7-a0423a23f312": {
+    "37cd6693-2643-46d8-94c8-2c069cf31037": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1296,12 +1296,12 @@
         "unique": true,
         "name": "Jan Dodonna",
         "canonicalName": "jandodonna",
-        "text": "<span class=\"card-restriction\">Huge Ship only.</span> <span class=\"card-restriction\">Rebel only.</span><br /><br />When another friendly ship at Range 1 is attacking, it may change 1 of its <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i>.",
+        "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>When another friendly ship at Range 1 is attacking, it may change 1 of its <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i>.</p>",
         "points": 6,
         "type": "crew",
-        "id": "6564f0ed-bcb5-44a6-91d7-a0423a23f312"
+        "id": "37cd6693-2643-46d8-94c8-2c069cf31037"
     },
-    "b45122e2-2424-4921-aca4-a2ade0f3ea09": {
+    "86866a6e-e089-43e3-b913-45a3705e52a8": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1311,13 +1311,13 @@
         "unique": false,
         "name": "Expanded Cargo Hold",
         "canonicalName": "expandedcargohold",
-        "text": "<span class=\"card-restriction\">GR-75 only.</span><br /><br />Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck.",
+        "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>Once per round, when you would be dealt a faceup Damage card, you may draw that card from either the fore or aft Damage deck.</p>",
         "points": 1,
         "ship": "gr75mediumtransport",
         "type": "cargo",
-        "id": "b45122e2-2424-4921-aca4-a2ade0f3ea09"
+        "id": "86866a6e-e089-43e3-b913-45a3705e52a8"
     },
-    "4f617d5a-0df5-4d1d-ab56-ccb287a7d4f6": {
+    "63d2f24c-0c88-4e25-91bb-8b2a549f3fbe": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack",
@@ -1328,12 +1328,12 @@
         "unique": false,
         "name": "Backup Shield Generator",
         "canonicalName": "backupshieldgenerator",
-        "text": "At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value).",
+        "text": "<p>At the end of each round, you may spend 1 energy to recover 1 shield (up to your shield value).</p>",
         "points": 3,
         "type": "cargo",
-        "id": "4f617d5a-0df5-4d1d-ab56-ccb287a7d4f6"
+        "id": "63d2f24c-0c88-4e25-91bb-8b2a549f3fbe"
     },
-    "c58618ab-15dc-490d-a3cd-a17ec5f9fbfa": {
+    "c90b6570-01da-43d5-8b06-5c81e3a9ca76": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1343,12 +1343,12 @@
         "unique": false,
         "name": "EM Emitter",
         "canonicalName": "ememitter",
-        "text": "When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1).",
+        "text": "<p>When you obstruct an attack, the defender rolls 3 additional defense dice (instead of 1).</p>",
         "points": 3,
         "type": "cargo",
-        "id": "c58618ab-15dc-490d-a3cd-a17ec5f9fbfa"
+        "id": "c90b6570-01da-43d5-8b06-5c81e3a9ca76"
     },
-    "5eb47f50-de34-456b-8b5b-fde9b3c04269": {
+    "7e7f63a4-38d3-4ff2-a34b-9ed7841b7ca6": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -1358,12 +1358,12 @@
         "unique": false,
         "name": "Frequency Jammer",
         "canonicalName": "frequencyjammer",
-        "text": "When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship.  The chosen ship receives 1 stress token.",
+        "text": "<p>When you perform a jam action, choose 1 enemy ship that does not have a stress token and is at Range 1 of the jammed ship.  The chosen ship receives 1 stress token.</p>",
         "points": 4,
         "type": "cargo",
-        "id": "5eb47f50-de34-456b-8b5b-fde9b3c04269"
+        "id": "7e7f63a4-38d3-4ff2-a34b-9ed7841b7ca6"
     },
-    "3e9d1a79-4ecd-411c-a91c-7b0d2d522c07": {
+    "903d58ca-0807-4334-b44c-aae854c21940": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1373,12 +1373,12 @@
         "unique": true,
         "name": "Han Solo",
         "canonicalName": "hansolo",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your <i class=\"xmf xmf-focus\"></i> results to <i class=\"xmf xmf-hit\"></i> results.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your <i class=\"xmf xmf-focus\"></i> results to <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 2,
         "type": "crew",
-        "id": "3e9d1a79-4ecd-411c-a91c-7b0d2d522c07"
+        "id": "903d58ca-0807-4334-b44c-aae854c21940"
     },
-    "4a89a98e-9e06-4f8c-aaf2-1da9f3ebaeed": {
+    "f1215c7c-fcf5-405a-a683-6383d5024285": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1388,12 +1388,12 @@
         "unique": true,
         "name": "Leia Organa",
         "canonicalName": "leiaorgana",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase.</p>",
         "points": 4,
         "type": "crew",
-        "id": "4a89a98e-9e06-4f8c-aaf2-1da9f3ebaeed"
+        "id": "f1215c7c-fcf5-405a-a683-6383d5024285"
     },
-    "6403f93e-1b34-4d72-9af2-49686f28d87d": {
+    "b432ec62-b8a8-4bbe-9baa-a02acb18080c": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1403,12 +1403,12 @@
         "unique": false,
         "name": "Targeting Coordinator",
         "canonicalName": "targetingcoordinator",
-        "text": "<strong>Energy:</strong> You may spend 1 energy to choose 1 friendly ship at Range 1-2.  Acquire a target lock, then assign the blue target lock token to the chosen ship.",
+        "text": "<p><strong>Energy:</strong> You may spend 1 energy to choose 1 friendly ship at Range 1-2.  Acquire a target lock, then assign the blue target lock token to the chosen ship.</p>",
         "points": 4,
         "type": "crew",
-        "id": "6403f93e-1b34-4d72-9af2-49686f28d87d"
+        "id": "b432ec62-b8a8-4bbe-9baa-a02acb18080c"
     },
-    "abf52d6a-0cac-439f-a377-d107aefd4407": {
+    "3d1302ea-986a-4191-a837-26104e41956e": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1418,12 +1418,12 @@
         "unique": true,
         "name": "Raymus Antilles",
         "canonicalName": "raymusantilles",
-        "text": "<span class=\"card-restriction\">Huge Ship only.</span> <span class=\"card-restriction\">Rebel only.</span><br /><br />At the start of the Activation phase, choose 1 enemy ship at Range 1-3.  You may look at that ship's chosen maneuver.  If the maneuver is white, assign that ship 1 stress token.",
+        "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, choose 1 enemy ship at Range 1-3.  You may look at that ship's chosen maneuver.  If the maneuver is white, assign that ship 1 stress token.</p>",
         "points": 6,
         "type": "crew",
-        "id": "abf52d6a-0cac-439f-a377-d107aefd4407"
+        "id": "3d1302ea-986a-4191-a837-26104e41956e"
     },
-    "d4d49014-58ec-44ea-8181-e09dd8fa3bf0": {
+    "9149e209-fe0a-4131-88a4-b1049fdf4601": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1433,12 +1433,12 @@
         "unique": false,
         "name": "Gunnery Team",
         "canonicalName": "gunneryteam",
-        "text": "Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a <i class=\"xmf xmf-hit\"></i> result.",
+        "text": "<p>Once per round, when attacking with a secondary weapon, you may spend 1 energy to change 1 of your blank results to a <i class=\"xmf xmf-hit\"></i> result.</p>",
         "points": 4,
         "type": "team",
-        "id": "d4d49014-58ec-44ea-8181-e09dd8fa3bf0"
+        "id": "9149e209-fe0a-4131-88a4-b1049fdf4601"
     },
-    "0819d291-8ed3-425b-a33b-35e00c43ccef": {
+    "4031d5a9-b120-4ffc-a448-d3c328db67b1": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1448,12 +1448,12 @@
         "unique": false,
         "name": "Sensor Team",
         "canonicalName": "sensorteam",
-        "text": "When acquiring a target lock, you may lock onto an enemy ship at Range 1-5 instead of 1-3.",
+        "text": "<p>When acquiring a target lock, you may lock onto an enemy ship at Range 1-5 instead of 1-3.</p>",
         "points": 4,
         "type": "team",
-        "id": "0819d291-8ed3-425b-a33b-35e00c43ccef"
+        "id": "4031d5a9-b120-4ffc-a448-d3c328db67b1"
     },
-    "c49a5a87-5111-4c1a-88d7-de13efe4307d": {
+    "baf4f504-23c2-4e9c-af05-c9c7d9af6836": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -1463,12 +1463,12 @@
         "unique": false,
         "name": "Engineering Team",
         "canonicalName": "engineeringteam",
-        "text": "During the Activation phase, when you reveal a <i class=\"xmf xmf-straight\"></i> maneuver, gain 1 additional energy during the \"Gain Energy\" step.",
+        "text": "<p>During the Activation phase, when you reveal a <i class=\"xmf xmf-straight\"></i> maneuver, gain 1 additional energy during the \"Gain Energy\" step.</p>",
         "points": 4,
         "type": "team",
-        "id": "c49a5a87-5111-4c1a-88d7-de13efe4307d"
+        "id": "baf4f504-23c2-4e9c-af05-c9c7d9af6836"
     },
-    "9b502b41-3c2e-4fba-9323-c5fc9fa72c2d": {
+    "ebeea625-cdad-44e0-b0fa-964608766878": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -1478,12 +1478,12 @@
         "unique": true,
         "name": "Lando Calrissian",
         "canonicalName": "landocalrissian",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br /><strong>Action:</strong> Roll 2 defense dice.  For each <i class=\"xmf xmf-focus\"></i> result, assign 1 focus token to your ship.  For each <i class=\"xmf xmf-evade\"></i> result, assign 1 evade token to your ship.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Roll 2 defense dice.  For each <i class=\"xmf xmf-focus\"></i> result, assign 1 focus token to your ship.  For each <i class=\"xmf xmf-evade\"></i> result, assign 1 evade token to your ship.</p>",
         "points": 3,
         "type": "crew",
-        "id": "9b502b41-3c2e-4fba-9323-c5fc9fa72c2d"
+        "id": "ebeea625-cdad-44e0-b0fa-964608766878"
     },
-    "8efc59eb-860d-4a1a-bfb9-9cf582bf3a71": {
+    "54c3dbd7-4135-49af-aa06-798872a93a2f": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1493,12 +1493,12 @@
         "unique": true,
         "name": "Mara Jade",
         "canonicalName": "marajade",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token.</p>",
         "points": 3,
         "type": "crew",
-        "id": "8efc59eb-860d-4a1a-bfb9-9cf582bf3a71"
+        "id": "54c3dbd7-4135-49af-aa06-798872a93a2f"
     },
-    "849fad7a-3cd8-4ad3-b9a5-1154fefd3497": {
+    "853b01af-2727-4a3a-9d40-585a0d390068": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1508,12 +1508,12 @@
         "unique": false,
         "name": "Fleet Officer",
         "canonicalName": "fleetofficer",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br /><strong>Action:</strong> Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of those ships.  Then receive 1 stress token.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p><strong>Action:</strong> Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of those ships.  Then receive 1 stress token.</p>",
         "points": 3,
         "type": "crew",
-        "id": "849fad7a-3cd8-4ad3-b9a5-1154fefd3497"
+        "id": "853b01af-2727-4a3a-9d40-585a0d390068"
     },
-    "fd80bf85-4ea0-44c8-bcb4-190b0fe822ae": {
+    "65c0aa54-0136-4934-ae4a-2fd5cf62e3ff": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -1523,12 +1523,12 @@
         "unique": false,
         "name": "Stay On Target",
         "canonicalName": "stayontarget",
-        "text": "When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed.<br /><br />Treat that maneuver as a red maneuver.",
+        "text": "<p>When you reveal a maneuver, you may rotate your dial to another maneuver with the same speed.</p><p>Treat that maneuver as a red maneuver.</p>",
         "points": 2,
         "type": "elite",
-        "id": "fd80bf85-4ea0-44c8-bcb4-190b0fe822ae"
+        "id": "65c0aa54-0136-4934-ae4a-2fd5cf62e3ff"
     },
-    "39ae4ce4-0de0-48ce-9c24-c3b0be560cf7": {
+    "9f2aedd7-05e6-4088-a710-2beb72fee29f": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -1538,12 +1538,12 @@
         "unique": true,
         "name": "Dash Rendar",
         "canonicalName": "dashrendar",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br />You may perform attacks while overlapping an obstacle.<br /><br />Your attacks cannot be obstructed.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>You may perform attacks while overlapping an obstacle.</p><p>Your attacks cannot be obstructed.</p>",
         "points": 2,
         "type": "crew",
-        "id": "39ae4ce4-0de0-48ce-9c24-c3b0be560cf7"
+        "id": "9f2aedd7-05e6-4088-a710-2beb72fee29f"
     },
-    "19fb058a-2044-47d6-8243-faea2589cfbf": {
+    "3f1d4a05-379f-40e4-88ba-7f8cdbc51b1d": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -1553,12 +1553,12 @@
         "unique": true,
         "name": "Lone Wolf",
         "canonicalName": "lonewolf",
-        "text": "When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results.",
+        "text": "<p>When attacking or defending, if there are no other friendly ships at Range 1-2, you may reroll 1 of your blank results.</p>",
         "points": 2,
         "type": "elite",
-        "id": "19fb058a-2044-47d6-8243-faea2589cfbf"
+        "id": "3f1d4a05-379f-40e4-88ba-7f8cdbc51b1d"
     },
-    "0ab9a3bf-c060-46ae-b692-f3577e8a46e6": {
+    "ed788c51-01b9-4fcc-baec-62d097effc9d": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -1568,12 +1568,12 @@
         "unique": true,
         "name": "\"Leebo\"",
         "canonicalName": "leebo",
-        "text": "<span class=\"card-restriction\">Rebel only.</span><br /><br /><strong>Action:</strong> Perform a free boost action.  Then receive 1 ion token.",
+        "text": "<p><span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Perform a free boost action.  Then receive 1 ion token.</p>",
         "points": 2,
         "type": "crew",
-        "id": "0ab9a3bf-c060-46ae-b692-f3577e8a46e6"
+        "id": "ed788c51-01b9-4fcc-baec-62d097effc9d"
     },
-    "ad5531aa-e519-45da-b263-6cd177b59611": {
+    "1d79475f-40a2-41b4-b7c9-0f5414fe110a": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1583,12 +1583,12 @@
         "unique": false,
         "name": "Ruthlessness",
         "canonicalName": "ruthlessness",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />After you perform an attack that hits, you <strong>must</strong> choose 1 other ship at Range 1 of the defender (other than yourself).  That ship suffers 1 damage.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>After you perform an attack that hits, you <strong>must</strong> choose 1 other ship at Range 1 of the defender (other than yourself).  That ship suffers 1 damage.</p>",
         "points": 3,
         "type": "elite",
-        "id": "ad5531aa-e519-45da-b263-6cd177b59611"
+        "id": "1d79475f-40a2-41b4-b7c9-0f5414fe110a"
     },
-    "5979d776-5461-4831-9b3d-a246c1f6b667": {
+    "102ad4c6-4f7a-4337-ac30-570739c4a200": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1598,12 +1598,12 @@
         "unique": false,
         "name": "Intimidation",
         "canonicalName": "intimidation",
-        "text": "While you are touching an enemy ship, reduce that ship's agility value by 1.",
+        "text": "<p>While you are touching an enemy ship, reduce that ship's agility value by 1.</p>",
         "points": 2,
         "type": "elite",
-        "id": "5979d776-5461-4831-9b3d-a246c1f6b667"
+        "id": "102ad4c6-4f7a-4337-ac30-570739c4a200"
     },
-    "5611edbc-683e-4e1b-9d3b-0b6469abebd7": {
+    "858d2b63-5938-4b7c-b18e-f34b881efe95": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1613,12 +1613,12 @@
         "unique": true,
         "name": "Ysanne Isard",
         "canonicalName": "ysanneisard",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action.",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action.</p>",
         "points": 4,
         "type": "crew",
-        "id": "5611edbc-683e-4e1b-9d3b-0b6469abebd7"
+        "id": "858d2b63-5938-4b7c-b18e-f34b881efe95"
     },
-    "3f766929-1fea-4454-b9a9-bb298ca23e4e": {
+    "7a294860-75bf-4708-bb77-1a877787122c": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1628,12 +1628,12 @@
         "unique": true,
         "name": "Moff Jerjerrod",
         "canonicalName": "moffjerjerrod",
-        "text": "<span class=\"card-restriction\">Imperial only.</span><br /><br />When you are dealt a faceup Damage card, you may discard this Upgrade card or another <i class=\"xmf xmf-crew\"></i> Upgrade card to flip that Damage card facedown (without resolving its effect).",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>When you are dealt a faceup Damage card, you may discard this Upgrade card or another <i class=\"xmf xmf-crew\"></i> Upgrade card to flip that Damage card facedown (without resolving its effect).</p>",
         "points": 2,
         "type": "crew",
-        "id": "3f766929-1fea-4454-b9a9-bb298ca23e4e"
+        "id": "7a294860-75bf-4708-bb77-1a877787122c"
     },
-    "e2deeeac-2cc0-45f9-b439-17b9c7995720": {
+    "5b9dd2d5-b714-4b50-bdcb-bd3328da1bd2": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -1643,14 +1643,14 @@
         "unique": false,
         "name": "Ion Torpedoes",
         "canonicalName": "iontorpedoes",
-        "text": "<strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.<br /><br />If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token.",
+        "text": "<p><strong>Attack (target lock):</strong> Spend your target lock and discard this card to perform this attack.</p><p>If this attack hits, the defender and each ship at Range 1 of it receives 1 ion token.</p>",
         "points": 5,
         "attack": 4,
         "range": "2-3",
         "type": "torpedo",
-        "id": "e2deeeac-2cc0-45f9-b439-17b9c7995720"
+        "id": "5b9dd2d5-b714-4b50-bdcb-bd3328da1bd2"
     },
-    "89adeb28-eb34-4018-b6db-bee6cfd05be4": {
+    "a9bde6b3-c121-4191-9933-96da3104a370": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1658,25 +1658,12 @@
         "unique": true,
         "name": "Bodyguard",
         "canonicalName": "bodyguard",
-        "text": "<span class=\"card-restriction\">Scum only.</span><br /><br />At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round.",
+        "text": "<p><span class=\"restriction\">Scum only.</span></p><p>At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round.</p>",
         "points": 2,
         "type": "elite",
-        "id": "89adeb28-eb34-4018-b6db-bee6cfd05be4"
+        "id": "a9bde6b3-c121-4191-9933-96da3104a370"
     },
-    "1bd22fd8-7ba4-41c5-b2e5-d2f064424f22": {
-        "size": "all",
-        "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
-        "unique": false,
-        "name": "Calc???",
-        "canonicalName": "calc",
-        "text": "This card has not yet been revealed.",
-        "points": 99,
-        "type": "elite",
-        "id": "1bd22fd8-7ba4-41c5-b2e5-d2f064424f22"
-    },
-    "816ed743-4fb1-46e1-b5fa-8d8b35d47752": {
+    "6d54be24-6881-49e3-8115-ae43f9262c9b": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1684,12 +1671,12 @@
         "unique": false,
         "name": "Accuracy Corrector",
         "canonicalName": "accuracycorrector",
-        "text": "When attacking, you may cancel all dice results. Then, you may add 2 <i class=\"xmf xmf-hit\"></i> results.<br /><br />Your dice cannot be modified again during this attack.",
+        "text": "<p>When attacking, you may cancel all dice results. Then, you may add 2 <i class=\"xmf xmf-hit\"></i> results.</p><p>Your dice cannot be modified again during this attack.</p>",
         "points": 3,
         "type": "system",
-        "id": "816ed743-4fb1-46e1-b5fa-8d8b35d47752"
+        "id": "6d54be24-6881-49e3-8115-ae43f9262c9b"
     },
-    "2ef92b8d-b9b1-4ee9-8066-ebd5b8b2efed": {
+    "7953af24-6b7e-418b-8ed8-6206ad73c6b9": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1697,12 +1684,12 @@
         "unique": false,
         "name": "Inertial Dampeners",
         "canonicalName": "inertialdampeners",
-        "text": "When you reveal your maneuver, you may discard this card to instead perform a white [0<i class=\"xmf xmf-stop\"></i>] maneuver. Then receive 1 stress token.",
+        "text": "<p>When you reveal your maneuver, you may discard this card to instead perform a white [0<i class=\"xmf xmf-stop\"></i>] maneuver. Then receive 1 stress token.</p>",
         "points": 1,
         "type": "illicit",
-        "id": "2ef92b8d-b9b1-4ee9-8066-ebd5b8b2efed"
+        "id": "7953af24-6b7e-418b-8ed8-6206ad73c6b9"
     },
-    "5fcb1aa2-5434-42be-b14f-f35db5b596e9": {
+    "88f3b871-94cf-4d2f-9f5b-76b139f3bd0d": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1710,14 +1697,14 @@
         "unique": false,
         "name": "Flechette Cannon",
         "canonicalName": "flechettecannon",
-        "text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token.  Then cancel <strong>all</strong> dice results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship.</p><p>If this attack hits, the defender suffers 1 damage and, if the defender is not stressed, it also receives 1 stress token.  Then cancel <strong>all</strong> dice results.</p>",
         "points": 2,
         "attack": 3,
         "range": "1-3",
         "type": "cannon",
-        "id": "5fcb1aa2-5434-42be-b14f-f35db5b596e9"
+        "id": "88f3b871-94cf-4d2f-9f5b-76b139f3bd0d"
     },
-    "f364f9ac-3db4-45bd-a2ec-c8d4510ebfef": {
+    "7de3d3bf-cb71-48cf-8f76-174412f77280": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1725,14 +1712,14 @@
         "unique": false,
         "name": "\"Mangler\" Cannon",
         "canonicalName": "manglercannon",
-        "text": "<strong>Attack:</strong> Attack 1 ship.<br /><br />When attacking, you may change 1 of your <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship.</p><p>When attacking, you may change 1 of your <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i> result.</p>",
         "points": 4,
         "attack": 3,
         "range": "1-3",
         "type": "cannon",
-        "id": "f364f9ac-3db4-45bd-a2ec-c8d4510ebfef"
+        "id": "7de3d3bf-cb71-48cf-8f76-174412f77280"
     },
-    "1372a0c6-8172-402c-aec3-2821f1dbc3fc": {
+    "73c1d3bf-ab78-48ba-af0b-ab24edef73a4": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1740,12 +1727,12 @@
         "unique": false,
         "name": "Dead Man's Switch",
         "canonicalName": "deadmansswitch",
-        "text": "When you are destroyed, each ship at Range 1 suffers 1 damage.",
+        "text": "<p>When you are destroyed, each ship at Range 1 suffers 1 damage.</p>",
         "points": 2,
         "type": "illicit",
-        "id": "1372a0c6-8172-402c-aec3-2821f1dbc3fc"
+        "id": "73c1d3bf-ab78-48ba-af0b-ab24edef73a4"
     },
-    "be7d4245-b60c-472d-96bc-f412c1bdfa28": {
+    "548221dc-26a2-4b6a-9969-ee2eb6a50163": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1753,12 +1740,12 @@
         "unique": false,
         "name": "Feedback Array",
         "canonicalName": "feedbackarray",
-        "text": "During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1.  That ship suffers 1 damage.",
+        "text": "<p>During the Combat phase, instead of performing any attacks, you may receive 1 ion token and suffer 1 damage to choose 1 enemy ship at Range 1.  That ship suffers 1 damage.</p>",
         "points": 2,
         "type": "illicit",
-        "id": "be7d4245-b60c-472d-96bc-f412c1bdfa28"
+        "id": "548221dc-26a2-4b6a-9969-ee2eb6a50163"
     },
-    "e8626bb9-f7d0-4870-81f4-2dbb4e21f252": {
+    "238b9422-7242-44c3-84de-862acf2b828a": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1766,14 +1753,14 @@
         "unique": false,
         "name": "\"Hot Shot\" Blaster",
         "canonicalName": "hotshotblaster",
-        "text": "<strong>Attack:</strong> Discard this card to attack 1 ship (even a ship outside your firing arc).",
+        "text": "<p><strong>Attack:</strong> Discard this card to attack 1 ship (even a ship outside your firing arc).</p>",
         "points": 3,
         "attack": 3,
         "range": "1-2",
         "type": "illicit",
-        "id": "e8626bb9-f7d0-4870-81f4-2dbb4e21f252"
+        "id": "238b9422-7242-44c3-84de-862acf2b828a"
     },
-    "3b5b3c7f-07ab-449c-8102-feba5af98d02": {
+    "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1781,12 +1768,12 @@
         "unique": true,
         "name": "Greedo",
         "canonicalName": "greedo",
-        "text": "<span class=\"card-restriction\">Scum only.</span><br /><br />The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup.",
+        "text": "<p><span class=\"restriction\">Scum only.</span></p><p>The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup.</p>",
         "points": 1,
         "type": "crew",
-        "id": "3b5b3c7f-07ab-449c-8102-feba5af98d02"
+        "id": "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e"
     },
-    "4903d173-8335-4310-a4aa-08db63de87c5": {
+    "e4bc9c1b-0632-4a53-b6ea-1f2621ba6152": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1794,12 +1781,12 @@
         "unique": false,
         "name": "Salvaged Astromech",
         "canonicalName": "salvagedastromech",
-        "text": "When you are dealt a Damage card with the <strong>Ship</strong> trait, you may immediately discard that card (before resolving its effect).<br /><br />Then, discard this Upgrade card.",
+        "text": "<p>When you are dealt a Damage card with the <strong>Ship</strong> trait, you may immediately discard that card (before resolving its effect).</p><p>Then, discard this Upgrade card.</p>",
         "points": 2,
         "type": "salvaged astromech",
-        "id": "4903d173-8335-4310-a4aa-08db63de87c5"
+        "id": "e4bc9c1b-0632-4a53-b6ea-1f2621ba6152"
     },
-    "14409e2a-4eb0-4872-b39e-92070a63b442": {
+    "ae44f9e1-d2e1-4e6a-bc99-8667f3799322": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1807,13 +1794,13 @@
         "unique": false,
         "name": "Bomb Loadout",
         "canonicalName": "bombloadout",
-        "text": "<span class=\"card-restriction\">Y-Wing only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-bomb\"></i> icon.",
+        "text": "<p><span class=\"restriction\">Y-Wing only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-bomb\"></i> icon.</p>",
         "points": 0,
         "ship": "ywing",
         "type": "torpedo",
-        "id": "14409e2a-4eb0-4872-b39e-92070a63b442"
+        "id": "ae44f9e1-d2e1-4e6a-bc99-8667f3799322"
     },
-    "325e664d-729b-4f33-b7f9-96d578a8e1b3": {
+    "ba0233e2-e4ed-4b24-ac4e-b1c85055871e": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1821,12 +1808,12 @@
         "unique": true,
         "name": "\"Genius\"",
         "canonicalName": "genius",
-        "text": "If you are equipped with a bomb that can be dropped before you reveal your maneuver, you may drop the bomb <strong>after</strong> you execute your maneuver instead.",
+        "text": "<p>If you are equipped with a bomb that can be dropped before you reveal your maneuver, you may drop the bomb <strong>after</strong> you execute your maneuver instead.</p>",
         "points": 0,
         "type": "salvaged astromech",
-        "id": "325e664d-729b-4f33-b7f9-96d578a8e1b3"
+        "id": "ba0233e2-e4ed-4b24-ac4e-b1c85055871e"
     },
-    "2b79e6e9-6498-4ed4-995b-a9e1c732eff4": {
+    "df69b554-7e26-4443-b194-a9c2e1d1b5d9": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1834,12 +1821,12 @@
         "unique": false,
         "name": "Unhinged Astromech",
         "canonicalName": "unhingedastromech",
-        "text": "You may treat all 3-speed maneuvers as green maneuvers.",
+        "text": "<p>You may treat all 3-speed maneuvers as green maneuvers.</p>",
         "points": 1,
         "type": "salvaged astromech",
-        "id": "2b79e6e9-6498-4ed4-995b-a9e1c732eff4"
+        "id": "df69b554-7e26-4443-b194-a9c2e1d1b5d9"
     },
-    "4d24e217-df86-4676-aa7a-6cd2588d29fd": {
+    "6285843e-9727-47c3-b3bb-9f21ebc71300": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1847,12 +1834,12 @@
         "unique": true,
         "name": "R4-B11",
         "canonicalName": "r4b11",
-        "text": "When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice.",
+        "text": "<p>When attacking, if you have a target lock on the defender, you may spend the target lock to choose any or all defense dice. The defender must reroll the chosen dice.</p>",
         "points": 3,
         "type": "salvaged astromech",
-        "id": "4d24e217-df86-4676-aa7a-6cd2588d29fd"
+        "id": "6285843e-9727-47c3-b3bb-9f21ebc71300"
     },
-    "eedd12fc-5640-4c30-8734-6dbd7fa538f1": {
+    "286e3a3f-e787-4b3e-be06-3a3448390cb5": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1860,14 +1847,14 @@
         "unique": false,
         "name": "Autoblaster Turret",
         "canonicalName": "autoblasterturret",
-        "text": "<strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).<br /><br />Your <i class=\"xmf xmf-hit\"></i> results cannot be canceled by defense dice. The defender may cancel <i class=\"xmf xmf-crit\"></i> results before <i class=\"xmf xmf-hit\"></i> results.",
+        "text": "<p><strong>Attack:</strong> Attack 1 ship (even a ship outside your firing arc).</p><p>Your <i class=\"xmf xmf-hit\"></i> results cannot be canceled by defense dice. The defender may cancel <i class=\"xmf xmf-crit\"></i> results before <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 2,
         "attack": 2,
         "range": "1",
         "type": "turret",
-        "id": "eedd12fc-5640-4c30-8734-6dbd7fa538f1"
+        "id": "286e3a3f-e787-4b3e-be06-3a3448390cb5"
     },
-    "7553e596-7789-4eab-9811-946e35ed25f4": {
+    "ce6924a3-339c-42b6-9c65-114a01aa31c3": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1875,12 +1862,12 @@
         "unique": false,
         "name": "R4 Agromech",
         "canonicalName": "r4agromech",
-        "text": "When attacking, after you spend a focus token, you may acquire a target lock on the defender.",
+        "text": "<p>When attacking, after you spend a focus token, you may acquire a target lock on the defender.</p>",
         "points": 2,
         "type": "salvaged astromech",
-        "id": "7553e596-7789-4eab-9811-946e35ed25f4"
+        "id": "ce6924a3-339c-42b6-9c65-114a01aa31c3"
     },
-    "791c194e-1601-437b-b4d4-432c48ac251f": {
+    "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1888,12 +1875,12 @@
         "unique": false,
         "name": "K4 Security Droid",
         "canonicalName": "k4securitydroid",
-        "text": "After executing a green maneuver, you may acquire a target lock.",
+        "text": "<p>After executing a green maneuver, you may acquire a target lock.</p>",
         "points": 3,
         "type": "crew",
-        "id": "791c194e-1601-437b-b4d4-432c48ac251f"
+        "id": "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2"
     },
-    "15abddf8-3b0a-4210-936e-01ce6693f82c": {
+    "5313c83c-173d-4f5f-92af-8d24fb2a3530": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1901,12 +1888,12 @@
         "unique": false,
         "name": "Outlaw Tech",
         "canonicalName": "outlawtech",
-        "text": "After you execute a red maneuver, you may assign 1 focus token to your ship.",
+        "text": "<p>After you execute a red maneuver, you may assign 1 focus token to your ship.</p>",
         "points": 2,
         "type": "crew",
-        "id": "15abddf8-3b0a-4210-936e-01ce6693f82c"
+        "id": "5313c83c-173d-4f5f-92af-8d24fb2a3530"
     },
-    "9a4b96a6-3191-4220-bdbe-d1058c8fb9a8": {
+    "a48656af-65cf-45d1-89f7-be57fcfb0d6f": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1914,13 +1901,13 @@
         "unique": false,
         "name": "Advanced Targeting Computer",
         "canonicalName": "advancedtargetingcomputer",
-        "text": "<span class=\"card-restriction\">TIE Advanced only.</span><br /><br />When attacking with your primary weapon, if you have a target lock on the defender, you may add 1 <i class=\"xmf xmf-crit\"></i> result to your roll.  If you do, you cannot spend target locks during this attack.",
+        "text": "<p><span class=\"restriction\">TIE Advanced only.</span></p><p>When attacking with your primary weapon, if you have a target lock on the defender, you may add 1 <i class=\"xmf xmf-crit\"></i> result to your roll.  If you do, you cannot spend target locks during this attack.</p>",
         "points": 5,
         "ship": "tieadvanced",
         "type": "system",
-        "id": "9a4b96a6-3191-4220-bdbe-d1058c8fb9a8"
+        "id": "a48656af-65cf-45d1-89f7-be57fcfb0d6f"
     },
-    "33b5bbf8-407a-4640-b7d2-082b66c8d840": {
+    "bda516e1-36ae-48d0-b003-480060bff32f": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -1928,14 +1915,14 @@
         "unique": false,
         "name": "Ion Cannon Battery",
         "canonicalName": "ioncannonbattery",
-        "text": "<strong>Attack (energy):</strong> Spend 2 energy from this card to perform this attack.  If this attack hits, the defender suffers 1 critical damage and receives 1 ion token.  Then cancel <strong>all<strong> dice results.",
+        "text": "<p><strong>Attack (energy):</strong> Spend 2 energy from this card to perform this attack.  If this attack hits, the defender suffers 1 critical damage and receives 1 ion token.  Then cancel <strong>all<strong> dice results.</p>",
         "points": 6,
         "attack": 4,
         "range": "2-4",
         "type": "hardpoint",
-        "id": "33b5bbf8-407a-4640-b7d2-082b66c8d840"
+        "id": "bda516e1-36ae-48d0-b003-480060bff32f"
     },
-    "162fbcc3-1299-436a-a12d-48d74ba369d7": {
+    "574fe969-ec57-4ea6-9035-aa0f24c0540d": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack"
@@ -1945,12 +1932,12 @@
         "unique": false,
         "name": "Stealth Device",
         "canonicalName": "stealthdevice",
-        "text": "Increase your agility value by 1.  If you are hit by an attack, discard this card.",
+        "text": "<p>Increase your agility value by 1.  If you are hit by an attack, discard this card.</p>",
         "points": 3,
         "type": "modification",
-        "id": "162fbcc3-1299-436a-a12d-48d74ba369d7"
+        "id": "574fe969-ec57-4ea6-9035-aa0f24c0540d"
     },
-    "528a32e0-4eb8-4601-80c4-2aee75cd31d1": {
+    "f688e949-c12c-43e8-9bbb-93d928110ac4": {
         "size": "all",
         "sources": [
             "Imperial Aces Expansion Pack",
@@ -1961,12 +1948,12 @@
         "unique": false,
         "name": "Shield Upgrade",
         "canonicalName": "shieldupgrade",
-        "text": "Increase your shield value by 1.",
+        "text": "<p>Increase your shield value by 1.</p>",
         "points": 4,
         "type": "modification",
-        "id": "528a32e0-4eb8-4601-80c4-2aee75cd31d1"
+        "id": "f688e949-c12c-43e8-9bbb-93d928110ac4"
     },
-    "6d937699-a319-43e5-815a-4794cdec86c4": {
+    "0f9cc01f-b934-4c4a-aba3-0a56baca3e4e": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -1976,12 +1963,12 @@
         "unique": false,
         "name": "Engine Upgrade",
         "canonicalName": "engineupgrade",
-        "text": "Your action bar gains the <i class=\"xmf xmf-boost\"></i> action icon.",
+        "text": "<p>Your action bar gains the <i class=\"xmf xmf-boost\"></i> action icon.</p>",
         "points": 4,
         "type": "modification",
-        "id": "6d937699-a319-43e5-815a-4794cdec86c4"
+        "id": "0f9cc01f-b934-4c4a-aba3-0a56baca3e4e"
     },
-    "d962b363-45a8-4d1b-8c6f-6c94a7d65e9f": {
+    "c4fc4f71-a1aa-4fe9-92d0-1b41b9beea21": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -1991,12 +1978,12 @@
         "unique": false,
         "name": "Anti-Pursuit Lasers",
         "canonicalName": "antipursuitlasers",
-        "text": "<span class=\"card-restriction\">Large Ship only.</span><br /><br />After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> or <i class=\"xmf xmf-crit\"></i> result, the enemy ship suffers 1 damage.",
+        "text": "<p><span class=\"restriction\">Large Ship only.</span></p><p>After an enemy ship executes a maneuver that causes it to overlap your ship, roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> or <i class=\"xmf xmf-crit\"></i> result, the enemy ship suffers 1 damage.</p>",
         "points": 2,
         "type": "modification",
-        "id": "d962b363-45a8-4d1b-8c6f-6c94a7d65e9f"
+        "id": "c4fc4f71-a1aa-4fe9-92d0-1b41b9beea21"
     },
-    "1610f7fc-2f3a-47df-a119-c2050e7c6729": {
+    "7e22bf85-99ef-43a4-a752-2e7658362f6c": {
         "size": "all",
         "sources": [
             "Imperial Aces Expansion Pack"
@@ -2006,12 +1993,12 @@
         "unique": false,
         "name": "Targeting Computer",
         "canonicalName": "targetingcomputer",
-        "text": "Your action bar gains the <i class=\"xmf xmf-targetlock\"></i> action icon.",
+        "text": "<p>Your action bar gains the <i class=\"xmf xmf-targetlock\"></i> action icon.</p>",
         "points": 2,
         "type": "modification",
-        "id": "1610f7fc-2f3a-47df-a119-c2050e7c6729"
+        "id": "7e22bf85-99ef-43a4-a752-2e7658362f6c"
     },
-    "27d79205-599f-47c1-adc3-b2b99408c0d7": {
+    "889dc4b5-0603-4bd8-a2a3-4e9a0389a5c2": {
         "size": "all",
         "sources": [
             "Imperial Aces Expansion Pack"
@@ -2021,12 +2008,12 @@
         "unique": false,
         "name": "Hull Upgrade",
         "canonicalName": "hullupgrade",
-        "text": "Increase your hull value by 1.",
+        "text": "<p>Increase your hull value by 1.</p>",
         "points": 3,
         "type": "modification",
-        "id": "27d79205-599f-47c1-adc3-b2b99408c0d7"
+        "id": "889dc4b5-0603-4bd8-a2a3-4e9a0389a5c2"
     },
-    "42957b9a-45aa-4375-8c3b-f7a2570afa42": {
+    "d1a21374-cf74-4078-b21b-e89b00391eda": {
         "size": "all",
         "sources": [
             "TIE Defender Expansion Pack",
@@ -2037,12 +2024,12 @@
         "unique": false,
         "name": "Munitions Failsafe",
         "canonicalName": "munitionsfailsafe",
-        "text": "When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits.",
+        "text": "<p>When attacking with a secondary weapon that instructs you to discard it to perform the attack, do not discard it unless the attack hits.</p>",
         "points": 1,
         "type": "modification",
-        "id": "42957b9a-45aa-4375-8c3b-f7a2570afa42"
+        "id": "d1a21374-cf74-4078-b21b-e89b00391eda"
     },
-    "34800d64-4d8d-431e-92f8-fdf59fb4e618": {
+    "36047cb9-10b8-45ee-a52c-8374ff45dcf8": {
         "size": "all",
         "sources": [
             "TIE Phantom Expansion Pack"
@@ -2052,12 +2039,12 @@
         "unique": false,
         "name": "Stygium Particle Accelerator",
         "canonicalName": "stygiumparticleaccelerator",
-        "text": "When you either decloak or perform a cloak action, you may perform a free evade action.",
+        "text": "<p>When you either decloak or perform a cloak action, you may perform a free evade action.</p>",
         "points": 2,
         "type": "modification",
-        "id": "34800d64-4d8d-431e-92f8-fdf59fb4e618"
+        "id": "36047cb9-10b8-45ee-a52c-8374ff45dcf8"
     },
-    "bbcf3e41-5b11-44d6-a53c-ef5ece47e43c": {
+    "461ecfd4-58ad-41ec-8e82-757ff4d34377": {
         "size": "all",
         "sources": [
             "TIE Phantom Expansion Pack"
@@ -2067,13 +2054,13 @@
         "unique": false,
         "name": "Advanced Cloaking Device",
         "canonicalName": "advancedcloakingdevice",
-        "text": "<span class=\"card-restriction\">TIE Phantom only.</span><br /><br />After you perform an attack, you may perform a free cloak action.",
+        "text": "<p><span class=\"restriction\">TIE Phantom only.</span></p><p>After you perform an attack, you may perform a free cloak action.</p>",
         "points": 4,
         "ship": "TIE Phantom",
         "type": "modification",
-        "id": "bbcf3e41-5b11-44d6-a53c-ef5ece47e43c"
+        "id": "461ecfd4-58ad-41ec-8e82-757ff4d34377"
     },
-    "c93da83e-0403-4dc1-9e96-e3baec7d9291": {
+    "d8c80404-e17d-4228-aa7b-28ad2242c50b": {
         "size": "huge",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -2083,13 +2070,13 @@
         "unique": false,
         "name": "Combat Retrofit",
         "canonicalName": "combatretrofit",
-        "text": "<span class=\"card-restriction\">GR-75 only.</span><br /><br />Increase your hull value by 2 and your shield value by 1.",
+        "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>Increase your hull value by 2 and your shield value by 1.</p>",
         "points": 10,
         "ship": "GR-75 Medium Transport",
         "type": "modification",
-        "id": "c93da83e-0403-4dc1-9e96-e3baec7d9291"
+        "id": "d8c80404-e17d-4228-aa7b-28ad2242c50b"
     },
-    "7831c4bb-0287-4dc1-8467-19d644214162": {
+    "0194a553-9608-4c69-91dc-9d35e8eadad2": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -2101,13 +2088,13 @@
         "unique": false,
         "name": "B-Wing/E2",
         "canonicalName": "bwinge2",
-        "text": "<span class=\"card-restriction\">B-Wing only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-crew\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">B-Wing only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-crew\"></i> upgrade icon.</p>",
         "points": 1,
         "ship": "B-Wing",
         "type": "modification",
-        "id": "7831c4bb-0287-4dc1-8467-19d644214162"
+        "id": "0194a553-9608-4c69-91dc-9d35e8eadad2"
     },
-    "ba185689-1bdf-4708-89f5-e5b6abc6cce2": {
+    "6554e79e-3a24-4e5c-aeed-d1237d7e9236": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -2117,12 +2104,12 @@
         "unique": false,
         "name": "Countermeasures",
         "canonicalName": "countermeasures",
-        "text": "<span class=\"card-restriction\">Large Ship only.</span><br /><br />At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round.  Then you may remove 1 enemy target lock from your ship.",
+        "text": "<p><span class=\"restriction\">Large Ship only.</span></p><p>At the start of the Combat phase, you may discard this card to increase your agility value by 1 until the end of the round.  Then you may remove 1 enemy target lock from your ship.</p>",
         "points": 3,
         "type": "modification",
-        "id": "ba185689-1bdf-4708-89f5-e5b6abc6cce2"
+        "id": "6554e79e-3a24-4e5c-aeed-d1237d7e9236"
     },
-    "1185d2ef-49b2-4456-b3a4-96703e52bd13": {
+    "6e937e4c-ce23-4bba-804b-11f35f95aeec": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -2132,12 +2119,12 @@
         "unique": true,
         "name": "Experimental Interface",
         "canonicalName": "experimentalinterface",
-        "text": "Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the \"<strong>Action:</strong>\" header.  Then receive 1 stress token.",
+        "text": "<p>Once per round, after you perform an action, you may perform 1 free action from an equipped Upgrade card with the \"<strong>Action:</strong>\" header.  Then receive 1 stress token.</p>",
         "points": 3,
         "type": "modification",
-        "id": "1185d2ef-49b2-4456-b3a4-96703e52bd13"
+        "id": "6e937e4c-ce23-4bba-804b-11f35f95aeec"
     },
-    "7261d021-9943-414d-aff0-62d6ad179796": {
+    "122e303c-ce49-4f69-88ce-2976a324b4da": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -2147,12 +2134,12 @@
         "unique": false,
         "name": "Tactical Jammer",
         "canonicalName": "tacticaljammer",
-        "text": "<span class=\"card-restriction\">Large Ship only.</span><br /><br />Your ship can obstruct enemy attacks.",
+        "text": "<p><span class=\"restriction\">Large Ship only.</span></p><p>Your ship can obstruct enemy attacks.</p>",
         "points": 1,
         "type": "modification",
-        "id": "7261d021-9943-414d-aff0-62d6ad179796"
+        "id": "122e303c-ce49-4f69-88ce-2976a324b4da"
     },
-    "f7b50254-01d2-4e5c-8391-726f23b3751c": {
+    "46cd5a75-59ae-4f77-8196-38c1b08b0aae": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2160,12 +2147,12 @@
         "unique": false,
         "name": "Autothrusters",
         "canonicalName": "autothrusters",
-        "text": "When defending, if you are beyond Range 2 or outside the attacker's firing arc, you may change 1 of your blank results to a <i class=\"xmf xmf-evade\"></i> result. You can equip this card only if you have the <i class=\"xmf xmf-boost\"></i> action icon.",
+        "text": "<p>When defending, if you are beyond Range 2 or outside the attacker's firing arc, you may change 1 of your blank results to a <i class=\"xmf xmf-evade\"></i> result. You can equip this card only if you have the <i class=\"xmf xmf-boost\"></i> action icon.</p>",
         "points": 2,
         "type": "modification",
-        "id": "f7b50254-01d2-4e5c-8391-726f23b3751c"
+        "id": "46cd5a75-59ae-4f77-8196-38c1b08b0aae"
     },
-    "92302965-8534-4b30-a8dd-2219a79bc164": {
+    "51c82a0f-806a-415c-974a-f17d85257914": {
         "size": "all",
         "sources": [
             "Slave I Expansion Pack"
@@ -2177,13 +2164,13 @@
         "unique": true,
         "name": "Slave I",
         "canonicalName": "slavei",
-        "text": "<span class=\"card-restriction\">Firespray-31 only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-torpedo\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">Firespray-31 only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-torpedo\"></i> upgrade icon.</p>",
         "points": 0,
         "ship": "firespray31",
         "type": "title",
-        "id": "92302965-8534-4b30-a8dd-2219a79bc164"
+        "id": "51c82a0f-806a-415c-974a-f17d85257914"
     },
-    "86794efe-2ad7-4c39-9221-92e8293bc7f3": {
+    "231ed78c-1e3d-4938-9953-9f4ad9a95674": {
         "size": "all",
         "sources": [
             "Millennium Falcon Expansion Pack"
@@ -2193,13 +2180,13 @@
         "unique": true,
         "name": "Millennium Falcon",
         "canonicalName": "millenniumfalcon",
-        "text": "<span class=\"card-restriction\">YT-1300 only.</span><br /><br />Your action bar gains the <i class=\"xmf xmf-evade\"></i> action icon.",
+        "text": "<p><span class=\"restriction\">YT-1300 only.</span></p><p>Your action bar gains the <i class=\"xmf xmf-evade\"></i> action icon.</p>",
         "points": 1,
         "ship": "yt1300",
         "type": "title",
-        "id": "86794efe-2ad7-4c39-9221-92e8293bc7f3"
+        "id": "231ed78c-1e3d-4938-9953-9f4ad9a95674"
     },
-    "d2aeeb88-8cfa-461e-9af8-457b8b235f7e": {
+    "f14a0003-199a-4fba-a12b-f459fdf91c34": {
         "size": "all",
         "sources": [
             "HWK-290 Expansion Pack"
@@ -2209,13 +2196,13 @@
         "unique": true,
         "name": "Moldy Crow",
         "canonicalName": "moldycrow",
-        "text": "<span class=\"card-restriction\">HWK-290 only.</span><br /><br />During the End phase, do not remove unused focus tokens from your ship.",
+        "text": "<p><span class=\"restriction\">HWK-290 only.</span></p><p>During the End phase, do not remove unused focus tokens from your ship.</p>",
         "points": 3,
         "ship": "hwk290",
         "type": "title",
-        "id": "d2aeeb88-8cfa-461e-9af8-457b8b235f7e"
+        "id": "f14a0003-199a-4fba-a12b-f459fdf91c34"
     },
-    "0c97d829-c357-4a4e-9ee3-60748053611f": {
+    "af57db31-a1d0-43fa-914a-364f3f2cf4bb": {
         "size": "all",
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
@@ -2225,13 +2212,13 @@
         "unique": true,
         "name": "ST-321",
         "canonicalName": "st321",
-        "text": "<span class=\"card-restriction\"><em>Lambda</em>-class Shuttle only.</span><br /><br />When acquiring a target lock, you may lock onto any enemy ship in the play area.",
+        "text": "<p><span class=\"restriction\"><em>Lambda</em>-class Shuttle only.</span></p><p>When acquiring a target lock, you may lock onto any enemy ship in the play area.</p>",
         "points": 3,
         "ship": "lambdaclassshuttle",
         "type": "title",
-        "id": "0c97d829-c357-4a4e-9ee3-60748053611f"
+        "id": "af57db31-a1d0-43fa-914a-364f3f2cf4bb"
     },
-    "74e643e7-4bfb-4289-bd23-31148b507968": {
+    "6cf3d276-fef0-453e-8343-71f38ae68f55": {
         "size": "all",
         "sources": [
             "Imperial Aces Expansion Pack"
@@ -2241,13 +2228,13 @@
         "unique": false,
         "name": "Royal Guard TIE",
         "canonicalName": "royalguardtie",
-        "text": "<span class=\"card-restriction\">TIE Interceptor only.</span><br /><br />You may equip up to 2 different Modification upgrades (instead of 1).<br /><br />You cannot equip this card if your pilot skill value is \"4\" or lower.",
+        "text": "<p><span class=\"restriction\">TIE Interceptor only.</span></p><p>You may equip up to 2 different Modification upgrades (instead of 1).</p><p>You cannot equip this card if your pilot skill value is \"4\" or lower.</p>",
         "points": 0,
         "ship": "tieinterceptor",
         "type": "title",
-        "id": "74e643e7-4bfb-4289-bd23-31148b507968"
+        "id": "6cf3d276-fef0-453e-8343-71f38ae68f55"
     },
-    "a315f35b-28cb-43ed-bab1-f593440fb9d4": {
+    "52851ff6-b4b4-45a0-84e4-208abd570f6b": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -2257,13 +2244,13 @@
         "unique": true,
         "name": "Dodonna's Pride",
         "canonicalName": "dodonnaspride",
-        "text": "<span class=\"card-restriction\">CR90 fore section only.</span><br /><br />When you perform a coordinate action, you may choose 2 friendly ships (instead of 1).  Those ships may each perform 1 free action.",
+        "text": "<p><span class=\"restriction\">CR90 fore section only.</span></p><p>When you perform a coordinate action, you may choose 2 friendly ships (instead of 1).  Those ships may each perform 1 free action.</p>",
         "points": 4,
         "ship": "cr90corvette",
         "type": "title",
-        "id": "a315f35b-28cb-43ed-bab1-f593440fb9d4"
+        "id": "52851ff6-b4b4-45a0-84e4-208abd570f6b"
     },
-    "ac408d15-29dd-446f-bf04-b740ab3b36eb": {
+    "18d677ab-4719-473e-81b3-2d1602f82f5b": {
         "size": "all",
         "sources": [
             "Rebel Aces Expansion Pack"
@@ -2275,13 +2262,13 @@
         "unique": false,
         "name": "A-Wing Test Pilot",
         "canonicalName": "awingtestpilot",
-        "text": "<span class=\"card-restriction\">A-Wing only.</span><br /><br />Your upgrade bar gains 1 <i class=\"xmf xmf-elite\"></i> upgrade icon.<br /><br />You cannot equip 2 of the same <i class=\"xmf xmf-elite\"></i> Upgrade cards.  You cannot equip this if your pilot skill value is \"1\" or lower.",
+        "text": "<p><span class=\"restriction\">A-Wing only.</span></p><p>Your upgrade bar gains 1 <i class=\"xmf xmf-elite\"></i> upgrade icon.</p><p>You cannot equip 2 of the same <i class=\"xmf xmf-elite\"></i> Upgrade cards.  You cannot equip this if your pilot skill value is \"1\" or lower.</p>",
         "points": 0,
         "ship": "awing",
         "type": "title",
-        "id": "ac408d15-29dd-446f-bf04-b740ab3b36eb"
+        "id": "18d677ab-4719-473e-81b3-2d1602f82f5b"
     },
-    "d679cee9-7b22-4bcf-9546-154454740b19": {
+    "aa9b66a1-ad3b-403e-bbd1-09d190085ea1": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -2294,13 +2281,13 @@
         "unique": true,
         "name": "Tantive IV",
         "canonicalName": "tantiveiv",
-        "text": "<span class=\"card-restriction\">CR90 fore section only.</span><br /><br />Your fore section upgrade bar gains 1 additional <i class=\"xmf xmf-crew\"></i> and 1 additional <i class=\"xmf xmf-team\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">CR90 fore section only.</span></p><p>Your fore section upgrade bar gains 1 additional <i class=\"xmf xmf-crew\"></i> and 1 additional <i class=\"xmf xmf-team\"></i> upgrade icon.</p>",
         "points": 4,
         "ship": "cr90corvette",
         "type": "title",
-        "id": "d679cee9-7b22-4bcf-9546-154454740b19"
+        "id": "aa9b66a1-ad3b-403e-bbd1-09d190085ea1"
     },
-    "91149cab-207e-42f9-bfc3-d8937b2004c1": {
+    "2f3352dc-faf9-47d5-aaff-3d1c9f0a8888": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -2310,14 +2297,14 @@
         "unique": true,
         "name": "Bright Hope",
         "canonicalName": "brighthope",
-        "text": "<span class=\"card-restriction\">GR-75 only.</span><br /><br />A reinforce action assigned to your fore section adds 2 <i class=\"xmf xmf-evade\"></i> results (instead of 1).",
+        "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>A reinforce action assigned to your fore section adds 2 <i class=\"xmf xmf-evade\"></i> results (instead of 1).</p>",
         "points": 5,
         "energy": "+2",
         "ship": "gr75mediumtransport",
         "type": "title",
-        "id": "91149cab-207e-42f9-bfc3-d8937b2004c1"
+        "id": "2f3352dc-faf9-47d5-aaff-3d1c9f0a8888"
     },
-    "2fd3fffb-57c9-44d1-b242-d7680dfecd59": {
+    "9e6e6c8b-5665-4972-ba70-b6bbc2bdacc7": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -2327,14 +2314,14 @@
         "unique": true,
         "name": "Quantum Storm",
         "canonicalName": "quantumstorm",
-        "text": "<span class=\"card-restriction\">GR-75 only.</span><br /><br />At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token.",
+        "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>At the start of the End phase, if you have 1 or fewer energy tokens, gain 1 energy token.</p>",
         "points": 4,
         "energy": "+1",
         "ship": "gr75mediumtransport",
         "type": "title",
-        "id": "2fd3fffb-57c9-44d1-b242-d7680dfecd59"
+        "id": "9e6e6c8b-5665-4972-ba70-b6bbc2bdacc7"
     },
-    "ef99e93a-d44c-41fa-b900-b761bf802e94": {
+    "cc66ad8c-b2bf-401d-ba81-fa3a8ea15d62": {
         "size": "all",
         "sources": [
             "Rebel Transport Expansion Pack"
@@ -2344,14 +2331,14 @@
         "unique": true,
         "name": "Dutyfree",
         "canonicalName": "dutyfree",
-        "text": "<span class=\"card-restriction\">GR-75 only.</span><br /><br />When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2).",
+        "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>When performing a jam action, you may choose an enemy ship at Range 1-3 (instead of at Range 1-2).</p>",
         "points": 2,
         "energy": "+0",
         "ship": "gr75mediumtransport",
         "type": "title",
-        "id": "ef99e93a-d44c-41fa-b900-b761bf802e94"
+        "id": "cc66ad8c-b2bf-401d-ba81-fa3a8ea15d62"
     },
-    "f7c37a0a-d01f-4877-b174-0580b9e5ac85": {
+    "e49da252-2efc-4f09-8656-cac1b4b4274d": {
         "size": "all",
         "sources": [
             "Tantive IV Expansion Pack"
@@ -2361,13 +2348,13 @@
         "unique": true,
         "name": "Jaina's Light",
         "canonicalName": "jainaslight",
-        "text": "<span class=\"card-restriction\">CR90 fore section only.</span><br /><br />When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card.",
+        "text": "<p><span class=\"restriction\">CR90 fore section only.</span></p><p>When defending, once per attack, if you are dealt a faceup Damage card, you may discard it and draw another faceup Damage card.</p>",
         "points": 2,
         "ship": "cr90corvette",
         "type": "title",
-        "id": "f7c37a0a-d01f-4877-b174-0580b9e5ac85"
+        "id": "e49da252-2efc-4f09-8656-cac1b4b4274d"
     },
-    "d05b47d2-a19a-4eb4-9d12-44cd19717d23": {
+    "35b6e937-e373-499b-a2d0-f9b5c15a381d": {
         "size": "all",
         "sources": [
             "YT-2400 Freighter Expansion Pack"
@@ -2377,13 +2364,13 @@
         "unique": true,
         "name": "Outrider",
         "canonicalName": "outrider",
-        "text": "<span class=\"card-restriction\">YT-2400 only.</span><br /><br />While you have a <i class=\"xmf xmf-cannon\"></i> Upgrade card equipped, you <strong>cannot</strong> perform primary weapon attacks and you may perform <i class=\"xmf xmf-cannon\"></i> secondary weapon attacks against ships outside your firing arc.",
+        "text": "<p><span class=\"restriction\">YT-2400 only.</span></p><p>While you have a <i class=\"xmf xmf-cannon\"></i> Upgrade card equipped, you <strong>cannot</strong> perform primary weapon attacks and you may perform <i class=\"xmf xmf-cannon\"></i> secondary weapon attacks against ships outside your firing arc.</p>",
         "points": 5,
         "ship": "yt2400",
         "type": "title",
-        "id": "d05b47d2-a19a-4eb4-9d12-44cd19717d23"
+        "id": "35b6e937-e373-499b-a2d0-f9b5c15a381d"
     },
-    "d26630bc-576e-4e94-b1d1-fe98d15ea25c": {
+    "11f6c209-3f62-4c58-81d3-3845766cb7b4": {
         "size": "all",
         "sources": [
             "VT-49 Decimator Expansion Pack"
@@ -2393,13 +2380,13 @@
         "unique": true,
         "name": "Dauntless",
         "canonicalName": "dauntless",
-        "text": "<span class=\"card-restriction\">VT-49 Decimator only.</span><br /><br />After you execute a maneuver that causes you to overlap another ship, you may perform 1 free action.  Then receive 1 stress token.",
+        "text": "<p><span class=\"restriction\">VT-49 Decimator only.</span></p><p>After you execute a maneuver that causes you to overlap another ship, you may perform 1 free action.  Then receive 1 stress token.</p>",
         "points": 2,
         "ship": "vt49decimator",
         "type": "title",
-        "id": "d26630bc-576e-4e94-b1d1-fe98d15ea25c"
+        "id": "11f6c209-3f62-4c58-81d3-3845766cb7b4"
     },
-    "ac20a73a-e2f7-4568-9e31-8f1a41994ed3": {
+    "67611512-51c1-4d6d-8564-708692c4fbd2": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2410,13 +2397,13 @@
         "unique": true,
         "name": "Virago",
         "canonicalName": "virago",
-        "text": "<span class=\"card-restriction\">StarViper only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-system\"></i> and <i class=\"xmf xmf-illicit\"></i> upgrade icons.<br /><br />You cannot equip this card if your pilot skill value is \"3\" or lower.",
+        "text": "<p><span class=\"restriction\">StarViper only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-system\"></i> and <i class=\"xmf xmf-illicit\"></i> upgrade icons.</p><p>You cannot equip this card if your pilot skill value is \"3\" or lower.</p>",
         "points": 1,
         "ship": "starviper",
         "type": "title",
-        "id": "ac20a73a-e2f7-4568-9e31-8f1a41994ed3"
+        "id": "67611512-51c1-4d6d-8564-708692c4fbd2"
     },
-    "618b2a04-3cd1-4886-9487-bf7f1cd9dc26": {
+    "89d35da1-4b56-415a-8c56-be740e98615f": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2426,13 +2413,13 @@
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Cannon)",
         "canonicalName": "heavyscykinterceptor",
-        "text": "<span class=\"card-restriction\">M3-A Interceptor only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">M3-A Interceptor only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.</p>",
         "points": 2,
         "ship": "m3ainterceptor",
         "type": "title",
-        "id": "618b2a04-3cd1-4886-9487-bf7f1cd9dc26"
+        "id": "89d35da1-4b56-415a-8c56-be740e98615f"
     },
-    "9243bae1-03ee-4f30-a638-f15b2b96e772": {
+    "789a8305-7212-4ec2-8ab9-32ec09e6601d": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2442,13 +2429,13 @@
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Torpedo)",
         "canonicalName": "heavyscykinterceptor",
-        "text": "<span class=\"card-restriction\">M3-A Interceptor only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">M3-A Interceptor only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.</p>",
         "points": 2,
         "ship": "m3ainterceptor",
         "type": "title",
-        "id": "9243bae1-03ee-4f30-a638-f15b2b96e772"
+        "id": "789a8305-7212-4ec2-8ab9-32ec09e6601d"
     },
-    "6330e225-9b93-4f62-991f-c1992d82c49f": {
+    "bf2d576d-90cc-4cda-a4c0-ce93dc261f37": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2458,13 +2445,13 @@
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Missile)",
         "canonicalName": "heavyscykinterceptor",
-        "text": "<span class=\"card-restriction\">M3-A Interceptor only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.",
+        "text": "<p><span class=\"restriction\">M3-A Interceptor only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-cannon\"></i>, <i class=\"xmf xmf-torpedo\"></i>, or <i class=\"xmf xmf-missile\"></i> upgrade icon.</p>",
         "points": 2,
         "ship": "m3ainterceptor",
         "type": "title",
-        "id": "6330e225-9b93-4f62-991f-c1992d82c49f"
+        "id": "bf2d576d-90cc-4cda-a4c0-ce93dc261f37"
     },
-    "4bd0d094-70cc-48ee-b62a-f786387658b1": {
+    "c35a65fa-ed3e-4bfc-abf9-34c4c6b9fd16": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2472,13 +2459,13 @@
         "unique": false,
         "name": "IG-2000",
         "canonicalName": "ig2000",
-        "text": "<span class=\"card-restriction\">Aggressor only.</span><br /><br />You have the pilot ability of each other friendly ship with the <em>IG-2000</em> Upgrade card (in addition to your own pilot ability).",
+        "text": "<p><span class=\"restriction\">Aggressor only.</span></p><p>You have the pilot ability of each other friendly ship with the <em>IG-2000</em> Upgrade card (in addition to your own pilot ability).</p>",
         "points": 0,
         "ship": "aggressor",
         "type": "title",
-        "id": "4bd0d094-70cc-48ee-b62a-f786387658b1"
+        "id": "c35a65fa-ed3e-4bfc-abf9-34c4c6b9fd16"
     },
-    "2221007a-11f3-4085-94b7-e607f56bd41b": {
+    "b887cbbd-fc08-459e-8968-0d26b22588ed": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2486,13 +2473,13 @@
         "unique": false,
         "name": "BTL-A4 Y-Wing",
         "canonicalName": "btla4ywing",
-        "text": "<span class=\"card-restriction\">Y-Wing only.</span><br /><br />You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a <i class=\"xmf xmf-turret\"></i> secondary weapon.",
+        "text": "<p><span class=\"restriction\">Y-Wing only.</span></p><p>You cannot attack ships outside your firing arc. After you perform a primary weapon attack, you may immediately perform an attack with a <i class=\"xmf xmf-turret\"></i> secondary weapon.</p>",
         "points": 0,
         "ship": "ywing",
         "type": "title",
-        "id": "2221007a-11f3-4085-94b7-e607f56bd41b"
+        "id": "b887cbbd-fc08-459e-8968-0d26b22588ed"
     },
-    "ab562b63-4088-413a-8ea5-d2c4b24a1369": {
+    "09ce360d-8a78-4348-9181-7cec65bda0eb": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2503,13 +2490,13 @@
         "unique": true,
         "name": "Andrasta",
         "canonicalName": "andrasta",
-        "text": "Your upgrade bar gains two additional <i class=\"xmf xmf-bomb\"></i> upgrade icons.",
+        "text": "<p>Your upgrade bar gains two additional <i class=\"xmf xmf-bomb\"></i> upgrade icons.</p>",
         "points": 0,
         "ship": "firespray31",
         "type": "title",
-        "id": "ab562b63-4088-413a-8ea5-d2c4b24a1369"
+        "id": "09ce360d-8a78-4348-9181-7cec65bda0eb"
     },
-    "c66ef857-69fa-41da-959c-620e7bdf1366": {
+    "327f701c-d870-489f-90d0-c6e7d34bfd69": {
         "size": "all",
         "sources": [],
         "actions": [],
@@ -2519,10 +2506,10 @@
         "unique": false,
         "name": "TIE/x1",
         "canonicalName": "tiex1",
-        "text": "<span class=\"card-restriction\">TIE Advanced only.</span><br /><br />Your upgrade bar gains the <i class=\"xmf xmf-system\"></i> upgrade icon.<br /><br />If you equip a <i class=\"xmf xmf-system\"></i> upgrade, its squad point cost is reduced by 4 (to a minimum of 0).",
+        "text": "<p><span class=\"restriction\">TIE Advanced only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-system\"></i> upgrade icon.</p><p>If you equip a <i class=\"xmf xmf-system\"></i> upgrade, its squad point cost is reduced by 4 (to a minimum of 0).</p>",
         "points": 0,
         "ship": "tieadvanced",
         "type": "title",
-        "id": "c66ef857-69fa-41da-959c-620e7bdf1366"
+        "id": "327f701c-d870-489f-90d0-c6e7d34bfd69"
     }
 }

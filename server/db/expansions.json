@@ -12190,5 +12190,5243 @@
         "released": false,
         "name": "Imperial Raider Expansion Pack",
         "id": "dfa8eded-d071-4955-a566-f0de3d64d698"
+    },
+    "43898bc8-0cac-46c2-8c18-3474e2fbe52d": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tiefighter",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "biggsdarklighter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maulermithel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "darkcurse",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "nightbeast",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2f2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Core",
+        "id": "43898bc8-0cac-46c2-8c18-3474e2fbe52d"
+    },
+    "b422e27c-7fa5-4c08-bfe9-5142d2e6976b": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "wedgeantilles",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "garvendreis",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5k6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "X-Wing Expansion Pack",
+        "id": "b422e27c-7fa5-4c08-bfe9-5142d2e6976b"
+    },
+    "493e5a8b-f0f3-43ef-88e1-1df7e3164a5a": {
+        "cards": [
+            {
+                "name": "ywing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hortonsalm",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutchvander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "graysquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "goldsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5d8",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2astromech",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Y-Wing Expansion Pack",
+        "id": "493e5a8b-f0f3-43ef-88e1-1df7e3164a5a"
+    },
+    "485469ee-d50a-4d29-919b-147a2ac5795d": {
+        "cards": [
+            {
+                "name": "tiefighter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "howlrunner",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "backstabber",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wingedgundark",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Fighter Expansion Pack",
+        "id": "485469ee-d50a-4d29-919b-147a2ac5795d"
+    },
+    "5b73f414-7627-4b62-9b41-be769d0de31d": {
+        "cards": [
+            {
+                "name": "tieadvanced",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maarekstele",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "stormsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tempestsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "squadleader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Advanced Expansion Pack",
+        "id": "5b73f414-7627-4b62-9b41-be769d0de31d"
+    },
+    "2b7ea797-67fa-4ea0-bab0-47d2739327bf": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tychocelchu",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "arvelcrynyd",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "deadeye",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "A-Wing Expansion Pack",
+        "id": "2b7ea797-67fa-4ea0-bab0-47d2739327bf"
+    },
+    "1b14575e-0f37-4443-bf5d-a27ea27cc457": {
+        "cards": [
+            {
+                "name": "yt1300",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "outerrimsmuggler",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "drawtheirfire",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "niennunb",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "millenniumfalcon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Millennium Falcon Expansion Pack",
+        "id": "1b14575e-0f37-4443-bf5d-a27ea27cc457"
+    },
+    "3e523c97-6eda-403a-b5a1-fdb20b02fb29": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "soontirfel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "turrphennir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "felswrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "avengersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "alphasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daredevil",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Interceptor Expansion Pack",
+        "id": "3e523c97-6eda-403a-b5a1-fdb20b02fb29"
+    },
+    "d60add24-88e2-417d-bd86-82b96af5ea38": {
+        "cards": [
+            {
+                "name": "firespray31",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bobafett",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kathscarlet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "krassistrelix",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bountyhunter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expose",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "proximitymines",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stealthdevice",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "slavei",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Slave I Expansion Pack",
+        "id": "d60add24-88e2-417d-bd86-82b96af5ea38"
+    },
+    "cb51b286-5081-4939-aaca-86d316e234f6": {
+        "cards": [
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tennumb",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ibtisam",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "autoblaster",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "B-Wing Expansion Pack",
+        "id": "cb51b286-5081-4939-aaca-86d316e234f6"
+    },
+    "b1d8e8f0-162b-4a2e-82d4-e1644968365a": {
+        "cards": [
+            {
+                "name": "hwk290",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "roarkgarnet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rebeloperative",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moldycrow",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "blasterturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "saboteur",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "HWK-290 Expansion Pack",
+        "id": "b1d8e8f0-162b-4a2e-82d4-e1644968365a"
+    },
+    "fe09a56c-5197-44c4-b50e-40183c208371": {
+        "cards": [
+            {
+                "name": "tiebomber",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "majorrhymer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainjonus",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gammasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "scimitarsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "adrenalinerush",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Bomber Expansion Pack",
+        "id": "fe09a56c-5197-44c4-b50e-40183c208371"
+    },
+    "6c6e4f62-72e3-4ace-9db3-85524ab4ffa8": {
+        "cards": [
+            {
+                "name": "lambdaclassshuttle",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainkagi",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "coloneljendon",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainyorr",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "omicrongrouppilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sensorjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "rebelcaptive",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "st321",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "navigator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flightinstructor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "antipursuitlasers",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Lambda-Class Shuttle Expansion Pack",
+        "id": "6c6e4f62-72e3-4ace-9db3-85524ab4ffa8"
+    },
+    "9fa5022e-8276-4811-9367-38d22e3f1168": {
+        "cards": [
+            {
+                "name": "z95headhunter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "airencracken",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantblount",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "talasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "banditsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "decoy",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wingman",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Z-95 Headhunter Expansion Pack",
+        "id": "9fa5022e-8276-4811-9367-38d22e3f1168"
+    },
+    "ae390a55-7202-42d0-93e4-9316d66801f8": {
+        "cards": [
+            {
+                "name": "ewing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "corranhorn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "etahnabaht",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blackmoonsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "knavesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7t1",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "E-Wing Expansion Pack",
+        "id": "ae390a55-7202-42d0-93e4-9316d66801f8"
+    },
+    "15d6cf80-6509-4397-850d-16bd7ac73181": {
+        "cards": [
+            {
+                "name": "tiedefender",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "rexlerbrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "colonelvessery",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "onyxsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "deltasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "predator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Defender Expansion Pack",
+        "id": "15d6cf80-6509-4397-850d-16bd7ac73181"
+    },
+    "0419d50d-2107-4585-8afb-2750258ce992": {
+        "cards": [
+            {
+                "name": "tiephantom",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "whisper",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "echo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "shadowsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sigmasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tactician",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedcloakingdevice",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stygiumparticleaccelerator",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Phantom Expansion Pack",
+        "id": "0419d50d-2107-4585-8afb-2750258ce992"
+    },
+    "ff252778-550a-402f-99ea-67e567a953b1": {
+        "cards": [
+            {
+                "name": "yt2400",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "eadenvrill",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wildspacefringer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "experimentalinterface",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "countermeasures",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "outrider",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lonewolf",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stayontarget",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "YT-2400 Freighter Expansion Pack",
+        "id": "ff252778-550a-402f-99ea-67e567a953b1"
+    },
+    "41963d03-557a-4e6e-87ae-d7929652f184": {
+        "cards": [
+            {
+                "name": "vt49decimator",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainoicunn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rearadmiralchiraneau",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "commanderkenkirk",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "patrolleader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ruthlessness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dauntless",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ysanneisard",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moffjerjerrod",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intimidation",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tacticaljammer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marajade",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "fleetofficer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "iontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "VT-49 Decimator Expansion Pack",
+        "id": "41963d03-557a-4e6e-87ae-d7929652f184"
+    },
+    "e8a7850a-c4ee-41b0-b8f7-0a7966d8713d": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "carnorjax",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kirkanos",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "tetrancowall",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantlorrir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardtie",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcomputer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "hullupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "opportunist",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Imperial Aces Expansion Pack",
+        "id": "e8a7850a-c4ee-41b0-b8f7-0a7966d8713d"
+    },
+    "704a3643-d6f2-4c41-ad71-5b342166461a": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "jakefarrell",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gemmersojan",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "keyanfarlander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "neradantels",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chardaanrefit",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "awingtestpilot",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "enhancedscopes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "bwinge2",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Aces Expansion Pack",
+        "id": "704a3643-d6f2-4c41-ad71-5b342166461a"
+    },
+    "dca542f3-adf6-45c0-8275-3f8d286cfe03": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wesjanson",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jekporkins",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "hobbieklivian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tarnmison",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutyfree",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quantumstorm",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "brighthope",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expandedcargohold",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r4d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "r3a2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wed15repairdroid",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "carlistrieekan",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ememitter",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5p9",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "frequencyjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldprojector",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "jandodonna",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "torynfarr",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "slicertools",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "combatretrofit",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Transport Expansion Pack",
+        "id": "dca542f3-adf6-45c0-8275-3f8d286cfe03"
+    },
+    "8986616d-619f-4444-a2de-5a5f54dce40c": {
+        "cards": [
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvettefore",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "cr90corvetteaft",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jainaslight",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dodonnaspride",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tantiveiv",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "c3po",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineeringteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunneryteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionizationreactor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leiaorgana",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2crew",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "sensorteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcoordinator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "raymusantilles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quadlasercannons",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "singleturbolasers",
+                "count": 3,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Tantive IV Expansion Pack",
+        "id": "8986616d-619f-4444-a2de-5a5f54dce40c"
+    },
+    "033b790a-2e8b-4e32-9515-79a5bb0c96ff": {
+        "cards": [],
+        "released": false,
+        "name": "StarViper Expansion Pack",
+        "id": "033b790a-2e8b-4e32-9515-79a5bb0c96ff"
+    },
+    "29a4aa88-8ba8-4003-b12a-e780648364fe": {
+        "cards": [],
+        "released": false,
+        "name": "M3-A Interceptor Expansion Pack",
+        "id": "29a4aa88-8ba8-4003-b12a-e780648364fe"
+    },
+    "77a63510-24a4-4484-b1d8-d9132b368b31": {
+        "cards": [],
+        "released": false,
+        "name": "IG-2000 Expansion Pack",
+        "id": "77a63510-24a4-4484-b1d8-d9132b368b31"
+    },
+    "c06ce4e8-3a35-4e00-8f9c-6c8b7bb09cf2": {
+        "cards": [],
+        "released": false,
+        "name": "Most Wanted Expansion Pack",
+        "id": "c06ce4e8-3a35-4e00-8f9c-6c8b7bb09cf2"
+    },
+    "21172149-0738-4653-babd-a14d3f64aee1": {
+        "cards": [],
+        "released": false,
+        "name": "Imperial Raider Expansion Pack",
+        "id": "21172149-0738-4653-babd-a14d3f64aee1"
+    },
+    "a9fa0522-1182-4070-99f6-d3568468e8de": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tiefighter",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "biggsdarklighter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maulermithel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "darkcurse",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "nightbeast",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2f2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Core",
+        "id": "a9fa0522-1182-4070-99f6-d3568468e8de"
+    },
+    "5e8caf01-a5ca-40bd-9200-ae62ad615d6c": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "wedgeantilles",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "garvendreis",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5k6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "X-Wing Expansion Pack",
+        "id": "5e8caf01-a5ca-40bd-9200-ae62ad615d6c"
+    },
+    "ae0a28ad-a2e4-40b4-bf94-82a12c07cd56": {
+        "cards": [
+            {
+                "name": "ywing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hortonsalm",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutchvander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "graysquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "goldsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5d8",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2astromech",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Y-Wing Expansion Pack",
+        "id": "ae0a28ad-a2e4-40b4-bf94-82a12c07cd56"
+    },
+    "cad54aeb-5c84-4e80-a964-1886510716b9": {
+        "cards": [
+            {
+                "name": "tiefighter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "howlrunner",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "backstabber",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wingedgundark",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Fighter Expansion Pack",
+        "id": "cad54aeb-5c84-4e80-a964-1886510716b9"
+    },
+    "34afa6d7-ac7d-4945-9eff-538e4e93a417": {
+        "cards": [
+            {
+                "name": "tieadvanced",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maarekstele",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "stormsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tempestsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "squadleader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Advanced Expansion Pack",
+        "id": "34afa6d7-ac7d-4945-9eff-538e4e93a417"
+    },
+    "99c78245-96ef-4ab6-9b99-3ad051e54e16": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tychocelchu",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "arvelcrynyd",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "deadeye",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "A-Wing Expansion Pack",
+        "id": "99c78245-96ef-4ab6-9b99-3ad051e54e16"
+    },
+    "4a324a66-217a-4333-9278-68d018e84978": {
+        "cards": [
+            {
+                "name": "yt1300",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "outerrimsmuggler",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "drawtheirfire",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "niennunb",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "millenniumfalcon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Millennium Falcon Expansion Pack",
+        "id": "4a324a66-217a-4333-9278-68d018e84978"
+    },
+    "2d68b707-6394-409f-b58e-d5e785863ea6": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "soontirfel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "turrphennir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "felswrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "avengersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "alphasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daredevil",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Interceptor Expansion Pack",
+        "id": "2d68b707-6394-409f-b58e-d5e785863ea6"
+    },
+    "51dde63a-90f0-4ab9-af8c-766fc0b23e90": {
+        "cards": [
+            {
+                "name": "firespray31",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bobafett",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kathscarlet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "krassistrelix",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bountyhunter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expose",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "proximitymines",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stealthdevice",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "slavei",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Slave I Expansion Pack",
+        "id": "51dde63a-90f0-4ab9-af8c-766fc0b23e90"
+    },
+    "2bacb994-d77c-4034-a853-f93f285b5dc8": {
+        "cards": [
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tennumb",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ibtisam",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "autoblaster",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "B-Wing Expansion Pack",
+        "id": "2bacb994-d77c-4034-a853-f93f285b5dc8"
+    },
+    "8742c60a-522a-402e-abb7-d51c81a2ce70": {
+        "cards": [
+            {
+                "name": "hwk290",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "roarkgarnet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rebeloperative",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moldycrow",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "blasterturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "saboteur",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "HWK-290 Expansion Pack",
+        "id": "8742c60a-522a-402e-abb7-d51c81a2ce70"
+    },
+    "f8abc151-17b4-487f-b2de-a473044c078d": {
+        "cards": [
+            {
+                "name": "tiebomber",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "majorrhymer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainjonus",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gammasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "scimitarsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "adrenalinerush",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Bomber Expansion Pack",
+        "id": "f8abc151-17b4-487f-b2de-a473044c078d"
+    },
+    "a605eb77-60f8-47a4-9dc6-b49ca4382921": {
+        "cards": [
+            {
+                "name": "lambdaclassshuttle",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainkagi",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "coloneljendon",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainyorr",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "omicrongrouppilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sensorjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "rebelcaptive",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "st321",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "navigator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flightinstructor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "antipursuitlasers",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Lambda-Class Shuttle Expansion Pack",
+        "id": "a605eb77-60f8-47a4-9dc6-b49ca4382921"
+    },
+    "28748b2d-bc14-4d96-b091-72eb574a8a75": {
+        "cards": [
+            {
+                "name": "z95headhunter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "airencracken",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantblount",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "talasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "banditsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "decoy",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wingman",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Z-95 Headhunter Expansion Pack",
+        "id": "28748b2d-bc14-4d96-b091-72eb574a8a75"
+    },
+    "467e7a74-7c8f-4260-bc13-6b557343542d": {
+        "cards": [
+            {
+                "name": "ewing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "corranhorn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "etahnabaht",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blackmoonsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "knavesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7t1",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "E-Wing Expansion Pack",
+        "id": "467e7a74-7c8f-4260-bc13-6b557343542d"
+    },
+    "4a003362-a9ff-43df-a758-2db998f2d4b3": {
+        "cards": [
+            {
+                "name": "tiedefender",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "rexlerbrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "colonelvessery",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "onyxsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "deltasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "predator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Defender Expansion Pack",
+        "id": "4a003362-a9ff-43df-a758-2db998f2d4b3"
+    },
+    "cb31acaa-8292-4445-91a8-12c2f2c68dbe": {
+        "cards": [
+            {
+                "name": "tiephantom",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "whisper",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "echo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "shadowsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sigmasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tactician",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedcloakingdevice",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stygiumparticleaccelerator",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Phantom Expansion Pack",
+        "id": "cb31acaa-8292-4445-91a8-12c2f2c68dbe"
+    },
+    "489c214f-b7cd-42a2-a75c-3492c74ffdf6": {
+        "cards": [
+            {
+                "name": "yt2400",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "eadenvrill",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wildspacefringer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "experimentalinterface",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "countermeasures",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "outrider",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lonewolf",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stayontarget",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "YT-2400 Freighter Expansion Pack",
+        "id": "489c214f-b7cd-42a2-a75c-3492c74ffdf6"
+    },
+    "d08e8b96-12ca-405b-ab80-207ad8fcfe51": {
+        "cards": [
+            {
+                "name": "vt49decimator",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainoicunn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rearadmiralchiraneau",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "commanderkenkirk",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "patrolleader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ruthlessness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dauntless",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ysanneisard",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moffjerjerrod",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intimidation",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tacticaljammer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marajade",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "fleetofficer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "iontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "VT-49 Decimator Expansion Pack",
+        "id": "d08e8b96-12ca-405b-ab80-207ad8fcfe51"
+    },
+    "031c64f7-d34d-44ca-81c0-cbaa272a2cd2": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "carnorjax",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kirkanos",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "tetrancowall",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantlorrir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardtie",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcomputer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "hullupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "opportunist",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Imperial Aces Expansion Pack",
+        "id": "031c64f7-d34d-44ca-81c0-cbaa272a2cd2"
+    },
+    "d19f2092-55db-4d5f-9b92-edef9a495aef": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "jakefarrell",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gemmersojan",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "keyanfarlander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "neradantels",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chardaanrefit",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "awingtestpilot",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "enhancedscopes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "bwinge2",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Aces Expansion Pack",
+        "id": "d19f2092-55db-4d5f-9b92-edef9a495aef"
+    },
+    "02d086d8-199a-499b-8ec0-50e498a219e2": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wesjanson",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jekporkins",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "hobbieklivian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tarnmison",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutyfree",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quantumstorm",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "brighthope",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expandedcargohold",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r4d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "r3a2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wed15repairdroid",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "carlistrieekan",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ememitter",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5p9",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "frequencyjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldprojector",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "jandodonna",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "torynfarr",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "slicertools",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "combatretrofit",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Transport Expansion Pack",
+        "id": "02d086d8-199a-499b-8ec0-50e498a219e2"
+    },
+    "efc30efd-04a1-44d3-91f4-32fe5715a117": {
+        "cards": [
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvettefore",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "cr90corvetteaft",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jainaslight",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dodonnaspride",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tantiveiv",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "c3po",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineeringteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunneryteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionizationreactor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leiaorgana",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2crew",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "sensorteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcoordinator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "raymusantilles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quadlasercannons",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "singleturbolasers",
+                "count": 3,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Tantive IV Expansion Pack",
+        "id": "efc30efd-04a1-44d3-91f4-32fe5715a117"
+    },
+    "b69d6c88-0665-437d-8e02-7dfeb09c5b88": {
+        "cards": [],
+        "released": false,
+        "name": "StarViper Expansion Pack",
+        "id": "b69d6c88-0665-437d-8e02-7dfeb09c5b88"
+    },
+    "02879718-4ea9-4b05-bd45-a2b9c95be102": {
+        "cards": [],
+        "released": false,
+        "name": "M3-A Interceptor Expansion Pack",
+        "id": "02879718-4ea9-4b05-bd45-a2b9c95be102"
+    },
+    "334fbe5c-ed4d-45c8-b9e0-e970594cd09a": {
+        "cards": [],
+        "released": false,
+        "name": "IG-2000 Expansion Pack",
+        "id": "334fbe5c-ed4d-45c8-b9e0-e970594cd09a"
+    },
+    "5648885a-f8c8-4edc-bf68-32e2705eeada": {
+        "cards": [],
+        "released": false,
+        "name": "Most Wanted Expansion Pack",
+        "id": "5648885a-f8c8-4edc-bf68-32e2705eeada"
+    },
+    "c53a38c0-399d-4c3d-a4b1-e9db6fea535a": {
+        "cards": [],
+        "released": false,
+        "name": "Imperial Raider Expansion Pack",
+        "id": "c53a38c0-399d-4c3d-a4b1-e9db6fea535a"
+    },
+    "561e7e8c-571d-4bc5-a4bc-a5db164943fb": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tiefighter",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "biggsdarklighter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maulermithel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "darkcurse",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "nightbeast",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2f2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Core",
+        "id": "561e7e8c-571d-4bc5-a4bc-a5db164943fb"
+    },
+    "4654dd27-cad0-49f1-a401-ffa3b6b8d367": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "wedgeantilles",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "garvendreis",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5k6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marksmanship",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "X-Wing Expansion Pack",
+        "id": "4654dd27-cad0-49f1-a401-ffa3b6b8d367"
+    },
+    "307a5d16-9b36-4974-a586-5bcd83d04fc3": {
+        "cards": [
+            {
+                "name": "ywing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hortonsalm",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutchvander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "graysquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "goldsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5d8",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2astromech",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Y-Wing Expansion Pack",
+        "id": "307a5d16-9b36-4974-a586-5bcd83d04fc3"
+    },
+    "2b580209-f947-4e1d-acda-985976459eac": {
+        "cards": [
+            {
+                "name": "tiefighter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "howlrunner",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "backstabber",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wingedgundark",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blacksquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "obsidiansquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "academypilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "determination",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Fighter Expansion Pack",
+        "id": "2b580209-f947-4e1d-acda-985976459eac"
+    },
+    "77fbf921-99bf-4c8c-9d33-39224062759c": {
+        "cards": [
+            {
+                "name": "tieadvanced",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "maarekstele",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "stormsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tempestsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "squadleader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "swarmtactics",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "experthandling",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Advanced Expansion Pack",
+        "id": "77fbf921-99bf-4c8c-9d33-39224062759c"
+    },
+    "d255a09a-6061-4fc7-8f08-77f9c6a12394": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tychocelchu",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "arvelcrynyd",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "clustermissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "deadeye",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "A-Wing Expansion Pack",
+        "id": "d255a09a-6061-4fc7-8f08-77f9c6a12394"
+    },
+    "de78377f-9372-4b45-bfab-4ed54aeb0bb9": {
+        "cards": [
+            {
+                "name": "yt1300",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "outerrimsmuggler",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "concussionmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "drawtheirfire",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lukeskywalker",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "niennunb",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "chewbacca",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "millenniumfalcon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Millennium Falcon Expansion Pack",
+        "id": "de78377f-9372-4b45-bfab-4ed54aeb0bb9"
+    },
+    "da2674a4-2868-4628-bbf1-a92ef4284fdf": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "soontirfel",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "turrphennir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "felswrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "avengersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "alphasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daredevil",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "elusiveness",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Interceptor Expansion Pack",
+        "id": "da2674a4-2868-4628-bbf1-a92ef4284fdf"
+    },
+    "7bd7a992-730e-4df3-9f79-8c42698b1189": {
+        "cards": [
+            {
+                "name": "firespray31",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bobafett",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kathscarlet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "krassistrelix",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bountyhunter",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "homingmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "veteraninstincts",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expose",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "proximitymines",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stealthdevice",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "slavei",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Slave I Expansion Pack",
+        "id": "7bd7a992-730e-4df3-9f79-8c42698b1189"
+    },
+    "0f4f2299-a935-47b8-9677-faa9b3d14544": {
+        "cards": [
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "tennumb",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ibtisam",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "autoblaster",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "B-Wing Expansion Pack",
+        "id": "0f4f2299-a935-47b8-9677-faa9b3d14544"
+    },
+    "88ff87b8-c924-410e-a506-07452c569a25": {
+        "cards": [
+            {
+                "name": "hwk290",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "roarkgarnet",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rebeloperative",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ioncannonturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moldycrow",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "blasterturret",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "saboteur",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "HWK-290 Expansion Pack",
+        "id": "88ff87b8-c924-410e-a506-07452c569a25"
+    },
+    "e77784da-b83a-4e3b-b3da-7d77e00c4614": {
+        "cards": [
+            {
+                "name": "tiebomber",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "majorrhymer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainjonus",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gammasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "scimitarsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedprotontorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "seismiccharges",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "adrenalinerush",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Bomber Expansion Pack",
+        "id": "e77784da-b83a-4e3b-b3da-7d77e00c4614"
+    },
+    "d171cffd-4b53-471a-bc8f-cc4e4cd58b16": {
+        "cards": [
+            {
+                "name": "lambdaclassshuttle",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainkagi",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "coloneljendon",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "captainyorr",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "omicrongrouppilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sensorjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "rebelcaptive",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "st321",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "weaponsengineer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "darthvader",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intelligenceagent",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "navigator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flightinstructor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "antipursuitlasers",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Lambda-Class Shuttle Expansion Pack",
+        "id": "d171cffd-4b53-471a-bc8f-cc4e4cd58b16"
+    },
+    "ebc660e8-1cab-4f4d-a968-30f3dc210691": {
+        "cards": [
+            {
+                "name": "z95headhunter",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "airencracken",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantblount",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "talasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "banditsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "decoy",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wingman",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "assaultmissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Z-95 Headhunter Expansion Pack",
+        "id": "ebc660e8-1cab-4f4d-a968-30f3dc210691"
+    },
+    "6af8f3c8-c839-4d5f-b501-079d1ab3bea8": {
+        "cards": [
+            {
+                "name": "ewing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "corranhorn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "etahnabaht",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "blackmoonsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "knavesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "advancedsensors",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7t1",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r7astromech",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "E-Wing Expansion Pack",
+        "id": "6af8f3c8-c839-4d5f-b501-079d1ab3bea8"
+    },
+    "90136312-e04b-4833-977c-78441c38d43b": {
+        "cards": [
+            {
+                "name": "tiedefender",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "rexlerbrath",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "colonelvessery",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "onyxsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "deltasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "munitionsfailsafe",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "predator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "outmaneuver",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ioncannon",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionpulsemissiles",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Defender Expansion Pack",
+        "id": "90136312-e04b-4833-977c-78441c38d43b"
+    },
+    "bd48ca11-6835-45bb-8d7b-c3a5c7bd5e7f": {
+        "cards": [
+            {
+                "name": "tiephantom",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "whisper",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "echo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "shadowsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sigmasquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "firecontrolsystem",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tactician",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "reconspecialist",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "advancedcloakingdevice",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stygiumparticleaccelerator",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "TIE Phantom Expansion Pack",
+        "id": "bd48ca11-6835-45bb-8d7b-c3a5c7bd5e7f"
+    },
+    "53c7b58b-d4d9-4b9c-84aa-b81ae0ebf090": {
+        "cards": [
+            {
+                "name": "yt2400",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "eadenvrill",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wildspacefringer",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "experimentalinterface",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "countermeasures",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "outrider",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "lonewolf",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leebo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "landocalrissian",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "stayontarget",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dashrendar",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunner",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "mercenarycopilot",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "heavylasercannon",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "YT-2400 Freighter Expansion Pack",
+        "id": "53c7b58b-d4d9-4b9c-84aa-b81ae0ebf090"
+    },
+    "d7ad4f49-f830-46fb-a094-dae553baf22b": {
+        "cards": [
+            {
+                "name": "vt49decimator",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "captainoicunn",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rearadmiralchiraneau",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "commanderkenkirk",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "patrolleader",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "ruthlessness",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dauntless",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ysanneisard",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "moffjerjerrod",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "intimidation",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tacticaljammer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonbombs",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "marajade",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "fleetofficer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "iontorpedoes",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "VT-49 Decimator Expansion Pack",
+        "id": "d7ad4f49-f830-46fb-a094-dae553baf22b"
+    },
+    "dd4dda95-ce0a-43fe-9722-c00de47f3971": {
+        "cards": [
+            {
+                "name": "tieinterceptor",
+                "count": 2,
+                "type": "ship"
+            },
+            {
+                "name": "carnorjax",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "kirkanos",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "tetrancowall",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "lieutenantlorrir",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "sabersquadronpilot",
+                "count": 2,
+                "type": "pilot"
+            },
+            {
+                "name": "royalguardtie",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcomputer",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "hullupgrade",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "pushthelimit",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "opportunist",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldupgrade",
+                "count": 2,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Imperial Aces Expansion Pack",
+        "id": "dd4dda95-ce0a-43fe-9722-c00de47f3971"
+    },
+    "878828be-51ba-4e48-b9f4-10055688726c": {
+        "cards": [
+            {
+                "name": "awing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "bwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "jakefarrell",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "gemmersojan",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "greensquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "prototypepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "keyanfarlander",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "neradantels",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "daggersquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "bluesquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "chardaanrefit",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "awingtestpilot",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "enhancedscopes",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "protonrockets",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "bwinge2",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "kylekatarn",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "janors",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Aces Expansion Pack",
+        "id": "878828be-51ba-4e48-b9f4-10055688726c"
+    },
+    "be89f41a-7e75-44bd-9d52-060b8d506922": {
+        "cards": [
+            {
+                "name": "xwing",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "gr75mediumtransport",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "wesjanson",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jekporkins",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "hobbieklivian",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "tarnmison",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "redsquadronpilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "rookiepilot",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "dutyfree",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quantumstorm",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "brighthope",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "expandedcargohold",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r4d6",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "flechettetorpedoes",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "r3a2",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "wed15repairdroid",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "carlistrieekan",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ememitter",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r5p9",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "frequencyjammer",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "shieldprojector",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "jandodonna",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "torynfarr",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "slicertools",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "combatretrofit",
+                "count": 1,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Rebel Transport Expansion Pack",
+        "id": "be89f41a-7e75-44bd-9d52-060b8d506922"
+    },
+    "e0bdf39e-4e16-4ed4-8cd1-f5ba746ed57c": {
+        "cards": [
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvette",
+                "count": 1,
+                "type": "ship"
+            },
+            {
+                "name": "cr90corvettefore",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "cr90corvetteaft",
+                "count": 1,
+                "type": "pilot"
+            },
+            {
+                "name": "jainaslight",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "dodonnaspride",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tantiveiv",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "backupshieldgenerator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "hansolo",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "c3po",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "enginebooster",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "commsbooster",
+                "count": 2,
+                "type": "upgrade"
+            },
+            {
+                "name": "engineeringteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "gunneryteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "ionizationreactor",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "leiaorgana",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "r2d2crew",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "sensorteam",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "targetingcoordinator",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "tibannagassupplies",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "raymusantilles",
+                "count": 1,
+                "type": "upgrade"
+            },
+            {
+                "name": "quadlasercannons",
+                "count": 3,
+                "type": "upgrade"
+            },
+            {
+                "name": "singleturbolasers",
+                "count": 3,
+                "type": "upgrade"
+            }
+        ],
+        "released": true,
+        "name": "Tantive IV Expansion Pack",
+        "id": "e0bdf39e-4e16-4ed4-8cd1-f5ba746ed57c"
+    },
+    "88552dfb-3ddd-4917-adb9-ba899e3de7a4": {
+        "cards": [],
+        "released": false,
+        "name": "StarViper Expansion Pack",
+        "id": "88552dfb-3ddd-4917-adb9-ba899e3de7a4"
+    },
+    "7f37800b-13d0-417c-a9ae-1f672fc841c5": {
+        "cards": [],
+        "released": false,
+        "name": "M3-A Interceptor Expansion Pack",
+        "id": "7f37800b-13d0-417c-a9ae-1f672fc841c5"
+    },
+    "f674e5d9-62c2-4bf9-a8e2-4092f1783583": {
+        "cards": [],
+        "released": false,
+        "name": "IG-2000 Expansion Pack",
+        "id": "f674e5d9-62c2-4bf9-a8e2-4092f1783583"
+    },
+    "eb5b45f0-3a2a-4cc6-9a16-adf0416a99b4": {
+        "cards": [],
+        "released": false,
+        "name": "Most Wanted Expansion Pack",
+        "id": "eb5b45f0-3a2a-4cc6-9a16-adf0416a99b4"
+    },
+    "f6e50f57-136a-4d52-9e48-e8552043f525": {
+        "cards": [],
+        "released": false,
+        "name": "Imperial Raider Expansion Pack",
+        "id": "f6e50f57-136a-4d52-9e48-e8552043f525"
     }
 }

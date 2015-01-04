@@ -1,5 +1,5 @@
 {
-    "221c9f4a-8c6b-49b2-ba9d-a11fd4a963d7": {
+    "e4fad88a-795f-4080-8ab6-697798af748b": {
         "factions": [
             "rebel"
         ],
@@ -56,9 +56,9 @@
         "agility": 2,
         "hull": 3,
         "shields": 2,
-        "id": "221c9f4a-8c6b-49b2-ba9d-a11fd4a963d7"
+        "id": "e4fad88a-795f-4080-8ab6-697798af748b"
     },
-    "6d80e9a6-e880-47a9-8fb0-8c204ca43a78": {
+    "8543bc92-7785-4647-a569-f3aaec3f6db3": {
         "factions": [
             "rebel",
             "scum"
@@ -116,9 +116,9 @@
         "agility": 1,
         "hull": 5,
         "shields": 3,
-        "id": "6d80e9a6-e880-47a9-8fb0-8c204ca43a78"
+        "id": "8543bc92-7785-4647-a569-f3aaec3f6db3"
     },
-    "0d1b2732-7283-46b8-99c5-dfa740b7919c": {
+    "f1bb7567-2211-44c0-a290-28e951476bb9": {
         "factions": [
             "rebel"
         ],
@@ -185,9 +185,9 @@
         "agility": 3,
         "hull": 2,
         "shields": 2,
-        "id": "0d1b2732-7283-46b8-99c5-dfa740b7919c"
+        "id": "f1bb7567-2211-44c0-a290-28e951476bb9"
     },
-    "40102046-1168-4d70-8c20-092aeb3ae907": {
+    "18ef2777-51dc-4e9a-b496-1c559ba1c124": {
         "factions": [
             "rebel"
         ],
@@ -244,9 +244,9 @@
         "agility": 1,
         "hull": 6,
         "shields": 4,
-        "id": "40102046-1168-4d70-8c20-092aeb3ae907"
+        "id": "18ef2777-51dc-4e9a-b496-1c559ba1c124"
     },
-    "16bcbcae-b6c2-489f-afd7-132b7ab07c82": {
+    "f23ae7f3-1bf5-4212-bf13-8f22fe7abd41": {
         "factions": [
             "empire"
         ],
@@ -312,9 +312,9 @@
         "agility": 3,
         "hull": 3,
         "shields": 0,
-        "id": "16bcbcae-b6c2-489f-afd7-132b7ab07c82"
+        "id": "f23ae7f3-1bf5-4212-bf13-8f22fe7abd41"
     },
-    "b87aad62-b0c4-4b96-8781-de74b9d4f991": {
+    "094b6368-e38f-44d4-af55-64f34f9f711c": {
         "factions": [
             "empire"
         ],
@@ -381,9 +381,9 @@
         "agility": 3,
         "hull": 3,
         "shields": 2,
-        "id": "b87aad62-b0c4-4b96-8781-de74b9d4f991"
+        "id": "094b6368-e38f-44d4-af55-64f34f9f711c"
     },
-    "750ccc45-fd68-4716-a711-9b6356a1d905": {
+    "41a11238-1054-4075-8535-6cbba33178ae": {
         "factions": [
             "empire"
         ],
@@ -450,9 +450,9 @@
         "agility": 3,
         "hull": 3,
         "shields": 0,
-        "id": "750ccc45-fd68-4716-a711-9b6356a1d905"
+        "id": "41a11238-1054-4075-8535-6cbba33178ae"
     },
-    "e67b98bf-6f90-460b-9bd8-cd90bd22dcb2": {
+    "580bb3c3-7133-4e04-9b7d-8f5f8e2fa89c": {
         "factions": [
             "empire",
             "scum"
@@ -511,9 +511,9 @@
         "agility": 2,
         "hull": 6,
         "shields": 4,
-        "id": "e67b98bf-6f90-460b-9bd8-cd90bd22dcb2"
+        "id": "580bb3c3-7133-4e04-9b7d-8f5f8e2fa89c"
     },
-    "be7d9304-686b-4cb4-b70b-08acff64628e": {
+    "5d9d3952-c080-4b5e-8ff4-1723a12d45fd": {
         "factions": [
             "rebel",
             "scum"
@@ -566,9 +566,9 @@
         "agility": 2,
         "hull": 4,
         "shields": 1,
-        "id": "be7d9304-686b-4cb4-b70b-08acff64628e"
+        "id": "5d9d3952-c080-4b5e-8ff4-1723a12d45fd"
     },
-    "4f61d2d0-945d-4d49-a024-14b9bd565874": {
+    "ec33a810-a07c-4af7-a073-ec27b7416b63": {
         "factions": [
             "empire"
         ],
@@ -613,9 +613,9 @@
         "agility": 1,
         "hull": 5,
         "shields": 5,
-        "id": "4f61d2d0-945d-4d49-a024-14b9bd565874"
+        "id": "ec33a810-a07c-4af7-a073-ec27b7416b63"
     },
-    "e43662d9-2812-41c1-b286-f9c77a9041a4": {
+    "9d436288-b612-4f38-967b-a65437894af2": {
         "factions": [
             "rebel"
         ],
@@ -673,9 +673,9 @@
         "agility": 1,
         "hull": 3,
         "shields": 5,
-        "id": "e43662d9-2812-41c1-b286-f9c77a9041a4"
+        "id": "9d436288-b612-4f38-967b-a65437894af2"
     },
-    "b0fe1b02-8c63-4efc-9723-3d4c7cf6c1a4": {
+    "778831ff-067c-40f7-8b15-965ce6f26ef9": {
         "factions": [
             "empire"
         ],
@@ -741,9 +741,9 @@
         "agility": 2,
         "hull": 6,
         "shields": 0,
-        "id": "b0fe1b02-8c63-4efc-9723-3d4c7cf6c1a4"
+        "id": "778831ff-067c-40f7-8b15-965ce6f26ef9"
     },
-    "11acd0ac-fb67-4acc-9b58-3ef58e5c80df": {
+    "4b67145e-9113-4b2f-9663-8a5e7e3aadfe": {
         "factions": [
             "rebel"
         ],
@@ -803,9 +803,9 @@
         "hull": 8,
         "shields": 4,
         "epicPoints": 2,
-        "id": "11acd0ac-fb67-4acc-9b58-3ef58e5c80df"
+        "id": "4b67145e-9113-4b2f-9663-8a5e7e3aadfe"
     },
-    "65ab1477-9ff2-45f7-869d-5fc2f8bcdacf": {
+    "86defd2a-769a-44a6-be59-3a08f5f5273f": {
         "factions": [
             "rebel",
             "scum"
@@ -863,9 +863,9 @@
         "agility": 2,
         "hull": 2,
         "shields": 2,
-        "id": "65ab1477-9ff2-45f7-869d-5fc2f8bcdacf"
+        "id": "86defd2a-769a-44a6-be59-3a08f5f5273f"
     },
-    "b3e543ab-04fc-4563-bbb8-5621efea3805": {
+    "09f49694-4d44-43f5-9ac3-03ca5b6f9e4a": {
         "factions": [
             "empire"
         ],
@@ -931,9 +931,9 @@
         "agility": 3,
         "hull": 3,
         "shields": 3,
-        "id": "b3e543ab-04fc-4563-bbb8-5621efea3805"
+        "id": "09f49694-4d44-43f5-9ac3-03ca5b6f9e4a"
     },
-    "f452b9ff-9bcc-482b-b747-5f71bf767c3b": {
+    "e57adeaf-5f6e-4a0d-9ca3-a14c5b508781": {
         "factions": [
             "rebel"
         ],
@@ -1000,9 +1000,9 @@
         "agility": 3,
         "hull": 2,
         "shields": 3,
-        "id": "f452b9ff-9bcc-482b-b747-5f71bf767c3b"
+        "id": "e57adeaf-5f6e-4a0d-9ca3-a14c5b508781"
     },
-    "2225fe2e-bcf2-43fa-9fbe-c857341d7178": {
+    "b04a80ba-9642-4b6c-a1f3-4b65d5096ba0": {
         "factions": [
             "empire"
         ],
@@ -1061,9 +1061,9 @@
         "agility": 2,
         "hull": 2,
         "shields": 2,
-        "id": "2225fe2e-bcf2-43fa-9fbe-c857341d7178"
+        "id": "b04a80ba-9642-4b6c-a1f3-4b65d5096ba0"
     },
-    "ad7ce89a-551e-4bd3-a46b-6a7a379db3fa": {
+    "e44d9fe5-70bd-462f-a4ce-5a508cd576c6": {
         "factions": [
             "rebel"
         ],
@@ -1121,9 +1121,9 @@
         "hull": 8,
         "shields": 5,
         "epicPoints": 1.5,
-        "id": "ad7ce89a-551e-4bd3-a46b-6a7a379db3fa"
+        "id": "e44d9fe5-70bd-462f-a4ce-5a508cd576c6"
     },
-    "9b82267c-4859-46cd-8841-680d3010814a": {
+    "99772660-abbc-4541-933a-22a6dd61e717": {
         "factions": [
             "rebel"
         ],
@@ -1181,9 +1181,9 @@
         "hull": 8,
         "shields": 3,
         "epicPoints": 1.5,
-        "id": "9b82267c-4859-46cd-8841-680d3010814a"
+        "id": "99772660-abbc-4541-933a-22a6dd61e717"
     },
-    "fa6a3d48-0126-4fcb-8707-e4574f383f7e": {
+    "f5b9e5cf-d97b-4237-8f4d-adc48a71c8f6": {
         "factions": [
             "rebel"
         ],
@@ -1241,9 +1241,9 @@
         "agility": 2,
         "hull": 5,
         "shields": 5,
-        "id": "fa6a3d48-0126-4fcb-8707-e4574f383f7e"
+        "id": "f5b9e5cf-d97b-4237-8f4d-adc48a71c8f6"
     },
-    "9df14490-a5b7-4d23-bf70-4f8ca2ece359": {
+    "be6a2d78-8366-43b0-92d5-8f30311c4f38": {
         "factions": [
             "empire"
         ],
@@ -1300,9 +1300,9 @@
         "agility": 0,
         "hull": 12,
         "shields": 4,
-        "id": "9df14490-a5b7-4d23-bf70-4f8ca2ece359"
+        "id": "be6a2d78-8366-43b0-92d5-8f30311c4f38"
     },
-    "53844345-a9d6-4c5d-ac9c-8fb017d5f01f": {
+    "27f3c428-adea-4e6f-8e13-8c2cb6d33c2a": {
         "factions": [
             "scum"
         ],
@@ -1371,9 +1371,9 @@
         "agility": 3,
         "hull": 4,
         "shields": 1,
-        "id": "53844345-a9d6-4c5d-ac9c-8fb017d5f01f"
+        "id": "27f3c428-adea-4e6f-8e13-8c2cb6d33c2a"
     },
-    "55fa402b-9c1f-4a99-9485-745d35eeb260": {
+    "9c8e12e1-ef45-4d5c-92d5-4449115b7f50": {
         "factions": [
             "scum"
         ],
@@ -1391,9 +1391,9 @@
         "agility": 3,
         "hull": 2,
         "shields": 1,
-        "id": "55fa402b-9c1f-4a99-9485-745d35eeb260"
+        "id": "9c8e12e1-ef45-4d5c-92d5-4449115b7f50"
     },
-    "ec9bd803-375f-4cd5-9720-ac5707f40122": {
+    "04124f29-60fd-4b39-8c08-62225f79e818": {
         "factions": [
             "scum"
         ],
@@ -1411,6 +1411,6 @@
         "agility": 3,
         "hull": 4,
         "shields": 4,
-        "id": "ec9bd803-375f-4cd5-9720-ac5707f40122"
+        "id": "04124f29-60fd-4b39-8c08-62225f79e818"
     }
 }
