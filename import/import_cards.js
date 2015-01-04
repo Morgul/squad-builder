@@ -136,6 +136,10 @@ function processText(text)
     text = text.replace(/barrelroll/g, 'barrel-roll');
     text = text.replace(/kturn/g, 'k-turn');
     text = text.replace(/salvagedastromech/g, 'salvaged-astromech');
+    text = text.replace(/card-restriction/g, 'restriction');
+    text = text.replace(/<br \/><br \/>/g, '</p><p>');
+    text = '<p>' + text;
+    text += '</p>';
 
     return text;
 } // end process text
@@ -213,18 +217,21 @@ models.initialize
 
         _.each(cards.upgrades, function(upgrade)
         {
-            upgrades.push(new models.Upgrade({
-                name: upgrade.name,
-                canonicalName: upgrade.canonical_name,
-                text: processText(upgrade.text),
-                points: upgrade.points,
-                attack: upgrade.attack,
-                range: upgrade.range,
-                ship: findCanonicalName('ship', upgrade.ship),
-                sources: upgrade.sources,
-                type: upgrade.slot.toLowerCase(),
-                unique: upgrade.unique
-            }).save());
+            if( upgrade.canonical_name != 'calc')
+            {
+                upgrades.push(new models.Upgrade({
+                    name: upgrade.name,
+                    canonicalName: upgrade.canonical_name,
+                    text: processText(upgrade.text),
+                    points: upgrade.points,
+                    attack: upgrade.attack,
+                    range: upgrade.range,
+                    ship: findCanonicalName('ship', upgrade.ship),
+                    sources: upgrade.sources,
+                    type: upgrade.slot.toLowerCase(),
+                    unique: upgrade.unique
+                }).save());
+            } // end if
         });
 
         return Promise.all(upgrades);
