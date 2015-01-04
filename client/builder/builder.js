@@ -7,7 +7,7 @@
 function BuilderController($scope, _, cardSvc, squadMember)
 {
     $scope.temp = {};
-    $scope.squad = [squadMember($scope.faction)];
+    $scope.squad = [squadMember($scope)];
 
     Object.defineProperties($scope, {
         totalPoints: {
@@ -24,9 +24,13 @@ function BuilderController($scope, _, cardSvc, squadMember)
         }
     });
 
+    // -----------------------------------------------------------------------------------------------------------------
+    // Watches
+    // -----------------------------------------------------------------------------------------------------------------
+
     $scope.$watch('faction', function()
     {
-        $scope.squad = [squadMember($scope.faction)];
+        $scope.squad = [squadMember($scope)];
         $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
         $scope.upgrades = cardSvc.upgrades;
     });
@@ -36,9 +40,13 @@ function BuilderController($scope, _, cardSvc, squadMember)
         var lastItem = _.last($scope.squad);
         if(lastItem.ship)
         {
-            $scope.squad.push(squadMember($scope.faction));
+            $scope.squad.push(squadMember($scope));
         } // end if
     }, true);
+
+    // -----------------------------------------------------------------------------------------------------------------
+    // Functions
+    // -----------------------------------------------------------------------------------------------------------------
 
     $scope.removeShip = function(index)
     {

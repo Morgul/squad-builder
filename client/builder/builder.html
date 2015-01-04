@@ -130,7 +130,7 @@
                             <span class="input-group-addon">Pilot</span>
                             <ui-select ng-model="squadMember.pilot">
                                 <ui-select-match placeholder="Select pilot..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="pilot in squadMember.pilots | orderBy:'-points' | filter: $select.search">
+                                <ui-select-choices repeat="pilot in squadMember.pilots | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(pilot) }">
                                         <div class="cost">({{ pilot.points }})</div>
                                         <div ng-if="!isReleased(pilot)" class="unreleased">Unreleased</div>
@@ -147,7 +147,7 @@
                             <span class="input-group-addon" title="Title"><i class="xmf xmf-title"></i></span>
                             <ui-select ng-model="squadMember.title">
                                 <ui-select-match placeholder="Select title..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="title in squadMember.titles | filter: $select.search">
+                                <ui-select-choices repeat="title in squadMember.titles | filter: $select.search | uniqueRule:squad:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(title) }">
                                         <div ng-if="!isReleased(title)" class="unreleased">Unreleased</div>
                                         <h5 class="name" ng-bind-html="title.name | highlight: $select.search"></h5>
@@ -162,7 +162,7 @@
                             <span class="input-group-addon" title="Modification"><i class="xmf xmf-modification"></i></span>
                             <ui-select ng-model="squadMember.mod">
                                 <ui-select-match placeholder="Select modification..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="mod in squadMember.mods | orderBy:'-points' | filter: $select.search">
+                                <ui-select-choices repeat="mod in squadMember.mods | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(mod) }">
                                         <div class="cost">({{ mod.points }})</div>
                                         <div ng-if="!isReleased(mod)" class="unreleased">Unreleased</div>
@@ -178,7 +178,7 @@
                             <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
                             <ui-select ng-model="squadMember.upgrades[upgrade + $index]">
                                 <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search">
+                                <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
                                         <div class="cost">({{ upgrade.points }})</div>
                                         <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
@@ -196,7 +196,7 @@
         <textarea class="form-control" rows="5" placeholder="Squad notes..."></textarea>
         <div class="visible-xs">
             <hr>
-            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group btn-group-justified" role="group" aria-label="Squad Notes">
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-default">
                         <i class="fa fa-print"></i> Print

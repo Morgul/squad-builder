@@ -6,9 +6,9 @@
 
 function SquadMemberFactory(_, cardSvc)
 {
-    function SquadMember(faction)
+    function SquadMember($scope)
     {
-        this.faction = faction;
+        this.faction = $scope.faction;
         this.upgrades = {};
     } // end SquadMember
 
@@ -51,10 +51,17 @@ function SquadMemberFactory(_, cardSvc)
             var self = this;
             return _.filter(cardSvc.filterByType('modification'), function(mod)
             {
+                var include = false;
                 if(self.ship)
                 {
-                    return (mod.ship == undefined) || (mod.ship == self.ship.canonicalName);
+                    // Check to make sure we're limiting ourselves to modifications for all ships, or our specific ship.
+                    include = (mod.ship == undefined) || (mod.ship == self.ship.canonicalName);
+
+                    // Check to mae sure we're limiting ourselves to modifications that fit on our size of ship.
+                    include = include && ((mod.size == 'all') || (mod.size == self.ship.size));
                 } // end if
+
+                return include;
             });
         },
         get upgradeSlots()
