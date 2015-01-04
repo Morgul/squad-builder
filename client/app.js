@@ -26,6 +26,11 @@ angular.module('squad-builder', [
             .when('/collection', { templateUrl: '/collection/collection.html', controller: 'CollectionController' })
             .when('/squads/:id?', { templateUrl: '/squads/squads.html', controller: 'SquadsController' })
             .otherwise({redirectTo: '/builder'});
+    }])
+    .config(['uiSelectConfig', function(uiSelectConfig)
+    {
+        uiSelectConfig.theme = 'bootstrap';
+        uiSelectConfig.resetSearchInput = true;
     }]);
 
 // ---------------------------------------------------------------------------------------------------------------------

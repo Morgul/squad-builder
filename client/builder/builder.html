@@ -1,4 +1,4 @@
-<div class="container-fluid builder">
+<div class="container builder">
     <br/>
 
     <!-- If there's no faction selected -->
@@ -42,7 +42,7 @@
     <!-- Faction Building Page -->
     <div ng-hide="faction == undefined">
         <div class="row hidden-xs">
-            <div class="col-sm-4">
+            <div class="pull-left">
                 <ul class="nav nav-pills">
                     <li role="presentation">
                         <a>
@@ -61,7 +61,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-8 col-lg-6 pull-right">
                 <ul class="nav nav-pills nav-justified">
                     <li role="presentation" ng-class="{ active: faction == 'empire' }">
                         <a ng-click="faction = 'empire'">
@@ -116,45 +116,77 @@
                     <option value="">Select ship...</option>
                 </select>
             </div>
+
+            <!-- If there's no ship selected -->
             <div ng-hide="squadMember.ship" class="panel-body text-center">
                 <p>Select a ship from the dropdown above to add it to the squadron.</p>
             </div>
+
+            <!-- Upgrade Card selection -->
             <div ng-if="squadMember.ship" class="panel-body text-center">
                 <div class="row">
                     <div class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon">Pilot</span>
-                            <select class="form-control"
-                                    ng-options="pilot as formatName(pilot) for pilot in squadMember.pilots | orderBy: '-points' track by pilot.canonicalName" ng-model="squadMember.pilot">
-                                <option value="">Select pilot...</option>
-                            </select>
+                            <ui-select ng-model="squadMember.pilot">
+                                <ui-select-match placeholder="Select pilot..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
+                                <ui-select-choices repeat="pilot in squadMember.pilots | orderBy:'-points' | filter: $select.search">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(pilot) }">
+                                        <div class="cost">({{ pilot.points }})</div>
+                                        <div ng-if="!isReleased(pilot)" class="unreleased">Unreleased</div>
+                                        <h5 class="name" ng-bind-html="pilot.name | highlight: $select.search"></h5>
+                                        <div class="pilot">Pilot Skill: {{ pilot.skill }}</div>
+                                        <div class="text" ng-bind-html="pilot.text"></div>
+                                    </div>
+                                </ui-select-choices>
+                            </ui-select>
                         </div>
                     </div>
                     <div ng-if="squadMember.titles.length > 0" class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon" title="Title"><i class="xmf xmf-title"></i></span>
-                            <select class="form-control"
-                                ng-options="title as formatName(title) for title in squadMember.titles | orderBy: '-points' track by title.canonicalName" ng-model="squadMember.title">
-                                <option value="">Select title...</option>
-                            </select>
+                            <ui-select ng-model="squadMember.title">
+                                <ui-select-match placeholder="Select title..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
+                                <ui-select-choices repeat="title in squadMember.titles | filter: $select.search">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(title) }">
+                                        <div ng-if="!isReleased(title)" class="unreleased">Unreleased</div>
+                                        <h5 class="name" ng-bind-html="title.name | highlight: $select.search"></h5>
+                                        <div class="text" ng-bind-html="title.text"></div>
+                                    </div>
+                                </ui-select-choices>
+                            </ui-select>
                         </div>
                     </div>
                     <div class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon" title="Modification"><i class="xmf xmf-modification"></i></span>
-                            <select class="form-control"
-                                    ng-options="mod as formatName(mod) for mod in squadMember.mods | orderBy: '-points' track by mod.canonicalName" ng-model="squadMember.mod">
-                                <option value="">Select modification...</option>
-                            </select>
+                            <ui-select ng-model="squadMember.mod">
+                                <ui-select-match placeholder="Select modification..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
+                                <ui-select-choices repeat="mod in squadMember.mods | orderBy:'-points' | filter: $select.search">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(mod) }">
+                                        <div class="cost">({{ mod.points }})</div>
+                                        <div ng-if="!isReleased(mod)" class="unreleased">Unreleased</div>
+                                        <h5 class="name" ng-bind-html="mod.name | highlight: $select.search"></h5>
+                                        <div class="text" ng-bind-html="mod.text"></div>
+                                    </div>
+                                </ui-select-choices>
+                            </ui-select>
                         </div>
                     </div>
                     <div class="col-sm-6 card-select" ng-repeat="upgrade in squadMember.upgradeSlots | orderBy track by $index">
                         <div class="input-group">
                             <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
-                            <select class="form-control"
-                                    ng-options="upgrade as formatName(upgrade) for upgrade in upgradesByType(upgrade) | orderBy: '-points' track by upgrade.canonicalName" ng-model="squadMember.upgrades[upgrade + $index]">
-                                <option value="">Select {{ upgrade }} upgrade...</option>
-                            </select>
+                            <ui-select ng-model="squadMember.upgrades[upgrade + $index]">
+                                <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
+                                <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
+                                        <div class="cost">({{ upgrade.points }})</div>
+                                        <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
+                                        <h5 class="name" ng-bind-html="upgrade.name | highlight: $select.search"></h5>
+                                        <div class="text" ng-bind-html="upgrade.text"></div>
+                                    </div>
+                                </ui-select-choices>
+                            </ui-select>
                         </div>
                     </div>
                 </div>

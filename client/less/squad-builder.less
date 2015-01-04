@@ -25,6 +25,10 @@ body {
     height: 100%;
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 //----------------------------------------------------------------------------------------------------------------------
 // Custom Select Theming
 //----------------------------------------------------------------------------------------------------------------------
@@ -37,5 +41,62 @@ select {
     background-size: 32px 32px;
 }
 
+//----------------------------------------------------------------------------------------------------------------------
+// ui-select overrides
+//----------------------------------------------------------------------------------------------------------------------
+
+.ui-select-bootstrap > .ui-select-choices {
+    max-height: 400px;
+}
+
+.btn-default-focus {
+    outline: none;
+    box-shadow: none;
+    background-color: inherit;
+}
+
+.input-group {
+    .ui-select-container.ui-select-bootstrap {
+        .ui-select-match > button {
+            min-height: 34px;
+
+            &:first-child {
+                text-align: left;
+            }
+
+            .glyphicon {
+                top: 2px;
+                font-size: 12px;
+            }
+        }
+
+        @media(max-width: 767px)
+        {
+            .ui-select-match > button.col-sm-10 {
+                //width: -webkit-calc(~"100% - 34px");
+                width: calc(~"100% - 34px");
+            }
+            .ui-select-match > button.col-sm-8 {
+                width: -webkit-calc(~"100% - 73px");
+                //width: calc(~"100% - 73px");
+            }
+        }
+    }
+
+    .ui-select-container.ui-select-bootstrap:not(:first-child) {
+        input.ui-select-search.form-control,
+        .ui-select-match > button {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+
+    .ui-select-container.ui-select-bootstrap:last-child {
+        input.ui-select-search.form-control {
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+    }
+}
 
 //----------------------------------------------------------------------------------------------------------------------

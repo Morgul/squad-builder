@@ -45,6 +45,48 @@
             }
         }
     }
+
+    .card {
+        &.unreleased {
+            color: #555;
+            font-style: italic;
+        }
+
+        .name {
+            margin-top: 0;
+            margin-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .unreleased {
+            float: right;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .restriction {
+            font-style: italic;
+        }
+
+        .pilot,
+        .text {
+            font-size: .80em;
+            white-space: normal;
+        }
+
+        .cost {
+            float: left;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 14px;
+            margin-right: 4px;
+        }
+
+        p {
+            margin: 0 0 5px;
+            line-height: normal;
+        }
+    }
 }
 
 //----------------------------------------------------------------------------------------------------------------------

@@ -53,6 +53,11 @@ function BuilderController($scope, _, cardSvc, squadMember)
         return cardSvc.filterByType(type);
     }; // end upgradesByType
 
+    $scope.isReleased = function(card)
+    {
+        return cardSvc.isReleased(card);
+    }; // end isReleased
+
     $scope.formatName = function(card)
     {
         var name = "";
