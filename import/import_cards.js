@@ -151,13 +151,6 @@ function processText(text)
 models.initialize
     .then(function()
     {
-        console.log('Clearing the database...');
-
-        models.Ship.removeAll();
-        models.Pilot.removeAll();
-        models.Upgrade.removeAll();
-        models.Expansion.removeAll();
-
         console.log('Starting import...');
     })
     .then(function()
@@ -170,7 +163,7 @@ models.initialize
 
         _.each(cards.ships, function(ship)
         {
-            ships.push(new models.Ship({
+            var shipDef = {
                 name: ship.name,
                 canonicalName: ship.canonical_name,
                 factions: processFactions(ship.factions),
@@ -183,7 +176,31 @@ models.initialize
                 actions: processActions(ship.actions),
                 maneuvers: processManeuvers(ship.maneuvers),
                 size: ship.huge ? 'huge' : (ship.large ? 'large' : 'small')
-            }).save());
+            };
+
+            // Must use name due to CR90 having duplicate canonical names
+            var promise = models.Ship.filter({name : ship.name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.assign(model, shipDef);
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Ship(shipDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            ships.push(promise);
         });
 
         return Promise.all(ships);
@@ -195,7 +212,7 @@ models.initialize
 
         _.each(cards.pilots, function(pilot)
         {
-            pilots.push(new models.Pilot({
+            var pilotDef = {
                 name: pilot.name,
                 canonicalName: pilot.canonical_name,
                 text: processText(pilot.text || ""),
@@ -206,7 +223,36 @@ models.initialize
                 faction: processFaction(pilot.faction),
                 upgrades: processUpgrades(pilot.slots),
                 unique: pilot.unique
-            }).save());
+            };
+
+            var promise = models.Pilot.filter({name : pilot.name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.forIn(pilotDef, function(value, key)
+                        {
+                            if(value !== undefined)
+                            {
+                                model[key] = value;
+                            } // end if
+                        });
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Pilot(pilotDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            pilots.push(promise);
         });
 
         return Promise.all(pilots);
@@ -220,7 +266,7 @@ models.initialize
         {
             if( upgrade.canonical_name != 'calc')
             {
-                upgrades.push(new models.Upgrade({
+                var upgradeDef = {
                     name: upgrade.name,
                     canonicalName: upgrade.canonical_name,
                     text: processText(upgrade.text),
@@ -231,8 +277,38 @@ models.initialize
                     sources: upgrade.sources,
                     faction: processFaction(upgrade.faction),
                     type: upgrade.slot.toLowerCase(),
+                    limited: upgrade.limited,
                     unique: upgrade.unique
-                }).save());
+                };
+
+                var promise = models.Upgrade.filter({name : upgrade.name})
+                    .then(function(matches)
+                    {
+                        if(!_.isEmpty(matches))
+                        {
+                            var model = matches[0];
+
+                            _.forIn(upgradeDef, function(value, key)
+                            {
+                                if(value !== undefined)
+                                {
+                                    model[key] = value;
+                                } // end if
+                            });
+
+                            return model;
+                        }
+                        else
+                        {
+                            return new models.Upgrade(upgradeDef);
+                        } // end if
+                    })
+                    .then(function(model)
+                    {
+                        model.save();
+                    });
+
+                upgrades.push(promise);
             } // end if
         });
 
@@ -245,7 +321,7 @@ models.initialize
 
         _.each(cards.modifications, function(mod)
         {
-            modifications.push(new models.Upgrade({
+            var modDef = {
                 name: mod.name,
                 canonicalName: mod.canonical_name,
                 text: processText(mod.text),
@@ -256,8 +332,38 @@ models.initialize
                 type: 'modification',
                 size: mod.huge ? 'huge' : (mod.large ? 'large' : mod.small ? 'small' : 'all'),
                 grantsUpgrades: processAddons(mod.confersAddons),
+                limited: mod.limited,
                 unique: mod.unique
-            }).save());
+            };
+
+            var promise = models.Upgrade.filter({name : mod.name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.forIn(modDef, function(value, key)
+                        {
+                            if(value !== undefined)
+                            {
+                                model[key] = value;
+                            } // end if
+                        });
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Upgrade(modDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            modifications.push(promise);
         });
 
         return Promise.all(modifications);
@@ -269,7 +375,7 @@ models.initialize
 
         _.each(cards.titles, function(title)
         {
-            titles.push(new models.Upgrade({
+            var titleDef = {
                 name: title.name,
                 canonicalName: title.canonical_name,
                 text: processText(title.text),
@@ -281,8 +387,38 @@ models.initialize
                 type: 'title',
                 size: title.huge ? 'huge' : (title.large ? 'large' : title.small ? 'small' : 'all'),
                 grantsUpgrades: processAddons(title.confersAddons),
+                limited: title.limited,
                 unique: title.unique
-            }).save());
+            };
+
+            var promise = models.Upgrade.filter({name : title.name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.forIn(titleDef, function(value, key)
+                        {
+                            if(value !== undefined)
+                            {
+                                model[key] = value;
+                            } // end if
+                        });
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Upgrade(titleDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            titles.push(promise);
         });
 
         return Promise.all(titles);
@@ -295,20 +431,78 @@ models.initialize
         // Add the released expansions
         _.forIn(cards.manifestByExpansion, function(cards, name)
         {
-            expansions.push(new models.Expansion({
+            var expansionDef = {
                 name: name,
                 cards: processCards(cards),
                 released: !_.contains(cards.unreleasedExpansions, name)
-            }).save());
+            };
+
+            var promise = models.Expansion.filter({name : name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.forIn(expansionDef, function(value, key)
+                        {
+                            if(value !== undefined)
+                            {
+                                model[key] = value;
+                            } // end if
+                        });
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Expansion(expansionDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            expansions.push(promise);
         });
 
         // Add placeholders for the unreleased expansions
         _.each(cards.unreleasedExpansions, function(name)
         {
-            expansions.push(new models.Expansion({
+            var expansionDef = {
                 name: name,
                 released: false
-            }).save());
+            };
+
+            var promise = models.Expansion.filter({name : name})
+                .then(function(matches)
+                {
+                    if(!_.isEmpty(matches))
+                    {
+                        var model = matches[0];
+
+                        _.forIn(expansionDef, function(value, key)
+                        {
+                            if(value !== undefined)
+                            {
+                                model[key] = value;
+                            } // end if
+                        });
+
+                        return model;
+                    }
+                    else
+                    {
+                        return new models.Expansion(expansionDef);
+                    } // end if
+                })
+                .then(function(model)
+                {
+                    model.save();
+                });
+
+            expansions.push(promise);
         });
 
         return Promise.all(expansions);
