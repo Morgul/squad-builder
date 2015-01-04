@@ -38,7 +38,7 @@ function SquadMemberFactory(_, cardSvc)
         get titles()
         {
             var self = this;
-            return _.filter(cardSvc.filterByType('title'), function(title)
+            return _.filter(cardSvc.filterByType(this.faction, 'title'), function(title)
             {
                 if(self.ship)
                 {
@@ -49,7 +49,7 @@ function SquadMemberFactory(_, cardSvc)
         get mods()
         {
             var self = this;
-            return _.filter(cardSvc.filterByType('modification'), function(mod)
+            return _.filter(cardSvc.filterByType(this.faction, 'modification'), function(mod)
             {
                 var include = false;
                 if(self.ship)

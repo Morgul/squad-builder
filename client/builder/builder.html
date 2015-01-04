@@ -125,6 +125,8 @@
             <!-- Upgrade Card selection -->
             <div ng-if="squadMember.ship" class="panel-body text-center">
                 <div class="row">
+
+                    <!-- Pilot -->
                     <div class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon">Pilot</span>
@@ -142,6 +144,8 @@
                             </ui-select>
                         </div>
                     </div>
+
+                    <!-- Title -->
                     <div ng-if="squadMember.titles.length > 0" class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon" title="Title"><i class="xmf xmf-title"></i></span>
@@ -157,6 +161,8 @@
                             </ui-select>
                         </div>
                     </div>
+
+                    <!-- Modification -->
                     <div class="col-sm-6 card-select">
                         <div class="input-group">
                             <span class="input-group-addon" title="Modification"><i class="xmf xmf-modification"></i></span>
@@ -173,6 +179,8 @@
                             </ui-select>
                         </div>
                     </div>
+
+                    <!-- Upgrades -->
                     <div class="col-sm-6 card-select" ng-repeat="upgrade in squadMember.upgradeSlots | orderBy track by $index">
                         <div class="input-group">
                             <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
