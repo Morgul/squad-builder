@@ -156,6 +156,7 @@ models.initialize
         models.Ship.removeAll();
         models.Pilot.removeAll();
         models.Upgrade.removeAll();
+        models.Expansion.removeAll();
 
         console.log('Starting import...');
     })
@@ -228,6 +229,7 @@ models.initialize
                     range: upgrade.range,
                     ship: findCanonicalName('ship', upgrade.ship),
                     sources: upgrade.sources,
+                    faction: processFaction(upgrade.faction),
                     type: upgrade.slot.toLowerCase(),
                     unique: upgrade.unique
                 }).save());
@@ -250,6 +252,7 @@ models.initialize
                 points: mod.points,
                 ship: mod.ship,
                 sources: mod.sources,
+                faction: processFaction(mod.faction),
                 type: 'modification',
                 size: mod.huge ? 'huge' : (mod.large ? 'large' : mod.small ? 'small' : 'all'),
                 grantsUpgrades: processAddons(mod.confersAddons),
@@ -274,6 +277,7 @@ models.initialize
                 energy: title.energy,
                 ship: findCanonicalName('ship', title.ship),
                 sources: title.sources,
+                faction: processFaction(title.faction),
                 type: 'title',
                 size: title.huge ? 'huge' : (title.large ? 'large' : title.small ? 'small' : 'all'),
                 grantsUpgrades: processAddons(title.confersAddons),

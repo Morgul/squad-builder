@@ -518,6 +518,7 @@
         "canonicalName": "lukeskywalker",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>After you perform an attack that does not hit, you may immediately perform a primary weapon attack.  You may change 1 <i class=\"xmf xmf-focus\"></i> result to a <i class=\"xmf xmf-hit\"></i> result.  You cannot perform another attack this round.</p>",
         "points": 7,
+        "faction": "rebel",
         "type": "crew",
         "id": "bb17f06a-b392-423d-9907-e6e246602d7d"
     },
@@ -533,6 +534,7 @@
         "canonicalName": "niennunb",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>You may treat all <i class=\"xmf xmf-straight\"></i> maneuvers as green maneuvers.</p>",
         "points": 1,
+        "faction": "rebel",
         "type": "crew",
         "id": "e1fbd5df-aa57-4188-906a-4d5d3bfcfdc1"
     },
@@ -548,6 +550,7 @@
         "canonicalName": "chewbacca",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>When you are dealt a Damage card, you may immediately discard that card and recover 1 shield.</p><p>Then, discard this Upgrade card.</p>",
         "points": 4,
+        "faction": "rebel",
         "type": "crew",
         "id": "133e677d-ac48-4bc1-b0a1-0468352130a9"
     },
@@ -740,6 +743,7 @@
         "canonicalName": "darthvader",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>After you perform an attack against an enemy ship, you may suffer 2 damage to cause that ship to suffer 1 critical damage.</p>",
         "points": 3,
+        "faction": "empire",
         "type": "crew",
         "id": "d64c003a-e195-4f22-ae86-72962652915d"
     },
@@ -755,6 +759,7 @@
         "canonicalName": "rebelcaptive",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>Once per round, the first ship that declares you as the target of an attack immediately receives 1 stress token.</p>",
         "points": 3,
+        "faction": "empire",
         "type": "crew",
         "id": "d6d26709-78f6-422c-8c44-f172cdfbf32c"
     },
@@ -1003,6 +1008,7 @@
         "canonicalName": "r2d2crew",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> result, randomly flip 1 of your facedown Damage cards faceup and resolve it.</p>",
         "points": 4,
+        "faction": "rebel",
         "type": "crew",
         "id": "1000ffdc-6da8-4c84-8161-252318097fb2"
     },
@@ -1018,6 +1024,7 @@
         "canonicalName": "c3po",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>Once per round, before you roll 1 or more defense dice, you may guess aloud a number of <i class=\"xmf xmf-evade\"></i> results.  If you roll that many <i class=\"xmf xmf-evade\"></i> results (before modifying dice), add 1 <i class=\"xmf xmf-evade\"></i> result.</p>",
         "points": 3,
+        "faction": "rebel",
         "type": "crew",
         "id": "ce189302-f620-4dce-af9a-d7a5f230ca12"
     },
@@ -1193,6 +1200,7 @@
         "canonicalName": "kylekatarn",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>After you remove a stress token from your ship, you may assign a focus token to your ship.</p>",
         "points": 3,
+        "faction": "rebel",
         "type": "crew",
         "id": "cff8a4e3-91a9-4ca2-8609-78430dc082a0"
     },
@@ -1208,6 +1216,7 @@
         "canonicalName": "janors",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>Once per round, when a friendly ship at Range 1-3 performs a focus action or would be assigned a focus token, you may assign it an evade token instead.</p>",
         "points": 2,
+        "faction": "rebel",
         "type": "crew",
         "id": "a503104f-a2cd-40f1-ab8c-8bd19f72d2ac"
     },
@@ -1223,6 +1232,7 @@
         "canonicalName": "torynfarr",
         "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Spend any amount of energy to choose that many enemy ships at Range 1-2.  Remove all focus, evade, and blue target lock tokens from those ships.</p>",
         "points": 6,
+        "faction": "rebel",
         "type": "crew",
         "id": "43f92491-97bc-489e-aa7e-17d6b03a1388"
     },
@@ -1283,6 +1293,7 @@
         "canonicalName": "carlistrieekan",
         "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, you may discard this card to treat each friendly ship's pilot skill value as \"12\" until the end of the phase.</p>",
         "points": 3,
+        "faction": "rebel",
         "type": "crew",
         "id": "771ad90f-04ac-4205-837b-a44476ae8b2e"
     },
@@ -1298,6 +1309,7 @@
         "canonicalName": "jandodonna",
         "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>When another friendly ship at Range 1 is attacking, it may change 1 of its <i class=\"xmf xmf-hit\"></i> results to a <i class=\"xmf xmf-crit\"></i>.</p>",
         "points": 6,
+        "faction": "rebel",
         "type": "crew",
         "id": "37cd6693-2643-46d8-94c8-2c069cf31037"
     },
@@ -1375,6 +1387,7 @@
         "canonicalName": "hansolo",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>When attacking, if you have a target lock on the defender, you may spend that target lock to change all of your <i class=\"xmf xmf-focus\"></i> results to <i class=\"xmf xmf-hit\"></i> results.</p>",
         "points": 2,
+        "faction": "rebel",
         "type": "crew",
         "id": "903d58ca-0807-4334-b44c-aae854c21940"
     },
@@ -1390,6 +1403,7 @@
         "canonicalName": "leiaorgana",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, you may discard this card to allow all friendly ships that reveal a red maneuver to treat that maneuver as a white maneuver until the end of the phase.</p>",
         "points": 4,
+        "faction": "rebel",
         "type": "crew",
         "id": "f1215c7c-fcf5-405a-a683-6383d5024285"
     },
@@ -1420,6 +1434,7 @@
         "canonicalName": "raymusantilles",
         "text": "<p><span class=\"restriction\">Huge Ship only.</span> <span class=\"restriction\">Rebel only.</span></p><p>At the start of the Activation phase, choose 1 enemy ship at Range 1-3.  You may look at that ship's chosen maneuver.  If the maneuver is white, assign that ship 1 stress token.</p>",
         "points": 6,
+        "faction": "rebel",
         "type": "crew",
         "id": "3d1302ea-986a-4191-a837-26104e41956e"
     },
@@ -1480,6 +1495,7 @@
         "canonicalName": "landocalrissian",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Roll 2 defense dice.  For each <i class=\"xmf xmf-focus\"></i> result, assign 1 focus token to your ship.  For each <i class=\"xmf xmf-evade\"></i> result, assign 1 evade token to your ship.</p>",
         "points": 3,
+        "faction": "rebel",
         "type": "crew",
         "id": "ebeea625-cdad-44e0-b0fa-964608766878"
     },
@@ -1495,6 +1511,7 @@
         "canonicalName": "marajade",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>At the end of the Combat phase, each enemy ship at Range 1 that does not have a stress token receives 1 stress token.</p>",
         "points": 3,
+        "faction": "empire",
         "type": "crew",
         "id": "54c3dbd7-4135-49af-aa06-798872a93a2f"
     },
@@ -1510,6 +1527,7 @@
         "canonicalName": "fleetofficer",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p><strong>Action:</strong> Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of those ships.  Then receive 1 stress token.</p>",
         "points": 3,
+        "faction": "empire",
         "type": "crew",
         "id": "853b01af-2727-4a3a-9d40-585a0d390068"
     },
@@ -1540,6 +1558,7 @@
         "canonicalName": "dashrendar",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>You may perform attacks while overlapping an obstacle.</p><p>Your attacks cannot be obstructed.</p>",
         "points": 2,
+        "faction": "rebel",
         "type": "crew",
         "id": "9f2aedd7-05e6-4088-a710-2beb72fee29f"
     },
@@ -1570,6 +1589,7 @@
         "canonicalName": "leebo",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p><strong>Action:</strong> Perform a free boost action.  Then receive 1 ion token.</p>",
         "points": 2,
+        "faction": "rebel",
         "type": "crew",
         "id": "ed788c51-01b9-4fcc-baec-62d097effc9d"
     },
@@ -1585,6 +1605,7 @@
         "canonicalName": "ruthlessness",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>After you perform an attack that hits, you <strong>must</strong> choose 1 other ship at Range 1 of the defender (other than yourself).  That ship suffers 1 damage.</p>",
         "points": 3,
+        "faction": "empire",
         "type": "elite",
         "id": "1d79475f-40a2-41b4-b7c9-0f5414fe110a"
     },
@@ -1615,6 +1636,7 @@
         "canonicalName": "ysanneisard",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>At the start of the Combat phase, if you have no shields and at least 1 Damage card assigned to your ship, you may perform a free evade action.</p>",
         "points": 4,
+        "faction": "empire",
         "type": "crew",
         "id": "858d2b63-5938-4b7c-b18e-f34b881efe95"
     },
@@ -1630,6 +1652,7 @@
         "canonicalName": "moffjerjerrod",
         "text": "<p><span class=\"restriction\">Imperial only.</span></p><p>When you are dealt a faceup Damage card, you may discard this Upgrade card or another <i class=\"xmf xmf-crew\"></i> Upgrade card to flip that Damage card facedown (without resolving its effect).</p>",
         "points": 2,
+        "faction": "empire",
         "type": "crew",
         "id": "7a294860-75bf-4708-bb77-1a877787122c"
     },
@@ -1660,6 +1683,7 @@
         "canonicalName": "bodyguard",
         "text": "<p><span class=\"restriction\">Scum only.</span></p><p>At the start of the Combat phase, you may spend a focus token to choose a friendly ship at Range 1 with higher pilot skill than you. Increase its agility value by 1 until the end of the round.</p>",
         "points": 2,
+        "faction": "scum",
         "type": "elite",
         "id": "a9bde6b3-c121-4191-9933-96da3104a370"
     },
@@ -1770,6 +1794,7 @@
         "canonicalName": "greedo",
         "text": "<p><span class=\"restriction\">Scum only.</span></p><p>The first time you attack each round and the first time you defend each round, the first Damage card dealt is dealt faceup.</p>",
         "points": 1,
+        "faction": "scum",
         "type": "crew",
         "id": "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e"
     },
@@ -1877,6 +1902,7 @@
         "canonicalName": "k4securitydroid",
         "text": "<p>After executing a green maneuver, you may acquire a target lock.</p>",
         "points": 3,
+        "faction": "scum",
         "type": "crew",
         "id": "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2"
     },
@@ -1890,6 +1916,7 @@
         "canonicalName": "outlawtech",
         "text": "<p>After you execute a red maneuver, you may assign 1 focus token to your ship.</p>",
         "points": 2,
+        "faction": "scum",
         "type": "crew",
         "id": "5313c83c-173d-4f5f-92af-8d24fb2a3530"
     },

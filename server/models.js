@@ -94,6 +94,7 @@ db.Upgrade = jbase.defineModel('upgrades', {
     ship: String,
     size: { type: String, default: 'all', choices: ['all', 'small', 'large', 'huge'] },
     sources: { type: Array, default: [] },
+    faction: { type: String, choices: db.choices.factions },
     type: { type: String, choices: db.choices.slots },
     actions: { type: Array, default: [], choices: db.choices.actions },
     grantsUpgrades: { type: Array, default: [], choices: db.choices.slots },

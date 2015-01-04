@@ -32,7 +32,7 @@ function BuilderController($scope, _, cardSvc, squadMember)
     {
         $scope.squad = [squadMember($scope)];
         $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
-        $scope.upgrades = cardSvc.upgrades;
+        $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
     });
 
     $scope.$watch('squad', function()
@@ -58,7 +58,7 @@ function BuilderController($scope, _, cardSvc, squadMember)
 
     $scope.upgradesByType = function(type)
     {
-        return cardSvc.filterByType(type);
+        return cardSvc.filterByType($scope.faction, type);
     }; // end upgradesByType
 
     $scope.isReleased = function(card)

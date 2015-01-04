@@ -47,9 +47,9 @@ function CardServiceFactory($http, Promise, _)
         });
     }; // end filterByFaction
 
-    CardService.prototype.filterByType = function(type)
+    CardService.prototype.filterByType = function(faction, type)
     {
-        return _.filter(this.upgrades, { type: type });
+        return _.filter(this.filterByFaction(faction, this.upgrades), { type: type });
     }; // end filterByType
 
     CardService.prototype.isReleased = function(card)
