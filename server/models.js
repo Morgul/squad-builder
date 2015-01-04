@@ -98,6 +98,7 @@ db.Upgrade = jbase.defineModel('upgrades', {
     type: { type: String, choices: db.choices.slots },
     actions: { type: Array, default: [], choices: db.choices.actions },
     grantsUpgrades: { type: Array, default: [], choices: db.choices.slots },
+    limited: { type: Boolean, default: false },
     unique: { type: Boolean, default: false }
 }, { rootPath: rootPath });
 

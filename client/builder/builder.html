@@ -178,7 +178,7 @@
                             <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
                             <ui-select ng-model="squadMember.upgrades[upgrade + $index]">
                                 <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
+                                <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
                                         <div class="cost">({{ upgrade.points }})</div>
                                         <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>

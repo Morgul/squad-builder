@@ -52,11 +52,42 @@ function UniqueFilterFactory()
 
         return filtered;
     }; // end function
-}
+} // end UniqueFilterFactory
+
+function LimitedFilterFactory()
+{
+    return function(cards, member)
+    {
+        function inUse(card)
+        {
+            var used = false;
+
+            // Check upgrades
+            if(_.find(_.values(member.upgrades), { canonicalName: card.canonicalName }))
+            {
+                used = true;
+            } // end if
+
+            return used;
+        } // end inUse
+
+        var filtered = [];
+        _.each(cards, function(card)
+        {
+            if(!card.limited || !inUse(card))
+            {
+                filtered.push(card);
+            } // end if
+        });
+
+        return filtered;
+    }; // end function
+} // end LimitedFilterFactory
 
 // ---------------------------------------------------------------------------------------------------------------------
 
 angular.module('squad-builder').filter('capitalize', [CapitalizeFilterFactory]);
 angular.module('squad-builder').filter('uniqueRule', [UniqueFilterFactory]);
+angular.module('squad-builder').filter('limitedRule', [LimitedFilterFactory]);
 
 // ---------------------------------------------------------------------------------------------------------------------
