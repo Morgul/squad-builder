@@ -102,7 +102,7 @@
                 <div class="row" ng-show="squadMember.ship">
                     <div class="col-xs-10 col-sm-6">
                         <select class="form-control ship-select"
-                                ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.canonicalName" ng-model="squadMember.ship">
+                                ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.id" ng-model="squadMember.ship">
                             <option value="">Select ship...</option>
                         </select>
                         <button class="btn btn-link" type="button" ng-click="removeShip($index)"><i class="fa fa-close close"></i></button>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <select ng-hide="squadMember.ship" class="form-control"
-                        ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.canonicalName" ng-model="squadMember.ship">
+                        ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.id" ng-model="squadMember.ship">
                     <option value="">Select ship...</option>
                 </select>
             </div>

@@ -1,5 +1,9 @@
 # ToDo List
 
+* Google Account support
+
 ## Squad Builder
 
-* Support dual card ships, like the CR-90
+* Print 'Build Mat'.
+* Save Squad
+* Delete Squad

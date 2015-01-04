@@ -38,8 +38,23 @@ function BuilderController($scope, _, cardSvc, squadMember)
     $scope.$watch('squad', function()
     {
         var lastItem = _.last($scope.squad);
+
         if(lastItem.ship)
         {
+            // Check to see if we're a ship with more than one card.
+            var companionCard = _.filter($scope.ships, function(ship)
+            {
+                return (ship.canonicalName == lastItem.ship.canonicalName) && (ship.name != lastItem.ship.name);
+            })[0];
+
+            if(companionCard)
+            {
+                var companion = squadMember($scope);
+                companion.ship = companionCard;
+                $scope.squad.push(companion);
+            } // end if
+
+            // We need to add an empty squad member.
             $scope.squad.push(squadMember($scope));
         } // end if
     }, true);
