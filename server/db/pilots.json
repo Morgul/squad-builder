@@ -612,7 +612,11 @@
         "ship": "yt1300",
         "points": 42,
         "faction": "rebel",
-        "id": "3d91775a-0b82-4a15-94b6-b041498a09e1"
+        "id": "3d91775a-0b82-4a15-94b6-b041498a09e1",
+        "attack": 3,
+        "agility": 1,
+        "hull": 8,
+        "shields": 5
     },
     "6123b030-9e79-43f7-a5e0-824f429068f6": {
         "sources": [
@@ -632,7 +636,11 @@
         "ship": "yt1300",
         "points": 44,
         "faction": "rebel",
-        "id": "6123b030-9e79-43f7-a5e0-824f429068f6"
+        "id": "6123b030-9e79-43f7-a5e0-824f429068f6",
+        "attack": 3,
+        "agility": 1,
+        "hull": 8,
+        "shields": 5
     },
     "a53a0ecb-6ec2-4e1b-b1ee-fecb48327368": {
         "sources": [
@@ -652,7 +660,11 @@
         "ship": "yt1300",
         "points": 46,
         "faction": "rebel",
-        "id": "a53a0ecb-6ec2-4e1b-b1ee-fecb48327368"
+        "id": "a53a0ecb-6ec2-4e1b-b1ee-fecb48327368",
+        "attack": 3,
+        "agility": 1,
+        "hull": 8,
+        "shields": 5
     },
     "790c1b0a-57d3-4694-bd9d-3f0664b41b34": {
         "sources": [

@@ -155,9 +155,6 @@ models.initialize
     })
     .then(function()
     {
-    })
-    .then(function()
-    {
         console.log('  Importing ships...');
         var ships = [];
 
@@ -219,6 +216,11 @@ models.initialize
                 skill: pilot.skill,
                 ship: findCanonicalName('ship', pilot.ship),
                 points: pilot.points,
+                energy: (pilot.ship_override || {}).energy,
+                attack: (pilot.ship_override || {}).attack,
+                agility: (pilot.ship_override || {}).agility,
+                hull: (pilot.ship_override || {}).hull,
+                shields: (pilot.ship_override || {}).shields,
                 sources: pilot.sources,
                 faction: processFaction(pilot.faction),
                 upgrades: processUpgrades(pilot.slots),
