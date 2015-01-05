@@ -224,6 +224,7 @@ models.initialize
                 agility: (pilot.ship_override || {}).agility,
                 hull: (pilot.ship_override || {}).hull,
                 shields: (pilot.ship_override || {}).shields,
+                actions: (pilot.ship_override || {}).actions,
                 sources: pilot.sources,
                 faction: processFaction(pilot.faction),
                 upgrades: processUpgrades(pilot.slots),

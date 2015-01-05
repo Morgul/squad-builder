@@ -67,7 +67,7 @@ db.Ship = jbase.defineModel('ships', {
     epicPoints: Number,
     actions: { type: Array, default: [], choices: db.choices.actions },
     maneuvers: { type: Array, default: [] },
-    size: { type: String, default: 'small', choices: ['small', 'large', 'huge'] },
+    size: { type: String, default: 'small', choices: ['small', 'large', 'huge'] }
 }, { rootPath: rootPath });
 
 db.Pilot = jbase.defineModel('pilots', {
@@ -84,6 +84,7 @@ db.Pilot = jbase.defineModel('pilots', {
     shields: Number,
     sources: { type: Array, default: [] },
     faction: { type: String, choices: db.choices.factions },
+    actions: { type: Array, default: [], choices: db.choices.actions },
     upgrades: { type: Array, default: [], choices: db.choices.slots },
     unique: { type: Boolean, default: false }
 }, { rootPath: rootPath });
