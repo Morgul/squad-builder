@@ -4,18 +4,28 @@
 // @module main.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function BuilderController($scope, _, cardSvc, squadMember)
+function BuilderController($scope, _, cardSvc, squadSvc, squadMember)
 {
     $scope.temp = {};
     $scope.faction = 'empire';
-    $scope.squad = [squadMember($scope)];
+    squadSvc.squad = [squadMember($scope)];
 
     Object.defineProperties($scope, {
+        squad: {
+            get: function()
+            {
+                return squadSvc.squad;
+            },
+            set: function(val)
+            {
+                squadSvc.squad = val;
+            }
+        },
         totalPoints: {
             get: function()
             {
                 var points = 0;
-                _.each($scope.squad, function(member)
+                _.each(squadSvc.squad, function(member)
                 {
                     points += member.points || 0;
                 });
@@ -31,7 +41,8 @@ function BuilderController($scope, _, cardSvc, squadMember)
 
     $scope.$watch('faction', function()
     {
-        $scope.squad = [squadMember($scope)];
+        squadSvc.squad = [squadMember($scope)];
+
         cardSvc.initialized
             .then(function()
             {
@@ -42,7 +53,7 @@ function BuilderController($scope, _, cardSvc, squadMember)
 
     $scope.$watch('squad', function()
     {
-        var lastItem = _.last($scope.squad);
+        var lastItem = _.last(squadSvc.squad);
 
         if(lastItem.ship)
         {
@@ -56,11 +67,11 @@ function BuilderController($scope, _, cardSvc, squadMember)
             {
                 var companion = squadMember($scope);
                 companion.ship = companionCard;
-                $scope.squad.push(companion);
+                squadSvc.squad.push(companion);
             } // end if
 
             // We need to add an empty squad member.
-            $scope.squad.push(squadMember($scope));
+            squadSvc.squad.push(squadMember($scope));
         } // end if
     }, true);
 
@@ -70,9 +81,9 @@ function BuilderController($scope, _, cardSvc, squadMember)
 
     $scope.removeShip = function(index)
     {
-        if($scope.squad[index].ship)
+        if(squadSvc.squad[index].ship)
         {
-            $scope.squad.splice(index, 1);
+            squadSvc.squad.splice(index, 1);
         } // end if
     }; // end removeShip
 
@@ -112,6 +123,7 @@ angular.module('squad-builder.controllers').controller('BuilderController', [
     '$scope',
     'lodash',
     'CardService',
+    'SquadService',
     'SquadMember',
     BuilderController
 ]);
