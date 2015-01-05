@@ -2,5 +2,86 @@
 // Browser Page Styles
 //----------------------------------------------------------------------------------------------------------------------
 
+.card-browser {
+
+    .row,
+    .col-sm-6 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    .col-sm-6 {
+        @media(max-width: 767px) {
+            bottom: 50%;
+        }
+    }
+
+    .col-sm-6 + .col-sm-6 {
+        left: 50%;
+
+        @media(max-width: 767px) {
+            left: 0;
+            right: 0;
+            top: 50%;
+            bottom: 0;
+        }
+    }
+
+    .row {
+        left: 15px;
+        right: 15px;
+    }
+
+    .browser-list {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 15px;
+        right : 15px;
+
+        .list-group {
+            position: absolute;
+            top: 55px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    }
+
+    .restriction {
+        font-size:.85em;
+        font-style: italic;
+    }
+
+    .list-group-item-heading {
+        padding-bottom: 5px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .list-group-item-text {
+        font-size: .85em;
+    }
+
+    .sub-header {
+        margin-top: 2px;
+        font-style: italic;
+        font-size: .75em;
+        color: #999;
+    }
+
+    .type,
+    .cost {
+        font-size: .85em;
+    }
+
+    .cost {
+        float: right;
+    }
+
+
+}
 
 //----------------------------------------------------------------------------------------------------------------------

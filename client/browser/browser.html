@@ -1,3 +1,42 @@
-<div class="container-fluid">
-    <h1>Browser Page!</h1>
+<div class="container card-browser">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-default browser-list">
+                <div class="panel-heading">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search cards" ng-model="search.name">
+                    </div>
+                </div>
+                <div class="list-group">
+                    <a class="list-group-item"
+                       ng-class="{ active: cards.selected.id == card.id }"
+                       ng-repeat="card in cards.combined | filter:search | orderBy: 'name'"
+                       ng-click="selectCard(card)">
+                        <span ng-if="!isReleased(card)" class="badge">Unreleased</span>
+                        <h4 class="list-group-item-heading">
+                            {{ card.name }}
+                            <div class="sub-header">
+                                {{ getCardName(card.ship) }}
+                                <span ng-if="card.limited"><span ng-if="isPilot(card)"> - </span>Limited</span>
+                                <span ng-if="card.unique"><span ng-if="isPilot(card)"> - </span>Unique</span>
+                            </div>
+                        </h4>
+                        <div class="list-group-item-text" ng-bind-html="card.text"></div>
+
+                        <div class="cost">
+                            {{ card.points }}
+                        </div>
+
+                        <div class="type" title="{{ card.type }}">
+                            <i class="xmf xmf-{{ card.type }}"></i>&nbsp;
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <card model="cards.selected"></card>
+        </div>
+    </div>
 </div>

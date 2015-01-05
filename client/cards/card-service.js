@@ -10,33 +10,29 @@ function CardServiceFactory($http, Promise, _)
     {
         var self = this;
 
-        // Get a list of all ships
-        $http.get('/cards/ships')
-            .success(function(data)
-            {
-                self.ships = data;
-            });
-
-        // Get a list of all pilots
-        $http.get('/cards/pilots')
-            .success(function(data)
-            {
-                self.pilots = data;
-            });
-
-        // Get a list of all upgrades
-        $http.get('/cards/upgrades')
-            .success(function(data)
-            {
-                self.upgrades = data;
-            });
-
-        // Get a list of all upgrades
-        $http.get('/cards/expansions')
-            .success(function(data)
-            {
-                self.expansions = data;
-            });
+        // Get all cards
+        this.initialized = Promise.all([
+            $http.get('/cards/ships')
+                .success(function(data)
+                {
+                    self.ships = data;
+                }),
+            $http.get('/cards/pilots')
+                .success(function(data)
+                {
+                    self.pilots = data;
+                }),
+            $http.get('/cards/upgrades')
+                .success(function(data)
+                {
+                    self.upgrades = data;
+                }),
+            $http.get('/cards/expansions')
+                .success(function(data)
+                {
+                    self.expansions = data;
+                })
+        ]);
     } // end CardService
 
     CardService.prototype.filterByFaction = function(faction, list)
@@ -51,6 +47,15 @@ function CardServiceFactory($http, Promise, _)
     {
         return _.filter(this.filterByFaction(faction, this.upgrades), { type: type });
     }; // end filterByType
+
+    CardService.prototype.getCardName = function(canonicalName)
+    {
+        var card = _.find(this.pilots, { canonicalName: canonicalName });
+        if(!card) { card = _.find(this.ships, { canonicalName: canonicalName }); }
+        if(!card) { card = _.find(this.upgrades, { canonicalName: canonicalName }); }
+
+        return (card || {}).name;
+    }; // end getCardName
 
     CardService.prototype.isReleased = function(card)
     {

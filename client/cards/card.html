@@ -1,0 +1,58 @@
+<div class="card-directive" ng-show="model">
+    <header class="title">
+        <h3>
+            <i ng-if="model.unique" class="xmf xmf-unique"></i>
+            {{ model.name }}
+        </h3>
+    </header>
+
+    <div ng-if="isPilot()" class="skill-faction">
+        <div class="skill">
+            {{ model.skill }}
+        </div>
+        <div class="faction" ng-switch="model.faction">
+            <i class="fa fa-ge" ng-switch-when="empire"></i>
+            <i class="fa fa-ra" ng-switch-when="rebel"></i>
+            <i class="icon-scum" ng-switch-when="scum"></i>
+        </div>
+        <div ng-if="ship.size != 'huge'" class="ship">
+            {{ getCardName(model.ship) }}
+        </div>
+    </div>
+
+    <div ng-if="isPilot()" class="stats">
+        <div ng-if="(model.attack || ship.attack)" class="attack">
+            Atk: {{ model.attack || ship.attack }}
+        </div>
+        <div ng-if="(model.energy || ship.energy)" class="energy">
+            Eng: {{ model.energy || ship.energy }}
+        </div>
+        <div class="agility">
+            Agi: {{ model.agility || ship.agility }}
+        </div>
+        <div class="hull">
+            Hull: {{ model.hull || ship.hull }}
+        </div>
+        <div class="shield">
+            Shld: {{ model.shields || ship.shields }}
+        </div>
+    </div>
+
+    <div ng-if="model.text" class="text" ng-class="{ pilot: isPilot() }" ng-bind-html="model.text"></div>
+
+    <div ng-if="actions" class="actions">
+        <i class="xmf xmf-{{ action }}" ng-repeat="action in actions track by $index"></i>
+    </div>
+
+    <div ng-if="model.upgrades" class="upgrades">
+        <i class="xmf xmf-{{ upgrade }}" ng-repeat="upgrade in model.upgrades track by $index"></i>
+    </div>
+
+    <div class="type" title="{{ type }}">
+       <i class="xmf xmf-{{ type }}"></i>
+    </div>
+
+    <div class="cost">
+        {{ model.points }}
+    </div>
+</div>
