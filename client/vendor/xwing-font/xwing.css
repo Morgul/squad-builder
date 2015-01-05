@@ -3,9 +3,11 @@
   src: url('xwing.ttf'); }
 
 i.xmf {
+  display: inline-block;
   font-family: XWing;
   font-style: normal;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  line-height: 1.25; }
 
 i.xmf-bank-left:before {
   content: "\0031"; }
