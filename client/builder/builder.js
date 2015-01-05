@@ -7,6 +7,7 @@
 function BuilderController($scope, _, cardSvc, squadMember)
 {
     $scope.temp = {};
+    $scope.faction = 'empire';
     $scope.squad = [squadMember($scope)];
 
     Object.defineProperties($scope, {

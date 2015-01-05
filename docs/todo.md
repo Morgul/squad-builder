@@ -11,9 +11,9 @@
 
 ## Card Browser
 
-* Display cards (same format as build mat)
+* ~~Display cards (same format as build mat)~~
 * Search cards by type
-* Search all cards
+* ~~Search all cards~~
 
 ## My Collection
 
