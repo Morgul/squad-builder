@@ -127,21 +127,24 @@ function processCards(expansionCards)
 
 function processText(text)
 {
-    text = text.replace(/xwing-miniatures-font/g, 'xmf');
-    text = text.replace(/sloop/g, 'bank');
-    text = text.replace(/turnleft/g, 'turn-left');
-    text = text.replace(/turnright/g, 'turn-right');
-    text = text.replace(/bankleft/g, 'bank-left');
-    text = text.replace(/bankright/g, 'bank-right');
-    text = text.replace(/barrelroll/g, 'barrel-roll');
-    text = text.replace(/kturn/g, 'k-turn');
-    text = text.replace(/salvagedastromech/g, 'salvaged-astromech');
-    text = text.replace(/card-restriction/g, 'restriction');
-    text = text.replace(/<br \/><br \/>/g, '</p><p>');
-    text = '<p>' + text;
-    text += '</p>';
+    if(text && text != '')
+    {
+        text = text.replace(/xwing-miniatures-font/g, 'xmf');
+        text = text.replace(/sloop/g, 'bank');
+        text = text.replace(/turnleft/g, 'turn-left');
+        text = text.replace(/turnright/g, 'turn-right');
+        text = text.replace(/bankleft/g, 'bank-left');
+        text = text.replace(/bankright/g, 'bank-right');
+        text = text.replace(/barrelroll/g, 'barrel-roll');
+        text = text.replace(/kturn/g, 'k-turn');
+        text = text.replace(/salvagedastromech/g, 'salvaged-astromech');
+        text = text.replace(/card-restriction/g, 'restriction');
+        text = text.replace(/<br \/><br \/>/g, '</p><p>');
+        text = '<p>' + text;
+        text += '</p>';
 
-    return text;
+        return text;
+    } // end if
 } // end process text
 
 //----------------------------------------------------------------------------------------------------------------------
