@@ -6,9 +6,25 @@
 
 //----------------------------------------------------------------------------------------------------------------------
 
+html,
 body {
+    height: 100%;
+}
+
+body {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+
+.main-container {
+    position: absolute;
+    top: 72px;
+    bottom: 95px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 // Original Bootstrap's CSS depends on empty href attributes to style cursors for several components (pagination, tabs
