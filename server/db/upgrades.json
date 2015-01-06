@@ -533,7 +533,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "skill": 2
         },
         "limited": false,
         "unique": false,
@@ -1340,7 +1341,9 @@
             "Rebel Transport Expansion Pack"
         ],
         "grants": {
-            "upgrades": [],
+            "upgrades": [
+                "elite"
+            ],
             "actions": []
         },
         "limited": false,
@@ -2160,7 +2163,9 @@
         "size": "all",
         "sources": [],
         "grants": {
-            "upgrades": [],
+            "upgrades": [
+                "bomb"
+            ],
             "actions": []
         },
         "limited": true,
@@ -2331,7 +2336,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "agility": 1
         },
         "limited": false,
         "unique": false,
@@ -2350,7 +2356,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "shields": 1
         },
         "limited": false,
         "unique": false,
@@ -2368,7 +2375,9 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": ["boost"]
+            "actions": [
+                "boost"
+            ]
         },
         "limited": false,
         "unique": false,
@@ -2404,7 +2413,9 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": ["target-lock"]
+            "actions": [
+                "target-lock"
+            ]
         },
         "limited": false,
         "unique": false,
@@ -2422,7 +2433,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "hull": 1
         },
         "limited": false,
         "unique": false,
@@ -2496,7 +2508,9 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "hull": 2,
+            "shields": 1
         },
         "limited": false,
         "unique": false,
@@ -2627,7 +2641,9 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": ["evade"]
+            "actions": [
+                "evade"
+            ]
         },
         "limited": false,
         "unique": true,
@@ -2765,7 +2781,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "energy": 2
         },
         "limited": false,
         "unique": true,
@@ -2785,7 +2802,8 @@
         ],
         "grants": {
             "upgrades": [],
-            "actions": []
+            "actions": [],
+            "energy": 1
         },
         "limited": false,
         "unique": true,

@@ -137,6 +137,7 @@ function processText(text)
         text = text.replace(/bankright/g, 'bank-right');
         text = text.replace(/barrelroll/g, 'barrel-roll');
         text = text.replace(/kturn/g, 'k-turn');
+        text = text.replace(/targetlock/g, 'target-lock');
         text = text.replace(/salvagedastromech/g, 'salvaged-astromech');
         text = text.replace(/card-restriction/g, 'restriction');
         text = text.replace(/<br \/><br \/>/g, '</p><p>');
@@ -146,6 +147,60 @@ function processText(text)
         return text;
     } // end if
 } // end process text
+
+function processGrants(card)
+{
+    var grants = {
+        upgrades: processAddons(card.confersAddons),
+        actions: []
+    };
+
+    switch(card.name)
+    {
+        case "Veteran Instincts":
+            grants.skill = 2;
+            break;
+
+        case "Stealth Device":
+            grants.agility = 1;
+            break;
+
+        case "Shield Upgrade":
+            grants.shields = 1;
+            break;
+
+        case "Engine Upgrade":
+            grants.actions.push('boost');
+            break;
+
+        case "Targeting Computer":
+            grants.actions.push('target-lock');
+            break;
+
+        case "Hull Upgrade":
+            grants.hull = 1;
+            break;
+
+        case "Combat Retrofit":
+            grants.hull = 2;
+            grants.shields = 1;
+            break;
+
+        case "Millennium Falcon":
+            grants.actions.push('evade');
+            break;
+
+        case "Bright Hope":
+            grants.energy = 2;
+            break;
+
+        case "Quantum Storm":
+            grants.energy = 1;
+            break;
+    } // end switch
+
+    return grants;
+}
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -282,6 +337,7 @@ models.initialize
                     ship: findCanonicalName('ship', upgrade.ship),
                     sources: upgrade.sources,
                     faction: processFaction(upgrade.faction),
+                    grants: processGrants(upgrade),
                     type: upgrade.slot.toLowerCase(),
                     limited: upgrade.limited,
                     unique: upgrade.unique
@@ -337,7 +393,7 @@ models.initialize
                 faction: processFaction(mod.faction),
                 type: 'modification',
                 size: mod.huge ? 'huge' : (mod.large ? 'large' : mod.small ? 'small' : 'all'),
-                grantsUpgrades: processAddons(mod.confersAddons),
+                grants: processGrants(mod),
                 limited: mod.limited,
                 unique: mod.unique
             };
@@ -392,7 +448,7 @@ models.initialize
                 faction: processFaction(title.faction),
                 type: 'title',
                 size: title.huge ? 'huge' : (title.large ? 'large' : title.small ? 'small' : 'all'),
-                grantsUpgrades: processAddons(title.confersAddons),
+                grants: processGrants(title),
                 limited: title.limited,
                 unique: title.unique
             };
