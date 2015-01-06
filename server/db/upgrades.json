@@ -5,8 +5,10 @@
             "HWK-290 Expansion Pack",
             "Y-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ion Cannon Turret",
@@ -26,8 +28,10 @@
             "X-Wing Expansion Pack",
             "Y-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Proton Torpedoes",
@@ -44,8 +48,10 @@
         "sources": [
             "Y-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "R2 Astromech",
@@ -60,8 +66,10 @@
         "sources": [
             "Core"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R2-D2",
@@ -76,8 +84,10 @@
         "sources": [
             "Core"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R2-F2",
@@ -92,8 +102,10 @@
         "sources": [
             "Y-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R5-D8",
@@ -108,8 +120,10 @@
         "sources": [
             "X-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R5-K6",
@@ -124,8 +138,10 @@
         "sources": [
             "X-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "R5 Astromech",
@@ -141,8 +157,10 @@
             "Core",
             "TIE Fighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Determination",
@@ -158,8 +176,10 @@
             "TIE Advanced Expansion Pack",
             "TIE Fighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Swarm Tactics",
@@ -174,8 +194,10 @@
         "sources": [
             "TIE Advanced Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Squad Leader",
@@ -191,8 +213,10 @@
             "TIE Advanced Expansion Pack",
             "X-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Expert Handling",
@@ -208,8 +232,10 @@
             "Core",
             "X-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Marksmanship",
@@ -226,8 +252,10 @@
             "Millennium Falcon Expansion Pack",
             "TIE Advanced Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Concussion Missiles",
@@ -245,8 +273,10 @@
             "A-Wing Expansion Pack",
             "TIE Advanced Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Cluster Missiles",
@@ -263,8 +293,10 @@
         "sources": [
             "TIE Interceptor Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Daredevil",
@@ -280,8 +312,10 @@
             "Millennium Falcon Expansion Pack",
             "TIE Interceptor Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Elusiveness",
@@ -297,8 +331,10 @@
             "A-Wing Expansion Pack",
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Homing Missiles",
@@ -316,8 +352,10 @@
             "A-Wing Expansion Pack",
             "Imperial Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Push the Limit",
@@ -332,8 +370,10 @@
         "sources": [
             "A-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Deadeye",
@@ -348,8 +388,10 @@
         "sources": [
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Expose",
@@ -365,8 +407,10 @@
             "Slave I Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Gunner",
@@ -383,8 +427,10 @@
             "Slave I Expansion Pack",
             "TIE Defender Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ion Cannon",
@@ -403,8 +449,10 @@
             "Slave I Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Heavy Laser Cannon",
@@ -422,8 +470,10 @@
             "Slave I Expansion Pack",
             "TIE Bomber Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Seismic Charges",
@@ -439,8 +489,10 @@
             "Slave I Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Mercenary Copilot",
@@ -458,8 +510,10 @@
             "TIE Bomber Expansion Pack",
             "Z-95 Headhunter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Assault Missiles",
@@ -477,8 +531,10 @@
             "Millennium Falcon Expansion Pack",
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Veteran Instincts",
@@ -493,8 +549,10 @@
         "sources": [
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Proximity Mines",
@@ -510,8 +568,10 @@
             "Lambda-Class Shuttle Expansion Pack",
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Weapons Engineer",
@@ -526,8 +586,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Draw Their Fire",
@@ -542,8 +604,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Luke Skywalker",
@@ -559,8 +623,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Nien Nunb",
@@ -576,8 +642,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Chewbacca",
@@ -594,8 +662,10 @@
             "B-Wing Expansion Pack",
             "TIE Bomber Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Advanced Proton Torpedoes",
@@ -612,8 +682,10 @@
         "sources": [
             "B-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Autoblaster",
@@ -631,8 +703,10 @@
             "B-Wing Expansion Pack",
             "TIE Phantom Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Fire-Control System",
@@ -647,8 +721,10 @@
         "sources": [
             "HWK-290 Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Blaster Turret",
@@ -666,8 +742,10 @@
             "HWK-290 Expansion Pack",
             "TIE Phantom Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Recon Specialist",
@@ -682,8 +760,10 @@
         "sources": [
             "HWK-290 Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Saboteur",
@@ -699,8 +779,10 @@
             "HWK-290 Expansion Pack",
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Intelligence Agent",
@@ -716,8 +798,10 @@
             "TIE Bomber Expansion Pack",
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Proton Bombs",
@@ -732,8 +816,10 @@
         "sources": [
             "TIE Bomber Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Adrenaline Rush",
@@ -749,8 +835,10 @@
             "E-Wing Expansion Pack",
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Advanced Sensors",
@@ -765,8 +853,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Sensor Jammer",
@@ -781,8 +871,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Darth Vader",
@@ -798,8 +890,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Rebel Captive",
@@ -815,8 +909,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Flight Instructor",
@@ -831,8 +927,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Navigator",
@@ -847,8 +945,10 @@
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Opportunist",
@@ -864,8 +964,10 @@
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Comms Booster",
@@ -880,8 +982,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Slicer Tools",
@@ -896,8 +1000,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Shield Projector",
@@ -913,8 +1019,10 @@
             "TIE Defender Expansion Pack",
             "Z-95 Headhunter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ion Pulse Missiles",
@@ -931,8 +1039,10 @@
         "sources": [
             "Z-95 Headhunter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Wingman",
@@ -947,8 +1057,10 @@
         "sources": [
             "Z-95 Headhunter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Decoy",
@@ -964,8 +1076,10 @@
             "E-Wing Expansion Pack",
             "TIE Defender Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Outmaneuver",
@@ -980,8 +1094,10 @@
         "sources": [
             "TIE Defender Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Predator",
@@ -997,8 +1113,10 @@
             "E-Wing Expansion Pack",
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Flechette Torpedoes",
@@ -1015,8 +1133,10 @@
         "sources": [
             "E-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "R7 Astromech",
@@ -1031,8 +1151,10 @@
         "sources": [
             "E-Wing Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R7-T1",
@@ -1047,8 +1169,10 @@
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Tactician",
@@ -1063,8 +1187,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R2-D2 (Crew)",
@@ -1080,8 +1206,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "C-3PO",
@@ -1097,8 +1225,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Single Turbolasers",
@@ -1115,8 +1245,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Quad Laser Cannons",
@@ -1134,8 +1266,10 @@
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Tibanna Gas Supplies",
@@ -1150,8 +1284,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Ionization Reactor",
@@ -1167,8 +1303,10 @@
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Engine Booster",
@@ -1183,8 +1321,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R3-A2",
@@ -1199,8 +1339,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R2-D6",
@@ -1215,8 +1357,10 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Enhanced Scopes",
@@ -1231,8 +1375,10 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Chardaan Refit",
@@ -1249,8 +1395,10 @@
             "Rebel Aces Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Proton Rockets",
@@ -1267,8 +1415,10 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Kyle Katarn",
@@ -1284,8 +1434,10 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Jan Ors",
@@ -1301,8 +1453,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Toryn Farr",
@@ -1318,8 +1472,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R4-D6",
@@ -1334,8 +1490,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R5-P9",
@@ -1350,8 +1508,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "WED-15 Repair Droid",
@@ -1366,8 +1526,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Carlist Rieekan",
@@ -1383,8 +1545,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Jan Dodonna",
@@ -1400,8 +1564,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Expanded Cargo Hold",
@@ -1418,8 +1584,10 @@
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Backup Shield Generator",
@@ -1434,8 +1602,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "EM Emitter",
@@ -1450,8 +1620,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Frequency Jammer",
@@ -1466,8 +1638,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Han Solo",
@@ -1483,8 +1657,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Leia Organa",
@@ -1500,8 +1676,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Targeting Coordinator",
@@ -1516,8 +1694,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Raymus Antilles",
@@ -1533,8 +1713,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Gunnery Team",
@@ -1549,8 +1731,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Sensor Team",
@@ -1565,8 +1749,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Engineering Team",
@@ -1581,8 +1767,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Lando Calrissian",
@@ -1598,8 +1786,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Mara Jade",
@@ -1615,8 +1805,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Fleet Officer",
@@ -1632,8 +1824,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Stay On Target",
@@ -1648,8 +1842,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Dash Rendar",
@@ -1665,8 +1861,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Lone Wolf",
@@ -1681,8 +1879,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "\"Leebo\"",
@@ -1698,8 +1898,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ruthlessness",
@@ -1715,8 +1917,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Intimidation",
@@ -1731,8 +1935,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Ysanne Isard",
@@ -1748,8 +1954,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Moff Jerjerrod",
@@ -1765,8 +1973,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ion Torpedoes",
@@ -1781,8 +1991,10 @@
     "a9bde6b3-c121-4191-9933-96da3104a370": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Bodyguard",
@@ -1796,8 +2008,10 @@
     "6d54be24-6881-49e3-8115-ae43f9262c9b": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Accuracy Corrector",
@@ -1810,8 +2024,10 @@
     "7953af24-6b7e-418b-8ed8-6206ad73c6b9": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Inertial Dampeners",
@@ -1824,8 +2040,10 @@
     "88f3b871-94cf-4d2f-9f5b-76b139f3bd0d": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Flechette Cannon",
@@ -1840,8 +2058,10 @@
     "7de3d3bf-cb71-48cf-8f76-174412f77280": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "\"Mangler\" Cannon",
@@ -1856,8 +2076,10 @@
     "73c1d3bf-ab78-48ba-af0b-ab24edef73a4": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Dead Man's Switch",
@@ -1870,8 +2092,10 @@
     "548221dc-26a2-4b6a-9969-ee2eb6a50163": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Feedback Array",
@@ -1884,8 +2108,10 @@
     "238b9422-7242-44c3-84de-862acf2b828a": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "\"Hot Shot\" Blaster",
@@ -1900,8 +2126,10 @@
     "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Greedo",
@@ -1915,8 +2143,10 @@
     "e4bc9c1b-0632-4a53-b6ea-1f2621ba6152": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Salvaged Astromech",
@@ -1929,8 +2159,10 @@
     "ae44f9e1-d2e1-4e6a-bc99-8667f3799322": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Bomb Loadout",
@@ -1944,8 +2176,10 @@
     "ba0233e2-e4ed-4b24-ac4e-b1c85055871e": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "\"Genius\"",
@@ -1958,8 +2192,10 @@
     "df69b554-7e26-4443-b194-a9c2e1d1b5d9": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Unhinged Astromech",
@@ -1972,8 +2208,10 @@
     "6285843e-9727-47c3-b3bb-9f21ebc71300": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "R4-B11",
@@ -1986,8 +2224,10 @@
     "286e3a3f-e787-4b3e-be06-3a3448390cb5": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Autoblaster Turret",
@@ -2002,8 +2242,10 @@
     "ce6924a3-339c-42b6-9c65-114a01aa31c3": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "R4 Agromech",
@@ -2016,8 +2258,10 @@
     "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "K4 Security Droid",
@@ -2031,8 +2275,10 @@
     "5313c83c-173d-4f5f-92af-8d24fb2a3530": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": true,
         "unique": false,
         "name": "Outlaw Tech",
@@ -2046,8 +2292,10 @@
     "a48656af-65cf-45d1-89f7-be57fcfb0d6f": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Advanced Targeting Computer",
@@ -2061,8 +2309,10 @@
     "bda516e1-36ae-48d0-b003-480060bff32f": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Ion Cannon Battery",
@@ -2079,8 +2329,10 @@
         "sources": [
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Stealth Device",
@@ -2096,8 +2348,10 @@
             "Imperial Aces Expansion Pack",
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Shield Upgrade",
@@ -2112,8 +2366,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": ["boost"]
+        },
         "limited": false,
         "unique": false,
         "name": "Engine Upgrade",
@@ -2128,8 +2384,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Anti-Pursuit Lasers",
@@ -2144,13 +2402,15 @@
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": ["target-lock"]
+        },
         "limited": false,
         "unique": false,
         "name": "Targeting Computer",
         "canonicalName": "targetingcomputer",
-        "text": "<p>Your action bar gains the <i class=\"xmf xmf-targetlock\"></i> action icon.</p>",
+        "text": "<p>Your action bar gains the <i class=\"xmf xmf-target-lock\"></i> action icon.</p>",
         "points": 2,
         "type": "modification",
         "id": "7e22bf85-99ef-43a4-a752-2e7658362f6c"
@@ -2160,8 +2420,10 @@
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Hull Upgrade",
@@ -2177,8 +2439,10 @@
             "TIE Defender Expansion Pack",
             "Z-95 Headhunter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Munitions Failsafe",
@@ -2193,8 +2457,10 @@
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Stygium Particle Accelerator",
@@ -2209,8 +2475,10 @@
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Advanced Cloaking Device",
@@ -2226,8 +2494,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Combat Retrofit",
@@ -2243,10 +2513,12 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [
-            "crew"
-        ],
+        "grants": {
+            "upgrades": [
+                "crew"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "B-Wing/E2",
@@ -2262,8 +2534,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Countermeasures",
@@ -2278,8 +2552,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Experimental Interface",
@@ -2294,8 +2570,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Tactical Jammer",
@@ -2308,8 +2586,10 @@
     "46cd5a75-59ae-4f77-8196-38c1b08b0aae": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Autothrusters",
@@ -2324,10 +2604,12 @@
         "sources": [
             "Slave I Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [
-            "torpedo"
-        ],
+        "grants": {
+            "upgrades": [
+                "torpedo"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Slave I",
@@ -2343,8 +2625,10 @@
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": ["evade"]
+        },
         "limited": false,
         "unique": true,
         "name": "Millennium Falcon",
@@ -2360,8 +2644,10 @@
         "sources": [
             "HWK-290 Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Moldy Crow",
@@ -2377,8 +2663,10 @@
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "ST-321",
@@ -2394,8 +2682,10 @@
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "Royal Guard TIE",
@@ -2411,8 +2701,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Dodonna's Pride",
@@ -2428,10 +2720,12 @@
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [
-            "elite"
-        ],
+        "grants": {
+            "upgrades": [
+                "elite"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "A-Wing Test Pilot",
@@ -2447,11 +2741,13 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [
-            "crew",
-            "team"
-        ],
+        "grants": {
+            "upgrades": [
+                "crew",
+                "team"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Tantive IV",
@@ -2467,8 +2763,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Bright Hope",
@@ -2485,8 +2783,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Quantum Storm",
@@ -2503,8 +2803,10 @@
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Dutyfree",
@@ -2521,8 +2823,10 @@
         "sources": [
             "Tantive IV Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Jaina's Light",
@@ -2538,8 +2842,10 @@
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Outrider",
@@ -2555,8 +2861,10 @@
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Dauntless",
@@ -2570,11 +2878,13 @@
     "67611512-51c1-4d6d-8564-708692c4fbd2": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "system",
-            "illicit"
-        ],
+        "grants": {
+            "upgrades": [
+                "system",
+                "illicit"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Virago",
@@ -2588,10 +2898,12 @@
     "89d35da1-4b56-415a-8c56-be740e98615f": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "cannon"
-        ],
+        "grants": {
+            "upgrades": [
+                "cannon"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Cannon)",
@@ -2605,10 +2917,12 @@
     "789a8305-7212-4ec2-8ab9-32ec09e6601d": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "torpedo"
-        ],
+        "grants": {
+            "upgrades": [
+                "torpedo"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Torpedo)",
@@ -2622,10 +2936,12 @@
     "bf2d576d-90cc-4cda-a4c0-ce93dc261f37": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "missile"
-        ],
+        "grants": {
+            "upgrades": [
+                "missile"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "\"Heavy Scyk\" Interceptor (Missile)",
@@ -2639,8 +2955,10 @@
     "c35a65fa-ed3e-4bfc-abf9-34c4c6b9fd16": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "IG-2000",
@@ -2654,8 +2972,10 @@
     "b887cbbd-fc08-459e-8968-0d26b22588ed": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [],
+        "grants": {
+            "upgrades": [],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "BTL-A4 Y-Wing",
@@ -2669,11 +2989,13 @@
     "09ce360d-8a78-4348-9181-7cec65bda0eb": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "bomb",
-            "bomb"
-        ],
+        "grants": {
+            "upgrades": [
+                "bomb",
+                "bomb"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": true,
         "name": "Andrasta",
@@ -2687,10 +3009,12 @@
     "327f701c-d870-489f-90d0-c6e7d34bfd69": {
         "size": "all",
         "sources": [],
-        "actions": [],
-        "grantsUpgrades": [
-            "system"
-        ],
+        "grants": {
+            "upgrades": [
+                "system"
+            ],
+            "actions": []
+        },
         "limited": false,
         "unique": false,
         "name": "TIE/x1",
