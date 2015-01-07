@@ -200,7 +200,57 @@ function processGrants(card)
     } // end switch
 
     return grants;
-}
+} // end processGrants
+
+function processSize(upgrade)
+{
+    var size = 'all';
+
+    switch(upgrade.name)
+    {
+        case "Anti-Pursuit Lasers":
+            size = 'large';
+            break;
+
+        case "Countermeasures":
+            size = 'large';
+            break;
+
+        case "Tactical Jammer":
+            size = 'large';
+            break;
+
+        case "Expanded Cargo Hold":
+            size = 'huge';
+            break;
+
+        case "Raymus Antilles":
+            size = 'huge';
+            break;
+
+        case "Toryn Farr":
+            size = 'huge';
+            break;
+
+        case "WED-15 Repair Droid":
+            size = 'huge';
+            break;
+
+        case "Carlist Rieekan":
+            size = 'huge';
+            break;
+
+        case "Jan Dodonna":
+            size = 'huge';
+            break;
+
+        default:
+            size = upgrade.huge ? 'huge' : (upgrade.large ? 'large' : (upgrade.small ? 'small' : 'all'))
+            break;
+    } // end switch
+
+    return size;
+} // end processSize
 
 //----------------------------------------------------------------------------------------------------------------------
 
@@ -338,6 +388,7 @@ models.initialize
                     sources: upgrade.sources,
                     faction: processFaction(upgrade.faction),
                     grants: processGrants(upgrade),
+                    size: processSize(upgrade),
                     type: upgrade.slot.toLowerCase(),
                     limited: upgrade.limited,
                     unique: upgrade.unique
@@ -392,7 +443,7 @@ models.initialize
                 sources: mod.sources,
                 faction: processFaction(mod.faction),
                 type: 'modification',
-                size: mod.huge ? 'huge' : (mod.large ? 'large' : mod.small ? 'small' : 'all'),
+                size: processSize(mod),
                 grants: processGrants(mod),
                 limited: mod.limited,
                 unique: mod.unique
@@ -447,7 +498,7 @@ models.initialize
                 sources: title.sources,
                 faction: processFaction(title.faction),
                 type: 'title',
-                size: title.huge ? 'huge' : (title.large ? 'large' : title.small ? 'small' : 'all'),
+                size: processSize(title),
                 grants: processGrants(title),
                 limited: title.limited,
                 unique: title.unique
