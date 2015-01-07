@@ -9,6 +9,11 @@
 html,
 body {
     height: 100%;
+
+    @media print {
+        height: auto;
+        padding: 0 !important;
+    }
 }
 
 body {
@@ -27,6 +32,14 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     -webkit-overflow-scrolling: touch;
+
+    @media print {
+        position: inherit;
+        top: inherit;
+        bottom: inherit;
+        left: inherit;
+        right: inherit;
+    }
 }
 
 // Original Bootstrap's CSS depends on empty href attributes to style cursors for several components (pagination, tabs
@@ -45,6 +58,12 @@ body {
 
 input:focus, textarea:focus {
     outline: none;
+}
+
+.hidden-print {
+    @media print {
+        display: none;
+    }
 }
 
 //----------------------------------------------------------------------------------------------------------------------

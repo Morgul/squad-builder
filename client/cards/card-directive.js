@@ -14,6 +14,10 @@ function CardDirectiveFactory(_, cardSvc)
             {
                 switch($scope.model.type)
                 {
+                    case 'combined':
+                        $scope.actions = $scope.model.actions;
+                        break;
+
                     case undefined:
                         $scope.type = 'pilot';
                         $scope.ship = _.find(cardSvc.ships, { canonicalName: $scope.model.ship });
@@ -31,7 +35,7 @@ function CardDirectiveFactory(_, cardSvc)
 
         $scope.isPilot = function()
         {
-            return ($scope.model || {}).type == undefined;
+            return (($scope.model || {}).type == undefined || ($scope.model || {}).type == 'combined');
         }; // end isPilot
 
         $scope.getCardName = function(canonicalName)

@@ -4,8 +4,8 @@
 
 ## Squad Builder
 
-* Upgrade bindings are super wonky
-* Print 'Build Mat'.
+* ~~Upgrade bindings are super wonky~~
+* ~~Print 'Build Mat'.~~
 * Save Squad
 * Delete Squad
 

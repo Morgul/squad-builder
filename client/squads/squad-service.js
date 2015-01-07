@@ -8,6 +8,7 @@ function SquadServiceFactory()
 {
     function SquadService()
     {
+        this.name = undefined;
         this.squad = [];
     } // end SquadService
 

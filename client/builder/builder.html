@@ -4,8 +4,8 @@
         <div class="pull-left">
             <ul class="nav nav-pills">
                 <li role="presentation">
-                    <a>
-                        <i class="fa fa-print"></i> Print
+                    <a href="/builder/summary">
+                        <i class="fa fa-list"></i> Summary
                     </a>
                 </li>
                 <li role="presentation">
@@ -48,7 +48,7 @@
     <hr>
     <div class="row" style="margin-bottom: 10px;">
         <div class="col-xs-8 squad-name">
-            <input type="text" class="form-control" id="squadName" placeholder="Squadron Name">
+            <input type="text" class="form-control" id="squadName" placeholder="Squadron Name" ng-model="squadName">
         </div>
         <div class="col-xs-4 text-right">
             <h3 style="margin: 0; line-height: 34px;">
@@ -70,10 +70,6 @@
                     <h4>{{ squadMember.points }}</h4>
                 </div>
             </div>
-            <select ng-hide="squadMember.ship" class="form-control"
-                    ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.id" ng-model="squadMember.ship">
-                <option value="">Select ship...</option>
-            </select>
         </div>
 
         <!-- If there's no ship selected -->
@@ -140,33 +136,45 @@
                 </div>
 
                 <!-- Upgrades -->
-                <div class="col-sm-6 card-select" ng-repeat="upgrade in squadMember.upgradeSlots | orderBy track by $index">
-                    <div class="input-group">
-                        <span class="input-group-addon" title="{{ upgrade | capitalize }}"><i class="xmf xmf-{{ upgrade }}"></i></span>
-                        <ui-select ng-model="squadMember.upgrades[upgrade + $index]">
-                            <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                            <ui-select-choices repeat="upgrade in upgradesByType(upgrade) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
-                                <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
-                                    <div class="cost">({{ upgrade.points }})</div>
-                                    <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
-                                    <h5 class="name" ng-bind-html="upgrade.name | highlight: $select.search"></h5>
-                                    <div class="text" ng-bind-html="upgrade.text"></div>
-                                </div>
-                            </ui-select-choices>
-                        </ui-select>
+                <div ng-hide="upgrades.length == 0" ng-repeat="(type, upgrades) in squadMember.upgrades">
+                    <div class="col-sm-6" ng-repeat="upgrade in upgrades track by $index">
+                        <div class="input-group card-select">
+                            <span class="input-group-addon" title="{{ type | capitalize }}"><i class="xmf xmf-{{ type }}"></i></span>
+                            <ui-select ng-model="squadMember.upgrades[type][$index]">
+                                <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
+                                <ui-select-choices repeat="upgrade in upgradesByType(type) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
+                                        <div class="cost">({{ upgrade.points }})</div>
+                                        <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
+                                        <h5 class="name" ng-bind-html="upgrade.name | highlight: $select.search"></h5>
+                                        <div class="text" ng-bind-html="upgrade.text"></div>
+                                    </div>
+                                </ui-select-choices>
+                            </ui-select>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <hr>
+    <div class="input-group">
+        <span class="input-group-addon" title="Add to squad"><i class="fa fa-plus"></i></span>
+        <select class="form-control"
+                id="newShip"
+                ng-options="ship as formatName(ship) group by ship.size | capitalize for ship in ships | orderBy:['-size', 'name'] track by ship.id" ng-model="newShip">
+            <option value="">Add ship to squad...</option>
+        </select>
+    </div>
+    <p class="help-block text-right">You can select a ship above to add it to the squad. If you're done building, you can check out the squad <a href="/builder/summary">summary</a> page.</p>
+    <hr>
     <textarea class="form-control" rows="5" placeholder="Squad notes..."></textarea>
     <div class="visible-xs">
         <hr>
         <div class="btn-group btn-group-justified" role="group" aria-label="Squad Notes">
             <div class="btn-group" role="group">
-                <button type="button" class="btn btn-default">
-                    <i class="fa fa-print"></i> Print
+                <button type="button" class="btn btn-default" ng-click="summary()">
+                    <i class="fa fa-list"></i> Summary
                 </button>
             </div>
             <div class="btn-group" role="group">

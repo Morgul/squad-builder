@@ -1,0 +1,49 @@
+.squad-summary {
+    @page
+    {
+        margin: 5mm 5mm 5mm 5mm;
+    }
+
+    .print-nav {
+        position: relative;
+
+        h4 {
+            margin: 0;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .info {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .ship-section {
+        font-size: 0;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #aaa;
+        }
+
+        & > * {
+            font-size: 14px;
+        }
+
+        & + .ship-section {
+            margin-top: 5px;
+        }
+    }
+
+    @media print {
+        padding: 0 !important;
+    }
+}

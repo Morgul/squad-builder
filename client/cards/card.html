@@ -22,19 +22,19 @@
 
     <div ng-if="isPilot()" class="stats">
         <div ng-if="(model.attack || ship.attack)" class="attack">
-            Atk: {{ model.attack || ship.attack }}
+            Atk: {{ model.attack || ship.attack || 0 }}
         </div>
         <div ng-if="(model.energy || ship.energy)" class="energy">
-            Eng: {{ model.energy || ship.energy }}
+            Eng: {{ model.energy || ship.energy || 0 }}
         </div>
         <div class="agility">
-            Agi: {{ model.agility || ship.agility }}
+            Agi: {{ model.agility || ship.agility || 0 }}
         </div>
         <div class="hull">
-            Hull: {{ model.hull || ship.hull }}
+            Hull: {{ model.hull || ship.hull || 0 }}
         </div>
         <div class="shield">
-            Shld: {{ model.shields || ship.shields }}
+            Shld: {{ model.shields || ship.shields || 0 }}
         </div>
     </div>
 

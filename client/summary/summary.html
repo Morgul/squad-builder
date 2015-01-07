@@ -1,0 +1,16 @@
+<div class="container-fluid squad-summary">
+    <header class="print-nav">
+        <button class="btn btn-link back-btn hidden-print" ng-click="back()"><i class="fa fa-arrow-left"></i> Back</button>
+        <div class="text-muted info hidden-print"><small>This page has been specially formatted for printing.</small></div>
+        <h4 class="text-center">{{ squadName || 'No Squad Name' }}</h4>
+        <hr>
+    </header>
+    <section ng-if="member.pilot" class="ship-section" ng-repeat="member in squad track by $index">
+        <card model="member.combined"></card>
+        <card model="member.title"></card>
+        <card model="member.mod"></card>
+        <div style="display: inline-block" ng-repeat="(type, upgrades) in member.upgrades">
+            <card model="card" ng-repeat="card in upgrades track by $index"></card>
+        </div>
+    </section>
+</div>

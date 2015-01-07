@@ -3,6 +3,7 @@
 //----------------------------------------------------------------------------------------------------------------------
 
 .card-directive {
+    display: inline-block;
     border-radius: 4px;
     border: 1px solid #ddd;
     background-color: white;
@@ -10,8 +11,21 @@
     width: 250px;
     height: 325px;
     margin: 0 auto;
+    margin-bottom: 5px;
     position: relative;
     overflow: hidden;
+
+    @media print {
+        font-size: .6em;
+        width: 150px;
+        height: 195px;
+        margin-bottom: 3px;
+    }
+
+    &:not(:last-child)
+    {
+        margin-right: 10px;
+    }
 
     h1, h2, h3, h4, h5, h6 {
         margin: 0;
@@ -24,18 +38,28 @@
 
     .title {
         text-align: center;
+
+        @media print {
+            h3 {
+                font-size: 14px;
+            }
+        }
     }
 
     .skill-faction {
         font-size: 2em;
         margin-top: 5px;
-        min-height: 46px;
         margin-bottom: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
         border-top: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
         text-align: center;
+
+        @media print {
+            font-size: 1.2em;
+            margin-bottom: 9px;
+        }
 
         .ship {
             min-height: 36px;
@@ -46,6 +70,11 @@
             justify-content:center;
             align-content:center;
             flex-direction:column;
+
+            @media print {
+                min-height: 22px;
+                font-size: 12px;
+            }
         }
 
         .skill {
@@ -65,6 +94,10 @@
             top: -4px;
             float: right;
             font-size: 30px;
+
+            @media print {
+                font-size: 18px;
+            }
         }
     }
 
@@ -95,6 +128,11 @@
         .shield {
             color: #5cc4e4;
         }
+
+        @media print {
+            font-size: .75em;
+            width: 36px;
+        }
     }
 
     .text {
@@ -106,8 +144,19 @@
         min-height: 100px;
         font-size: .85em;
 
+        @media print {
+            font-size: 7px;
+            margin-top: 9px;
+            padding: 1px 3px;
+            min-height: 60px;
+        }
+
         &.pilot {
             margin-left: 65px;
+
+            @media print {
+                margin-left: 39px;
+            }
         }
     }
 
@@ -117,6 +166,10 @@
     .type {
         position: absolute;
         font-size: 25px;
+
+        @media print {
+            font-size: 15px;
+        }
     }
 
     .actions {
@@ -126,8 +179,17 @@
         font-size: 18px;
         text-align: center;
 
+        @media print {
+            font-size: 11px;
+            bottom: 30px;
+        }
+
         i + i {
             margin-left: 10px;
+
+            @media print {
+                margin-left: 6px;
+            }
         }
     }
 
@@ -141,6 +203,12 @@
         min-height: 34px;
         border-top: 1px solid #ddd;
 
+        @media print {
+            font-size: 10px;
+            min-height: 20px;
+            padding-top: 3px;
+        }
+
         i + i {
             margin-left: 2px;
         }
@@ -150,12 +218,21 @@
         left: 10px;
         bottom: 10px;
         font-size: 18px;
+
+        @media print {
+            font-size: 11px;
+            bottom: 6px;
+        }
     }
 
     .cost {
         right: 10px;
         bottom: 10px;
         font-weight: bold;
+
+        @media print {
+            bottom: 6px;
+        }
     }
 }
 

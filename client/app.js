@@ -22,6 +22,7 @@ angular.module('squad-builder', [
 
         $routeProvider
             .when('/builder', { templateUrl: '/builder/builder.html', controller: 'BuilderController' })
+            .when('/builder/summary', { templateUrl: '/summary/summary.html', controller: 'SummaryController' })
             .when('/browser', { templateUrl: '/browser/browser.html', controller: 'BrowserController' })
             .when('/collection', { templateUrl: '/collection/collection.html', controller: 'CollectionController' })
             .when('/squads/:id?', { templateUrl: '/squads/squads.html', controller: 'SquadsController' })
