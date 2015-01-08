@@ -115,8 +115,13 @@ db.Expansion = jbase.defineModel('expansions', {
 
 //----------------------------------------------------------------------------------------------------------------------
 
-db.Profile = jbase.defineModel('profiles', {
-    user: String,
+db.User = jbase.defineModel('users', {
+    gPlusID: String,
+    nickname: String,
+    tagline: String,
+    email: String,
+    displayName: String,
+    avatar: String,
     squads: { type: Array, default: [] },
     collection: { type: Array, default: [] }
 }, { rootPath: rootPath });

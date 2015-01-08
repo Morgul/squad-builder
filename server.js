@@ -4,8 +4,16 @@
 //----------------------------------------------------------------------------------------------------------------------
 
 var express = require('express');
+var bodyParser = require('body-parser');
+var passport = require('passport');
 
 var package = require('./package');
+
+// Auth
+var serialization = require('./server/auth/serialization');
+var gPlusAuth = require('./server/auth/google-plus');
+
+// Routers
 var mainRouter = require('./server/routes/main');
 var cardsRouter = require('./server/routes/cards');
 
@@ -15,6 +23,16 @@ var logger = require('omega-logger').loggerFor(module);
 
 // Build the express app
 var app = express();
+
+// Passport support
+//app.use(express.cookieParser());
+app.use(bodyParser.json());
+//app.use(express.session({ secret: 'keyboard cat' }));
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Set up out authentication support
+gPlusAuth.initialize(app);
 
 // Set up our application routes
 app.use('/cards', cardsRouter);

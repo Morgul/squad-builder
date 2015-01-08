@@ -11,6 +11,7 @@ angular.module('squad-builder', [
         'ngToast',
         'ui.select',
         'ui.bootstrap',
+        'directive.g+signin',
 
         'squad-builder.services',
         'squad-builder.controllers',
@@ -24,6 +25,7 @@ angular.module('squad-builder', [
             .when('/builder', { templateUrl: '/builder/builder.html', controller: 'BuilderController' })
             .when('/builder/summary', { templateUrl: '/summary/summary.html', controller: 'SummaryController' })
             .when('/browser', { templateUrl: '/browser/browser.html', controller: 'BrowserController' })
+            .when('/profile', { templateUrl: '/profile/profile.html', controller: 'ProfileController' })
             .when('/collection', { templateUrl: '/collection/collection.html', controller: 'CollectionController' })
             .when('/squads/:id?', { templateUrl: '/squads/squads.html', controller: 'SquadsController' })
             .otherwise({redirectTo: '/builder'});

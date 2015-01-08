@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><i class="fa fa-home"></i> Home</a>
+            <!--a class="navbar-brand" href="/"><i class="fa fa-home"></i> Home</a-->
         </div>
         <div class="navbar-collapse collapse" collapse="isCollapsed">
             <ul class="nav navbar-nav">
@@ -41,25 +41,36 @@
                     </a>
                 </li>
                 <li class="visible-xs" ng-class="{ active: location == 'profile' }">
-                    <a href="/settings">
-                        <small><i class="fa fa-gears"></i> Settings</small>
+                    <a ng-click="signOut()">
+                        <small><i class="fa fa-sign-out"></i> Sign out</small>
                     </a>
                 </li>
                 <li class="divider"></li>
-                <li class="button right">
+                <li ng-if="!authorized" class="button right">
+                    <google-plus-signin clientid="181559541496-qgr8tj4majtvqb4et17nvpp99jggslba.apps.googleusercontent.com" language="en">
+                        <button type="button" class="btn btn-danger navbar-btn btn-blocks">
+                            <i class="fa fa-google-plus"></i> Sign in
+                        </button>
+                    </google-plus-signin>
+                </li>
+                <li ng-if="authorized" class="button right">
                     <div class="btn-group btn-block hidden-xs" dropdown>
-                        <button type="button" class="btn btn-danger navbar-btn"><i class="fa fa-google-plus"></i> Sign in</button>
+                        <button type="button" class="btn btn-danger navbar-btn">
+                            <img class="img-rounded" src="{{ user.avatar }} + '?sz=48" width="18" height="18"> {{ user.display }}
+                        </button>
                         <button type="button" class="btn btn-danger navbar-btn dropdown-toggle" dropdown-toggle aria-expanded="false">
                             <span class="caret"></span>
                             <span class="sr-only">Toggle Dropdown</span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="/profile"><i class="fa fa-user"></i> Profile</a></li>
                             <li class="divider"></li>
-                            <li><a href="#"><i class="fa fa-gears"></i> Settings</a></li>
+                            <li><a ng-click="signOut()"><i class="fa fa-sign-out"></i> Sign out</a></li>
                         </ul>
                     </div>
-                    <button type="button" class="btn btn-danger navbar-btn btn-block visible-xs"><i class="fa fa-google-plus"></i> Sign in</button>
+                    <button type="button" class="btn btn-danger navbar-btn btn-block visible-xs" ng-click="signOut()">
+                        <i class="fa fa-sign-out"></i> Sign out
+                    </button>
                 </li>
             </ul>
         </div>

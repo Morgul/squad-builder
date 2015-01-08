@@ -32,6 +32,13 @@ router.use(function(error, request, response, next)
     next(error);
 });
 
+// Logout endpoint
+router.post('/auth/logout', function(req, res)
+{
+    req.logout();
+    res.end();
+});
+
 // Host static files.
 router.use(express.static(path.resolve('./client')));
 
