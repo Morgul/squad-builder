@@ -41,6 +41,14 @@
         & + .ship-section {
             margin-top: 5px;
         }
+
+        .upgrades {
+            display: inline-block;
+
+            & + .upgrades:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
     }
 
     @media print {

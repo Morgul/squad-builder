@@ -9,7 +9,7 @@
         <card model="member.combined"></card>
         <card model="member.title"></card>
         <card model="member.mod"></card>
-        <div style="display: inline-block" ng-repeat="(type, upgrades) in member.upgrades">
+        <div ng-show="upgrades.length" class="upgrades" ng-repeat="(type, upgrades) in member.upgrades">
             <card model="card" ng-repeat="card in upgrades track by $index"></card>
         </div>
     </section>
