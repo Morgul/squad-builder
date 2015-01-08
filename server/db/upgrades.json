@@ -2870,7 +2870,7 @@
         "canonicalName": "outrider",
         "text": "<p><span class=\"restriction\">YT-2400 only.</span></p><p>While you have a <i class=\"xmf xmf-cannon\"></i> Upgrade card equipped, you <strong>cannot</strong> perform primary weapon attacks and you may perform <i class=\"xmf xmf-cannon\"></i> secondary weapon attacks against ships outside your firing arc.</p>",
         "points": 5,
-        "ship": "yt2400",
+        "ship": "yt2400freighter",
         "type": "title",
         "id": "35b6e937-e373-499b-a2d0-f9b5c15a381d"
     },

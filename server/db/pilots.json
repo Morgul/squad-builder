@@ -1767,7 +1767,7 @@
         "canonicalName": "wildspacefringer",
         "text": "",
         "skill": 2,
-        "ship": "yt2400",
+        "ship": "yt2400freighter",
         "points": 30,
         "faction": "rebel",
         "id": "e64ddc3f-241e-43b3-b701-ca33fbcbb6b4"
@@ -1787,7 +1787,7 @@
         "canonicalName": "eadenvrill",
         "text": "<p>When performing a primary weapon attack against a stressed ship, roll 1 additional attack die.</p>",
         "skill": 3,
-        "ship": "yt2400",
+        "ship": "yt2400freighter",
         "points": 32,
         "faction": "rebel",
         "id": "18befc17-7909-4f76-8e5d-e830e9bae632"
@@ -1808,7 +1808,7 @@
         "canonicalName": "leebo",
         "text": "<p>When you are dealt a faceup Damage card, draw 1 additional Damage card, choose 1 to resolve, and discard the other.</p>",
         "skill": 5,
-        "ship": "yt2400",
+        "ship": "yt2400freighter",
         "points": 34,
         "faction": "rebel",
         "id": "68f58f06-69f3-4f87-8189-d70008b658e6"
@@ -1829,7 +1829,7 @@
         "canonicalName": "dashrendar",
         "text": "<p>You may ignore obstacles during the Activation phase and when performing actions.</p>",
         "skill": 7,
-        "ship": "yt2400",
+        "ship": "yt2400freighter",
         "points": 36,
         "faction": "rebel",
         "id": "e2567465-a86d-4a12-b351-658a0647e661"
