@@ -48,7 +48,11 @@ router.param('ship_id', function(req, resp, next, id)
         })
         .catch(models.errors.DocumentNotFound, function()
         {
-            resp.status(404).json({ error: "Ship not found." });
+            resp.status(404).json({
+                human: "Ship not found.",
+                message: error.message,
+                stack: error.stack
+            });
         });
 });
 
@@ -80,7 +84,11 @@ router.param('pilot_id', function(req, resp, next, id)
         })
         .catch(models.errors.DocumentNotFound, function()
         {
-            resp.status(404).json({ error: "Pilot not found." });
+            resp.status(404).json({
+                human: "Pilot not found.",
+                message: error.message,
+                stack: error.stack
+            });
         });
 });
 
@@ -112,7 +120,11 @@ router.param('upgrade_id', function(req, resp, next, id)
         })
         .catch(models.errors.DocumentNotFound, function()
         {
-            resp.status(404).json({ error: "Upgrade not found." });
+            resp.status(404).json({
+                human: "Upgrade not found.",
+                message: error.message,
+                stack: error.stack
+            });
         });
 });
 
@@ -144,7 +156,11 @@ router.param('expansion_id', function(req, resp, next, id)
         })
         .catch(models.errors.DocumentNotFound, function()
         {
-            resp.status(404).json({ error: "Expansion not found." });
+            resp.status(404).json({
+                human: "Expansion not found.",
+                message: error.message,
+                stack: error.stack
+            });
         });
 });
 
