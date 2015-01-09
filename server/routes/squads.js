@@ -3,6 +3,8 @@
 //
 // @module squads
 //----------------------------------------------------------------------------------------------------------------------
+
+var _ = require('lodash');
 var express = require('express');
 
 var querymodel = require('../querymodel');
@@ -67,6 +69,7 @@ router.post('/squads', function(req, resp)
 {
     if(req.isAuthenticated())
     {
+        console.log('SUP, BITCHES?!!!');
         var squad = new models.Squad(req.body);
         squad.save()
             .then(function()
@@ -86,6 +89,32 @@ router.post('/squads', function(req, resp)
                             stack: error.stack
                         });
                     });
+            });
+    }
+    else
+    {
+        res.status(403).end();
+    } // end if
+});
+
+router.put('/squads/:squad_id', function(req, resp)
+{
+    if(req.isAuthenticated())
+    {
+        _.assign(req.squad, req.body);
+
+        req.squad.save()
+            .then(function()
+            {
+                resp.json({ id: req.squad.id });
+            })
+            .catch(function(error)
+            {
+                resp.status(500).json({
+                    human:"Failed to save squad.",
+                    message: error.message,
+                    stack: error.stack
+                });
             });
     }
     else

@@ -75,12 +75,26 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
         });
     };
 
-    SquadService.prototype.save = function()
+    SquadService.prototype.save = function(insertNew)
     {
         var self = this;
         return new Promise(function(resolve, reject)
         {
-            $http.post('/data/squads/', { name: self.name, members: self.squad, notes: self.notes })
+            var httpPromise;
+            var squadDef = { name: self.name, members: self.squad, notes: self.notes };
+
+            // Determine id we are updating, or creating a new one
+            if(self.id && !insertNew)
+            {
+                httpPromise = $http.put('/data/squads/' + self.id, squadDef);
+            }
+            else
+            {
+                httpPromise = $http.post('/data/squads/', squadDef);
+            } // end if
+
+            // In either event, we do the following
+            httpPromise
                 .success(function(data)
                 {
                     self.id = data.id;
