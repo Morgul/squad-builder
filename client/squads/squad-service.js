@@ -16,7 +16,7 @@ function SquadServiceFactory($http, ngToast)
     SquadService.prototype.save = function()
     {
         console.log('name:', this.name);
-        $http.post('/squads/', { name: this.name, members: this.squad, notes: this.notes })
+        $http.post('/data/squads/', { name: this.name, members: this.squad, notes: this.notes })
             .success(function()
             {
                 ngToast.create({

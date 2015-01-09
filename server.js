@@ -43,7 +43,7 @@ gPlusAuth.initialize(app);
 
 // Set up our application routes
 app.use('/cards', cardsRouter);
-app.use('/squads', squadsRouter);
+app.use('/data', squadsRouter);
 app.use('/', mainRouter);
 
 // Start the server
