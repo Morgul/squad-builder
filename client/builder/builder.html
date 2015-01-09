@@ -4,7 +4,7 @@
         <div class="pull-left">
             <ul class="nav nav-pills">
                 <li role="presentation">
-                    <a href="/builder/summary">
+                    <a ng-click="summary()">
                         <i class="fa fa-list"></i> Summary
                     </a>
                 </li>
@@ -172,7 +172,7 @@
             <option value="">Add ship to squad...</option>
         </select>
     </div>
-    <p class="help-block text-right">You can select a ship above to add it to the squad. If you're done building, you can check out the squad <a href="/builder/summary">summary</a> page.</p>
+    <p class="help-block text-right">You can select a ship above to add it to the squad. If you're done building, you can check out the squad <a ng-click="summary()">summary</a> page.</p>
     <hr>
     <textarea class="form-control" rows="5" placeholder="Squad notes..." ng-model="squadNotes"></textarea>
     <div class="visible-xs">

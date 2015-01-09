@@ -4,8 +4,13 @@
 // @module summary.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function SummaryController($scope, $location, squadSvc)
+function SummaryController($scope, $location, $routeParams, squadSvc)
 {
+    if($routeParams.id)
+    {
+        squadSvc.load($routeParams.id);
+    } // end if
+
     Object.defineProperties($scope, {
         squad: {
             get: function() { return squadSvc.squad; },
@@ -19,7 +24,10 @@ function SummaryController($scope, $location, squadSvc)
 
     $scope.back = function()
     {
-        $location.path('/builder');
+        var path = '/builder/';
+        path += $routeParams.id ? $routeParams.id : '';
+
+        $location.path(path);
     }; // end back
 } // end SummaryController
 
@@ -28,6 +36,7 @@ function SummaryController($scope, $location, squadSvc)
 angular.module('squad-builder').controller('SummaryController', [
     '$scope',
     '$location',
+    '$routeParams',
     'SquadService',
     SummaryController
 ]);

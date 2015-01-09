@@ -4,11 +4,16 @@
 // @module main.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
+function BuilderController($scope, $location, $routeParams, _, cardSvc, squadSvc, squadMember)
 {
     $scope.newShip = undefined;
     $scope.temp = {};
     $scope.faction = 'empire';
+
+    if($routeParams.id)
+    {
+        squadSvc.load($routeParams.id);
+    } // end if
 
     Object.defineProperties($scope, {
         squad: {
@@ -65,7 +70,7 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
 
             if(companionCard)
             {
-                var companion = squadMember($scope);
+                var companion = squadMember($scope.faction);
                 companion.ship = companionCard;
                 squadSvc.squad.push(companion);
             } // end if
@@ -76,7 +81,7 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
     {
         if($scope.newShip)
         {
-            var member = squadMember($scope);
+            var member = squadMember($scope.faction);
             member.ship = $scope.newShip;
             squadSvc.squad.push(member);
             $scope.newShip = undefined;
@@ -112,7 +117,10 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
 
     $scope.summary = function()
     {
-        $location.path('/builder/summary');
+        var path = '/builder/';
+        path += $routeParams.id ? $routeParams.id + '/summary' : 'summary';
+
+        $location.path(path);
     }; // end summary
 
     $scope.removeShip = function(index)
@@ -162,6 +170,7 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
 angular.module('squad-builder.controllers').controller('BuilderController', [
     '$scope',
     '$location',
+    '$routeParams',
     'lodash',
     'CardService',
     'SquadService',

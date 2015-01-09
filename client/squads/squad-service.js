@@ -4,7 +4,7 @@
 // @module squad-service.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function SquadServiceFactory($http, Promise, ngToast)
+function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
 {
     function SquadService()
     {
@@ -14,13 +14,54 @@ function SquadServiceFactory($http, Promise, ngToast)
         this.squad = [];
     } // end SquadService
 
+    SquadService.prototype.load = function(id)
+    {
+        var self = this;
+        return new Promise(function(resolve, reject)
+        {
+            if(id)
+            {
+                $http.get('/data/squads/' + id)
+                    .success(function(data)
+                    {
+                        cardSvc.initialized
+                            .then(function()
+                            {
+                                self.name = data.name;
+                                self.notes = data.notes;
+                                self.id = data.id;
+                                self.squad = _.reduce(data.members, function(results, member)
+                                {
+                                    var squadMember = squadMemberFac();
+                                    squadMember.pilot = cardSvc.getCard(member.pilot);
+                                    squadMember.title = cardSvc.getCard(member.title);
+                                    squadMember.mod = cardSvc.getCard(member.mod);
+
+                                    _.each(member.upgrades, function(upgrade)
+                                    {
+                                        var card = cardSvc.getCard(upgrade);
+                                        squadMember.upgrades[card.type].push(card);
+                                    });
+
+                                    results.push(squadMember);
+                                    return results;
+                                }, []);
+                            });
+                    });
+            }
+            else
+            {
+                reject(new Error("Invalid id."));
+            } // end if
+        });
+    };
+
     SquadService.prototype.save = function()
     {
         var self = this;
-
         return new Promise(function(resolve, reject)
         {
-            $http.post('/data/squads/', { name: this.name, members: this.squad, notes: this.notes })
+            $http.post('/data/squads/', { name: self.name, members: self.squad, notes: self.notes })
                 .success(function(data)
                 {
                     self.id = data.id;
@@ -29,8 +70,6 @@ function SquadServiceFactory($http, Promise, ngToast)
                         content: "Squad saved successfully.",
                         dismissButton: true
                     });
-
-                    console.log('id:', self.id, data.id);
 
                     resolve(self.id);
                 })
@@ -68,6 +107,8 @@ angular.module('squad-builder').service('SquadService', [
     '$http',
     '$q',
     'ngToast',
+    'CardService',
+    'SquadMember',
     SquadServiceFactory
 ]);
 

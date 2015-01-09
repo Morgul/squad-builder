@@ -4,12 +4,12 @@
 // @module squad-member.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function SquadMemberFactory(_, cardSvc)
+function SquadMemberFactory($rootScope, _, cardSvc)
 {
-    function SquadMember($scope)
+    function SquadMember(faction)
     {
         var self = this;
-        this.faction = $scope.faction;
+        this.faction = faction;
         this.combined = {};
 
         // This is the structure for storing upgrades. The reasons for this structure are both subtle and devious. If
@@ -37,7 +37,7 @@ function SquadMemberFactory(_, cardSvc)
         // handle the recursive case of an upgrade granting new upgrades.
         _.forIn(this.upgrades, function(upgrades, type)
         {
-            $scope.$watch(function(){ return upgrades; }, function()
+            $rootScope.$watch(function(){ return upgrades; }, function()
             {
                 self._update();
             }, true);
@@ -66,7 +66,21 @@ function SquadMemberFactory(_, cardSvc)
 
         // Change Tracking
         get pilot(){ return this._pilot; },
-        set pilot(val) { this._pilot = val; this._update(); },
+        set pilot(val)
+        {
+            this._pilot = val;
+
+            if(!this._ship)
+            {
+                this.ship = cardSvc.getCard(val.ship);
+            }
+            else
+            {
+                this._update();
+            } // end if
+        },
+        get ship(){ return this._ship; },
+        set ship(val) { this._ship = val; this._update(); if(!this.faction) { this.faction = val.faction }},
         get title(){ return this._title; },
         set title(val) { this._title = val; this._update(); },
         get mod(){ return this._mod; }, set mod(val) { this._mod = val; this._update(); },
@@ -356,6 +370,7 @@ function SquadMemberFactory(_, cardSvc)
 // ---------------------------------------------------------------------------------------------------------------------
 
 angular.module('squad-builder').factory('SquadMember', [
+    '$rootScope',
     'lodash',
     'CardService',
     SquadMemberFactory

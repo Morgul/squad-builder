@@ -48,13 +48,19 @@ function CardServiceFactory($http, Promise, _)
         return _.filter(this.filterByFaction(faction, this.upgrades), { type: type });
     }; // end filterByType
 
-    CardService.prototype.getCardName = function(canonicalName)
+    CardService.prototype.getCard = function(canonicalName)
     {
         var card = _.find(this.pilots, { canonicalName: canonicalName });
         if(!card) { card = _.find(this.ships, { canonicalName: canonicalName }); }
         if(!card) { card = _.find(this.upgrades, { canonicalName: canonicalName }); }
 
-        return (card || {}).name;
+        return card;
+    }; // end getCard
+
+    CardService.prototype.getCardName = function(canonicalName)
+    {
+        var card = this.getCard(canonicalName) || {};
+        return card.name;
     }; // end getCardName
 
     CardService.prototype.isReleased = function(card)
