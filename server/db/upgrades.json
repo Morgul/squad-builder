@@ -2497,7 +2497,7 @@
         "canonicalName": "advancedcloakingdevice",
         "text": "<p><span class=\"restriction\">TIE Phantom only.</span></p><p>After you perform an attack, you may perform a free cloak action.</p>",
         "points": 4,
-        "ship": "TIE Phantom",
+        "ship": "tiephantom",
         "type": "modification",
         "id": "461ecfd4-58ad-41ec-8e82-757ff4d34377"
     },
@@ -2518,7 +2518,7 @@
         "canonicalName": "combatretrofit",
         "text": "<p><span class=\"restriction\">GR-75 only.</span></p><p>Increase your hull value by 2 and your shield value by 1.</p>",
         "points": 10,
-        "ship": "GR-75 Medium Transport",
+        "ship": "gr75mediumtransport",
         "type": "modification",
         "id": "d8c80404-e17d-4228-aa7b-28ad2242c50b"
     },
@@ -2539,7 +2539,7 @@
         "canonicalName": "bwinge2",
         "text": "<p><span class=\"restriction\">B-Wing only.</span></p><p>Your upgrade bar gains the <i class=\"xmf xmf-crew\"></i> upgrade icon.</p>",
         "points": 1,
-        "ship": "B-Wing",
+        "ship": "bwing",
         "type": "modification",
         "id": "0194a553-9608-4c69-91dc-9d35e8eadad2"
     },

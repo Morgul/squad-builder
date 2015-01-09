@@ -439,7 +439,7 @@ models.initialize
                 canonicalName: mod.canonical_name,
                 text: processText(mod.text),
                 points: mod.points,
-                ship: mod.ship,
+                ship: findCanonicalName('ship', mod.ship),
                 sources: mod.sources,
                 faction: processFaction(mod.faction),
                 type: 'modification',
