@@ -141,10 +141,7 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
                 $http.delete('/data/squads/' + self.id)
                     .success(function()
                     {
-                        self.name = undefined;
-                        self.notes = undefined;
-                        self.id = undefined;
-                        self.squad = [];
+                        self.clear();
 
                         ngToast.create({
                             content: "Squad deleted successfully.",
@@ -182,6 +179,21 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
             } // end if
         });
     }; // end delete
+
+    SquadService.prototype.clear = function()
+    {
+        var self = this;
+
+        return new Promise(function(resolve)
+        {
+            self.name = undefined;
+            self.notes = undefined;
+            self.id = undefined;
+            self.squad = [];
+
+            resolve();
+        });
+    }; // end clear
 
     return new SquadService();
 } // end SquadServiceFactory

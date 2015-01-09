@@ -114,28 +114,43 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
         return valid;
     }; // end isValid
 
+    $scope.clear = function()
+    {
+        squadSvc.clear()
+            .then(function()
+            {
+                $location.path('/builder');
+            });
+    }; // end clear
+
     $scope.save = function()
     {
-        squadSvc.save()
-            .then(function(id)
-            {
-                $location.path('/builder/' + id);
-            });
+        if($scope.isValid())
+        {
+            squadSvc.save()
+                .then(function(id)
+                {
+                    $location.path('/builder/' + id);
+                });
+        } // end if
     }; // end save
 
     $scope.delete = function()
     {
-        var modalInstance = $modal.open({
-            templateUrl: 'deleteSquad.html',
-            size: 'lg'
-        });
+        if($scope.squadName)
+        {
+            var modalInstance = $modal.open({
+                templateUrl: 'deleteSquad.html',
+                size: 'lg'
+            });
 
-        modalInstance.result
-            .then(function()
-            {
-                squadSvc.delete();
-            },
-            function() { });
+            modalInstance.result
+                .then(function()
+                {
+                    squadSvc.delete();
+                },
+                function() { });
+        } // end if
     }; // end delete
 
     $scope.summary = function()
