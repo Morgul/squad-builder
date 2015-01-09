@@ -73,11 +73,6 @@
             </div>
         </div>
 
-        <!-- If there's no ship selected -->
-        <div ng-hide="squadMember.ship" class="panel-body text-center">
-            <p>Select a ship from the dropdown above to add it to the squadron.</p>
-        </div>
-
         <!-- Upgrade Card selection -->
         <div ng-if="squadMember.ship" class="panel-body text-center">
             <div class="row">
@@ -93,7 +88,17 @@
                                     <div class="cost">({{ pilot.points }})</div>
                                     <div ng-if="!isReleased(pilot)" class="unreleased">Unreleased</div>
                                     <h5 class="name" ng-bind-html="pilot.name | highlight: $select.search"></h5>
-                                    <div class="pilot">Pilot Skill: {{ pilot.skill }}</div>
+                                    <div class="stats">
+                                        <span class="pilot">Pilot: {{ pilot.skill }}</span>
+                                        <span ng-if="(pilot.attack || squadMember.ship.attack)" class="attack">Atk: {{ pilot.attack || squadMember.ship.attack || 0 }}</span>
+                                        <span ng-if="(pilot.energy || squadMember.ship.energy)" class="energy">Eng: {{ pilot.energy || squadMember.ship.energy || 0 }}</span>
+                                        <span class="agility">Agi: {{ pilot.agility || squadMember.ship.agility || 0 }}</span>
+                                        <span class="hull">Hull: {{ pilot.hull || squadMember.ship.hull || 0 }}</span>
+                                        <span class="shield">Shld: {{ pilot.shields || squadMember.ship.shields || 0 }}</span>
+                                        <span class="pull-right">
+                                            <i class="xmf xmf-{{action}}" ng-repeat="action in pilot.actions.concat(squadMember.ship.actions)"></i>
+                                        </span>
+                                    </div>
                                     <div class="text" ng-bind-html="pilot.text"></div>
                                 </div>
                             </ui-select-choices>
