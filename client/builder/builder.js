@@ -83,6 +83,20 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
     // Functions
     // -----------------------------------------------------------------------------------------------------------------
 
+    $scope.isValid = function()
+    {
+        var valid = !_.isEmpty($scope.squad);
+        _.each($scope.squad, function(member)
+        {
+            if(!member.ship || !member.pilot)
+            {
+                valid = false;
+            } // end if
+        });
+
+        return valid;
+    }; // end isValid
+
     $scope.save = function()
     {
         squadSvc.save();
@@ -101,9 +115,13 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
         } // end if
     }; // end removeShip
 
-    $scope.upgradesByType = function(type)
+    $scope.upgradesByType = function(type, ship)
     {
-        return cardSvc.filterByType($scope.faction, type);
+        return _.filter(cardSvc.filterByType($scope.faction, type), function(upgrade)
+        {
+            return (!upgrade.ship || upgrade.ship == ship.canonicalName)
+                && (upgrade.size == 'all' || upgrade.size == ship.size);
+        });
     }; // end upgradesByType
 
     $scope.isReleased = function(card)

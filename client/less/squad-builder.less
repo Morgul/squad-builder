@@ -142,4 +142,23 @@ select {
     }
 }
 
+.has-error {
+    .ui-select-container.ui-select-bootstrap {
+        color: #a94442;
+
+        .ui-select-match > button {
+            border-color: #a94442;
+            color: #a94442;
+
+            &:hover {
+                background-color: #f2dede;
+            }
+
+            span.text-muted {
+                color: #a94442 !important;
+            }
+        }
+    }
+}
+
 //----------------------------------------------------------------------------------------------------------------------

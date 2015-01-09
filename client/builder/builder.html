@@ -8,12 +8,12 @@
                         <i class="fa fa-list"></i> Summary
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" ng-class="{ disabled: !isValid() }">
                     <a ng-click="save()">
                         <i class="fa fa-save"></i> Save
                     </a>
                 </li>
-                <li role="presentation">
+                <li class="disabled" role="presentation">
                     <a>
                         <i class="fa fa-trash-o"></i> Delete
                     </a>
@@ -47,8 +47,9 @@
     </div>
     <hr>
     <div class="row" style="margin-bottom: 10px;">
-        <div class="col-xs-8 squad-name">
+        <div class="col-xs-8 form-group squad-name has-warning" ng-class="{ 'has-warning': !squadName }">
             <input type="text" class="form-control" id="squadName" placeholder="Squadron Name" ng-model="squadName">
+            <p class="help-block" collapse="squadName">You will want to name this squad before you save.</p>
         </div>
         <div class="col-xs-4 text-right">
             <h3 style="margin: 0; line-height: 34px;">
@@ -82,7 +83,7 @@
             <div class="row">
 
                 <!-- Pilot -->
-                <div class="col-sm-6 card-select">
+                <div class="col-sm-6 form-group card-select" ng-class="{ 'has-error': !squadMember.pilot }">
                     <div class="input-group">
                         <span class="input-group-addon">Pilot</span>
                         <ui-select ng-model="squadMember.pilot">
@@ -142,7 +143,7 @@
                             <span class="input-group-addon" title="{{ type | capitalize }}"><i class="xmf xmf-{{ type }}"></i></span>
                             <ui-select ng-model="squadMember.upgrades[type][$index]">
                                 <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="upgrade in upgradesByType(type) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
+                                <ui-select-choices repeat="upgrade in upgradesByType(type, squadMember.ship) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
                                         <div class="cost">({{ upgrade.points }})</div>
                                         <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
@@ -178,12 +179,12 @@
                 </button>
             </div>
             <div class="btn-group" role="group">
-                <button type="button" class="btn btn-default" ng-click="save()">
+                <button type="button" class="btn btn-default" ng-click="save()" ng-class="{ disabled: !isValid() }">
                     <i class="fa fa-save"></i> Save
                 </button>
             </div>
             <div class="btn-group" role="group">
-                <button type="button" class="btn btn-default">
+                <button type="button" class="btn btn-default disabled">
                     <i class="fa fa-trash-o"></i> Delete
                 </button>
             </div>
