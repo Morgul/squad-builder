@@ -9,13 +9,14 @@ function SquadServiceFactory($http, ngToast)
     function SquadService()
     {
         this.name = undefined;
+        this.notes = undefined;
         this.squad = [];
     } // end SquadService
 
     SquadService.prototype.save = function()
     {
         console.log('name:', this.name);
-        $http.post('/squads/', { name: this.name, members: this.squad })
+        $http.post('/squads/', { name: this.name, members: this.squad, notes: this.notes })
             .success(function()
             {
                 ngToast.create({

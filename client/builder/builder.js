@@ -19,6 +19,10 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
             get: function() { return squadSvc.name; },
             set: function(val) { squadSvc.name = val; }
         },
+        squadNotes: {
+            get: function() { return squadSvc.notes; },
+            set: function(val) { squadSvc.notes = val; }
+        },
         totalPoints: {
             get: function()
             {
