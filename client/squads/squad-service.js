@@ -47,6 +47,25 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
                                     return results;
                                 }, []);
                             });
+                    })
+                    .error(function(data, status)
+                    {
+                        var error;
+                        switch(status)
+                        {
+                            case 404:
+                                error = new Error("Squad with that id not found.");
+                                break;
+
+                            default:
+                                error = new Error('Squad failed to load.');
+                                error.inner = data;
+
+                                console.error('Squad failed to load:', data);
+                                break;
+                        } // end switch
+
+                        reject(error);
                     });
             }
             else
@@ -97,6 +116,58 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
                 });
         });
     }; // end; save
+
+    SquadService.prototype.delete = function()
+    {
+        var self = this;
+        return new Promise(function(resolve, reject)
+        {
+            if(self.id)
+            {
+                $http.delete('/data/squads/' + self.id)
+                    .success(function()
+                    {
+                        self.name = undefined;
+                        self.notes = undefined;
+                        self.id = undefined;
+                        self.squad = [];
+
+                        ngToast.create({
+                            content: "Squad deleted successfully.",
+                            dismissButton: true
+                        });
+
+                        resolve();
+                    })
+                    .error(function(data, status)
+                    {
+                        var content;
+                        switch(status)
+                        {
+                            case 403:
+                                content = "Unable to delete, unauthorized.";
+                                break;
+
+                            default:
+                                content = "Unable to delete.";
+                                break;
+                        } // end switch
+
+                        ngToast.create({
+                            content: content,
+                            dismissButton: true,
+                            class: 'danger'
+                        });
+
+                        reject();
+                    });
+            }
+            else
+            {
+                reject(new Error("Invalid id."));
+            } // end if
+        });
+    }; // end delete
 
     return new SquadService();
 } // end SquadServiceFactory

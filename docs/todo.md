@@ -7,10 +7,10 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [X] Upgrade bindings are super wonky
     * [X] Print 'Build Mat'.
     * [X] Save Squad
-    * [ ] Delete Squad
-* [ ] Card Browser
+    * [X] Delete Squad
+    * [ ] Save edited squad.
+* [X] Card Browser
     * [X] Display cards (same format as build mat)
-    * [ ] Search cards by type
     * [X] Search all cards
 * [ ] My Collection
     * [ ] List all expansions
@@ -43,8 +43,8 @@ These are the features I require before my 1.0.0 release.
     * [X] You are disallowed from building flagrantly invalid squads.
     * [X] You can name squads.
     * [X] You can save squads.
-    * [ ] You can delete squads.
-    * [ ] You can view saved squads.
+    * [X] You can delete squads.
+    * [ ] You can view a list of saved squads.
     * [X] You can edit saved squads.
     * [X] You can print a build mat for a give squad.
     * [X] You can share/link to squads.
@@ -65,7 +65,7 @@ These are features I may want to add in the future.
 * [ ] Top Squads page
 * [ ] Card Browser improvements
     * [ ] Card images (toggle between build mat format and images)
-    * [ ] Ability to filter cards by something other than name
+    * [ ] Ability to filter cards by something other than name (type, stats, etc)
 * [ ] Rules Card support
 * [ ] Importer improvements
     * [ ] 'upsert' mode (current: updates existing models, inserts new ones)

@@ -101,10 +101,10 @@ router.get('/squads/:squad_id', function(req, resp)
 
 router.delete('/squads/:squad_id', function(req, resp)
 {
-    req.squad.delete()
+    req.squad.remove()
         .then(function()
         {
-            res.end();
+            resp.end();
         })
         .catch(function(error)
         {

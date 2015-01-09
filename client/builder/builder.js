@@ -4,7 +4,7 @@
 // @module main.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function BuilderController($scope, $location, $routeParams, _, cardSvc, squadSvc, squadMember)
+function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, squadSvc, squadMember)
 {
     $scope.newShip = undefined;
     $scope.temp = {};
@@ -12,13 +12,21 @@ function BuilderController($scope, $location, $routeParams, _, cardSvc, squadSvc
 
     if($routeParams.id)
     {
-        squadSvc.load($routeParams.id);
+        squadSvc.load($routeParams.id)
+            .catch(function()
+            {
+                $location.path('/');
+            });
     } // end if
 
     Object.defineProperties($scope, {
         squad: {
             get: function() { return squadSvc.squad; },
             set: function(val) { squadSvc.squad = val; }
+        },
+        squadID: {
+            get: function() { return squadSvc.id; },
+            set: function(val) { squadSvc.id = val; }
         },
         squadName: {
             get: function() { return squadSvc.name; },
@@ -115,6 +123,21 @@ function BuilderController($scope, $location, $routeParams, _, cardSvc, squadSvc
             });
     }; // end save
 
+    $scope.delete = function()
+    {
+        var modalInstance = $modal.open({
+            templateUrl: 'deleteSquad.html',
+            size: 'lg'
+        });
+
+        modalInstance.result
+            .then(function()
+            {
+                squadSvc.delete();
+            },
+            function() { });
+    }; // end delete
+
     $scope.summary = function()
     {
         var path = '/builder/';
@@ -172,6 +195,7 @@ angular.module('squad-builder.controllers').controller('BuilderController', [
     '$location',
     '$routeParams',
     'lodash',
+    '$modal',
     'CardService',
     'SquadService',
     'SquadMember',
