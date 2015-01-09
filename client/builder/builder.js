@@ -103,7 +103,11 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
 
     $scope.save = function()
     {
-        squadSvc.save();
+        squadSvc.save()
+            .then(function(id)
+            {
+                $location.path('/builder/' + id);
+            });
     }; // end save
 
     $scope.summary = function()

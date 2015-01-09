@@ -76,7 +76,7 @@ router.post('/squads', function(req, resp)
                 req.user.save()
                     .then(function()
                     {
-                        resp.end();
+                        resp.json({ id: squad.id });
                     })
                     .catch(function(error)
                     {

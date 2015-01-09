@@ -4,10 +4,11 @@
 // @module squad-service.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function SquadServiceFactory($http, ngToast)
+function SquadServiceFactory($http, Promise, ngToast)
 {
     function SquadService()
     {
+        this.id = undefined;
         this.name = undefined;
         this.notes = undefined;
         this.squad = [];
@@ -15,35 +16,47 @@ function SquadServiceFactory($http, ngToast)
 
     SquadService.prototype.save = function()
     {
-        console.log('name:', this.name);
-        $http.post('/data/squads/', { name: this.name, members: this.squad, notes: this.notes })
-            .success(function()
-            {
-                ngToast.create({
-                    content: "Squad saved successfully.",
-                    dismissButton: true
-                });
-            })
-            .error(function(data, status)
-            {
-                var content;
-                switch(status)
+        var self = this;
+
+        return new Promise(function(resolve, reject)
+        {
+            $http.post('/data/squads/', { name: this.name, members: this.squad, notes: this.notes })
+                .success(function(data)
                 {
-                    case 403:
-                        content = "Unable to save, unauthorized.";
-                        break;
+                    self.id = data.id;
 
-                    default:
-                        content = "Unable to save.";
-                        break;
-                } // end switch
+                    ngToast.create({
+                        content: "Squad saved successfully.",
+                        dismissButton: true
+                    });
 
-                ngToast.create({
-                    content: content,
-                    dismissButton: true,
-                    class: 'danger'
+                    console.log('id:', self.id, data.id);
+
+                    resolve(self.id);
+                })
+                .error(function(data, status)
+                {
+                    var content;
+                    switch(status)
+                    {
+                        case 403:
+                            content = "Unable to save, unauthorized.";
+                            break;
+
+                        default:
+                            content = "Unable to save.";
+                            break;
+                    } // end switch
+
+                    ngToast.create({
+                        content: content,
+                        dismissButton: true,
+                        class: 'danger'
+                    });
+
+                    reject();
                 });
-            });
+        });
     }; // end; save
 
     return new SquadService();
@@ -53,6 +66,7 @@ function SquadServiceFactory($http, ngToast)
 
 angular.module('squad-builder').service('SquadService', [
     '$http',
+    '$q',
     'ngToast',
     SquadServiceFactory
 ]);
