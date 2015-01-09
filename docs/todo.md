@@ -3,12 +3,13 @@
 These are the issues I know are still outstanding. (Consider it a poor man's issue tracker.)
 
 * [X] Google Account support
-* [X] Squad Builder
+* [ ] Squad Builder
     * [X] Upgrade bindings are super wonky
     * [X] Print 'Build Mat'.
     * [X] Save Squad
     * [X] Delete Squad
     * [X] Save edited squad.
+    * [ ] Fix ui-select issues on mobile with the keyboard popping up constantly.
 * [X] Card Browser
     * [X] Display cards (same format as build mat)
     * [X] Search all cards
