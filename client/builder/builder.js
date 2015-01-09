@@ -147,7 +147,11 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
             modalInstance.result
                 .then(function()
                 {
-                    squadSvc.delete();
+                    squadSvc.delete()
+                        .then(function()
+                        {
+                            $location.path('/builder');
+                        });
                 },
                 function() { });
         } // end if

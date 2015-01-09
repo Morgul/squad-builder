@@ -6,8 +6,8 @@
 
 var _ = require('lodash');
 var express = require('express');
+var Promise = require('bluebird');
 
-var querymodel = require('../querymodel');
 var models = require('../models');
 
 var logger = require('omega-logger').loggerFor(module);
@@ -58,18 +58,43 @@ router.param('squad_id', function(req, resp, next, id)
 
 router.get('/squads', function(req, res)
 {
-    querymodel.search(models.Squad, req)
-        .then(function(squads)
+    if(req.isAuthenticated())
+    {
+        var squadList = [];
+        var squads = req.user.squads;
+
+        _.each(squads, function(squadID)
         {
-            res.json(squads);
+            squadList.push(models.Squad.get(squadID));
         });
+
+        Promise.all(squadList)
+            .then(function(squads)
+            {
+                res.json(squads);
+            })
+            .catch(function(error)
+            {
+                logger.error("Failed to get this user's Squads.", error.stack);
+                res.status(500).json(
+                    {
+                        human: "Failed to get this user's Squads.",
+                        message: error.message,
+                        stack: error.stack
+                    });
+            });
+    }
+    else
+    {
+        res.json([]);
+    } // end if
+
 });
 
 router.post('/squads', function(req, resp)
 {
     if(req.isAuthenticated())
     {
-        console.log('SUP, BITCHES?!!!');
         var squad = new models.Squad(req.body);
         squad.save()
             .then(function()
@@ -130,19 +155,37 @@ router.get('/squads/:squad_id', function(req, resp)
 
 router.delete('/squads/:squad_id', function(req, resp)
 {
-    req.squad.remove()
-        .then(function()
-        {
-            resp.end();
-        })
-        .catch(function(error)
-        {
-            resp.status(500).json({
-                human:"Failed to delete squad.",
-                message: error.message,
-                stack: error.stack
+    if(req.isAuthenticated())
+    {
+        var squadID = req.squad.id;
+        req.squad.remove()
+            .then(function()
+            {
+                // Use filter due to stupid jbase bug.
+                req.user.squads = _.filter(req.user.squads, function(squad)
+                {
+                    return squad != squadID;
+                });
+
+                req.user.save()
+                    .then(function()
+                    {
+                        resp.end();
+                    });
+            })
+            .catch(function(error)
+            {
+                resp.status(500).json({
+                    human:"Failed to delete squad.",
+                    message: error.message,
+                    stack: error.stack
+                });
             });
-        });
+    }
+    else
+    {
+        res.status(403).end();
+    } // end if
 });
 
 //----------------------------------------------------------------------------------------------------------------------
