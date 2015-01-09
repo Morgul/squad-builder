@@ -330,6 +330,26 @@ function SquadMemberFactory(_, cardSvc)
         });
     }; // end _buildCombined
 
+    SquadMember.prototype.toJSON = function()
+    {
+        return {
+            pilot: (this.pilot || {}).canonicalName,
+            title: (this.title || {}).canonicalName,
+            mod: (this.mod || {}).canonicalName,
+            upgrades: _.transform(this.upgrades, function(result, upgrades)
+            {
+                result.results = result.results.concat(_.reduce(upgrades, function(result, upgrade)
+                {
+                    if(upgrade) { result.push(upgrade.canonicalName); }
+
+                    return result;
+                }, []));
+
+                return result;
+            }, { results: [] }).results
+        }
+    }; // end toJSON
+
     return function(faction){ return new SquadMember(faction); };
 } // end SquadMemberFactory
 

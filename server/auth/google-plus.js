@@ -40,7 +40,7 @@ passport.use(new GooglePlusStrategy({
                 user.tagline = profile.tagline;
                 user.email = profile.email;
                 user.displayName = profile.displayName;
-                user.avatar = avatarURLObj.protocol + avatarURLObj.host + avatarURLObj.pathname;
+                user.avatar = avatarURLObj.protocol + '//' + avatarURLObj.host + avatarURLObj.pathname;
 
                 return user.save()
                     .then(function()

@@ -128,7 +128,7 @@ db.User = jbase.defineModel('users', {
 
 db.Squad = jbase.defineModel('squads', {
     name: String,
-    ships: { type: Array, default: [] }
+    members: { type: Array, default: [] }
 }, { rootPath: rootPath });
 
 //----------------------------------------------------------------------------------------------------------------------

@@ -83,6 +83,11 @@ function BuilderController($scope, $location, _, cardSvc, squadSvc, squadMember)
     // Functions
     // -----------------------------------------------------------------------------------------------------------------
 
+    $scope.save = function()
+    {
+        squadSvc.save();
+    }; // end save
+
     $scope.summary = function()
     {
         $location.path('/builder/summary');
