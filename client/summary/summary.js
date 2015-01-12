@@ -22,7 +22,7 @@ function SummaryController($scope, $location, $routeParams, squadSvc)
         }
     });
 
-    $scope.back = function()
+    $scope.edit = function()
     {
         var path = '/builder/';
         path += $routeParams.id ? $routeParams.id : '';
