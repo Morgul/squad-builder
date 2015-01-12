@@ -9,6 +9,7 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [X] Save Squad
     * [X] Delete Squad
     * [X] Save edited squad.
+    * [ ] Pop a warning dialog when switching factions (since we clear the current squad.)
     * [ ] Fix ui-select issues on mobile with the keyboard popping up constantly.
 * [X] Card Browser
     * [X] Display cards (same format as build mat)
