@@ -2,5 +2,48 @@
 // Squads Page Styles
 //----------------------------------------------------------------------------------------------------------------------
 
+.my-squads {
+    .squads-row {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        .squad {
+            width: calc(~"50% - 5px");
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+
+            @media(max-width: 1199px)
+            {
+                display: block;
+                width: 100%;
+            }
+
+            .panel {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            &:nth-child(even) {
+                margin-left: 10px;
+
+                @media(max-width: 1199px)
+                {
+                    margin-left: 0;
+                }
+            }
+
+            &:last-child:nth-child(odd) {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    }
+}
 
 //----------------------------------------------------------------------------------------------------------------------

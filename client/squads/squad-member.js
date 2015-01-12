@@ -64,6 +64,26 @@ function SquadMemberFactory($rootScope, _, cardSvc)
             return points;
         },
 
+        get equipped()
+        {
+            var equipped = [];
+            _.forIn(this.upgrades, function(upgrades)
+            {
+                _.each(upgrades, function(upgrade)
+                {
+                    if(upgrade)
+                    {
+                        equipped.push(upgrade);
+                    } // end if
+                });
+            });
+
+            return equipped;
+        },
+
+        get faction(){ return this._faction || this._pilot.faction },
+        set faction(val){ this._faction = val; },
+
         // Change Tracking
         get pilot(){ return this._pilot; },
         set pilot(val)
@@ -78,9 +98,10 @@ function SquadMemberFactory($rootScope, _, cardSvc)
             {
                 this._update();
             } // end if
+
         },
         get ship(){ return this._ship; },
-        set ship(val) { this._ship = val; this._update(); if(!this.faction) { this.faction = val.faction }},
+        set ship(val) { this._ship = val; this._update()},
         get title(){ return this._title; },
         set title(val) { this._title = val; this._update(); },
         get mod(){ return this._mod; }, set mod(val) { this._mod = val; this._update(); },

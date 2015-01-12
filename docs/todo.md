@@ -18,8 +18,8 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [ ] Allow user to specify how many of each expansion they own
     * [ ] Correctly highlight cards that the user doesn't own, or has used too many of.
 * [ ] My Squads
-    * [ ] List saved squads w/ summary
-    * [ ] Ability to delete, edit or print build mat of squad.
+    * [X] List saved squads w/ summary
+    * [X] Ability to delete, edit or print build mat of squad.
     * [ ] Tracking of win/loss ratios
 * [ ] Profile
     * [ ] Ability to view information about a user
@@ -40,12 +40,12 @@ These are the features I require before my 1.0.0 release.
 * [X] REST API
     * [X] You can search ships, pilots, and upgrades.
     * [X] Supports filtering through equality, <, >, <=, >=.
-* [ ] Squads
+* [X] Squads
     * [X] You are disallowed from building flagrantly invalid squads.
     * [X] You can name squads.
     * [X] You can save squads.
     * [X] You can delete squads.
-    * [ ] You can view a list of saved squads.
+    * [X] You can view a list of saved squads.
     * [X] You can edit saved squads.
     * [X] You can print a build mat for a give squad.
     * [X] You can share/link to squads.
