@@ -1,3 +1,8 @@
+<!---------------------------------------------------------------------------------------------------------------------
+ - Templates
+ ---------------------------------------------------------------------------------------------------------------------->
+
+<!-- Delete warning dialog -->
 <script type="text/ng-template" id="deleteSquad.html">
     <div class="modal-header">
         <h3 class="modal-title"><i class="fa fa-trash"></i> Delete Squad</h3>
@@ -12,110 +17,79 @@
     </div>
 </script>
 
+<!-- Display of a squad -->
+<script type="text/ng-template" id="squadDisp.html">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <span class="pull-right">{{ squad.points }}</span>
+                <i class="fa fa-ge"></i>
+                <a href="/builder/{{ squad.id }}">
+                    {{ squad.name }}
+                </a>
+            </h4>
+        </div>
+        <div class="panel-body">
+            <div class="btn-group pull-right">
+                <a href="/builder/{{ squad.id }}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> Edit</a>
+                <a href="/builder/{{ squad.id }}/summary" class="btn btn-primary btn-sm"><i class="fa fa-list"></i> Summary</a>
+                <a class="btn btn-danger btn-sm" ng-click="delete(squad.id)"><i class="fa fa-trash-o"></i> Delete</a>
+            </div>
+            <ul>
+                <li ng-repeat="member in squad.members">
+                    <b>{{ member.ship.name }}</b>: <i>{{ member.pilot.name }} ({{ member.points }})</i>
+                    <ul class="upgrade-list">
+                        <li ng-if="member.title">
+                            <i><i class="xmf xmf-title"></i> {{ member.title.name }}</i>
+                        </li>
+                        <li ng-if="member.mod">
+                            <i><i class="xmf xmf-modification"></i> {{ member.mod.name }}</i>
+                        </li>
+                        <li ng-repeat="upgrade in member.equipped track by $index">
+                            <i><i class="xmf xmf-{{ upgrade.type }}"></i> {{ upgrade.name }}</i>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline win-loss">
+            <div class="form-group">
+                <label for="wins">Wins:</label>
+                <input type="number" class="form-control" id="wins" placeholder="0" ng-model="squad.wins" ng-change="save(squad)">
+            </div>
+            <div class="form-group">
+                <label for="losses">Losses:</label>
+                <input type="number" class="form-control" id="losses" placeholder="0" ng-model="squad.losses" ng-change="save(squad)">
+            </div>
+            <div class="form-group">
+                <label for="draws">Draws:</label>
+                <input type="number" class="form-control" id="draws" placeholder="0" ng-model="squad.draws" ng-change="save(squad)">
+            </div>
+        </form>
+    </div>
+</script>
+
+<!---------------------------------------------------------------------------------------------------------------------
+ - Page
+ ---------------------------------------------------------------------------------------------------------------------->
+
 <div class="container my-squads">
     <div ng-if="hasSquads('empire')">
         <h1 class="text-center"><i class="fa fa-ge"></i> Imperial Squads</h1>
         <div class="squads-row">
-            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'empire' }">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <span class="pull-right">{{ squad.points }}</span>
-                            <i class="fa fa-ge"></i>
-                            <a href="/builder/{{ squad.id }}">
-                                {{ squad.name }}
-                            </a>
-                        </h4>
-                    </div>
-                    <div class="panel-body">
-                        <div class="btn-group pull-right">
-                            <a href="/builder/{{ squad.id }}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> Edit</a>
-                            <a href="/builder/{{ squad.id }}/summary" class="btn btn-primary btn-sm"><i class="fa fa-list"></i> Summary</a>
-                            <a class="btn btn-danger btn-sm" ng-click="delete(squad.id)"><i class="fa fa-trash-o"></i> Delete</a>
-                        </div>
-                        <ul>
-                            <li ng-repeat="member in squad.members">
-                                {{ member.ship.name }}: <i>{{ member.pilot.name }} ({{ member.points }})</i>
-                                <ul>
-                                    <li ng-repeat="upgrade in member.equipped">
-                                        <i>{{ upgrade.name }}</i>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'empire' }" ng-include="'squadDisp.html'"></div>
         </div>
     </div>
     <div ng-if="hasSquads('rebel')">
         <h1 class="text-center"><i class="fa fa-ra"></i> Rebel Squads</h1>
         <div class="squads-row">
-            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'rebel' }">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <span class="pull-right">{{ squad.points }}</span>
-                            <i class="fa fa-ge"></i>
-                            <a href="/builder/{{ squad.id }}">
-                                {{ squad.name }}
-                            </a>
-                        </h4>
-                    </div>
-                    <div class="panel-body">
-                        <div class="btn-group pull-right">
-                            <a href="/builder/{{ squad.id }}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> Edit</a>
-                            <a href="/builder/{{ squad.id }}/summary" class="btn btn-primary btn-sm"><i class="fa fa-list"></i> Summary</a>
-                            <a class="btn btn-danger btn-sm" ng-click="delete(squad.id)"><i class="fa fa-trash-o"></i> Delete</a>
-                        </div>
-                        <ul>
-                            <li ng-repeat="member in squad.members">
-                                {{ member.ship.name }}: <i>{{ member.pilot.name }} ({{ member.points }})</i>
-                                <ul>
-                                    <li ng-repeat="upgrade in member.equipped">
-                                        <i>{{ upgrade.name }}</i>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'rebel' }" ng-include="'squadDisp.html'"></div>
         </div>
     </div>
     <div ng-if="hasSquads('scum')">
         <h1 class="text-center"><i class="icon-scum"></i> Scum Squads</h1>
         <div class="squads-row">
-            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'scum' }">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">
-                            <span class="pull-right">{{ squad.points }}</span>
-                            <i class="fa fa-ge"></i>
-                            <a href="/builder/{{ squad.id }}">
-                                {{ squad.name }}
-                            </a>
-                        </h4>
-                    </div>
-                    <div class="panel-body">
-                        <div class="btn-group pull-right">
-                            <a href="/builder/{{ squad.id }}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> Edit</a>
-                            <a href="/builder/{{ squad.id }}/summary" class="btn btn-primary btn-sm"><i class="fa fa-list"></i> Summary</a>
-                            <a class="btn btn-danger btn-sm" ng-click="delete(squad.id)"><i class="fa fa-trash-o"></i> Delete</a>
-                        </div>
-                        <ul>
-                            <li ng-repeat="member in squad.members">
-                                {{ member.ship.name }}: <i>{{ member.pilot.name }} ({{ member.points }})</i>
-                                <ul>
-                                    <li ng-repeat="upgrade in member.equipped">
-                                        <i>{{ upgrade.name }}</i>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="squad" ng-repeat="squad in squads | filter: { faction: 'scum' }" ng-include="'squadDisp.html'"></div>
         </div>
     </div>
 </div>

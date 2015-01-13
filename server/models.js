@@ -129,7 +129,10 @@ db.User = jbase.defineModel('users', {
 db.Squad = jbase.defineModel('squads', {
     name: { type: String, default: "Untitled Squad"},
     notes: { type: String, default: "" },
-    members: { type: Array, default: [] }
+    members: { type: Array, default: [] },
+    wins: { type: Number, default: 0 },
+    draws: { type: Number, default: 0 },
+    losses: { type: Number, default: 0 }
 }, { rootPath: rootPath });
 
 //----------------------------------------------------------------------------------------------------------------------

@@ -3,6 +3,37 @@
 //----------------------------------------------------------------------------------------------------------------------
 
 .my-squads {
+    .upgrade-list {
+        list-style: none;
+        padding-left: 20px;
+
+        .xmf {
+            font-size: 1em;
+        }
+    }
+
+    .win-loss {
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+
+        input[type='number'].form-control {
+            width: 65px;
+
+            @media(max-width: 767px)
+            {
+                width: 100%;
+            }
+        }
+
+        @media(max-width: 767px)
+        {
+            position: inherit;
+            bottom: 0;
+            top: 0;
+        }
+    }
+
     .squads-row {
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -27,6 +58,8 @@
             .panel {
                 width: 100%;
                 margin-bottom: 10px;
+                position: relative;
+                padding-bottom: 49px;
             }
 
             &:nth-child(even) {

@@ -21,6 +21,9 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
                             name: squad.name,
                             notes: squad.notes,
                             id: squad.id,
+                            wins: squad.wins,
+                            losses: squad.losses,
+                            draws: squad.draws,
                             members: _.reduce(squad.members, function(results, member)
                             {
                                 var squadMember = squadMemberFac();
@@ -47,10 +50,44 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
                 });
         });
 
+    //------------------------------------------------------------------------------------------------------------------
+
     $scope.hasSquads = function(faction)
     {
         return _.filter($scope.squads, { faction: faction }).length > 0;
     }; // end hasSquads
+
+    $scope.save = _.throttle(function(squad)
+    {
+        $http.put('/data/squads/' + squad.id, { wins: squad.wins, losses: squad.losses, draws: squad.draws })
+            .success(function()
+            {
+                ngToast.create({
+                    content: "Squad updated successfully.",
+                    dismissButton: true
+                });
+            })
+            .error(function(data, status)
+            {
+                var content;
+                switch(status)
+                {
+                    case 403:
+                        content = "Unable to update squad, unauthorized.";
+                        break;
+
+                    default:
+                        content = "Unable to update squad.";
+                        break;
+                } // end switch
+
+                ngToast.create({
+                    content: content,
+                    dismissButton: true,
+                    class: 'danger'
+                });
+            });
+    }, 1500, { leading: false }); // end save
 
     $scope.delete = function(squadID)
     {
@@ -94,7 +131,6 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
                     });
             },
             function() { });
-
     }; // end delete
 } // end SquadsController
 

@@ -11,6 +11,7 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [X] Save edited squad.
     * [ ] Pop a warning dialog when switching factions (since we clear the current squad.)
     * [ ] Fix ui-select issues on mobile with the keyboard popping up constantly.
+    * [ ] Support cards that increase the number of modifications you can equip.
 * [X] Card Browser
     * [X] Display cards (same format as build mat)
     * [X] Search all cards
@@ -18,10 +19,11 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [ ] List all expansions
     * [ ] Allow user to specify how many of each expansion they own
     * [ ] Correctly highlight cards that the user doesn't own, or has used too many of.
-* [ ] My Squads
+* [X] My Squads
     * [X] List saved squads w/ summary
     * [X] Ability to delete, edit or print build mat of squad.
-    * [ ] Tracking of win/loss ratios
+    * [X] Tracking of win/loss ratios
+    * [ ] Allow squads to track ownership, and prevent modification to a squad you don't own.
 * [ ] Profile
     * [ ] Ability to view information about a user
     * [ ] View top squads
