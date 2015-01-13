@@ -4,7 +4,7 @@
 // @module squad-service.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
+function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMemberFac)
 {
     function SquadService()
     {
@@ -12,6 +12,7 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
         this.name = undefined;
         this.notes = undefined;
         this.squad = [];
+        this.gPlusID = undefined;
     } // end SquadService
 
     SquadService.prototype = {
@@ -34,6 +35,7 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
                                 self.name = data.name;
                                 self.notes = data.notes;
                                 self.id = data.id;
+                                self.gPlusID = data.gPlusID;
                                 self.squad = _.reduce(data.members, function(results, member)
                                 {
                                     var squadMember = squadMemberFac();
@@ -81,6 +83,12 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
 
     SquadService.prototype.save = function(insertNew)
     {
+        // If we aren't the user who owns the squad, we need to do a force a new squad to be created.
+        if(authSvc.user.gPlusID != this.gPlusID)
+        {
+            insertNew = true;
+        } // end if
+
         var self = this;
         return new Promise(function(resolve, reject)
         {
@@ -208,6 +216,7 @@ angular.module('squad-builder').service('SquadService', [
     '$http',
     '$q',
     'ngToast',
+    'AuthService',
     'CardService',
     'SquadMember',
     SquadServiceFactory

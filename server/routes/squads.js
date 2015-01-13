@@ -95,6 +95,9 @@ router.post('/squads', function(req, resp)
 {
     if(req.isAuthenticated())
     {
+        // We don't trust the client not to give us an incorrect gPlusID.
+        req.body.gPlusID = req.user.gPlusID;
+
         var squad = new models.Squad(req.body);
         squad.save()
             .then(function()
@@ -124,8 +127,9 @@ router.post('/squads', function(req, resp)
 
 router.put('/squads/:squad_id', function(req, resp)
 {
-    if(req.isAuthenticated())
+    if(req.isAuthenticated() && (req.user.gPlusID == req.squad.gPlusID))
     {
+        // This implicitly supports partial updates
         _.assign(req.squad, req.body);
 
         req.squad.save()

@@ -23,7 +23,7 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [X] List saved squads w/ summary
     * [X] Ability to delete, edit or print build mat of squad.
     * [X] Tracking of win/loss ratios
-    * [ ] Allow squads to track ownership, and prevent modification to a squad you don't own.
+    * [X] Allow squads to track ownership, and prevent modification to a squad you don't own.
 * [ ] Profile
     * [ ] Ability to view information about a user
     * [ ] View top squads
