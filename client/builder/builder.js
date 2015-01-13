@@ -68,14 +68,29 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
                     $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
                 });
 
-            if(newFaction != squadSvc.faction)
+            if(newFaction != squadSvc.faction && !_.isEmpty(squadSvc.squad))
             {
-                if(squadSvc.id)
-                {
-                    $location.path('/builder');
-                } // end if
+                var modalInstance = $modal.open({
+                    templateUrl: 'switchFaction.html',
+                    size: 'lg'
+                });
 
-                squadSvc.clear();
+                modalInstance.result
+                    .then(function()
+                    {
+                        // They clicked yes, so reset everything
+                        if(squadSvc.id)
+                        {
+                            $location.path('/builder');
+                        } // end if
+
+                        squadSvc.clear();
+                    },
+                    function()
+                    {
+                        // They clicked no, so go back to our last faction.
+                        $scope._faction = oldFaction;
+                    });
             } // end if
         } // end if
     });

@@ -1,3 +1,8 @@
+<!---------------------------------------------------------------------------------------------------------------------
+ - Templates
+ ---------------------------------------------------------------------------------------------------------------------->
+
+<!-- Delete warning dialog -->
 <script type="text/ng-template" id="deleteSquad.html">
     <div class="modal-header">
         <h3 class="modal-title"><i class="fa fa-trash"></i> Delete Squad</h3>
@@ -12,6 +17,24 @@
     </div>
 </script>
 
+<!-- Switch faction dialog -->
+<script type="text/ng-template" id="switchFaction.html">
+    <div class="modal-header">
+        <h3 class="modal-title"><i class="fa fa-retweet"></i> Switch Factions</h3>
+    </div>
+    <div class="modal-body text-center">
+        <h3>Are you sure you want to switch factions?</h3>
+        <p class="text-muted">Doing so will clear your current squad.</p>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="$close(true)"><i class="fa fa-retweet"></i> Switch</button>
+        <button class="btn btn-default" ng-click="$dismiss('canceled')">Cancel</button>
+    </div>
+</script>
+
+<!---------------------------------------------------------------------------------------------------------------------
+ - Main Builder template
+ ---------------------------------------------------------------------------------------------------------------------->
 <div class="container builder">
     <!-- Faction Building Page -->
     <div class="row hidden-xs">
