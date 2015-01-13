@@ -8,7 +8,6 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
 {
     $scope.newShip = undefined;
     $scope.temp = {};
-    $scope.faction = 'empire';
 
     if($routeParams.id)
     {
@@ -20,21 +19,25 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
     } // end if
 
     Object.defineProperties($scope, {
+        faction: {
+            get: function(){ return $scope._faction || squadSvc.faction; },
+            set: function(val){ $scope._faction = val; }
+        },
         squad: {
-            get: function() { return squadSvc.squad; },
-            set: function(val) { squadSvc.squad = val; }
+            get: function(){ return squadSvc.squad; },
+            set: function(val){ squadSvc.squad = val; }
         },
         squadID: {
-            get: function() { return squadSvc.id; },
-            set: function(val) { squadSvc.id = val; }
+            get: function(){ return squadSvc.id; },
+            set: function(val){ squadSvc.id = val; }
         },
         squadName: {
-            get: function() { return squadSvc.name; },
-            set: function(val) { squadSvc.name = val; }
+            get: function(){ return squadSvc.name; },
+            set: function(val){ squadSvc.name = val; }
         },
         squadNotes: {
-            get: function() { return squadSvc.notes; },
-            set: function(val) { squadSvc.notes = val; }
+            get: function(){ return squadSvc.notes; },
+            set: function(val){ squadSvc.notes = val; }
         },
         totalPoints: {
             get: function()
@@ -54,14 +57,27 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
     // Watches
     // -----------------------------------------------------------------------------------------------------------------
 
-    $scope.$watch('faction', function(oldFaction, newFaction)
+    $scope.$watch('faction', function(newFaction, oldFaction)
     {
-        cardSvc.initialized
-            .then(function()
+        if(newFaction && newFaction != oldFaction)
+        {
+            cardSvc.initialized
+                .then(function()
+                {
+                    $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
+                    $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
+                });
+
+            if(newFaction != squadSvc.faction)
             {
-                $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
-                $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
-            });
+                if(squadSvc.id)
+                {
+                    $location.path('/builder');
+                } // end if
+
+                squadSvc.clear();
+            } // end if
+        } // end if
     });
 
     $scope.$watch('squad', function()

@@ -14,6 +14,10 @@ function SquadServiceFactory($http, Promise, ngToast, cardSvc, squadMemberFac)
         this.squad = [];
     } // end SquadService
 
+    SquadService.prototype = {
+        get faction(){ return ((this.squad[0] || {}).faction) || 'empire'; }
+    };
+
     SquadService.prototype.load = function(id)
     {
         var self = this;
