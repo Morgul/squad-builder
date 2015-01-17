@@ -27,7 +27,7 @@ angular.module('squad-builder', [
             .when('/builder/:id', { templateUrl: '/builder/builder.html', controller: 'BuilderController' })
             .when('/builder/:id/summary', { templateUrl: '/summary/summary.html', controller: 'SummaryController' })
             .when('/browser', { templateUrl: '/browser/browser.html', controller: 'BrowserController' })
-            .when('/profile', { templateUrl: '/profile/profile.html', controller: 'ProfileController' })
+            .when('/profiles/:id', { templateUrl: '/profile/profile.html', controller: 'ProfileController' })
             .when('/collection', { templateUrl: '/collection/collection.html', controller: 'CollectionController' })
             .when('/squads/:id?', { templateUrl: '/squads/squads.html', controller: 'SquadsController' })
             .otherwise({redirectTo: '/builder'});

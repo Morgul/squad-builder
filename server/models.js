@@ -122,6 +122,7 @@ db.User = jbase.defineModel('users', {
     email: String,
     displayName: String,
     avatar: String,
+    bio: String,
     squads: { type: Array, default: [] },
     collection: { type: Array, default: [] }
 }, { rootPath: rootPath });

@@ -54,7 +54,6 @@ router.get('/', function(req, res)
     res.format({
         json: function()
         {
-            console.log('json?');
             if(req.isAuthenticated())
             {
                 var squadList = [];

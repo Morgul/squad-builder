@@ -36,7 +36,7 @@
                 </li>
                 <li class="divider"></li>
                 <li class="visible-xs" ng-class="{ active: location == 'profile' }">
-                    <a href="/profile">
+                    <a href="/profiles/{{ user.id }}">
                         <small><i class="fa fa-user"></i> Profile</small>
                     </a>
                 </li>
@@ -63,7 +63,7 @@
                             <span class="sr-only">Toggle Dropdown</span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="/profile"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="/profiles/{{ user.id }}"><i class="fa fa-user"></i> Profile</a></li>
                             <li class="divider"></li>
                             <li><a ng-click="signOut()"><i class="fa fa-sign-out"></i> Sign out</a></li>
                         </ul>

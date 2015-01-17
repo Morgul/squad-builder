@@ -1,3 +1,61 @@
 <div class="container">
-    <h1>Profile Page!</h1>
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <img class="img-circle" src="{{ profile.avatar }}" width="200px" height="200px">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <hr>
+            <small>{{ profile.displayName || profile.nickname }}</small>
+            <h5 ng-if="profile.tagline">"{{ profile.tagline }}"</h5>
+            <small><i>{{ profile.email }}</i></small>
+            <hr>
+            <h2>{{ score.total }}</h2>
+            <h4>Wins: {{ score.wins }} Losses: {{ score.losses }} Draws: {{ score.draws }}</h4>
+            <br/>
+        </div>
+        <div class="col-sm-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <button ng-if="isUserProfile && editing" class="btn btn-success btn-sm pull-right" ng-click="save()">
+                        <i class="fa fa-save"></i> Save
+                    </button>
+                    <button ng-if="isUserProfile && !editing" class="btn btn-primary btn-sm pull-right" ng-click="edit()">
+                        <i class="fa fa-edit"></i> Edit
+                    </button>
+                    <h4 class="panel-title">Bio</h4>
+                </div>
+                <div ng-if="!editing" class="panel-body">
+                    <span ng-if="profile.bio">{{ profile.bio }}</span>
+                    <h4 ng-if="!profile.bio">No bio yet.</h4>
+                </div>
+                <textarea ng-if="editing" class="form-control monospace" ng-model="profile.bio"></textarea>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">Top Squads</h4>
+                </div>
+                <ul ng-if="topSquads().length" class="list-group">
+                    <li class="list-group-item clearfix" ng-repeat="squad in topSquads()">
+                        <div class="pull-right text-right">
+                            <b>{{ squad.score }}</b>
+                            <br/>
+                            <small>Wins: {{ squad.wins }} Losses: {{ squad.losses }} Draws: {{ squad.draws }}</small>
+                        </div>
+                        <h4 class="list-group-item-heading">
+                            <i ng-class="{ 'fa fa-ge': squad.faction == 'empire', 'fa fa-ra': squad.faction == 'rebel', 'icon-scum': squad.faction == 'scum', }"></i>
+                            <a href="/builder/{{ squad.id }}/summary">{{ squad.name }}</a>
+                        </h4>
+                        <p class="list-group-item-text" style="margin-right: 150px;">
+                            <small>{{ squad.notes }}</small>
+                        </p>
+                    </li>
+                </ul>
+                <div ng-if="!topSquads().length" class="panel-body">
+                    <h4>No squads yet.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

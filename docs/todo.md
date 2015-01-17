@@ -24,10 +24,10 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
     * [X] Ability to delete, edit or print build mat of squad.
     * [X] Tracking of win/loss ratios
     * [X] Allow squads to track ownership, and prevent modification to a squad you don't own.
-* [ ] Profile
-    * [ ] Ability to view information about a user
-    * [ ] View top squads
-    * [ ] View overall win/loss ratio
+* [X] Profile
+    * [X] Ability to view information about a user
+    * [X] View top squads
+    * [X] View overall win/loss ratio
 
 ## 1.0.0 Features
 
@@ -59,7 +59,7 @@ These are the features I require before my 1.0.0 release.
     * [X] You can preview cards.
 * [X] Accounts
     * [X] You can use Google to authenticate.
-    * [ ] Profile page
+    * [X] Profile page
 
 ## Future Features
 
