@@ -26,7 +26,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
         {
             if(id)
             {
-                $http.get('/data/squads/' + id)
+                $http.get('/squads/' + id)
                     .success(function(data)
                     {
                         cardSvc.initialized
@@ -98,11 +98,11 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
             // Determine id we are updating, or creating a new one
             if(self.id && !insertNew)
             {
-                httpPromise = $http.put('/data/squads/' + self.id, squadDef);
+                httpPromise = $http.put('/squads/' + self.id, squadDef);
             }
             else
             {
-                httpPromise = $http.post('/data/squads/', squadDef);
+                httpPromise = $http.post('/squads/', squadDef);
             } // end if
 
             // In either event, we do the following
@@ -150,7 +150,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
         {
             if(self.id)
             {
-                $http.delete('/data/squads/' + self.id)
+                $http.delete('/squads/' + self.id)
                     .success(function()
                     {
                         self.clear();

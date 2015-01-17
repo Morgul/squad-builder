@@ -65,6 +65,13 @@ module.exports = {
             // Return user back to client
             res.send(req.user);
         });
+
+        // Logout endpoint
+        app.post('/auth/logout', function(req, res)
+        {
+            req.logout();
+            res.end();
+        });
     }
 }; // end exports
 

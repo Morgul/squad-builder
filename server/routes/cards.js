@@ -7,6 +7,7 @@
 var _ = require('lodash');
 var express = require('express');
 
+var routeUtils = require('./utils');
 var querymodel = require('../querymodel');
 var models = require('../models');
 
@@ -21,18 +22,10 @@ var router = express.Router();
 //----------------------------------------------------------------------------------------------------------------------
 
 // Basic request logging
-router.use(function(request, response, next)
-{
-    logger.info("%s %s '%s'", request.method, response.statusCode, request.url);
-    next();
-});
+router.use(routeUtils.requestLogger(logger));
 
 // Basic error logging
-router.use(function(error, request, response, next)
-{
-    logger.error("%s '%s': Error encountered: \n%s", request.method, request.url, error.stack);
-    next(error);
-});
+router.use(routeUtils.errorLogger(logger));
 
 //----------------------------------------------------------------------------------------------------------------------
 // Ships Endpoint

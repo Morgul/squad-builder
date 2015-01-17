@@ -6,7 +6,7 @@
 
 function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMemberFac)
 {
-    $http.get('/data/squads')
+    $http.get('/squads')
         .success(function(data)
         {
             cardSvc.initialized
@@ -59,7 +59,7 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
 
     $scope.save = _.throttle(function(squad)
     {
-        $http.put('/data/squads/' + squad.id, { wins: squad.wins, losses: squad.losses, draws: squad.draws })
+        $http.put('/squads/' + squad.id, { wins: squad.wins, losses: squad.losses, draws: squad.draws })
             .success(function()
             {
                 ngToast.create({
@@ -99,7 +99,7 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
         modalInstance.result
             .then(function()
             {
-                $http.delete('/data/squads/' + squadID)
+                $http.delete('/squads/' + squadID)
                     .success(function()
                     {
                         _.remove($scope.squads, { id: squadID });

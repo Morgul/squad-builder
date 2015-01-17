@@ -3,6 +3,8 @@
 // @module server.js
 //----------------------------------------------------------------------------------------------------------------------
 
+var path = require('path');
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
@@ -16,7 +18,7 @@ var serialization = require('./server/auth/serialization');
 var gPlusAuth = require('./server/auth/google-plus');
 
 // Routers
-var mainRouter = require('./server/routes/main');
+var routeUtils = require('./server/routes/utils');
 var cardsRouter = require('./server/routes/cards');
 var squadsRouter = require('./server/routes/squads');
 
@@ -26,6 +28,12 @@ var logger = require('omega-logger').loggerFor(module);
 
 // Build the express app
 var app = express();
+
+// Basic request logging
+app.use(routeUtils.requestLogger(logger));
+
+// Basic error logging
+app.use(routeUtils.errorLogger(logger));
 
 // Passport support
 app.use(cookieParser());
@@ -41,10 +49,15 @@ app.use(passport.session());
 // Set up out authentication support
 gPlusAuth.initialize(app);
 
+// Setup static serving
+app.use(express.static(path.resolve('./client')));
+
 // Set up our application routes
 app.use('/cards', cardsRouter);
-app.use('/data', squadsRouter);
-app.use('/', mainRouter);
+app.use('/squads', squadsRouter);
+
+// The fallback route, always serves index.html
+app.use(routeUtils.serveIndex);
 
 // Start the server
 var server = app.listen(3000, function()
