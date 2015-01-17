@@ -82,7 +82,7 @@ of the parameters are easy to understand, while a few may be worth going over.
 ### `maneuvers`
 
 This is a two dimensional array. The index in the first array is the size of the movement, starting at 0. Each sub array
-is of length six, and each index corresponds to the direction of movement, in the following order:
+is of length eight, and each index corresponds to the direction of movement, in the following order:
 
     1. Left Turn
     2. Left Bank
@@ -90,10 +90,12 @@ is of length six, and each index corresponds to the direction of movement, in th
     4. Right Bank
     5. Right Turn
     6. Koiogran Turn (180 degree)
+    7. Left Segnor’s Loop
+    8. Right Segnor’s Loop
 
 The possible values are `null` (or anything falsey), `'red'`, `'white'`, or `'green'`, representing the difficulty of
 the maneuver. This format can easily be extended in the future if new maneuvers are added to the game (or if you wish to
-store _Star Trek: Attack Wing_ data), simply by defining new columns after the original 6.
+store _Star Trek: Attack Wing_ data), simply by defining new columns after the original 8.
 
 There is a single special case: 0 speed maneuvers. To date, the only valid maneuver with 0 speed is the 'stationary'
 maneuver. This is considered a `Forward` maneuver, for the purposes of storage.

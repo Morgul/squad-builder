@@ -49,21 +49,21 @@ function processManeuvers(maneuvers)
 {
     return _.reduce(maneuvers, function(results, row)
     {
-        var maneuverRow = _.reduce(row, function(results, manuever)
+        var maneuverRow = _.reduce(row, function(results, manuever, index)
         {
             switch(manuever)
             {
                 case 3:
-                    results.push('red');
+                    results[index] = 'red';
                     break;
                 case 2:
-                    results.push('green');
+                    results[index] = 'green';
                     break;
                 case 1:
-                    results.push('white');
+                    results[index] = 'white';
                     break;
                 case 0:
-                    results.push(null);
+                    results[index] = null;
                     break;
                 default:
                     console.error('Unknown maneuver!!!');
@@ -71,7 +71,7 @@ function processManeuvers(maneuvers)
             } // end switch
 
             return results;
-        }, []);
+        }, [null, null, null, null, null, null, null, null]);
 
         results.push(maneuverRow);
 

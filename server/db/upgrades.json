@@ -1195,7 +1195,7 @@
         "limited": false,
         "unique": true,
         "name": "R2-D2 (Crew)",
-        "canonicalName": "r2d2crew",
+        "canonicalName": "r2d2",
         "text": "<p><span class=\"restriction\">Rebel only.</span></p><p>At the end of the End phase, if you have no shields, you may recover 1 shield and roll 1 attack die.  On a <i class=\"xmf xmf-hit\"></i> result, randomly flip 1 of your facedown Damage cards faceup and resolve it.</p>",
         "points": 4,
         "faction": "rebel",
