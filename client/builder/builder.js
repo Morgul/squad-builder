@@ -59,15 +59,15 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
 
     $scope.$watch('faction', function(newFaction, oldFaction)
     {
+        cardSvc.initialized
+            .then(function()
+            {
+                $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
+                $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
+            });
+
         if(newFaction && newFaction != oldFaction)
         {
-            cardSvc.initialized
-                .then(function()
-                {
-                    $scope.ships = cardSvc.filterByFaction($scope.faction, cardSvc.ships);
-                    $scope.upgrades = cardSvc.filterByFaction($scope.faction, cardSvc.upgrades);
-                });
-
             if(newFaction != squadSvc.faction && !_.isEmpty(squadSvc.squad))
             {
                 var modalInstance = $modal.open({
