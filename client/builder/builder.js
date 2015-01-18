@@ -35,9 +35,9 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
             get: function(){ return squadSvc.name; },
             set: function(val){ squadSvc.name = val; }
         },
-        squadNotes: {
-            get: function(){ return squadSvc.notes; },
-            set: function(val){ squadSvc.notes = val; }
+        squadDescription: {
+            get: function(){ return squadSvc.description; },
+            set: function(val){ squadSvc.description = val; }
         },
         totalPoints: {
             get: function()

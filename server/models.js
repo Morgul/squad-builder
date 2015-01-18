@@ -131,7 +131,7 @@ db.User = jbase.defineModel('users', {
 db.Squad = jbase.defineModel('squads', {
     gPlusID: String,
     name: { type: String, default: "Untitled Squad"},
-    notes: { type: String, default: "" },
+    description: { type: String, default: "" },
     members: { type: Array, default: [] },
     wins: { type: Number, default: 0 },
     draws: { type: Number, default: 0 },

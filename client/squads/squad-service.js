@@ -10,7 +10,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
     {
         this.id = undefined;
         this.name = undefined;
-        this.notes = undefined;
+        this.description = undefined;
         this.squad = [];
         this.gPlusID = undefined;
     } // end SquadService
@@ -33,7 +33,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
                             .then(function()
                             {
                                 self.name = data.name;
-                                self.notes = data.notes;
+                                self.description = data.description;
                                 self.id = data.id;
                                 self.gPlusID = data.gPlusID;
                                 self.squad = _.reduce(data.members, function(results, member)
@@ -93,7 +93,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
         return new Promise(function(resolve, reject)
         {
             var httpPromise;
-            var squadDef = { name: self.name, members: self.squad, notes: self.notes };
+            var squadDef = { name: self.name, members: self.squad, description: self.description };
 
             // Determine id we are updating, or creating a new one
             if(self.id && !insertNew)
@@ -199,7 +199,7 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
         return new Promise(function(resolve)
         {
             self.name = undefined;
-            self.notes = undefined;
+            self.description = undefined;
             self.id = undefined;
             self.squad = [];
 

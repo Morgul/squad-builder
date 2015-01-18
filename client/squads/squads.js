@@ -19,7 +19,7 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
                         var faction;
                         $scope.squads.push({
                             name: squad.name,
-                            notes: squad.notes,
+                            description: squad.description,
                             id: squad.id,
                             wins: squad.wins,
                             losses: squad.losses,
