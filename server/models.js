@@ -109,6 +109,7 @@ db.Upgrade = jbase.defineModel('upgrades', {
 
 db.Expansion = jbase.defineModel('expansions', {
     name: String,
+    image: String,
     cards: { type: Array, default: [] },
     released: { type: Boolean, default: false }
 }, { rootPath: rootPath });
@@ -124,7 +125,7 @@ db.User = jbase.defineModel('users', {
     avatar: String,
     bio: String,
     squads: { type: Array, default: [] },
-    collection: { type: Array, default: [] }
+    collection: { type: Object, default: {} }
 }, { rootPath: rootPath });
 
 db.Squad = jbase.defineModel('squads', {

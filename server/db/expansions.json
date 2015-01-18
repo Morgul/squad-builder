@@ -89,6 +89,7 @@
         ],
         "released": true,
         "name": "Core",
+        "image": "/images/expansions/core.png",
         "id": "466b8c4f-05cc-4b8d-a699-f0a295fd3e60"
     },
     "2b2b5bb3-41b3-42ce-b612-9dc42607061c": {
@@ -146,6 +147,7 @@
         ],
         "released": true,
         "name": "X-Wing Expansion Pack",
+        "image": "/images/expansions/xwing.png",
         "id": "2b2b5bb3-41b3-42ce-b612-9dc42607061c"
     },
     "e9db7ff0-bbe9-4846-8333-0532a59ebe31": {
@@ -198,6 +200,7 @@
         ],
         "released": true,
         "name": "Y-Wing Expansion Pack",
+        "image": "/images/expansions/ywing.png",
         "id": "e9db7ff0-bbe9-4846-8333-0532a59ebe31"
     },
     "7e59f840-3483-4e1c-84b9-ae6369d6b572": {
@@ -250,6 +253,7 @@
         ],
         "released": true,
         "name": "TIE Fighter Expansion Pack",
+        "image": "/images/expansions/tiefighter.png",
         "id": "7e59f840-3483-4e1c-84b9-ae6369d6b572"
     },
     "a8c692e2-1224-40a4-86fe-d2ee805a8ce6": {
@@ -307,6 +311,7 @@
         ],
         "released": true,
         "name": "TIE Advanced Expansion Pack",
+        "image": "/images/expansions/tieadvanced.png",
         "id": "a8c692e2-1224-40a4-86fe-d2ee805a8ce6"
     },
     "eba98975-9678-4721-8d33-ced94a667168": {
@@ -364,6 +369,7 @@
         ],
         "released": true,
         "name": "A-Wing Expansion Pack",
+        "image": "/images/expansions/awing.png",
         "id": "eba98975-9678-4721-8d33-ced94a667168"
     },
     "8b327f8b-6033-4736-91aa-7404f59c22f8": {
@@ -456,6 +462,7 @@
         ],
         "released": true,
         "name": "Millennium Falcon Expansion Pack",
+        "image": "/images/expansions/millenniumfalcon.png",
         "id": "8b327f8b-6033-4736-91aa-7404f59c22f8"
     },
     "06b99045-daaf-4bf0-9b41-01e8e2faec99": {
@@ -508,6 +515,7 @@
         ],
         "released": true,
         "name": "TIE Interceptor Expansion Pack",
+        "image": "/images/expansions/tieinterceptor.png",
         "id": "06b99045-daaf-4bf0-9b41-01e8e2faec99"
     },
     "0baa9648-f7b4-4f9a-bcbc-eb906783acf6": {
@@ -600,6 +608,7 @@
         ],
         "released": true,
         "name": "Slave I Expansion Pack",
+        "image": "/images/expansions/slavei.png",
         "id": "0baa9648-f7b4-4f9a-bcbc-eb906783acf6"
     },
     "3a93ee0e-834b-4664-a187-a4a14683c2f7": {
@@ -657,6 +666,7 @@
         ],
         "released": true,
         "name": "B-Wing Expansion Pack",
+        "image": "/images/expansions/bwing.png",
         "id": "3a93ee0e-834b-4664-a187-a4a14683c2f7"
     },
     "54dc2189-46e1-4f29-aace-35e93c0fae84": {
@@ -719,6 +729,7 @@
         ],
         "released": true,
         "name": "HWK-290 Expansion Pack",
+        "image": "/images/expansions/hwk290.png",
         "id": "54dc2189-46e1-4f29-aace-35e93c0fae84"
     },
     "9fbbeac5-b00e-4987-9e3e-dd0748d4e536": {
@@ -776,6 +787,7 @@
         ],
         "released": true,
         "name": "TIE Bomber Expansion Pack",
+        "image": "/images/expansions/tiebomber.png",
         "id": "9fbbeac5-b00e-4987-9e3e-dd0748d4e536"
     },
     "bcdb7c8d-c245-469e-a7c2-f6b7815d620d": {
@@ -863,6 +875,7 @@
         ],
         "released": true,
         "name": "Lambda-Class Shuttle Expansion Pack",
+        "image": "/images/expansions/lambdaclassshuttle.png",
         "id": "bcdb7c8d-c245-469e-a7c2-f6b7815d620d"
     },
     "a940b47c-3e6a-4508-bd84-2844fe0851b2": {
@@ -920,6 +933,7 @@
         ],
         "released": true,
         "name": "Z-95 Headhunter Expansion Pack",
+        "image": "/images/expansions/z95headhunter.png",
         "id": "a940b47c-3e6a-4508-bd84-2844fe0851b2"
     },
     "b187071f-4f75-427c-845c-e41e2d0aaf2c": {
@@ -977,6 +991,7 @@
         ],
         "released": true,
         "name": "E-Wing Expansion Pack",
+        "image": "/images/expansions/ewing.png",
         "id": "b187071f-4f75-427c-845c-e41e2d0aaf2c"
     },
     "20369451-4316-4e87-9445-cb93b3203c00": {
@@ -1034,6 +1049,7 @@
         ],
         "released": true,
         "name": "TIE Defender Expansion Pack",
+        "image": "/images/expansions/tiedefender.png",
         "id": "20369451-4316-4e87-9445-cb93b3203c00"
     },
     "d24602d2-ac8d-4cf1-88e4-46e8d88413d2": {
@@ -1091,6 +1107,7 @@
         ],
         "released": true,
         "name": "TIE Phantom Expansion Pack",
+        "image": "/images/expansions/tiephantom.png",
         "id": "d24602d2-ac8d-4cf1-88e4-46e8d88413d2"
     },
     "22600102-7f95-4705-8852-ad90b3bd7575": {
@@ -1183,6 +1200,7 @@
         ],
         "released": true,
         "name": "YT-2400 Freighter Expansion Pack",
+        "image": "/images/expansions/yt2400freighter.png",
         "id": "22600102-7f95-4705-8852-ad90b3bd7575"
     },
     "1ba1d8b1-505e-4283-a216-ba45bca151a6": {
@@ -1265,6 +1283,7 @@
         ],
         "released": true,
         "name": "VT-49 Decimator Expansion Pack",
+        "image": "/images/expansions/vt49decimator.png",
         "id": "1ba1d8b1-505e-4283-a216-ba45bca151a6"
     },
     "25e81cb0-77f1-4d4c-b341-b4d6c6fd7f06": {
@@ -1337,6 +1356,7 @@
         ],
         "released": true,
         "name": "Imperial Aces Expansion Pack",
+        "image": "/images/expansions/imperialaces.png",
         "id": "25e81cb0-77f1-4d4c-b341-b4d6c6fd7f06"
     },
     "881588a7-4c95-4f47-9ec1-35fb6f80d75a": {
@@ -1429,6 +1449,7 @@
         ],
         "released": true,
         "name": "Rebel Aces Expansion Pack",
+        "image": "/images/expansions/rebelaces.png",
         "id": "881588a7-4c95-4f47-9ec1-35fb6f80d75a"
     },
     "e1cd2f86-cf4c-4fd4-9428-a5e4c0149c87": {
@@ -1591,6 +1612,7 @@
         ],
         "released": true,
         "name": "Rebel Transport Expansion Pack",
+        "image": "/images/expansions/rebeltransport.png",
         "id": "e1cd2f86-cf4c-4fd4-9428-a5e4c0149c87"
     },
     "d14594cf-4b57-41a7-aa7f-8f889031d394": {
@@ -1713,36 +1735,42 @@
         ],
         "released": true,
         "name": "Tantive IV Expansion Pack",
+        "image": "/images/expansions/tantiveiv.png",
         "id": "d14594cf-4b57-41a7-aa7f-8f889031d394"
     },
     "2adda4e9-a253-4037-a41e-f8fb0346d31f": {
         "cards": [],
         "released": false,
         "name": "StarViper Expansion Pack",
+        "image": "/images/expansions/starviper.png",
         "id": "2adda4e9-a253-4037-a41e-f8fb0346d31f"
     },
     "52ed589a-6139-4a08-87cd-9e4fe423de9e": {
         "cards": [],
         "released": false,
         "name": "M3-A Interceptor Expansion Pack",
+        "image": "/images/expansions/m3ainterceptor.png",
         "id": "52ed589a-6139-4a08-87cd-9e4fe423de9e"
     },
     "7b4b6ff1-fd47-4846-a4a7-a1786a467e94": {
         "cards": [],
         "released": false,
         "name": "IG-2000 Expansion Pack",
+        "image": "/images/expansions/ig2000.png",
         "id": "7b4b6ff1-fd47-4846-a4a7-a1786a467e94"
     },
     "a6d0a939-61c2-417a-8fff-16157d78f1c2": {
         "cards": [],
         "released": false,
         "name": "Most Wanted Expansion Pack",
+        "image": "/images/expansions/mostwanted.png",
         "id": "a6d0a939-61c2-417a-8fff-16157d78f1c2"
     },
     "8cd5ea1e-b986-4653-ac08-9553b98144bc": {
         "cards": [],
         "released": false,
         "name": "Imperial Raider Expansion Pack",
+        "image": "/images/expansions/imperialraider.png",
         "id": "8cd5ea1e-b986-4653-ac08-9553b98144bc"
     }
 }

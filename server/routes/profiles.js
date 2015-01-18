@@ -83,13 +83,20 @@ router.get('/:user_id', function(req, resp)
 
 router.put('/:user_id', function(req, resp)
 {
-    _.assign(req.profile, req.body);
+    if(req.isAuthenticated())
+    {
+        _.assign(req.profile, req.body);
 
-    req.profile.save()
-        .then(function()
-        {
-            resp.status(200).end();
-        });
+        req.profile.save()
+            .then(function()
+            {
+                resp.status(200).end();
+            });
+    }
+    else
+    {
+        res.status(403).end();
+    } // end if
 });
 
 //----------------------------------------------------------------------------------------------------------------------

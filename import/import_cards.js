@@ -252,6 +252,11 @@ function processSize(upgrade)
     return size;
 } // end processSize
 
+function processExpansionImage(name)
+{
+    return '/images/expansions/' + name.replace('Expansion Pack', '').replace('-', '').replace(/ /g, '').toLowerCase() + '.png';
+} // end processExpansionImage
+
 //----------------------------------------------------------------------------------------------------------------------
 
 //return;
@@ -546,6 +551,7 @@ models.initialize
         {
             var expansionDef = {
                 name: name,
+                image: processExpansionImage(name),
                 cards: processCards(cards),
                 released: !_.contains(cards.unreleasedExpansions, name)
             };
@@ -585,6 +591,7 @@ models.initialize
         {
             var expansionDef = {
                 name: name,
+                image: processExpansionImage(name),
                 released: false
             };
 
