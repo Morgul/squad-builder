@@ -157,6 +157,10 @@ function processGrants(card)
 
     switch(card.name)
     {
+        case "Royal Guard TIE":
+            grants.upgrades.push('modification');
+            break;
+
         case "Veteran Instincts":
             grants.skill = 2;
             break;

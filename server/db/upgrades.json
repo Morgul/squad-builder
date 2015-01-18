@@ -2699,7 +2699,9 @@
             "Imperial Aces Expansion Pack"
         ],
         "grants": {
-            "upgrades": [],
+            "upgrades": [
+                "modification"
+            ],
             "actions": []
         },
         "limited": false,
