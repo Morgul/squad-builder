@@ -9,6 +9,9 @@ function AuthServiceFactory($rootScope, $http, Promise)
     function AuthService()
     {
         var self = this;
+        var resolved = false;
+        this.initDeferred = Promise.defer();
+
         $rootScope.$on('event:google-plus-signin-success', function (event, authResult)
         {
             // Send login to server
@@ -16,6 +19,11 @@ function AuthServiceFactory($rootScope, $http, Promise)
                 .success(function(data)
                 {
                     self.user = data;
+                    if(!resolved)
+                    {
+                        self.initDeferred.resolve();
+                        resolved = true;
+                    } // end if
                 });
         });
 
@@ -33,7 +41,12 @@ function AuthServiceFactory($rootScope, $http, Promise)
                     break;
 
                 default:
-                    console.log('login failed:', authResult);
+                    console.error('login failed:', authResult);
+                    if(!resolved)
+                    {
+                        self.initDeferred.reject();
+                        resolved = true;
+                    } // end if
                     break;
             } // end switch
         });
@@ -52,7 +65,8 @@ function AuthServiceFactory($rootScope, $http, Promise)
             } // end if
 
             this._user = val;
-        }
+        },
+        get initialized(){ return this.initDeferred.promise; }
     }; // end signOut
 
     AuthService.prototype.signOut = function()
