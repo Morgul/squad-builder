@@ -1,6 +1,6 @@
 {
     "7d5af071-6dcc-42e6-99c5-4c8bf14b7f66": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack",
             "Y-Wing Expansion Pack"
@@ -21,7 +21,7 @@
         "id": "7d5af071-6dcc-42e6-99c5-4c8bf14b7f66"
     },
     "13d862a4-43c5-4b72-8f5f-e42e211cffc8": {
-        "size": "all",
+        "size": null,
         "sources": [
             "B-Wing Expansion Pack",
             "Core",
@@ -44,7 +44,7 @@
         "id": "13d862a4-43c5-4b72-8f5f-e42e211cffc8"
     },
     "05e2935c-cc33-4e53-b9bb-5d1f522fd236": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Y-Wing Expansion Pack"
         ],
@@ -62,7 +62,7 @@
         "id": "05e2935c-cc33-4e53-b9bb-5d1f522fd236"
     },
     "b7e6fc0f-633e-4c43-9c93-671112ce36e7": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Core"
         ],
@@ -80,7 +80,7 @@
         "id": "b7e6fc0f-633e-4c43-9c93-671112ce36e7"
     },
     "84ffa5e6-1cd6-4ab4-9b35-2e993e0150bd": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Core"
         ],
@@ -98,7 +98,7 @@
         "id": "84ffa5e6-1cd6-4ab4-9b35-2e993e0150bd"
     },
     "7cc0c8a0-599b-4304-a643-d4d0223c50a6": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Y-Wing Expansion Pack"
         ],
@@ -116,7 +116,7 @@
         "id": "7cc0c8a0-599b-4304-a643-d4d0223c50a6"
     },
     "43548817-bc95-4ad9-b824-578f3aed42c4": {
-        "size": "all",
+        "size": null,
         "sources": [
             "X-Wing Expansion Pack"
         ],
@@ -134,7 +134,7 @@
         "id": "43548817-bc95-4ad9-b824-578f3aed42c4"
     },
     "51d2118a-ba45-42e1-b39c-8d973f7a565d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "X-Wing Expansion Pack"
         ],
@@ -152,7 +152,7 @@
         "id": "51d2118a-ba45-42e1-b39c-8d973f7a565d"
     },
     "e8bdc287-3ab0-4944-8cca-ec198c04f72c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Core",
             "TIE Fighter Expansion Pack"
@@ -171,7 +171,7 @@
         "id": "e8bdc287-3ab0-4944-8cca-ec198c04f72c"
     },
     "cb79b3a4-423a-4f26-b749-4dabab4ce481": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Advanced Expansion Pack",
             "TIE Fighter Expansion Pack"
@@ -190,7 +190,7 @@
         "id": "cb79b3a4-423a-4f26-b749-4dabab4ce481"
     },
     "a234814a-2175-448f-95b3-62efebb16bef": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Advanced Expansion Pack"
         ],
@@ -208,7 +208,7 @@
         "id": "a234814a-2175-448f-95b3-62efebb16bef"
     },
     "d1418bad-bffb-4e5c-b0b8-813bb804aba0": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Advanced Expansion Pack",
             "X-Wing Expansion Pack"
@@ -227,7 +227,7 @@
         "id": "d1418bad-bffb-4e5c-b0b8-813bb804aba0"
     },
     "0a37e9d4-9a0e-419f-8234-c53435244e03": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Core",
             "X-Wing Expansion Pack"
@@ -246,7 +246,7 @@
         "id": "0a37e9d4-9a0e-419f-8234-c53435244e03"
     },
     "9fbdc4d8-106e-437f-856f-c8c410a4a3e9": {
-        "size": "all",
+        "size": null,
         "sources": [
             "A-Wing Expansion Pack",
             "Millennium Falcon Expansion Pack",
@@ -268,7 +268,7 @@
         "id": "9fbdc4d8-106e-437f-856f-c8c410a4a3e9"
     },
     "180115cf-6456-46b4-908f-1c6fe4932f47": {
-        "size": "all",
+        "size": null,
         "sources": [
             "A-Wing Expansion Pack",
             "TIE Advanced Expansion Pack"
@@ -289,7 +289,7 @@
         "id": "180115cf-6456-46b4-908f-1c6fe4932f47"
     },
     "a0840b7f-1fb2-45d2-b552-b1f3905d4373": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Interceptor Expansion Pack"
         ],
@@ -307,7 +307,7 @@
         "id": "a0840b7f-1fb2-45d2-b552-b1f3905d4373"
     },
     "f395e428-31fc-4278-9d5f-4cdcfa59022b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack",
             "TIE Interceptor Expansion Pack"
@@ -326,7 +326,7 @@
         "id": "f395e428-31fc-4278-9d5f-4cdcfa59022b"
     },
     "b866929b-62a2-4731-8c98-ec9be562e74f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "A-Wing Expansion Pack",
             "Slave I Expansion Pack"
@@ -347,7 +347,7 @@
         "id": "b866929b-62a2-4731-8c98-ec9be562e74f"
     },
     "6c833153-60e3-4277-9158-385ab4c6d15d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "A-Wing Expansion Pack",
             "Imperial Aces Expansion Pack"
@@ -366,7 +366,7 @@
         "id": "6c833153-60e3-4277-9158-385ab4c6d15d"
     },
     "670b371d-0781-471a-b575-2f81c59dcda5": {
-        "size": "all",
+        "size": null,
         "sources": [
             "A-Wing Expansion Pack"
         ],
@@ -384,7 +384,7 @@
         "id": "670b371d-0781-471a-b575-2f81c59dcda5"
     },
     "fbd82bb5-79b6-472e-b0ba-54e24d82df2b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack"
         ],
@@ -402,7 +402,7 @@
         "id": "fbd82bb5-79b6-472e-b0ba-54e24d82df2b"
     },
     "e7c7e0e7-1603-463b-9a3f-03f1c49e2190": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
@@ -421,7 +421,7 @@
         "id": "e7c7e0e7-1603-463b-9a3f-03f1c49e2190"
     },
     "29722b25-eda6-4ff5-8024-092045076b2e": {
-        "size": "all",
+        "size": null,
         "sources": [
             "B-Wing Expansion Pack",
             "Slave I Expansion Pack",
@@ -443,7 +443,7 @@
         "id": "29722b25-eda6-4ff5-8024-092045076b2e"
     },
     "44c52447-4cda-4f0c-a8f0-37ff24042b72": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack",
             "Slave I Expansion Pack",
@@ -465,7 +465,7 @@
         "id": "44c52447-4cda-4f0c-a8f0-37ff24042b72"
     },
     "098cc8d8-7b8c-4298-849a-4c58f16469b1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack",
             "TIE Bomber Expansion Pack"
@@ -484,7 +484,7 @@
         "id": "098cc8d8-7b8c-4298-849a-4c58f16469b1"
     },
     "4cae6ddb-7086-4437-b8d2-a2a7f46a2c21": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
@@ -503,7 +503,7 @@
         "id": "4cae6ddb-7086-4437-b8d2-a2a7f46a2c21"
     },
     "4987af28-904d-4779-b817-c006e4f263b1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack",
             "Slave I Expansion Pack",
@@ -526,7 +526,7 @@
         "id": "4987af28-904d-4779-b817-c006e4f263b1"
     },
     "b2c87e3d-d322-40cc-9fd0-520d98a5b77f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack",
             "Slave I Expansion Pack"
@@ -546,7 +546,7 @@
         "id": "b2c87e3d-d322-40cc-9fd0-520d98a5b77f"
     },
     "d6b45b8f-2cd8-4fbd-8c48-fa05e0cd20fe": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack"
         ],
@@ -564,7 +564,7 @@
         "id": "d6b45b8f-2cd8-4fbd-8c48-fa05e0cd20fe"
     },
     "812464c2-06d9-4cdf-ac0a-55861a649758": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack",
             "Millennium Falcon Expansion Pack"
@@ -583,7 +583,7 @@
         "id": "812464c2-06d9-4cdf-ac0a-55861a649758"
     },
     "bdd25f81-5b0c-4e3e-af2c-6c1e7cf801a5": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -601,7 +601,7 @@
         "id": "bdd25f81-5b0c-4e3e-af2c-6c1e7cf801a5"
     },
     "bb17f06a-b392-423d-9907-e6e246602d7d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -620,7 +620,7 @@
         "id": "bb17f06a-b392-423d-9907-e6e246602d7d"
     },
     "e1fbd5df-aa57-4188-906a-4d5d3bfcfdc1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -639,7 +639,7 @@
         "id": "e1fbd5df-aa57-4188-906a-4d5d3bfcfdc1"
     },
     "133e677d-ac48-4bc1-b0a1-0468352130a9": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -658,7 +658,7 @@
         "id": "133e677d-ac48-4bc1-b0a1-0468352130a9"
     },
     "05db70c6-8d53-47dc-a9da-14140157fe25": {
-        "size": "all",
+        "size": null,
         "sources": [
             "B-Wing Expansion Pack",
             "TIE Bomber Expansion Pack"
@@ -679,7 +679,7 @@
         "id": "05db70c6-8d53-47dc-a9da-14140157fe25"
     },
     "7fb5be97-0989-40b0-9b95-de4f3d228c13": {
-        "size": "all",
+        "size": null,
         "sources": [
             "B-Wing Expansion Pack"
         ],
@@ -699,7 +699,7 @@
         "id": "7fb5be97-0989-40b0-9b95-de4f3d228c13"
     },
     "735814cf-a10c-41e4-a8a0-8e68cb7e2af1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "B-Wing Expansion Pack",
             "TIE Phantom Expansion Pack"
@@ -718,7 +718,7 @@
         "id": "735814cf-a10c-41e4-a8a0-8e68cb7e2af1"
     },
     "dee7669b-70ed-4739-bc99-ef6306d8b81b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack"
         ],
@@ -738,7 +738,7 @@
         "id": "dee7669b-70ed-4739-bc99-ef6306d8b81b"
     },
     "8c9a3a8c-7b1f-4078-91f7-91ce7a9644b6": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack",
             "TIE Phantom Expansion Pack"
@@ -757,7 +757,7 @@
         "id": "8c9a3a8c-7b1f-4078-91f7-91ce7a9644b6"
     },
     "d5b71714-2a8c-4abc-92b8-4516aa023cfe": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack"
         ],
@@ -775,7 +775,7 @@
         "id": "d5b71714-2a8c-4abc-92b8-4516aa023cfe"
     },
     "4e0ee680-12a6-44ae-a9f0-f8d3cba93a9f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack",
             "Lambda-Class Shuttle Expansion Pack"
@@ -794,7 +794,7 @@
         "id": "4e0ee680-12a6-44ae-a9f0-f8d3cba93a9f"
     },
     "38fc314b-7503-427a-9c16-0a206d319205": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Bomber Expansion Pack",
             "VT-49 Decimator Expansion Pack"
@@ -813,7 +813,7 @@
         "id": "38fc314b-7503-427a-9c16-0a206d319205"
     },
     "18cc1b1d-f8b9-40c2-8b5a-a8142a245f3c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Bomber Expansion Pack"
         ],
@@ -831,7 +831,7 @@
         "id": "18cc1b1d-f8b9-40c2-8b5a-a8142a245f3c"
     },
     "4e6e1dc5-89d3-49de-b4d5-1f1323cef14e": {
-        "size": "all",
+        "size": null,
         "sources": [
             "E-Wing Expansion Pack",
             "Lambda-Class Shuttle Expansion Pack"
@@ -850,7 +850,7 @@
         "id": "4e6e1dc5-89d3-49de-b4d5-1f1323cef14e"
     },
     "c230418b-88a2-4568-bed2-547d7363c760": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -868,7 +868,7 @@
         "id": "c230418b-88a2-4568-bed2-547d7363c760"
     },
     "d64c003a-e195-4f22-ae86-72962652915d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -887,7 +887,7 @@
         "id": "d64c003a-e195-4f22-ae86-72962652915d"
     },
     "d6d26709-78f6-422c-8c44-f172cdfbf32c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -906,7 +906,7 @@
         "id": "d6d26709-78f6-422c-8c44-f172cdfbf32c"
     },
     "0f28086d-6b04-46e8-8f03-a94d201b03bb": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -924,7 +924,7 @@
         "id": "0f28086d-6b04-46e8-8f03-a94d201b03bb"
     },
     "14121fb8-d41d-4d46-b9e8-c338a808eb6a": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -942,7 +942,7 @@
         "id": "14121fb8-d41d-4d46-b9e8-c338a808eb6a"
     },
     "04fd0071-dc2a-4120-9e50-d188c588ada4": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
@@ -960,7 +960,7 @@
         "id": "04fd0071-dc2a-4120-9e50-d188c588ada4"
     },
     "9c91191c-1667-4e17-8214-cbbbfff25293": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
@@ -979,7 +979,7 @@
         "id": "9c91191c-1667-4e17-8214-cbbbfff25293"
     },
     "23d95070-3b79-4f1d-a069-e0b3f9ae9795": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -997,7 +997,7 @@
         "id": "23d95070-3b79-4f1d-a069-e0b3f9ae9795"
     },
     "620b4ba3-a142-4b3d-8bc5-c4f680985ceb": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1015,7 +1015,7 @@
         "id": "620b4ba3-a142-4b3d-8bc5-c4f680985ceb"
     },
     "bbfd83b3-89f6-4611-9bf3-63bd4cb38eed": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Defender Expansion Pack",
             "Z-95 Headhunter Expansion Pack"
@@ -1036,7 +1036,7 @@
         "id": "bbfd83b3-89f6-4611-9bf3-63bd4cb38eed"
     },
     "69aa1467-438d-4faf-8841-cb48f20cfc19": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Z-95 Headhunter Expansion Pack"
         ],
@@ -1054,7 +1054,7 @@
         "id": "69aa1467-438d-4faf-8841-cb48f20cfc19"
     },
     "12b45a1c-6aa9-4440-82b0-224ecfe82144": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Z-95 Headhunter Expansion Pack"
         ],
@@ -1072,7 +1072,7 @@
         "id": "12b45a1c-6aa9-4440-82b0-224ecfe82144"
     },
     "36002ae3-bb08-438b-9424-f9aac18b6f02": {
-        "size": "all",
+        "size": null,
         "sources": [
             "E-Wing Expansion Pack",
             "TIE Defender Expansion Pack"
@@ -1091,7 +1091,7 @@
         "id": "36002ae3-bb08-438b-9424-f9aac18b6f02"
     },
     "5877a08e-b58d-415f-a8f3-a0c4c3a6832e": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Defender Expansion Pack"
         ],
@@ -1109,7 +1109,7 @@
         "id": "5877a08e-b58d-415f-a8f3-a0c4c3a6832e"
     },
     "49bad61f-aa81-4c8b-8aa8-c50a85e4790d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "E-Wing Expansion Pack",
             "Rebel Transport Expansion Pack"
@@ -1130,7 +1130,7 @@
         "id": "49bad61f-aa81-4c8b-8aa8-c50a85e4790d"
     },
     "06e68a40-52e8-48ca-b72c-e97b2f3e2bc5": {
-        "size": "all",
+        "size": null,
         "sources": [
             "E-Wing Expansion Pack"
         ],
@@ -1148,7 +1148,7 @@
         "id": "06e68a40-52e8-48ca-b72c-e97b2f3e2bc5"
     },
     "15ab8f28-a31d-4a67-82f5-e5354da395b5": {
-        "size": "all",
+        "size": null,
         "sources": [
             "E-Wing Expansion Pack"
         ],
@@ -1166,7 +1166,7 @@
         "id": "15ab8f28-a31d-4a67-82f5-e5354da395b5"
     },
     "b201800d-7537-410b-a79a-919b70dbd07f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
@@ -1184,7 +1184,7 @@
         "id": "b201800d-7537-410b-a79a-919b70dbd07f"
     },
     "1000ffdc-6da8-4c84-8161-252318097fb2": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1203,7 +1203,7 @@
         "id": "1000ffdc-6da8-4c84-8161-252318097fb2"
     },
     "ce189302-f620-4dce-af9a-d7a5f230ca12": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1222,7 +1222,7 @@
         "id": "ce189302-f620-4dce-af9a-d7a5f230ca12"
     },
     "ee4b6818-b86c-4c00-b37a-f4a69628fe79": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1242,7 +1242,7 @@
         "id": "ee4b6818-b86c-4c00-b37a-f4a69628fe79"
     },
     "e2187dc2-7d93-4d8d-bdfb-553553348e75": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1262,7 +1262,7 @@
         "id": "e2187dc2-7d93-4d8d-bdfb-553553348e75"
     },
     "82793c3e-5011-4d2a-9c29-68b2c7d8de43": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
@@ -1281,7 +1281,7 @@
         "id": "82793c3e-5011-4d2a-9c29-68b2c7d8de43"
     },
     "a60565c0-3be0-4aec-a281-c53b556e1531": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1299,7 +1299,7 @@
         "id": "a60565c0-3be0-4aec-a281-c53b556e1531"
     },
     "86bc77c6-a1e6-427e-a297-319aaf9a87f2": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
@@ -1318,7 +1318,7 @@
         "id": "86bc77c6-a1e6-427e-a297-319aaf9a87f2"
     },
     "cd0ae6ed-7731-4264-9396-b6c45b108591": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1336,7 +1336,7 @@
         "id": "cd0ae6ed-7731-4264-9396-b6c45b108591"
     },
     "06fe6e17-7bb9-4d33-aab0-f37f28150c7a": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1356,7 +1356,7 @@
         "id": "06fe6e17-7bb9-4d33-aab0-f37f28150c7a"
     },
     "7cb9b27a-0c26-49dd-8d67-453691264335": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -1374,7 +1374,7 @@
         "id": "7cb9b27a-0c26-49dd-8d67-453691264335"
     },
     "63fd9f45-0dde-4eb4-846b-867ee8344f02": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -1393,7 +1393,7 @@
         "id": "63fd9f45-0dde-4eb4-846b-867ee8344f02"
     },
     "919046ea-a397-4188-ade5-535ce4593c5b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack",
             "YT-2400 Freighter Expansion Pack"
@@ -1414,7 +1414,7 @@
         "id": "919046ea-a397-4188-ade5-535ce4593c5b"
     },
     "cff8a4e3-91a9-4ca2-8609-78430dc082a0": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -1433,7 +1433,7 @@
         "id": "cff8a4e3-91a9-4ca2-8609-78430dc082a0"
     },
     "a503104f-a2cd-40f1-ab8c-8bd19f72d2ac": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -1471,7 +1471,7 @@
         "id": "43f92491-97bc-489e-aa7e-17d6b03a1388"
     },
     "8160daa0-8464-48cf-9a75-9e9d442c9824": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1489,7 +1489,7 @@
         "id": "8160daa0-8464-48cf-9a75-9e9d442c9824"
     },
     "34384b0b-00a2-44c9-94f7-8f4ed7b8a581": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1582,7 +1582,7 @@
         "id": "86866a6e-e089-43e3-b913-45a3705e52a8"
     },
     "63d2f24c-0c88-4e25-91bb-8b2a549f3fbe": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack",
             "Tantive IV Expansion Pack"
@@ -1601,7 +1601,7 @@
         "id": "63d2f24c-0c88-4e25-91bb-8b2a549f3fbe"
     },
     "c90b6570-01da-43d5-8b06-5c81e3a9ca76": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1619,7 +1619,7 @@
         "id": "c90b6570-01da-43d5-8b06-5c81e3a9ca76"
     },
     "7e7f63a4-38d3-4ff2-a34b-9ed7841b7ca6": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -1637,7 +1637,7 @@
         "id": "7e7f63a4-38d3-4ff2-a34b-9ed7841b7ca6"
     },
     "903d58ca-0807-4334-b44c-aae854c21940": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1656,7 +1656,7 @@
         "id": "903d58ca-0807-4334-b44c-aae854c21940"
     },
     "f1215c7c-fcf5-405a-a683-6383d5024285": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1675,7 +1675,7 @@
         "id": "f1215c7c-fcf5-405a-a683-6383d5024285"
     },
     "b432ec62-b8a8-4bbe-9baa-a02acb18080c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1712,7 +1712,7 @@
         "id": "3d1302ea-986a-4191-a837-26104e41956e"
     },
     "9149e209-fe0a-4131-88a4-b1049fdf4601": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1730,7 +1730,7 @@
         "id": "9149e209-fe0a-4131-88a4-b1049fdf4601"
     },
     "4031d5a9-b120-4ffc-a448-d3c328db67b1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1748,7 +1748,7 @@
         "id": "4031d5a9-b120-4ffc-a448-d3c328db67b1"
     },
     "baf4f504-23c2-4e9c-af05-c9c7d9af6836": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -1766,7 +1766,7 @@
         "id": "baf4f504-23c2-4e9c-af05-c9c7d9af6836"
     },
     "ebeea625-cdad-44e0-b0fa-964608766878": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -1785,7 +1785,7 @@
         "id": "ebeea625-cdad-44e0-b0fa-964608766878"
     },
     "54c3dbd7-4135-49af-aa06-798872a93a2f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1804,7 +1804,7 @@
         "id": "54c3dbd7-4135-49af-aa06-798872a93a2f"
     },
     "853b01af-2727-4a3a-9d40-585a0d390068": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1823,7 +1823,7 @@
         "id": "853b01af-2727-4a3a-9d40-585a0d390068"
     },
     "65c0aa54-0136-4934-ae4a-2fd5cf62e3ff": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -1841,7 +1841,7 @@
         "id": "65c0aa54-0136-4934-ae4a-2fd5cf62e3ff"
     },
     "9f2aedd7-05e6-4088-a710-2beb72fee29f": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -1860,7 +1860,7 @@
         "id": "9f2aedd7-05e6-4088-a710-2beb72fee29f"
     },
     "3f1d4a05-379f-40e4-88ba-7f8cdbc51b1d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -1878,7 +1878,7 @@
         "id": "3f1d4a05-379f-40e4-88ba-7f8cdbc51b1d"
     },
     "ed788c51-01b9-4fcc-baec-62d097effc9d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -1897,7 +1897,7 @@
         "id": "ed788c51-01b9-4fcc-baec-62d097effc9d"
     },
     "1d79475f-40a2-41b4-b7c9-0f5414fe110a": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1916,7 +1916,7 @@
         "id": "1d79475f-40a2-41b4-b7c9-0f5414fe110a"
     },
     "102ad4c6-4f7a-4337-ac30-570739c4a200": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1934,7 +1934,7 @@
         "id": "102ad4c6-4f7a-4337-ac30-570739c4a200"
     },
     "858d2b63-5938-4b7c-b18e-f34b881efe95": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1953,7 +1953,7 @@
         "id": "858d2b63-5938-4b7c-b18e-f34b881efe95"
     },
     "7a294860-75bf-4708-bb77-1a877787122c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1972,7 +1972,7 @@
         "id": "7a294860-75bf-4708-bb77-1a877787122c"
     },
     "5b9dd2d5-b714-4b50-bdcb-bd3328da1bd2": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -1992,7 +1992,7 @@
         "id": "5b9dd2d5-b714-4b50-bdcb-bd3328da1bd2"
     },
     "a9bde6b3-c121-4191-9933-96da3104a370": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2009,7 +2009,7 @@
         "id": "a9bde6b3-c121-4191-9933-96da3104a370"
     },
     "6d54be24-6881-49e3-8115-ae43f9262c9b": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2025,7 +2025,7 @@
         "id": "6d54be24-6881-49e3-8115-ae43f9262c9b"
     },
     "7953af24-6b7e-418b-8ed8-6206ad73c6b9": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2041,7 +2041,7 @@
         "id": "7953af24-6b7e-418b-8ed8-6206ad73c6b9"
     },
     "88f3b871-94cf-4d2f-9f5b-76b139f3bd0d": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2059,7 +2059,7 @@
         "id": "88f3b871-94cf-4d2f-9f5b-76b139f3bd0d"
     },
     "7de3d3bf-cb71-48cf-8f76-174412f77280": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2077,7 +2077,7 @@
         "id": "7de3d3bf-cb71-48cf-8f76-174412f77280"
     },
     "73c1d3bf-ab78-48ba-af0b-ab24edef73a4": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2093,7 +2093,7 @@
         "id": "73c1d3bf-ab78-48ba-af0b-ab24edef73a4"
     },
     "548221dc-26a2-4b6a-9969-ee2eb6a50163": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2109,7 +2109,7 @@
         "id": "548221dc-26a2-4b6a-9969-ee2eb6a50163"
     },
     "238b9422-7242-44c3-84de-862acf2b828a": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2127,7 +2127,7 @@
         "id": "238b9422-7242-44c3-84de-862acf2b828a"
     },
     "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2144,7 +2144,7 @@
         "id": "30b27a3b-f28d-4fa5-a7dc-c517c6c6487e"
     },
     "e4bc9c1b-0632-4a53-b6ea-1f2621ba6152": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2160,7 +2160,7 @@
         "id": "e4bc9c1b-0632-4a53-b6ea-1f2621ba6152"
     },
     "ae44f9e1-d2e1-4e6a-bc99-8667f3799322": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -2179,7 +2179,7 @@
         "id": "ae44f9e1-d2e1-4e6a-bc99-8667f3799322"
     },
     "ba0233e2-e4ed-4b24-ac4e-b1c85055871e": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2195,7 +2195,7 @@
         "id": "ba0233e2-e4ed-4b24-ac4e-b1c85055871e"
     },
     "df69b554-7e26-4443-b194-a9c2e1d1b5d9": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2211,7 +2211,7 @@
         "id": "df69b554-7e26-4443-b194-a9c2e1d1b5d9"
     },
     "6285843e-9727-47c3-b3bb-9f21ebc71300": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2227,7 +2227,7 @@
         "id": "6285843e-9727-47c3-b3bb-9f21ebc71300"
     },
     "286e3a3f-e787-4b3e-be06-3a3448390cb5": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2245,7 +2245,7 @@
         "id": "286e3a3f-e787-4b3e-be06-3a3448390cb5"
     },
     "ce6924a3-339c-42b6-9c65-114a01aa31c3": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2261,7 +2261,7 @@
         "id": "ce6924a3-339c-42b6-9c65-114a01aa31c3"
     },
     "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2278,7 +2278,7 @@
         "id": "1ee4cc58-30a7-44ab-98fd-3adadb41d5b2"
     },
     "5313c83c-173d-4f5f-92af-8d24fb2a3530": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2295,7 +2295,7 @@
         "id": "5313c83c-173d-4f5f-92af-8d24fb2a3530"
     },
     "a48656af-65cf-45d1-89f7-be57fcfb0d6f": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2312,7 +2312,7 @@
         "id": "a48656af-65cf-45d1-89f7-be57fcfb0d6f"
     },
     "bda516e1-36ae-48d0-b003-480060bff32f": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2330,7 +2330,7 @@
         "id": "bda516e1-36ae-48d0-b003-480060bff32f"
     },
     "574fe969-ec57-4ea6-9035-aa0f24c0540d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack"
         ],
@@ -2349,7 +2349,7 @@
         "id": "574fe969-ec57-4ea6-9035-aa0f24c0540d"
     },
     "f688e949-c12c-43e8-9bbb-93d928110ac4": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Imperial Aces Expansion Pack",
             "Millennium Falcon Expansion Pack"
@@ -2369,7 +2369,7 @@
         "id": "f688e949-c12c-43e8-9bbb-93d928110ac4"
     },
     "0f9cc01f-b934-4c4a-aba3-0a56baca3e4e": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -2407,7 +2407,7 @@
         "id": "c4fc4f71-a1aa-4fe9-92d0-1b41b9beea21"
     },
     "7e22bf85-99ef-43a4-a752-2e7658362f6c": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
@@ -2427,7 +2427,7 @@
         "id": "7e22bf85-99ef-43a4-a752-2e7658362f6c"
     },
     "889dc4b5-0603-4bd8-a2a3-4e9a0389a5c2": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
@@ -2446,7 +2446,7 @@
         "id": "889dc4b5-0603-4bd8-a2a3-4e9a0389a5c2"
     },
     "d1a21374-cf74-4078-b21b-e89b00391eda": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Defender Expansion Pack",
             "Z-95 Headhunter Expansion Pack"
@@ -2465,7 +2465,7 @@
         "id": "d1a21374-cf74-4078-b21b-e89b00391eda"
     },
     "36047cb9-10b8-45ee-a52c-8374ff45dcf8": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
@@ -2483,7 +2483,7 @@
         "id": "36047cb9-10b8-45ee-a52c-8374ff45dcf8"
     },
     "461ecfd4-58ad-41ec-8e82-757ff4d34377": {
-        "size": "all",
+        "size": null,
         "sources": [
             "TIE Phantom Expansion Pack"
         ],
@@ -2523,7 +2523,7 @@
         "id": "d8c80404-e17d-4228-aa7b-28ad2242c50b"
     },
     "0194a553-9608-4c69-91dc-9d35e8eadad2": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -2562,7 +2562,7 @@
         "id": "6554e79e-3a24-4e5c-aeed-d1237d7e9236"
     },
     "6e937e4c-ce23-4bba-804b-11f35f95aeec": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -2598,7 +2598,7 @@
         "id": "122e303c-ce49-4f69-88ce-2976a324b4da"
     },
     "46cd5a75-59ae-4f77-8196-38c1b08b0aae": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2614,7 +2614,7 @@
         "id": "46cd5a75-59ae-4f77-8196-38c1b08b0aae"
     },
     "51c82a0f-806a-415c-974a-f17d85257914": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Slave I Expansion Pack"
         ],
@@ -2635,7 +2635,7 @@
         "id": "51c82a0f-806a-415c-974a-f17d85257914"
     },
     "231ed78c-1e3d-4938-9953-9f4ad9a95674": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Millennium Falcon Expansion Pack"
         ],
@@ -2656,7 +2656,7 @@
         "id": "231ed78c-1e3d-4938-9953-9f4ad9a95674"
     },
     "f14a0003-199a-4fba-a12b-f459fdf91c34": {
-        "size": "all",
+        "size": null,
         "sources": [
             "HWK-290 Expansion Pack"
         ],
@@ -2675,7 +2675,7 @@
         "id": "f14a0003-199a-4fba-a12b-f459fdf91c34"
     },
     "af57db31-a1d0-43fa-914a-364f3f2cf4bb": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Lambda-Class Shuttle Expansion Pack"
         ],
@@ -2694,7 +2694,7 @@
         "id": "af57db31-a1d0-43fa-914a-364f3f2cf4bb"
     },
     "6cf3d276-fef0-453e-8343-71f38ae68f55": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Imperial Aces Expansion Pack"
         ],
@@ -2715,7 +2715,7 @@
         "id": "6cf3d276-fef0-453e-8343-71f38ae68f55"
     },
     "52851ff6-b4b4-45a0-84e4-208abd570f6b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -2734,7 +2734,7 @@
         "id": "52851ff6-b4b4-45a0-84e4-208abd570f6b"
     },
     "18d677ab-4719-473e-81b3-2d1602f82f5b": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Aces Expansion Pack"
         ],
@@ -2755,7 +2755,7 @@
         "id": "18d677ab-4719-473e-81b3-2d1602f82f5b"
     },
     "aa9b66a1-ad3b-403e-bbd1-09d190085ea1": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -2777,7 +2777,7 @@
         "id": "aa9b66a1-ad3b-403e-bbd1-09d190085ea1"
     },
     "2f3352dc-faf9-47d5-aaff-3d1c9f0a8888": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -2798,7 +2798,7 @@
         "id": "2f3352dc-faf9-47d5-aaff-3d1c9f0a8888"
     },
     "9e6e6c8b-5665-4972-ba70-b6bbc2bdacc7": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -2819,7 +2819,7 @@
         "id": "9e6e6c8b-5665-4972-ba70-b6bbc2bdacc7"
     },
     "cc66ad8c-b2bf-401d-ba81-fa3a8ea15d62": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Rebel Transport Expansion Pack"
         ],
@@ -2839,7 +2839,7 @@
         "id": "cc66ad8c-b2bf-401d-ba81-fa3a8ea15d62"
     },
     "e49da252-2efc-4f09-8656-cac1b4b4274d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "Tantive IV Expansion Pack"
         ],
@@ -2858,7 +2858,7 @@
         "id": "e49da252-2efc-4f09-8656-cac1b4b4274d"
     },
     "35b6e937-e373-499b-a2d0-f9b5c15a381d": {
-        "size": "all",
+        "size": null,
         "sources": [
             "YT-2400 Freighter Expansion Pack"
         ],
@@ -2877,7 +2877,7 @@
         "id": "35b6e937-e373-499b-a2d0-f9b5c15a381d"
     },
     "11f6c209-3f62-4c58-81d3-3845766cb7b4": {
-        "size": "all",
+        "size": null,
         "sources": [
             "VT-49 Decimator Expansion Pack"
         ],
@@ -2896,7 +2896,7 @@
         "id": "11f6c209-3f62-4c58-81d3-3845766cb7b4"
     },
     "67611512-51c1-4d6d-8564-708692c4fbd2": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -2916,7 +2916,7 @@
         "id": "67611512-51c1-4d6d-8564-708692c4fbd2"
     },
     "89d35da1-4b56-415a-8c56-be740e98615f": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -2935,7 +2935,7 @@
         "id": "89d35da1-4b56-415a-8c56-be740e98615f"
     },
     "789a8305-7212-4ec2-8ab9-32ec09e6601d": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -2954,7 +2954,7 @@
         "id": "789a8305-7212-4ec2-8ab9-32ec09e6601d"
     },
     "bf2d576d-90cc-4cda-a4c0-ce93dc261f37": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -2973,7 +2973,7 @@
         "id": "bf2d576d-90cc-4cda-a4c0-ce93dc261f37"
     },
     "c35a65fa-ed3e-4bfc-abf9-34c4c6b9fd16": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -2990,7 +2990,7 @@
         "id": "c35a65fa-ed3e-4bfc-abf9-34c4c6b9fd16"
     },
     "b887cbbd-fc08-459e-8968-0d26b22588ed": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [],
@@ -3007,7 +3007,7 @@
         "id": "b887cbbd-fc08-459e-8968-0d26b22588ed"
     },
     "09ce360d-8a78-4348-9181-7cec65bda0eb": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [
@@ -3027,7 +3027,7 @@
         "id": "09ce360d-8a78-4348-9181-7cec65bda0eb"
     },
     "327f701c-d870-489f-90d0-c6e7d34bfd69": {
-        "size": "all",
+        "size": null,
         "sources": [],
         "grants": {
             "upgrades": [

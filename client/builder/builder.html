@@ -120,7 +120,7 @@
                         <span class="input-group-addon">Pilot</span>
                         <ui-select ng-model="squadMember.pilot">
                             <ui-select-match placeholder="Select pilot..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                            <ui-select-choices repeat="pilot in squadMember.pilots | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
+                            <ui-select-choices repeat="pilot in squadMember.pilotCards | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
                                 <div class="card" ng-class="{ unreleased: !isReleased(pilot), 'not-in-collection': !checkCollection(pilot).valid }">
                                     <div class="cost">({{ pilot.points }})</div>
                                     <div ng-if="!checkCollection(pilot).valid" class="not-in-collection"><span ng-if="!isReleased(pilot)">, </span>{{ checkCollection(pilot).message }}</div>
@@ -145,12 +145,12 @@
                 </div>
 
                 <!-- Title -->
-                <div ng-if="squadMember.titles.length > 0" class="col-sm-6 card-select">
+                <div ng-if="squadMember.titleCards.length > 0" class="col-sm-6 card-select">
                     <div class="input-group">
                         <span class="input-group-addon" title="Title"><i class="xmf xmf-title"></i></span>
                         <ui-select ng-model="squadMember.title">
                             <ui-select-match placeholder="Select title..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                            <ui-select-choices repeat="title in squadMember.titles | filter: $select.search | uniqueRule:squad:squadMember">
+                            <ui-select-choices repeat="title in squadMember.titleCards | filter: $select.search | uniqueRule:squad:squadMember">
                                 <div class="card" ng-class="{ unreleased: !isReleased(title), 'not-in-collection': !checkCollection(title).valid }">
                                     <div ng-if="!checkCollection(title).valid" class="not-in-collection"><span ng-if="!isReleased(title)">, </span>{{ checkCollection(title).message }}</div>
                                     <div ng-if="!isReleased(title)" class="unreleased">Unreleased</div>
@@ -168,7 +168,7 @@
                         <span class="input-group-addon" title="Modification"><i class="xmf xmf-modification"></i></span>
                         <ui-select ng-model="squadMember.mod">
                             <ui-select-match placeholder="Select modification..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                            <ui-select-choices repeat="mod in squadMember.mods | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
+                            <ui-select-choices repeat="mod in squadMember.modCards | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
                                 <div class="card" ng-class="{ unreleased: !isReleased(mod), 'not-in-collection': !checkCollection(mod).valid }">
                                     <div class="cost">({{ mod.points }})</div>
                                     <div ng-if="!checkCollection(mod).valid" class="not-in-collection"><span ng-if="!isReleased(mod)">, </span>{{ checkCollection(mod).message }}</div>
@@ -188,7 +188,7 @@
                             <span class="input-group-addon" title="{{ type | capitalize }}"><i class="xmf xmf-{{ type }}"></i></span>
                             <ui-select ng-model="squadMember.upgrades[type][$index]">
                                 <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
-                                <ui-select-choices repeat="upgrade in upgradesByType(type, squadMember.ship) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
+                                <ui-select-choices repeat="upgrade in squadMember.upgradeCards(type) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
                                     <div class="card" ng-class="{ unreleased: !isReleased(upgrade), 'not-in-collection': !checkCollection(upgrade).valid }">
                                         <div class="cost">({{ upgrade.points }})</div>
                                         <div ng-if="!checkCollection(upgrade).valid" class="not-in-collection"><span ng-if="!isReleased(upgrade)">, </span>{{ checkCollection(upgrade).message }}</div>

@@ -95,7 +95,7 @@ router.put('/:user_id', function(req, resp)
     }
     else
     {
-        res.status(403).end();
+        resp.status(403).end();
     } // end if
 });
 

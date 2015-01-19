@@ -107,39 +107,72 @@ function SquadMemberFactory($rootScope, _, cardSvc)
         get mod(){ return this._mod; }, set mod(val) { this._mod = val; this._update(); },
 
         // Cards
-        get pilots()
+        get pilotCards()
         {
             if(this.ship)
             {
                 return _.filter(cardSvc.filterByFaction(this.faction, cardSvc.pilots), { ship: this.ship.canonicalName });
             } // end if
         },
-        get titles()
+        get titleCards()
         {
             var self = this;
             return _.filter(cardSvc.filterByType(this.faction, 'title'), function(title)
             {
                 if(self.ship)
                 {
-                    return ((title.ship == undefined) || (title.ship == self.ship.canonicalName))
-                        && ((title.size == 'all') || (title.size == self.ship.size));
+                    return self.upgradeAllowed(title);
                 } // end if
             });
         },
-        get mods()
+        get modCards()
         {
             var self = this;
             return _.filter(cardSvc.filterByType(this.faction, 'modification'), function(mod)
             {
                 if(self.ship)
                 {
-                    // Check to make sure we're limiting ourselves to modifications for all ships, or our specific ship.
-                    return ((mod.ship == undefined) || (mod.ship == self.ship.canonicalName))
-                        && ((mod.size == 'all') || (mod.size == self.ship.size));
+                    return self.upgradeAllowed(mod);
                 } // end if
             });
         }
     }; // end prototype
+
+    SquadMember.prototype.upgradeCards = function(type)
+    {
+        var self = this;
+        return _.filter(cardSvc.filterByType(this.faction, type), function(upgrade)
+        {
+            if(self.ship)
+            {
+                return self.upgradeAllowed(upgrade);
+            } // end if
+        });
+    }; // end upgradeCards
+
+    SquadMember.prototype.upgradeAllowed = function(card)
+    {
+        // First, we filter by ship name restrictions
+        var allowed = ((card.ship == undefined) || (card.ship == this.ship.canonicalName));
+
+        // Next, we restrict by size
+        if(allowed)
+        {
+            if(this.ship.size == 'huge' && card.type == 'modification')
+            {
+                // Huge ships can only equip _modifications_ with 'Huge ship only.'
+                allowed = card.size == 'huge';
+            }
+            else
+            {
+                // Large and small ships can equip any upgrade that either has no size restriction, or has a restriction
+                // for the same size as the current ship's size.
+                allowed = ((!card.size) || (card.size == this.ship.size));
+            } // end if
+        } // end if
+
+        return allowed;
+    }; // end upgradeAllowed
 
     SquadMember.prototype._update = function()
     {

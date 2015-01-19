@@ -249,7 +249,7 @@ function processSize(upgrade)
             break;
 
         default:
-            size = upgrade.huge ? 'huge' : (upgrade.large ? 'large' : (upgrade.small ? 'small' : 'all'))
+            size = upgrade.huge ? 'huge' : (upgrade.large ? 'large' : (upgrade.small ? 'small' : null));
             break;
     } // end switch
 

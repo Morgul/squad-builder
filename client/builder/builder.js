@@ -31,8 +31,6 @@ function BuilderController($scope, $location, $routeParams, _, $modal, authSvc, 
                     $scope.totalCards[card.name] = ($scope.totalCards[card.name] || 0) + (count * card.count);
                 });
             });
-
-            console.log('totalCards:', $scope.totalCards);
         });
 
     Object.defineProperties($scope, {
@@ -279,15 +277,6 @@ function BuilderController($scope, $location, $routeParams, _, $modal, authSvc, 
             squadSvc.squad.splice(index, 1);
         } // end if
     }; // end removeShip
-
-    $scope.upgradesByType = function(type, ship)
-    {
-        return _.filter(cardSvc.filterByType($scope.faction, type), function(upgrade)
-        {
-            return (!upgrade.ship || upgrade.ship == ship.canonicalName)
-                && (upgrade.size == 'all' || upgrade.size == ship.size);
-        });
-    }; // end upgradesByType
 
     $scope.isReleased = function(card)
     {
