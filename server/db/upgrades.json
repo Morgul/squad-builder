@@ -1816,7 +1816,7 @@
         "unique": false,
         "name": "Fleet Officer",
         "canonicalName": "fleetofficer",
-        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p><strong>Action:</strong> Choose up to 2 friendly ships within Range 1-2 and assign 1 focus token to each of those ships.  Then receive 1 stress token.</p>",
+        "text": "<p><span class=\"restriction\">Imperial only.</span></p><p><strong>Action:</strong> Choose up to 2 friendly ships at Range 1-2 and assign 1 focus token to each of those ships.  Then receive 1 stress token.</p>",
         "points": 3,
         "faction": "empire",
         "type": "crew",
