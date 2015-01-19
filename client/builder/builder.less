@@ -56,9 +56,21 @@
         }
     }
 
+    .active {
+        .not-in-collection,
+        .unreleased {
+            color: white !important;
+        }
+    }
+
     .card {
+        &.not-in-collection {
+            color: #faa25c;
+        }
+
+        &.unreleased.not-in-collection,
         &.unreleased {
-            color: #555;
+            color: #999;
             font-style: italic;
         }
 
@@ -68,6 +80,7 @@
             border-bottom: 1px solid #eee;
         }
 
+        .not-in-collection,
         .unreleased {
             float: right;
             font-size: 12px;

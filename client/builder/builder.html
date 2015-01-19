@@ -121,8 +121,9 @@
                         <ui-select ng-model="squadMember.pilot">
                             <ui-select-match placeholder="Select pilot..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
                             <ui-select-choices repeat="pilot in squadMember.pilots | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
-                                <div class="card" ng-class="{ unreleased: !isReleased(pilot) }">
+                                <div class="card" ng-class="{ unreleased: !isReleased(pilot), 'not-in-collection': !checkCollection(pilot).valid }">
                                     <div class="cost">({{ pilot.points }})</div>
+                                    <div ng-if="!checkCollection(pilot).valid" class="not-in-collection"><span ng-if="!isReleased(pilot)">, </span>{{ checkCollection(pilot).message }}</div>
                                     <div ng-if="!isReleased(pilot)" class="unreleased">Unreleased</div>
                                     <h5 class="name" ng-bind-html="pilot.name | highlight: $select.search"></h5>
                                     <div class="stats">
@@ -150,7 +151,8 @@
                         <ui-select ng-model="squadMember.title">
                             <ui-select-match placeholder="Select title..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
                             <ui-select-choices repeat="title in squadMember.titles | filter: $select.search | uniqueRule:squad:squadMember">
-                                <div class="card" ng-class="{ unreleased: !isReleased(title) }">
+                                <div class="card" ng-class="{ unreleased: !isReleased(title), 'not-in-collection': !checkCollection(title).valid }">
+                                    <div ng-if="!checkCollection(title).valid" class="not-in-collection"><span ng-if="!isReleased(title)">, </span>{{ checkCollection(title).message }}</div>
                                     <div ng-if="!isReleased(title)" class="unreleased">Unreleased</div>
                                     <h5 class="name" ng-bind-html="title.name | highlight: $select.search"></h5>
                                     <div class="text" ng-bind-html="title.text"></div>
@@ -167,8 +169,9 @@
                         <ui-select ng-model="squadMember.mod">
                             <ui-select-match placeholder="Select modification..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
                             <ui-select-choices repeat="mod in squadMember.mods | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember">
-                                <div class="card" ng-class="{ unreleased: !isReleased(mod) }">
+                                <div class="card" ng-class="{ unreleased: !isReleased(mod), 'not-in-collection': !checkCollection(mod).valid }">
                                     <div class="cost">({{ mod.points }})</div>
+                                    <div ng-if="!checkCollection(mod).valid" class="not-in-collection"><span ng-if="!isReleased(mod)">, </span>{{ checkCollection(mod).message }}</div>
                                     <div ng-if="!isReleased(mod)" class="unreleased">Unreleased</div>
                                     <h5 class="name" ng-bind-html="mod.name | highlight: $select.search"></h5>
                                     <div class="text" ng-bind-html="mod.text"></div>
@@ -186,8 +189,9 @@
                             <ui-select ng-model="squadMember.upgrades[type][$index]">
                                 <ui-select-match placeholder="Select {{ upgrade }} upgrade..." allow-clear="true">{{ $select.selected.name }}</ui-select-match>
                                 <ui-select-choices repeat="upgrade in upgradesByType(type, squadMember.ship) | orderBy:'-points' | filter: $select.search | uniqueRule:squad:squadMember | limitedRule:squadMember">
-                                    <div class="card" ng-class="{ unreleased: !isReleased(upgrade) }">
+                                    <div class="card" ng-class="{ unreleased: !isReleased(upgrade), 'not-in-collection': !checkCollection(upgrade).valid }">
                                         <div class="cost">({{ upgrade.points }})</div>
+                                        <div ng-if="!checkCollection(upgrade).valid" class="not-in-collection"><span ng-if="!isReleased(upgrade)">, </span>{{ checkCollection(upgrade).message }}</div>
                                         <div ng-if="!isReleased(upgrade)" class="unreleased">Unreleased</div>
                                         <h5 class="name" ng-bind-html="upgrade.name | highlight: $select.search"></h5>
                                         <div class="text" ng-bind-html="upgrade.text"></div>

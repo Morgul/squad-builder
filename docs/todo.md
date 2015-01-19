@@ -15,10 +15,10 @@ These are the issues I know are still outstanding. (Consider it a poor man's iss
 * [X] Card Browser
     * [X] Display cards (same format as build mat)
     * [X] Search all cards
-* [ ] My Collection
+* [X] My Collection
     * [X] List all expansions
     * [X] Allow user to specify how many of each expansion they own
-    * [ ] Correctly highlight cards that the user doesn't own, or has used too many of.
+    * [X] Correctly highlight cards that the user doesn't own, or has used too many of.
 * [X] My Squads
     * [X] List saved squads w/ summary
     * [X] Ability to delete, edit or print build mat of squad.

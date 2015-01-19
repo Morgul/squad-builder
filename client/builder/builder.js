@@ -4,10 +4,11 @@
 // @module main.js
 // ---------------------------------------------------------------------------------------------------------------------
 
-function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, squadSvc, squadMember)
+function BuilderController($scope, $location, $routeParams, _, $modal, authSvc, cardSvc, squadSvc, squadMember)
 {
     $scope.newShip = undefined;
     $scope.temp = {};
+    $scope.totalCards = {};
 
     if($routeParams.id)
     {
@@ -17,6 +18,22 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
                 $location.path('/');
             });
     } // end if
+
+    // Calculate the total cards.
+    authSvc.initialized
+        .then(function()
+        {
+            _.forIn(authSvc.user.collection, function(count, expansionName)
+            {
+                var expansion = _.find(cardSvc.expansions, { name: expansionName });
+                _.each(expansion.cards, function(card)
+                {
+                    $scope.totalCards[card.name] = ($scope.totalCards[card.name] || 0) + (count * card.count);
+                });
+            });
+
+            console.log('totalCards:', $scope.totalCards);
+        });
 
     Object.defineProperties($scope, {
         faction: {
@@ -38,6 +55,42 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
         squadDescription: {
             get: function(){ return squadSvc.description; },
             set: function(val){ squadSvc.description = val; }
+        },
+        cardCount: {
+            get: function()
+            {
+                var counts = {};
+                _.each($scope.squad, function(member)
+                {
+                    if(member.ship) { counts[member.ship.canonicalName] = (counts[member.ship.canonicalName] || 0) + 1; }
+                    if(member.pilot) { counts[member.pilot.canonicalName] = (counts[member.pilot.canonicalName] || 0) + 1; }
+                    if(member.title) { counts[member.title.canonicalName] = (counts[member.title.canonicalName] || 0) + 1; }
+                    if(member.mod) { counts[member.mod.canonicalName] = (counts[member.mod.canonicalName] || 0) + 1; }
+
+                    _.each(member.equipped, function(upgrade)
+                    {
+                        counts[upgrade.canonicalName] = (counts[upgrade.canonicalName] || 0) + 1;
+                    });
+                })
+
+                return counts;
+            }
+        },
+        totalCards: {
+            get: function()
+            {
+                var counts = {};
+                _.forIn(authSvc.user.collection, function(count, expansionName)
+                {
+                    var expansion = _.find(cardSvc.expansions, { name: expansionName });
+                    _.each(expansion.cards, function(card)
+                    {
+                        counts[card.name] = (counts[card.name] || 0) + (count * card.count);
+                    });
+                });
+
+                return counts;
+            }
         },
         totalPoints: {
             get: function()
@@ -130,6 +183,29 @@ function BuilderController($scope, $location, $routeParams, _, $modal, cardSvc, 
     // -----------------------------------------------------------------------------------------------------------------
     // Functions
     // -----------------------------------------------------------------------------------------------------------------
+
+    $scope.checkCollection = function(card)
+    {
+        // Check to see if we have either 0 of a card, or don't know this card. If so, it's an automatic false.
+        if(!$scope.totalCards[card.canonicalName])
+        {
+            return { valid: false, message: "Not in Collection" };
+        }
+        else if(_.isEmpty((authSvc.user || {}).collection))
+        {
+            // If you haven't filled in any of your collection, then we assume you don't care, so we assume everything is
+            // allowed.
+            return { valid: true, message: "Collection not defined" };
+        }
+        else
+        {
+            var enough = ($scope.cardCount[card.canonicalName] || 0) <= ($scope.totalCards[card.canonicalName] || 0);
+            return {
+                valid: enough,
+                message: enough ? "Enough in Collection": "Not enough in Collection"
+            };
+        } // end if
+    }; // end checkCollection
 
     $scope.isValid = function()
     {
@@ -246,6 +322,7 @@ angular.module('squad-builder.controllers').controller('BuilderController', [
     '$routeParams',
     'lodash',
     '$modal',
+    'AuthService',
     'CardService',
     'SquadService',
     'SquadMember',
