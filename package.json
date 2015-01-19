@@ -1,6 +1,6 @@
 {
   "name": "FFSquadBuilder",
-  "version": "0.1.0",
+  "version": "1.0.0-rc.1",
   "description": "A Squadron Builder for Fantasy Flight's X-Wing miniature game",
   "main": "server.js",
   "scripts": {
