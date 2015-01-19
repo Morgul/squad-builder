@@ -36,8 +36,8 @@ These are the features I require before my 1.0.0 release.
 * [X] Mobile Device support
     * [X] Specifically designed for use on iPad (Tested on an iPad 4th gen)
     * [X] Specifically designed for use on mobile phones (Tested on a Nexus 5)
-* [ ] JSON Database of cards
-    * [ ] Documented json schema.
+* [X] JSON Database of cards
+    * [X] Documented json schema.
     * [X] Permissive license to promote reuse of data.
     * [X] Available through a completely open REST API for other developers to leverage, if they wish.
 * [X] REST API
