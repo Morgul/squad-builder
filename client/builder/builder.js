@@ -158,7 +158,7 @@ function BuilderController($scope, $location, $routeParams, _, $modal, authSvc, 
                 return (ship.canonicalName == lastItem.ship.canonicalName) && (ship.name != lastItem.ship.name);
             })[0];
 
-            if(companionCard)
+            if(companionCard && !_.find($scope.squad, { ship: { name: companionCard.name } }))
             {
                 var companion = squadMember($scope.faction);
                 companion.ship = companionCard;
