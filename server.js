@@ -22,6 +22,7 @@ var routeUtils = require('./server/routes/utils');
 var cardsRouter = require('./server/routes/cards');
 var squadsRouter = require('./server/routes/squads');
 var profilesRouter = require('./server/routes/profiles');
+var newsRouter = require('./server/routes/news');
 
 var logger = require('omega-logger').loggerFor(module);
 
@@ -57,6 +58,7 @@ app.use(express.static(path.resolve('./client')));
 app.use('/cards', cardsRouter);
 app.use('/squads', squadsRouter);
 app.use('/profiles', profilesRouter);
+app.use('/news', newsRouter);
 
 // The fallback route, always serves index.html
 app.use(routeUtils.serveIndex);

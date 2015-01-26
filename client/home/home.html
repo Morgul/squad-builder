@@ -1,0 +1,22 @@
+<div id="home" class="container">
+    <h1 class="text-center">
+        Fantasy Flight Squad Builder
+        <br/>
+        <small>
+            A squadron builder for the X-Wing Miniatures collectible game.
+        </small>
+    </h1>
+    <br/>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">What's New</h3>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="article in news">
+                <div class="pull-right text-muted">{{ article.date | date:'short' }}</div>
+                <h4 class="list-group-item-heading" ng-bind-html="article.title | markdown"></h4>
+                <markdown class="list-group-item-text" src="article.body"></markdown>
+            </li>
+        </ul>
+    </div>
+</div>
