@@ -39,13 +39,13 @@ function SquadServiceFactory($http, Promise, ngToast, authSvc, cardSvc, squadMem
                                 self.squad = _.reduce(data.members, function(results, member)
                                 {
                                     var squadMember = squadMemberFac();
-                                    squadMember.pilot = cardSvc.getCard(member.pilot);
-                                    squadMember.title = cardSvc.getCard(member.title);
-                                    squadMember.mod = cardSvc.getCard(member.mod);
+                                    squadMember.pilot = cardSvc.getCard(member.pilot, 'pilot');
+                                    squadMember.title = cardSvc.getCard(member.title, 'upgrade');
+                                    squadMember.mod = cardSvc.getCard(member.mod, 'upgrade');
 
                                     _.each(member.upgrades, function(upgrade)
                                     {
-                                        var card = cardSvc.getCard(upgrade);
+                                        var card = cardSvc.getCard(upgrade, 'upgrade');
                                         squadMember.upgrades[card.type].push(card);
                                     });
 

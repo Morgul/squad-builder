@@ -27,13 +27,13 @@ function SquadsController($scope, $http, _, ngToast, $modal, cardSvc, squadMembe
                             members: _.reduce(squad.members, function(results, member)
                             {
                                 var squadMember = squadMemberFac();
-                                squadMember.pilot = cardSvc.getCard(member.pilot);
-                                squadMember.title = cardSvc.getCard(member.title);
-                                squadMember.mod = cardSvc.getCard(member.mod);
+                                squadMember.pilot = cardSvc.getCard(member.pilot, 'pilot');
+                                squadMember.title = cardSvc.getCard(member.title, 'upgrade');
+                                squadMember.mod = cardSvc.getCard(member.mod, 'upgrade');
 
                                 _.each(member.upgrades, function(upgrade)
                                 {
-                                    var card = cardSvc.getCard(upgrade);
+                                    var card = cardSvc.getCard(upgrade, 'upgrade');
                                     squadMember.upgrades[card.type].push(card);
                                 });
 
