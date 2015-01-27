@@ -1,5 +1,7 @@
 # FF Squad Builder
 
+* http://builder.skewedaspect.com/
+
 This is a squadron builder for the [Fantasy Flight][] [X-Wing Miniatures][] game. It allows you to track your collection,
 build/save/edit squads from that collection, preview cards (including unreleased content), and print out a squadron in a
 'build mat' style format, for easy play.
