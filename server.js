@@ -64,7 +64,7 @@ app.use('/news', newsRouter);
 app.use(routeUtils.serveIndex);
 
 // Start the server
-var server = app.listen(3000, function()
+var server = app.listen(3030, function()
 {
     var host = server.address().address;
     var port = server.address().port;
