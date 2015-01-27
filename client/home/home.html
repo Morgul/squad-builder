@@ -13,7 +13,7 @@
         </div>
         <ul class="list-group">
             <li class="list-group-item" ng-repeat="article in news">
-                <div class="pull-right text-muted">{{ article.date | date:'short' }}</div>
+                <div class="pull-right text-muted">{{ article.date | date:'shortDate' }}</div>
                 <h4 class="list-group-item-heading" ng-bind-html="article.title | markdown"></h4>
                 <markdown class="list-group-item-text" src="article.body"></markdown>
             </li>

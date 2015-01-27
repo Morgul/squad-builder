@@ -46,23 +46,26 @@ router.get('/', function(req, resp)
                 .then(function(files)
                 {
                     var filePromises = [];
-                    _.each(files, function(file)
+                    _.each(files, function(fileName)
                     {
-                        var filePath = path.join(newsPath, file);
+                        var filePath = path.join(newsPath, fileName);
 
                         filePromises.push(fs.readFileAsync(filePath, { encoding: 'utf8' })
                                 .then(function(file)
                                 {
-                                    return fs.statAsync(filePath)
-                                        .then(function(stats)
-                                        {
-                                            var titleRe = /^(?:#(.*)|(.*)\n=+)\n+/;
-                                            var match = titleRe.exec(file);
+                                    var titleRe = /^(?:#(.*)|(.*)\n=+)\n+/;
+                                    var match = titleRe.exec(file);
 
-                                            var body = file.slice(match.index + match[0].length);
+                                    var body = file.slice(match.index + match[0].length);
 
-                                            return { title: match[1] || match[2], body: body, date: stats.ctime };
-                                        });
+                                    // Parse filename as date
+                                    var year = fileName.substr(0, 4);
+                                    var month = fileName.substr(4, 2);
+                                    var day = fileName.substr(6, 2);
+
+                                    console.log(year, month, day);
+
+                                    return { title: match[1] || match[2], body: body, date: new Date([month, day, year].join('/')) };
                                 })
                         );
                     });
@@ -70,7 +73,7 @@ router.get('/', function(req, resp)
                     Promise.all(filePromises)
                         .then(function(news)
                         {
-                            resp.json(_.sortBy(news, 'date').reverse(marked));
+                            resp.json(_.sortBy(news, 'date').reverse());
                         });
                 })
                 .catch(function(err)
